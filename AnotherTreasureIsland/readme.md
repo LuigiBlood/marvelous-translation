@@ -1,4 +1,4 @@
-# Marvelous ~Another Treasure Island~ Translation
+# Marvelous \~Another Treasure Island\~ Translation
 
 Original Translation Project by tashi and DackR.
 This project is aimed to improve the translation as well as making it easier to edit, it uses the original files from the project.
