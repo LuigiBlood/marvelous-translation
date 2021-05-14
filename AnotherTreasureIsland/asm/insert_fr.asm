@@ -8,9 +8,9 @@ fill 0x20B9D,$FF
 
 //-Font
 seekFile($2AC000)
-	insert "../text/en_new/font.bin"
+	insert "../gfx/font_main_global_vwf.bin"
 seekFile($270000)
-	insert "../text/en_new/kanji.bin"
+	insert "../gfx/fr/font_kanji_fr.bin"
 
 	
 //-Title Screen
@@ -28,13 +28,13 @@ map_title:
 //--Nintendo Copyright
 seekFile($1D948F)
 gfx_title_nintendo:
-	insert "../gfx/en_new/lz/lz_nintendo_gfx.bin.lz"
+	insert "../gfx/en/lz/lz_nintendo_gfx.bin.lz"
 	bound_check($1DA5ED)
 
 //--Subtitle
 seekFile($1DA5ED)
 gfx_title_sub:
-	insert "../gfx/en_new/lz/lz_subtitle_gfx.bin.lz"
+	insert "../gfx/en/lz/lz_subtitle_gfx.bin.lz"
 	bound_check($1DA9B5)
 
 //--Intro
@@ -60,37 +60,31 @@ pal_intro:
 
 //--Search Menu Icons
 seekFile($2B6000)
-	insert "../gfx/en_new/menu_gfx.bin"
+	insert "../gfx/en/menu_gfx.bin"
 
 //--Misc HUD
 seekFile($268000)
-	insert "../gfx/en_new/hud_gfx.bin"
+	insert "../gfx/en/hud_gfx.bin"
 
 //--Team Name Screen
 seekFile($0E286B)
 map_teamname:
-	insert "../gfx/en_new/lz/lz_teamname_map.bin.lz"
+	insert "../gfx/en/lz/lz_teamname_map.bin.lz"
 	bound_check($0E2E23)
 
 //--Journal Menu Tilemap Stuff (???)
-seekFile($2C09B0)	//SELECTでゲーム画面た & Move & Select Text Hack
+seekFile($2C09B0)
 map_journal1:
-	insert "../gfx/en_new/journal1_map.bin"
-seekFile($2C1189)	//"Save"
+	insert "../gfx/en/journal1_map.bin"
+seekFile($2C1189)
 map_journal2:
-	insert "../gfx/en_new/journal2_map.bin"
-seekFile($2C18C8)	//#に記録していいですか？
-					//"Wanna save to entry #?"
+	insert "../gfx/en/journal2_map.bin"
+seekFile($2C18C8)
 map_journal3:
-	insert "../gfx/en_new/journal3_map.bin"
-seekFile($2C19BB)	//Change place to entry number
-	sta $7F00B2
-seekFile($2C1AAF)	//#に記録しました。
-					//Journal entry # has been saved.
+	insert "../gfx/en/journal3_map.bin"
+seekFile($2C1AAF)
 map_journal4:
-	insert "../gfx/en_new/journal4_map.bin"
-seekFile($2C1B1E)	//Change place to entry number
-	sta $7F00AC
+	insert "../gfx/en/journal4_map.bin"
 
 
 //-Chapter 1
@@ -213,9 +207,7 @@ seekFile($2CE000)
 //Script
 seekFile($300000)
 text_script:
-	insert "../text/en_new/script.bin"
-	include "../text/en_new/menu.asm"
-	insert "../text/en_new/items.bin"
+	insert "../text/fr/script_fr_full_out.bin"
 	db $FF
 
 text_script_end:
