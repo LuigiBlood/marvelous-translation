@@ -64,7 +64,8 @@ seekFile($2B6000)
 
 //--Misc HUD
 seekFile($268000)
-	insert "../gfx/en_new/hud_gfx.bin"
+	//insert "../gfx/en_new/hud_gfx.bin"
+	insert "../text/en_new/icons.bin"	//TransPutt Integration
 
 //--Team Name Screen
 seekFile($0E286B)
