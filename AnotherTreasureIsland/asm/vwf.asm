@@ -15,12 +15,12 @@ arch snes.cpu
 //0200-06FF - Kanji Font
 //6B - Amount
 //6D XX - Special
-//   18 - ???
+//   18 - Inventory - Item Select
 //   1A - Team Name
-//   1C - ???
-//   32 - ???
-//   34 - Leader Name (Handle Command at 9FC8F4)
-//   56 - ???
+//   1C - Inventory - Team Select
+//   32 - (Number?)
+//   34 - Current Leader Name ($305E)
+//   56 - Leader Name ($35AC)
 //71 - Item Icon
 //73 - Scroll
 //74 - Line 1
