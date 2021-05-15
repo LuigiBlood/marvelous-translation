@@ -152,6 +152,22 @@ seekFile($2FE107)
 	jsr next_vwf_team
 	nop
 
+//VWF Hack - Leader Name (Search Mode)
+seekFile($2FC904)
+	jsr setup_vwf_leader
+seekFile($2FC90D)
+	jsr setup_vwf_leader
+seekFile($2FC916)
+	jsr setup_vwf_leader
+seekFile($2FC91E)
+	jsr setup_vwf_leader
+
+seekFile($2FBE25)
+	jsr setup_vwf_team3
+seekFile($2FBE39)
+	jsr next_vwf_team
+	nop
+
 
 seekFile($2BFD70)
 reset_vwf_r1:
@@ -190,6 +206,9 @@ setup_vwf_team:
 	pla
 	cmp.w #$0200
 	rts
+setup_vwf_leader:
+	jsr setup_vwf_team
+	jmp $BDF2
 setup_vwf_team3:
 	pha
 	lda {charnext}
