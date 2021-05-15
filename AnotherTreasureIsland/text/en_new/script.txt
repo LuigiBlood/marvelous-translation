@@ -176,9 +176,11 @@ Alright,[team] Team, now to
 Your job is to collect[C$2A] pieces
 [nl2]of {F}{i}{r}{e}{w}{o}{o}{d}. Got it?
 [nl3][np]
-[scl]...And don't forget the {L}{u}{c}{k} {R}{o}{c}{k}{s}.[np]
+[scl]...And don't forget to look for
+[scl]{L}{u}{c}{k} {R}{o}{c}{k}{s}.[np]
 [scl]Press [C$04] or [C$02] on the [C$44]
 [scl]panel option to close this screen.
+[scl]
 [en2]
 
 Chirpy-chip-chirrlll~.
@@ -207,7 +209,7 @@ W...water...!
 [en1]
 
 [X$79]Please set the robot's path.[CPad]
-[nl2][One][Two][Three][Four][Five][Six][Seven][Eight][X$6F]
+[nl2][Space4][One][Two][Three][Four][Five][Six][Seven][Eight][X$6F]
 [en2]
 
 [X$79][CPad]: Changes turns and directions.
