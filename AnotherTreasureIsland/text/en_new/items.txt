@@ -1,0 +1,174 @@
+Red Crystal
+[en2]
+Blue Crystal
+[en2]
+Yellow Crystal
+[en2]
+Green Crystal
+[en2]
+
+[en2]
+
+[en2]
+
+[en2]
+
+[en2]
+
+[en2]
+Acidic Key
+[en2]
+Gate Key
+[en2]
+Jump Boots
+[en2]
+Giant Hammer
+[en2]
+Punch Gloves
+[en2]
+Marlowe Magnet
+[en2]
+Walkie-Talkie
+[en2]
+Hidden Board
+[en2]
+Old Cheese
+[en2]
+Salty Spray
+[en2]
+Old Rope
+[en2]
+Remote Control
+[en2]
+Eagle Egg
+[en2]
+Pocket Polly
+[en2]
+A Fishing Hook
+[en2]
+A Fishing Rod
+[en2]
+A Secret Coin
+[en2]
+Dash Shoes
+[en2]
+Mitt and Ball
+[en2]
+Tape Recorder
+[en2]
+Mystery Photo
+[en2]
+Forgotten Doll
+[en2]
+Mr. Diggy
+[en2]
+Sour Cage Key
+[en2]
+Soldier Blue
+[en2]
+Tomato
+[en2]
+Lunch Box
+[en2]
+Empty Bottle
+[en2]
+Napoleon's Pot
+[en2]
+Iffy Shogun Pot
+[en2]
+Shady Chef Hat
+[en2]
+Forest Shell
+[en2]
+Rolypoly Shell
+[en2]
+Frog's Tail
+[en2]
+Dog House
+[en2]
+Forest Coat
+[en2]
+Golden Drop
+[en2]
+Silver Thread
+[en2]
+Red Paints
+[en2]
+Green Paints
+[en2]
+Blue Paints
+[en2]
+Small Key
+[en2]
+Crystal Ball
+[en2]
+Red Key
+[en2]
+Green Key
+[en2]
+Blue Key
+[en2]
+You have 0 Firewood.
+[en2]
+Sisko's Flower
+[en2]
+Dog Bone
+[en2]
+Mansion Key
+[en2]
+Frog
+[en2]
+Benson's TNT
+[en2]
+Luck Rock:{0}  
+[en2]
+Soccer Shoes
+[en2]
+Swimming Goggles
+[en2]
+Blueprints
+[en2]
+MissGina Scarf
+[en2]
+Stinky Fish Key
+[en2]
+Saltwater
+[en2]
+Buster Cannon
+[en2]
+Colonel's Slip
+[en2]
+Red Key 1
+[en2]
+Red Key 2
+[en2]
+Red Key 3
+[en2]
+Red Key 4
+[en2]
+Green Key 1
+[en2]
+Green Key 2
+[en2]
+Green Key 3
+[en2]
+Green Key 4
+[en2]
+Blue Key 1
+[en2]
+Blue Key 2
+[en2]
+Blue Key 3
+[en2]
+Blue Key 4
+[en2]
+
+[en2]
+
+[en2]
+
+[en2]
+
+[en2]
+
+[en2]
