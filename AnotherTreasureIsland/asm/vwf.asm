@@ -120,8 +120,8 @@ seekFile($2FDF28)	//Space Fix
 	nop
 	nop
 
-//VWF Hack - Team Name (Search Mode)
-seekFile($2FC788)
+//VWF Hack - Team / Leader Name (Search Mode)
+seekFile($2FBDF2)
 	jsr setup_vwf_team
 
 seekFile($2FBE25)
@@ -136,8 +136,8 @@ seekFile($2FBE90)
 	jsr next_vwf_team
 	nop
 
-//VWF Hack - Team Name (Small Text)
-seekFile($2FE4A5)
+//VWF Hack - Team / Leader Name (Small Text)
+seekFile($2FE069)
 	jsr setup_vwf_team
 
 seekFile($2FE09C)
@@ -149,22 +149,6 @@ seekFile($2FE0B0)
 seekFile($2FE0F3)
 	jsr setup_vwf_team3
 seekFile($2FE107)
-	jsr next_vwf_team
-	nop
-
-//VWF Hack - Leader Name (Search Mode)
-seekFile($2FC904)
-	jsr setup_vwf_leader
-seekFile($2FC90D)
-	jsr setup_vwf_leader
-seekFile($2FC916)
-	jsr setup_vwf_leader
-seekFile($2FC91E)
-	jsr setup_vwf_leader
-
-seekFile($2FBE25)
-	jsr setup_vwf_team3
-seekFile($2FBE39)
 	jsr next_vwf_team
 	nop
 
@@ -204,11 +188,8 @@ setup_vwf_team:
 	sta {charnext}
 	jsl setup_vwf
 	pla
-	cmp.w #$0200
+	asl; asl; asl
 	rts
-setup_vwf_leader:
-	jsr setup_vwf_team
-	jmp $BDF2
 setup_vwf_team3:
 	pha
 	lda {charnext}
