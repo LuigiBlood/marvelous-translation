@@ -210,6 +210,11 @@ map_credits:
 seekFile($2CE000)
 	insert "../gfx/en/font_large.bin"
 
+//Leader Names
+seekFile($2FC8D7)
+	dw $03, $30, $36, $35	//Dion
+	dw $0C, $28, $3F, $EF	//Max
+	dw $09, $28, $2A, $32	//Jack
 
 //Script
 seekFile($300000)
