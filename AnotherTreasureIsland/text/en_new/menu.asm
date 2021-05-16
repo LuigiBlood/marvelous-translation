@@ -153,29 +153,47 @@ db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F
 db $FB
 
 //-Chapter 3 (Select)
+//Ch. 3
 db $43, $93, $94, $21
+//t
 db $3B, $F0, $F0, $F0
+//Name
 db $6E, $6F, $70, $71, $72, $73, $F0, $F0
+//From Ship
 db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+//From Stable
 db $05, $39, $36, $34, $F0, $12, $3B, $28, $29, $33, $2C, $F0, $F0, $F0, $F0, $F0
+//Save&Qui
 db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $FB
 
 //-Chapter 4 (Select)
+//Ch. 4
 db $43, $93, $94, $22
+//t
 db $3B, $F0, $F0, $F0
+//Name
 db $74, $75, $76, $77, $78, $79, $F0, $F0
+//From Ship
 db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+//From Inn
 db $05, $39, $36, $34, $F0, $08, $35, $35, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+//Save&Qui
 db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $FB
 
 //-Chapter 5 (Select)
+//Ch. 5
 db $43, $93, $94, $23
+//t
 db $3B, $F0, $F0, $F0
+//Name
 db $7A, $7B, $7C, $7D, $F0, $F0, $F0, $F0
+//From Ship
 db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+//From Ship
 db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+//Save&Qui
 db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $FB
 
@@ -196,14 +214,14 @@ db $F0,  $F0, $F0, $F0
 db $FD, $C8, $FD, $C9, $FD, $CA, $FD, $CB, $FD, $CC, $FD, $CD, $FD, $CE, $FD, $CF
 //db $60, $61, $62, $63, $64, $65, $66, $F0
 //From Tent
-db $FD, $B0, $FD, $B1, $FD, $B2, $FD, $B3, $FD, $B4, $FD, $B5, $FD, $B6, $FD, $B7
+db $FD, $F8, $FD, $F9, $FD, $FA, $FD, $FB, $FD, $FC, $FD, $B4, $FD, $B5, $FD, $B6, $FD, $B7
 db $FD, $B8, $FD, $B9, $FD, $BA
-db $F0, $F0, $F0, $F0, $F0
+db $F0, $F0, $F0, $F0 //, $F0
 //db $05, $39, $36, $34, $F0, $13, $2C, $35, $3B, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 //From Ship
-db $FD, $B0, $FD, $B1, $FD, $B2, $FD, $B3, $FD, $B4, $FD, $B5, $FD, $B6, $FD, $B7
+db $FD, $F8, $FD, $F9, $FD, $FA, $FD, $FB, $FD, $FC, $FD, $B4, $FD, $B5, $FD, $B6, $FD, $B7
 db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0, $F0
+db $F0, $F0, $F0, $F0 //, $F0
 //db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 //Save&Qui
 db $FD, $C0, $FD, $C1, $FD, $C2, $FD, $C3, $FD, $C4, $FD, $C5, $FD, $C6, $FD, $C7
@@ -213,37 +231,61 @@ db $F0, $F0, $F0, $F0
 db $FB
 
 //--Chapter 2 (Game Over)
+//Ch. 2
 db $43, $93, $94, $20
+//t
 db $3B, $F0, $F0, $F0
+//Name
 db $67, $68, $69, $6A, $6B, $6C, $6D, $F0
+//From Ship
 db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+//From Mansion
 db $05, $39, $36, $34, $F0, $0C, $28, $35, $3A, $30, $36, $35, $F0, $F0, $F0, $F0
+//Save&Qui
 db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $FB
 
 //--Chapter 3 (Game Over)
+//Ch. 3
 db $43, $93, $94, $21
+//t
 db $3B, $F0, $F0, $F0
+//Name
 db $6E, $6F, $70, $71, $72, $73, $F0, $F0
+//From Ship
 db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+//From Stable
 db $05, $39, $36, $34, $F0, $12, $3B, $28, $29, $33, $2C, $F0, $F0, $F0, $F0, $F0
+//Save&Qui
 db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $FB
 
 //--Chapter 4 (Game Over)
+//Ch. 4
 db $43, $93, $94, $22
+//t
 db $3B, $F0, $F0, $F0
+//Name
 db $74, $75, $76, $77, $78, $79, $F0, $F0
+//From Ship
 db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+//From Inn
 db $05, $39, $36, $34, $F0, $08, $35, $35, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+//Save&Qui
 db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $FB
 
 //--Chapter 5 (Game Over)
+//Ch. 5
 db $43, $93, $94, $23
+//t
 db $3B, $F0, $F0, $F0
+//Name
 db $7A, $7B, $7C, $7D, $F0, $F0, $F0, $F0
+//From Blue Door
 db $05, $39, $36, $34, $F0, $0F, $39, $2C, $3D, $4A, $F0, $03, $36, $36, $39, $F0
+//From Blue Door
 db $05, $39, $36, $34, $F0, $0B, $28, $3A, $3B, $F0, $03, $36, $36, $39, $F0, $F0
+//Save&Qui
 db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $FB
