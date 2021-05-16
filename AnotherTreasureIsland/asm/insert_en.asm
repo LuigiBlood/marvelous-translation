@@ -226,6 +226,19 @@ seekFile($2FCCB0)
 seekFile($2FCC4E)
 	lda.w #$0048		// /
 
+//Fix Luck Rock Amount
+//(Set up {0} in the item names; it will automatically be replaced, no spaces needed)
+seekAddr($9FBFFC)
+	cmp.w #$5C02
+seekAddr($9FC0F5)
+	adc.b #$2E
+seekAddr($9FC103)
+	lda.b #$02
+seekAddr($9FC11C)
+	adc.b #$2E
+seekAddr($9FC12A)
+	lda.b #$02
+
 //Script
 seekFile($300000)
 text_script:
