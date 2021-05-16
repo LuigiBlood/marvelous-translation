@@ -1,16 +1,27 @@
 //Macros
 arch snes.cpu
 
-//Seek SNES LoROM Address
+//Seek SA-1 Address
+//Assumes the following
+//00-1F (Lo) & C0-CF (Hi) - Bank 0 (0x000000)
+//20-3F (Lo) & D0-DF (Hi) - Bank 1 (0x100000)
+//80-9F (Lo) & E0-EF (Hi) - Bank 2 (0x200000)
+//A0-BF (Lo) & F0-FF (Hi) - Bank 3 (0x300000)
 macro seekAddr(n) {
-  origin (({n} & $7F0000) >> 1) | ({n} & $7FFF)
+  origin (({n} & $800000) >> 2) | (({n} & $3F0000) >> 1) | ({n} & $7FFF)
   base {n}
 }
 
-//Seek File Offset
+//Seek File Offset (SA-1 HiROM Base)
 macro seekFile(n) {
   origin {n}
   base (({n} & $3FFFFF) | 0xC00000)
+}
+
+//Seek File Offset (SA-1 LoROM Base)
+macro seekFileLo(n) {
+  origin {n}
+  base ((({n} & $200000) << 2) | (({n} & $1F8000) << 1) | ({n} & $7FFF))
 }
 
 //Get Bank, High, Low Address
