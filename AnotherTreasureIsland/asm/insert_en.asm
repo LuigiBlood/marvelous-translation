@@ -218,11 +218,13 @@ seekFile($2FC8D7)
 
 //Turning Cross Puzzle
 seekFile($2FCCA4)
-	lda.w #$000E		//O
+	lda.w #$000E		// O
 seekFile($2FCCAA)
-	lda.w #$000A		//K
+	lda.w #$000A		// K
 seekFile($2FCCB0)
-	lda.w #$0046		//?
+	lda.w #$0046		// ?
+seekFile($2FCC4E)
+	lda.w #$0048		// /
 
 //Script
 seekFile($300000)

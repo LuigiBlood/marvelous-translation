@@ -39,6 +39,7 @@ define charshift($EE)	//(Global) Shift
 define charsize($F0)	//(Global) Width of 8x16
 define charnext($F2)	//(Global) Next Char
 define itemkeep($F4)	//(Global) Keep Item
+define charmode($F6)	//(Global) Rendering Mode: Variable Width (00), Fixed Width (FF)
 
 //Experimental Border Flickering Fix (when selecting an item)
 //Actually sets color palette for faces
@@ -220,10 +221,6 @@ item_name_render_stop:
 	pla
 	jmp $BFDC
 +;	pla
-	rts
-
-special_turning_puzzle3:
-	jsl special_turning_puzzle3l
 	rts
 
 bound_check($300000)
@@ -436,6 +433,15 @@ reset_vwf_zero:
 	stz {charshift}
 	stz {charsize}
 	rtl
+
+mode_fixed_width:
+	stz {charmode}
+	dec {charmode}
+	bra reset_vwf_zero
+
+mode_variable_width:
+	stz {charmode}
+	bra reset_vwf_zero
 
 
 //--VWF Rendering
@@ -652,6 +658,9 @@ setup_vwf:
 	phx
 	phy
 	pha
+
+	bit {charmode}
+	bmi setup_vwf_fixed
 	
 	tay
 	lsr
@@ -679,6 +688,10 @@ setup_vwf_1:
 
 setup_vwf_0:
 	lda.w #0
+	bra setup_vwf_end
+
+setup_vwf_fixed:
+	lda.w #8
 setup_vwf_end:
 	sta {charsize}
 	
@@ -763,53 +776,23 @@ itemselect_check2:
 pushvar pc
 seekFile($2FCC11)
 	jsl special_turning_puzzle1; nop
-seekFile($2FCC2A)
-	jsl special_turning_puzzle2; nop
-seekFile($2FCC4E)
-	jsr special_turning_puzzle3
-seekFile($2FCC3D)
-	jsl special_turning_puzzle4
 seekFile($2FCC5F)
-	jsl special_turning_puzzle4b
-seekFile($2FCCB6)
-	jsl special_turning_puzzle5; nop; nop
+	jsl special_turning_puzzle2
 
 pullvar pc
-special_turning_puzzle1:	//Turn
+special_turning_puzzle1:
+	jsl mode_fixed_width	//Fixed Width Mode
+	//Do what the original code was doing
 	ldx $02
 	lda $9F7F0E,x
-	jsl reset_vwf_skip
 	rtl
 
-special_turning_puzzle2:	//Number
-	ldx $02
-	lda $9F7F0E,x
-	jsl reset_vwf_skip
-	rtl
-
-special_turning_puzzle3l:	// /
-	jsl reset_vwf_skip
-	lda.w #$0048
-	rtl
-
-special_turning_puzzle4:	//Spaces for /
-	clc
-	adc.w #$0004
-	jsl reset_vwf_zero
-	rtl
-
-special_turning_puzzle4b:	//Space for OK
+special_turning_puzzle2:	//Variable Width Mode for "OK?"
+	jsl mode_variable_width
+	//Do what the original code was doing
 	clc
 	adc.w #$0005
-	jsl reset_vwf_zero
 	rtl
-
-special_turning_puzzle5:
-	lda.w #$6800
-	sta $33BC
-	jsl reset_vwf_zero
-	rtl
-
 
 //--List of Pixel Widths per Char
 width_list:
