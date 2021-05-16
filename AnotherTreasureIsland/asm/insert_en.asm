@@ -216,6 +216,14 @@ seekFile($2FC8D7)
 	dw $0C, $28, $3F, $EF	//Max
 	dw $09, $28, $2A, $32	//Jack
 
+//Turning Cross Puzzle
+seekFile($2FCCA4)
+	lda.w #$000E		//O
+seekFile($2FCCAA)
+	lda.w #$000A		//K
+seekFile($2FCCB0)
+	lda.w #$0046		//?
+
 //Script
 seekFile($300000)
 text_script:
