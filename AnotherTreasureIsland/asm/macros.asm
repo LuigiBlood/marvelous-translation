@@ -8,7 +8,11 @@ arch snes.cpu
 //80-9F (Lo) & E0-EF (Hi) - Bank 2 (0x200000)
 //A0-BF (Lo) & F0-FF (Hi) - Bank 3 (0x300000)
 macro seekAddr(n) {
-  origin (({n} & $800000) >> 2) | (({n} & $3F0000) >> 1) | ({n} & $7FFF)
+  if {n} < 0xC00000 {
+    origin (({n} & $800000) >> 2) | (({n} & $3F0000) >> 1) | ({n} & $7FFF)
+  } else {
+	origin ({n} & $3FFFFF)
+  }
   base {n}
 }
 
