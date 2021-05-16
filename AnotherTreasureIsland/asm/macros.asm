@@ -28,6 +28,16 @@ macro seekFileLo(n) {
   base ((({n} & $200000) << 2) | (({n} & $1F8000) << 1) | ({n} & $7FFF))
 }
 
+//Convert Base from LoROM to HiROM area
+macro setHiROMBase() {
+  base ((origin() & $3FFFFF) | 0xC00000)
+}
+
+//Convert Base from HiROM to LoROM area
+macro setLoROMBase() {
+  base (((origin() & $200000) << 2) | ((origin() & $1F8000) << 1) | $8000 | (origin() & $7FFF))
+}
+
 //Get Bank, High, Low Address
 macro DB_BANK(n) {
 	db (({n} >> 16) & $FF)
