@@ -1,3 +1,36 @@
+// VRAM Specific Macros
+macro name_ch1() {
+	db $FD, $C8, $FD, $C9, $FD, $CA, $FD, $CB, $FD, $CC, $FD, $CD, $FD, $CE, $FD, $CF
+}
+macro name_ch2() {
+	db $FD, $D0, $FD, $D1, $FD, $D2, $FD, $D3, $FD, $D4, $FD, $D5, $FD, $D6, $FD, $D7
+}
+macro name_ch3() {
+	db $FD, $D8, $FD, $D9, $FD, $DA, $FD, $DB, $FD, $DC, $FD, $DD, $FD, $DE, $FD, $DF
+}
+macro name_ch4() {
+	db $FD, $E0, $FD, $E1, $FD, $E2, $FD, $E3, $FD, $E4, $FD, $E5, $FD, $E6, $FD, $E7
+}
+macro name_ch5() {
+	db $FD, $E8, $FD, $E9, $FD, $EA, $FD, $EB, $FD, $EC, $FD, $ED, $FD, $EE, $FD, $EF
+}
+
+macro menu_start() {
+	//Start from the (8)
+	db $FD, $B0, $FD, $B1, $FD, $B2, $FD, $B3, $FD, $B4, $FD, $B5, $FD, $B6, $FD, $B7
+}
+
+macro menu_restart() {
+	//Restart from the (9)
+	db $FD, $F8, $FD, $F9, $FD, $FA, $FD, $FB, $FD, $FC, $FD, $B4, $FD, $B5, $FD, $B6, $FD, $B7
+}
+
+macro menu_save() {
+	//Save&Quit
+	db $FD, $C0, $FD, $C1, $FD, $C2, $FD, $C3, $FD, $C4, $FD, $C5, $FD, $C6, $FD, $C7
+	db $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+}
+
 //-----Main Menu & Save Select VRAM-----
 
 db $FD, $90, $FD, $91, $FD, $92, $FD, $93
@@ -42,16 +75,11 @@ db $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 
 //Chapter Names
-db $FD, $C8, $FD, $C9, $FD, $CA, $FD, $CB, $FD, $CC, $FD, $CD, $FD, $CE, $FD, $CF
-//db $60, $61, $62, $63, $64, $65, $66, $F0
-db $FD, $D0, $FD, $D1, $FD, $D2, $FD, $D3, $FD, $D4, $FD, $D5, $FD, $D6, $FD, $D7
-//db $67, $68, $69, $6A, $6B, $6C, $6D, $F0
-db $FD, $D8, $FD, $D9, $FD, $DA, $FD, $DB, $FD, $DC, $FD, $DD, $FD, $DE, $FD, $DF
-//db $6E, $6F, $70, $71, $72, $73, $F0, $F0
-db $FD, $E0, $FD, $E1, $FD, $E2, $FD, $E3, $FD, $E4, $FD, $E5, $FD, $E6, $FD, $E7
-//db $74, $75, $76, $77, $78, $79, $F0, $F0
-db $FD, $E8, $FD, $E9, $FD, $EA, $FD, $EB, $FD, $EC, $FD, $ED, $FD, $EE, $FD, $EF
-//db $7A, $7B, $7C, $7D, $F0, $F0, $F0, $F0
+name_ch1()
+name_ch2()
+name_ch3()
+name_ch4()
+name_ch5()
 
 //Other
 db $64, $65, $66,  $67, $68, $69, $6A, $6B
@@ -94,16 +122,12 @@ db $1F, $20, $21, $22, $23
 db $F0
 
 //Names
-db $FD, $C8, $FD, $C9, $FD, $CA, $FD, $CB, $FD, $CC, $FD, $CD, $FD, $CE, $FD, $CF
-//db $60, $61, $62, $63, $64, $65, $66, $F0
-db $FD, $D0, $FD, $D1, $FD, $D2, $FD, $D3, $FD, $D4, $FD, $D5, $FD, $D6, $FD, $D7
-//db $67, $68, $69, $6A, $6B, $6C, $6D, $F0
-db $FD, $D8, $FD, $D9, $FD, $DA, $FD, $DB, $FD, $DC, $FD, $DD, $FD, $DE, $FD, $DF
-//db $6E, $6F, $70, $71, $72, $73, $F0, $F0
-db $FD, $E0, $FD, $E1, $FD, $E2, $FD, $E3, $FD, $E4, $FD, $E5, $FD, $E6, $FD, $E7
-//db $74, $75, $76, $77, $78, $79, $F0, $F0
-db $FD, $E8, $FD, $E9, $FD, $EA, $FD, $EB, $FD, $EC, $FD, $ED, $FD, $EE, $FD, $EF
-//db $7A, $7B, $7C, $7D, $F0, $F0, $F0, $F0
+name_ch1()
+name_ch2()
+name_ch3()
+name_ch4()
+name_ch5()
+
 
 //???????
 db $F0, $F0, $F0, $F0
@@ -112,29 +136,26 @@ db $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $F0, $F0, $F0, $F0, $F0, $F0, $F0
 
 db $FB
-//-----Start from Game Over VRAM-----
+
+//-----Start from Select / Game Over VRAM-----
+// 4, 4, 8, 16, 16, 16
 //--Chapter 1 (Select)
 //Ch. 1
 db $43, $89, $8A, $1F
 //t
 db $F0, $F0, $F0, $F0
 //Name
-db $FD, $C8, $FD, $C9, $FD, $CA, $FD, $CB, $FD, $CC, $FD, $CD, $FD, $CE, $FD, $CF
-//db $60, $61, $62, $63, $64, $65, $66, $F0
+name_ch1()
 //From Tent
-db $FD, $B0, $FD, $B1, $FD, $B2, $FD, $B3, $FD, $B4, $FD, $B5, $FD, $B6, $FD, $B7
+menu_start()
 db $FD, $B8, $FD, $B9, $FD, $BA
 db $F0, $F0, $F0, $F0, $F0
-//db $05, $39, $36, $34, $F0, $13, $2C, $35, $3B, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 //From Ship
-db $FD, $B0, $FD, $B1, $FD, $B2, $FD, $B3, $FD, $B4, $FD, $B5, $FD, $B6, $FD, $B7
+menu_start()
 db $FD, $BB, $FD, $BC, $FD, $BD
 db $F0, $F0, $F0, $F0, $F0
-//db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 //Save&Qui
-db $FD, $C0, $FD, $C1, $FD, $C2, $FD, $C3, $FD, $C4, $FD, $C5, $FD, $C6, $FD, $C7
-db $F0, $F0, $F0, $F0, $F0, $F0, $F0
-//db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_save()
 db $FB
 
 //-Chapter 2 (Select)
@@ -211,23 +232,17 @@ db $43, $89, $8A, $1F
 //t
 db $F0,  $F0, $F0, $F0
 //Name
-db $FD, $C8, $FD, $C9, $FD, $CA, $FD, $CB, $FD, $CC, $FD, $CD, $FD, $CE, $FD, $CF
-//db $60, $61, $62, $63, $64, $65, $66, $F0
+name_ch1()
 //From Tent
-db $FD, $F8, $FD, $F9, $FD, $FA, $FD, $FB, $FD, $FC, $FD, $B4, $FD, $B5, $FD, $B6, $FD, $B7
+menu_restart()
 db $FD, $B8, $FD, $B9, $FD, $BA
-db $F0, $F0, $F0, $F0 //, $F0
-//db $05, $39, $36, $34, $F0, $13, $2C, $35, $3B, $F0, $F0, $F0, $F0, $F0, $F0, $F0
-//From Ship
-db $FD, $F8, $FD, $F9, $FD, $FA, $FD, $FB, $FD, $FC, $FD, $B4, $FD, $B5, $FD, $B6, $FD, $B7
-db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0 //, $F0
-//db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
-//Save&Qui
-db $FD, $C0, $FD, $C1, $FD, $C2, $FD, $C3, $FD, $C4, $FD, $C5, $FD, $C6, $FD, $C7
-db $F0, $F0, $F0, $F0, $F0, $F0, $F0
-//db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $F0, $F0, $F0, $F0
+//From Ship
+menu_restart()
+db $FD, $BB, $FD, $BC, $FD, $BD
+db $F0, $F0, $F0, $F0
+//Save&Qui
+menu_save()
 db $FB
 
 //--Chapter 2 (Game Over)
