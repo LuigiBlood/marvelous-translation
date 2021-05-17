@@ -1,0 +1,8 @@
+{"name":"eng_ver2_items",
+"fontPath":"..\\..\\text\\en_new\\font.bin",
+"kanjiPath":"..\\..\\text\\en_new\\kanji.bin",
+"iconsPath":"..\\..\\text\\en_new\\icons.bin",
+"widthPath":"..\\..\\text\\en_new\\width.tbl",
+"tablePath":"..\\..\\text\\en_new\\table.tbl",
+"scriptPath":"..\\..\\text\\en_new\\items.txt",
+"notesPath":"..\\..\\text\\en_new\\items_notes.txt"}
