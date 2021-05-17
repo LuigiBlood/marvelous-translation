@@ -209,7 +209,7 @@ W...water...!
 [en1]
 
 [X$79]Please set the robot's path.[CPad]
-[nl2][Space4][One][Two][Three][Four][Five][Six][Seven][Eight][X$6F]
+[nl2][Space2][One][Two][Three][Four][Five][Six][Seven][Eight][X$6F]
 [en2]
 
 [X$79][CPad]: Changes turns and directions.
