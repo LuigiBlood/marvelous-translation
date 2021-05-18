@@ -753,6 +753,42 @@ next_vwf:
 	
 	rtl
 
+//--Check for Spaces then do the sound if not a space char
+pushvar pc
+seekAddr($9FBCF4)
+	jsl space_check_sound
+seekAddr($9FDF37)
+	jsl space_check_sound
+pullvar pc
+space_check_sound:
+	pha
+	phx
+	php
+	rep #$30
+
+	ldx $9A
+	lda $40A400,x
+	ldx.w #(space_check_sound_table_end-space_check_sound_table-2)
+	xba
+	lsr
+-;	cmp space_check_sound_table,x
+	beq +
+	dex
+	dex
+	bpl -
+	plp
+	plx
+	pla
+	jsl $00FC1A
+	rtl
++;	plp
+	plx
+	pla
+	rtl
+space_check_sound_table:
+	dw $1A, $E0, $E1, $E2, $E3, $EF, $F0
+space_check_sound_table_end:
+
 //Hacky VWF Fixes
 //-Search Mode Inventory Fix
 itemselect_check2:
