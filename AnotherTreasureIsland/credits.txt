@@ -1,4 +1,18 @@
-tashi & DackR - Original English Translation Base
-LuigiBlood - New Project Leader, Hacking
-pinky - French Translation
-/dev/urandom - Font Design
+Original English Translation Patch Staff:
+tashi & DackR
+
+
+Marvelous - Another Treasure Island v2.0 Translation Patch Staff:
+
+Project Leader & Hacking:
+LuigiBlood
+
+English Script Writer:
+DackR & tashi
+
+Font Design:
+/dev/urandom
+
+Special Thanks:
+terminator2k2
+NukeOTron
