@@ -208,7 +208,7 @@ map_credits:
 //--Large Messages
 //Monkey Screech, "HEY!", "That's Enough / Cut it OUT!"
 seekFile($2CE000)
-	insert "../gfx/en/font_large.bin"
+	insert "../gfx/en_new/font_large.bin"
 
 //Leader Names
 seekFile($2FC8D7)
