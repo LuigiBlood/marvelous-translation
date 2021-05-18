@@ -5,6 +5,7 @@ arch snes.cpu
 //409000 - Text Rendering Buffer
 //40A400 - Text Virtual Tileset
 //40AE06 - Item Name (Pause Menu)
+//40DBE0 - Script Pointers
 //3024 - SNES CPU telling SA-1 to do something
 //3026 - SA-1 response to SNES CPU
 //CODE_8CE969 - Inventory
@@ -35,6 +36,7 @@ arch snes.cpu
 
 //D = 3500, DB = 00
 define charcurrent($9C)	//(Global) Current Char Tile
+define scriptid($AA)	//(Global) Script ID * 3
 define charshift($EE)	//(Global) Shift
 define charsize($F0)	//(Global) Width of 8x16
 define charnext($F2)	//(Global) Next Char
@@ -753,41 +755,62 @@ next_vwf:
 	
 	rtl
 
-//--Check for Spaces then do the sound if not a space char
+//--Check for Spaces / Script ID for sounds
 pushvar pc
 seekAddr($9FBCF4)
 	jsl space_check_sound
 seekAddr($9FDF37)
 	jsl space_check_sound
 pullvar pc
+
 space_check_sound:
 	pha
 	phx
 	php
 	rep #$30
 
+	//Check if it's a Script ID that doesn't need sound
+	lda {scriptid}
+	ldx.w #(script_check_sound_table_end-script_check_sound_table-2)
+
+-;	cmp script_check_sound_table,x
+	beq +
+	dex
+	dex
+	bpl -
+
+	//Check if the char being rendered is a space
 	ldx $9A
 	lda $40A400,x
 	ldx.w #(space_check_sound_table_end-space_check_sound_table-2)
 	xba
 	lsr
+
 -;	cmp space_check_sound_table,x
 	beq +
 	dex
 	dex
 	bpl -
+
+	//Make a sound
 	plp
 	plx
 	pla
 	jsl $00FC1A
 	rtl
+	//Don't make a sound
 +;	plp
 	plx
 	pla
 	rtl
+//Characters that shouldn't make a sound (spaces)
 space_check_sound_table:
 	dw $1A, $E0, $E1, $E2, $E3, $EF, $F0
 space_check_sound_table_end:
+//Script IDs (*3) that shouldn't make a sound entirely
+script_check_sound_table:
+	dw 40*3
+script_check_sound_table_end:
 
 //Hacky VWF Fixes
 //-Search Mode Inventory Fix
