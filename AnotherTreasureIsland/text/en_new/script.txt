@@ -209,12 +209,12 @@ W...water...!
 [en1]
 
 [X$79]Please set the robot's path.[CPad]
-[nl2][Space2][One][Two][Three][Four][Five][Six][Seven][Eight][X$6F]
+[nl2][ ]{1}[Space4][Space1][ ]{2}[Space4][Space1][ ]{3}[Space4][Space1][ ]{4}[Space4][Space1][ ]{5}[Space4][Space1][ ]{6}[Space4][Space1][ ]{7}[Space4][Space1][ ]{8}[X$6F]
 [en2]
 
 [X$79][CPad]: Changes turns and directions.
 [nl2] [CustomTurnRight]: Left.  [CustomTurnLeft]: Right.  OK: Start.
-[nl3]                                                  [X$70]
+[nl3][ ][ ][ ]/[X$70]
 [en1]
 
 There are pots below.[np]

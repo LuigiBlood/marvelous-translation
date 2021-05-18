@@ -226,6 +226,14 @@ seekFile($2FCCB0)
 seekFile($2FCC4E)
 	lda.w #$0048		// /
 
+//Watering Robot Path
+seekAddr($9FCB40)
+	lda.w #$000E		// O
+seekAddr($9FCB46)
+	lda.w #$000A		// K
+seekAddr($9FCB4C)
+	lda.w #$0046		// ?
+
 //Fix Luck Rock Amount
 //(Set up {0} in the item names; it will automatically be replaced, no spaces needed)
 seekAddr($9FBFFC)

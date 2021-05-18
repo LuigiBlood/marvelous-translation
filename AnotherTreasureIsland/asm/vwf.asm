@@ -809,7 +809,7 @@ space_check_sound_table:
 space_check_sound_table_end:
 //Script IDs (*3) that shouldn't make a sound entirely
 script_check_sound_table:
-	dw 40*3
+	dw 39*3, 40*3
 script_check_sound_table_end:
 
 //Hacky VWF Fixes
@@ -834,24 +834,38 @@ itemselect_check2:
 //Turning Cross Puzzle Fixes
 pushvar pc
 seekFile($2FCC11)
-	jsl special_turning_puzzle1; nop
+	jsl fix_special_turning_puzzle1; nop
 seekFile($2FCC5F)
-	jsl special_turning_puzzle2
-
+	jsl fix_special_turning_puzzle2
 pullvar pc
-special_turning_puzzle1:
+
+fix_special_turning_puzzle1:
 	jsl mode_fixed_width	//Fixed Width Mode
 	//Do what the original code was doing
 	ldx $02
 	lda $9F7F0E,x
 	rtl
 
-special_turning_puzzle2:	//Variable Width Mode for "OK?"
+fix_special_turning_puzzle2:	//Variable Width Mode for "OK?"
 	jsl mode_variable_width
 	//Do what the original code was doing
 	clc
 	adc.w #$0005
 	rtl
+
+//Watering Robot Path Fixes
+pushvar pc
+seekAddr($9FCB1D)
+	jsl fix_waterrobotpath1; nop; nop
+pullvar pc
+
+fix_waterrobotpath1:
+	jsl reset_vwf_zero
+	//Do what the original code was doing
+	lda $302A
+	and.w #$0010
+	rtl
+
 
 //--List of Pixel Widths per Char
 width_list:
