@@ -54,8 +54,8 @@ Huh?! You don't have enough {L}{u}{c}{k}
 [nl3]more before you come back~.
 [en1]
 
-Our leader is a fishing freak, but
-[nl2]he's never even caught a fish. 
+Our leader is a fishing fanatic, 
+[nl2]but he's never even caught a fish. 
 [nl3]He only pulls up junk.
 [en2]
 
@@ -64,9 +64,9 @@ What if we left one strong guy
 [nl3]try to lift from above?
 [en2]
 
-Our leader is a fishing freak, but
-[nl2]he's never even caught a fish. 
-[nl3]He only pulls up junk.
+Our leader is a fishing fanatic,
+[nl2]but he's never even caught a fish. 
+[nl3]He only pulls up junk!
 [en2]
 
 Hurry and grab it!!
@@ -84,7 +84,7 @@ It seems that this lever can be
 [nl3]But it's too heavy for one person.
 [en2]
 
-I wonder if I can move this...?
+--I wonder if I can move this...?
 [en2]
 
 The powerful water flow moved
@@ -95,7 +95,7 @@ Ooo-kiii![np]
 [nl2]TL: ...Wait!
 [en1]
 
-It says:
+--It says:
 [nl3]"Danger! Pitfall ahead."
 [en2]
 
@@ -107,11 +107,11 @@ It's all ready!
 [nl2]       More junk? Shucks.
 [en2]
 
-How can we lift such a large
+--How can we lift such a large
 [nl2]object...?
 [en2]
 
-If we lift from both sides of the
+--If we lift from both sides of the
 [nl2]boulder, maybe we can move it.
 [en2]
 
@@ -198,8 +198,7 @@ I AM A GENT-LE WA-TER-ING RO-
 [scl]I SERVE NO PUR-POSE.
 [en2]
 
-Let's move a bit
- closer for a look.
+--Let's move closer to take a look.
 [en2]
 
 W...water...!
@@ -275,23 +274,24 @@ I think there's a keyhole.[np]
 [nl2] How 'bout we take a closer look.
 [en2]
 
-[nl2] Woooooooooosh~!
+[nl2]*Woooooooooosh~!*
 [en2]
 
-Something's wrong. All of us need
-[nl2]to line up behind the box.
+--Something's wrong. All 3 of us
+[nl2]need to line up behind the box.
 [en1]
 
 I didn't think so before...[np]
 [nl2]But maybe Miss Gina is this way?...
 [en2]
 
-It looks like we can ride in it, but
-[nl2]it only fits one person.
+It looks like we can ride in it... 
+[nl2]But it only fits one person.
 [en2]
 
-It's fast! I guess we can't avoid
-[nl2]them if we're together.
+This thing sure moves quick!
+[nl2]However, I don't think it'd move
+[nl3]at all if all 3 of us got in~.
 [en2]
 
 But how can we get there...?
@@ -424,9 +424,10 @@ Chirpoo? Chirp.[np]
 
 If I stay here, another dog might
 [nl2]try to eat me...[np]
-[nl3]...So my present to you is to go
-[scl]along with you.[np]
-[scl]I'll hitch a ride with fatty here.
+[nl3]...So your reward will be for me
+[scl]to go along with you.[np]
+[scl]I'll hitch a ride with the burly
+[scl]butterball over there.
 [en1]
 
 What are you thinking of doing to
@@ -1315,7 +1316,7 @@ Dear stinky brats,[np]
 [scl]Don't forget my Crystal Ball![np]
 [scl]Signed:
 [scl]The Greatest Pirate Under the Sky
-[scl](King Bull)
+[scl]King Bull
 [en1]
 
 [X$6A]...There's nothing written here.
@@ -1612,43 +1613,44 @@ Okay, it's been oiled.
 That's pretty... huge!
 [en2]
 
-If ya hand over arrr treasure,
+If ya' hand over our treasure,
 [nl2]the wench lives.[np]
 [nl3]What'll it be, bucko?[X$6A]
 [scl]      Fine, take it.
-[scl]      Over my dead body![X$68]
+[scl]      No way! Let her go![X$68]
 [en1]
 
 I'll just take the payment in
 [nl2]advance.[np]
-[nl3]Choose {L}{u}{c}{k} {R}{o}{c}{k}{s} using [Item] and
-[scl]then press the [ABtn] button.
+[nl3]Choose {L}{u}{c}{k} {R}{o}{c}{k}{s} using [Item]
+[scl]and then press the [ABtn] button.
 [en2]
 
-Okay, that's [num][LuckRock]!
-[nl2]Which box do you want to open?[X$6A]
+Okay, that'll be[Space1][num] {L}{u}{c}{k} {R}{o}{c}{k}!
+[nl2]Which box do you want to open?
+[nl3]Think carefully and make a choice.[X$6A]
 [en1]
 
-[X$6A]    1 Left Chest
-[nl2]    2 Middle Chest
-[nl3]    3 Right Chest[X$6E]
+[X$6A][ ][ ][ ][ ]1 Left Chest
+[nl2][ ][ ][ ][ ]2 Middle Chest
+[nl3][ ][ ][ ][ ]3 Right Chest[X$6E]
 [en1]
 
 ...Hehehe... You're sure?[X$6A]
-[nl2]    Sure.
-[nl3]    Hold on.[X$68]
+[nl2][ ][ ][ ][ ]Sure.
+[nl3][ ][ ][ ][ ]Hold on.[X$68]
 [en1]
 
-Dang boy, are you ever dumb. You
-[nl2]missed completely![np]
-[nl3]Give it another try?
+Dang boy, are you ever dense~.
+[nl2]You missed completely![np]
+[nl3]What's wrong? Give it another go?
 [en1]
 
 ...Are you happy? Pathetic. Take
-[nl2]your [num] {L}{u}{c}{k} {R}{o}{c}{k}.
+[nl2]your[Space1][num] {L}{u}{c}{k} {R}{o}{c}{k}.
 [en1]
 
-[X$6A]Received [num][LuckRock].
+[X$6A]Received[Space1][num] {L}{u}{c}{k} {R}{o}{c}{k}.
 [nl2]Since you just gave one away, you
 [nl3]don't feel too happy about it.
 [en1]
@@ -3847,7 +3849,7 @@ GO. FOR. A. RIDE?
 [nl2] Whoa! A huge cave opened up.
 [en1]
 
-[X$6A][nl2] He's not moving... Is he dead?!
+[X$6A][nl2] He's not moving... Is he alive?!
 [en1]
 
 [X$6A]
@@ -4098,7 +4100,7 @@ Dear stinky brats,[np]
 [scl]Don't forget my Crystal Ball![np]
 [scl]Signed:
 [scl]The Greatest Pirate Under the Sky
-[scl](King Bull)
+[scl]King Bull
 [en2]
 
 B-But... Oh, Princess! Wait!
@@ -4818,7 +4820,7 @@ Yarr... The eldest brother is
 [scl]order from oldest to youngest!
 [en2]
 
-[SDenied]Garrr! A foolharrrdy attempt!
+[SDenied]Garrr! A foolhardy attempt!
 [nl2]Is that the best ye' got, matey?[np]
 [nl3]Yarr... The eldest brother is
 [scl]standing to the left of the
@@ -4829,7 +4831,7 @@ Yarr... The eldest brother is
 [scl]right of the youngest brother.[np]
 [scl]If ye' figure it out, start from
 [scl]the oldest and point at us in
-[scl]order! Ye' savvy, lads?
+[scl]order! Ye' savvy, lad?
 [en1]
 
 The guard in front of Princess
@@ -6924,7 +6926,7 @@ Any color key should fit this
 [en1]
 
 Hey you! Well, if it isn't [team]
-[nl2]Team! So, you're not dead yet!
+[nl2]Team! You're alive! Alive!
 [en1]
 
 Upon inspecting closer, you see 3
@@ -6939,9 +6941,9 @@ Something's wrong. Get on 3 sides
 [nl3]It's the only way.
 [en1]
 
-Something's not right. Put one on
-[nl2]top, two on bottom, and hit [TWork]!
-[scl]It's the only way.
+Something's not right. Let's move
+[nl2]one on top, two on bottom, and
+[nl3]use[Space2][TWork]! It's the only way.
 [en1]
 
 To use teamwork, we've gotta
@@ -6971,7 +6973,7 @@ To continue in the underground
 [scl]don't miss it~!
 [en1]
 
-The bully monkey's boss is a
+The foolish monkey's boss is a
 [nl2]gorilla.[np]
 [nl3]I bet he'd be happy if you
 [scl]recorded a girl gorilla's voice...
@@ -6989,7 +6991,7 @@ It's dangerous, so you really
 [nl2]shouldn't go!
 [en2]
 
-Our island camp is this way!
+The camp island is this way!
 [nl2]Wait for us...!
 [nl3]......Miss Gina!!
 [en2]
@@ -9781,9 +9783,9 @@ It's a robot.
 [en2]
 
 Didn't you hear me?[np]
-[nl2]I said I wanted the F-A-T boy.
-[nl3]I think sometimes we all want a
-[scl]little fatty.
+[nl2]I said I wanted the B-I-G boy.
+[nl3]I think sometimes we all want
+[scl]something soft to hold onto.
 [en1]
 
 Good eye there.
@@ -11489,13 +11491,13 @@ Long ago, Indio and my husband
 [nl3]important project next door.
 [en2]
 
-Yarr! We be tha' piirrrate Patchie
-[nl2]Brothers! Yurr' pretty foolharrdy
-[nl3]to have fallen into arrr' trap.[np]
-[scl]Don't hang the jib, laddies!
-[scl]If ye' want out, ye' got ta' guess
-[scl]arr' ages in orrrrdarr'![np]
-[scl]Savvy? Herre we garrr'.
+Yarr! We be the pirate Patchie
+[nl2]Brothers! Ye' be pretty foolhardy
+[nl3]to have fallen into our trap.[np]
+[scl]Don't hang the jib, lad!
+[scl]If ye' want out, ye' got to
+[scl]guess our ages in order![np]
+[scl]Savvy? Here we go.
 [en2]
 
 I told you guys to stay out of
@@ -11520,17 +11522,17 @@ This rock can be moved by just 1
 [en2]
 
 [SP$03A2]Chirpy[np]
-[nl2]TL: What a nuisance. I'm the
+[nl2]TL: What a nuisance~. I'm the
 [nl3]   troubleshooter, Pluck.[np]
 [scl]   If you get stuck, blow your
 [scl]   whistle and talk to me with
-[scl]   [ABtn]. I'll give you a hint...[np]
+[scl]  [ABtn]. I'll give you a hint...[np]
 [scl]                ...For a price!
 [en1]
 
 We can use this to pump hot air
-[nl2]into the balloon. ...We'll need to
-[nl3]work together, though.
+[nl2]into the balloon. ...All 3 of us need
+[nl3]to work together, though.
 [en2]
 
 [SP$033A]Chirpy-chirp![np]
@@ -11538,8 +11540,8 @@ We can use this to pump hot air
 [nl3]   That's [num] {L}{u}{c}{k} {R}{o}{c}{k}, please!
 [en1]
 
-If this were the sea, would this
-[nl2]ship sail?
+The anchor is up. If this were in 
+[nl2]the sea, could this ship set sail?
 [en2]
 
 The mast is broken at the base.
@@ -13813,7 +13815,10 @@ There's no time!
 
 [F2]You got a {M}{i}{t}{t} {a}{n}{d} {B}{a}{l}{l}![np]
 [nl2]Bop anything in your way with the
-[nl3][BBtn] button.
+[nl3][BBtn] button.[np]
+[scl]I have a feeling we can use this
+[scl]to defend ourselves if the need
+[scl]arises.
 [en1]
 
 [F2]You got a mysterious Old Rope![np]
