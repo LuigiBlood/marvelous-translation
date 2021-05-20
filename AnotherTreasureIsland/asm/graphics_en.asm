@@ -9,6 +9,6 @@ insert "../gfx/en_new/tmp/camp_moves.map"
 
 output "../gfx/en_new/tmp/lz_controls_gfx.bin", create
 origin 0
-insert "../gfx/en/lz_controls_gfx.bin"
+insert "../gfx/jp/63.bin"
 origin 0
 insert "../gfx/en_new/tmp/camp_moves.gfx"
