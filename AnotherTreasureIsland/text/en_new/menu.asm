@@ -129,10 +129,13 @@ name_ch4()
 name_ch5()
 
 
-//???????
-db $F0, $F0, $F0, $F0
+//Must be empty
+db $F0
 
-db $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+//Chapter
+db $60, $61, $62, $63
+
+db $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $F0, $F0, $F0, $F0, $F0, $F0, $F0
 
 db $FB

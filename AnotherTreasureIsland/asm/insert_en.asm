@@ -247,6 +247,23 @@ seekAddr($9FC11C)
 seekAddr($9FC12A)
 	lda.b #$02
 
+//Chapter Screen ($8DF169)
+seekAddr($8DF169)
+	ldx.b #0
+	lda.w #$30C2
+-;	sta $7F011C,x
+	inc; inc
+	inx; inx
+	cpx.b #8
+	bcc -
+	lda $3100
+	clc
+	adc.w #$3004
+	sta $7F0124
+	nop; nop; nop; nop; nop
+	nop; nop; nop; nop; nop
+	nop
+
 //Script
 seekFile($300000)
 text_script:
