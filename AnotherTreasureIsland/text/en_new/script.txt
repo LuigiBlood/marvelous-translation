@@ -13722,7 +13722,7 @@ Chirpy chirp~![np]
 [en2]
 
 Fugo! Fugogo?[np]
-[nl2]TL: What do you kids want?
+[nl2]TL: What! What do you want?
 [en2]
 
 We even brought the police in to
@@ -13771,7 +13771,8 @@ After not seeing you guys for a
 ...It won't move anymore.
 [en2]
 
-There's a soldier here!
+
+[nl2]Ah! There's a soldier here!
 [en2]
 
 Found a tomato!
@@ -13797,7 +13798,7 @@ There's no time!
 [nl2]"Why me~~?"
 [en1]
 
-...SLOW. POKE LEAVE. NOW.
+...SLOW. POKE. LEAVE. NOW.
 [en2]
 
 [F2]You got the {D}{a}{s}{h} {S}{h}{o}{e}{s}![np]
@@ -13834,10 +13835,10 @@ There's no time!
 [en1]
 
 [F2]You got the Hammer![np]
-[nl2]Mash in posts with [BBtn].
+[nl2]Use it to mash in posts with [BBtn].
 [en1]
 
-[SP$0204]You suck! That weak shot wasn't
+[SP$0204]Pathetic! That weak shot wasn't
 [nl2]even close! Just give up!
 [en2]
 
@@ -13849,7 +13850,7 @@ There's no time!
 [nl2]Let's go and save Indio now.
 [en1]
 
-Phew, we finished cleaning.
+Phew~, we finished cleaning!
 [en2]
 
 Okay, now the hole is plugged!
@@ -13862,7 +13863,7 @@ Okay, now the hole is plugged!
 [nl2]It's you, [team] Team!!
 [en2]
 
-[SP$0131]SELF. DE-STRUCT. TIMER. SET.
+[SP$0131]SELF. DE-STRUCT. TI-MER. SET.
 [nl2][Six][Zero] SE-CONDS. RE-MAIN.
 [en2]
 
@@ -13885,28 +13886,28 @@ It's shaking too much to use
 [SImprtnt]The plant... It turned into you!!
 [en2]
 
-[SP$012A]CA-PACITY. OVER-LOAD.
-[nl2][Three] PE-OPLE. MAX-IMUM.
+[SP$012A]CA-PACITY. O-VER-LOAD. O-VER-LOAD.
+[nl2]ON-LY[Three] PE-OPLE. MAX-IMUM.
 [en2]
 
-[SP$0204]Oo! Oo![np]
-[nl2]TL: So pretty! I'm coming, darling!
+[SP$0204]Ook!! Ook~!![np]
+[nl2]TL: Oh! Such a lovely voice!
+[nl3]   Where are you, my beloved?
 [en2]
 
 [SP$0204]Dear~! What's wrong~?!
 [en2]
 
-[F2]Got a {D}{o}{l}{l}![np]
-[nl2]Someone must have dropped it.
+[F2]Got a Doll![np] Pity, someone must have
+[nl2]dropped it. But who?
 [en2]
 
-[F2]We got a {C}{a}{v}{e} {K}{e}{y}![np]
-[nl2]Now we can go deeper into the
-[nl3]cave!
+[F2]We got a Cave Key![np]
+[nl2]Now we can go deeper into the cave!
 [en1]
 
-[F2]We got the {S}{a}{l}{t}{w}{a}{t}{e}{r} {S}{p}{r}{a}{y}![np]
-[nl2]Let's spray some plants with it!
+[F2]We got the Saltwater Spray![np]
+[nl2]Shall we spray some plants with it?
 [en1]
 
 [SP$0204]Eek-! A mouse! There's a mouse!
@@ -13948,7 +13949,7 @@ We can take nutrients and live on
 [nl2]indefinitely........
 [en1]
 
-[SStop]     Because we're plants.
+[SStop][ ][ ][ ][ ][ ]Because we're plants.
 [en2]
 
 
@@ -13960,7 +13961,7 @@ We can take nutrients and live on
 
 [en1]
 
-[SP$0204]     W-waaaaaahh~!!
+[SP$0204][ ][ ][ ][ ][ ][ ]W-waaaaaahh~!!
 [en2]
 
 [F2]You got the third {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}!
@@ -13986,7 +13987,7 @@ We can take nutrients and live on
 
 [en1]
 
-[F2]Ah! The {H}{o}{n}{e}{y} fell in the hole!
+[F2]Ah! The Honey fell in the hole!
 [en2]
 
 [F2]Got the scaredy bee's {H}{o}{n}{e}{y}![np]
@@ -14000,11 +14001,11 @@ We can take nutrients and live on
 [en2]
 
 [F2]Got the {S}{o}{l}{d}{i}{e}{r} {B}{l}{u}{e}![np]
-[nl2]It's only works for soldiers...?
+[nl2]It only works on soldiers. Why's that?
 [en2]
 
 [SP$0204]Har-harr! We got the lil' swab!
-[nl2]Arrr trap be splendid, lads!!
+[nl2]Our trap be splendid, lads!!
 [en2]
 
 [F2]Got a mysterious {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}!![np]
@@ -14016,7 +14017,8 @@ We can take nutrients and live on
 [SP$0201]Sweet skills! I'll take that.
 [en2]
 
-[SP$0204]Boss, we caught those little brats!
+[SP$0204]Ahoy, Boss! We caught those bilge-
+[nl2]sucking little brats for ye'!
 [en2]
 
 [SImprtnt]Oh, Oh my!
@@ -14033,9 +14035,8 @@ We can take nutrients and live on
 
 [en1]
 
-[F2]What was that light...?
-[nl2]It eminated from the Crystal Ball?
-[nl3]Anyway, let's save Miss Gina!
+[F2]Did the Crystal Ball... Just light up...?
+[nl3]Anyway, let's go save Miss Gina!
 [en1]
 
 
@@ -14045,7 +14046,7 @@ We can take nutrients and live on
 [en2]
 
 [SP$0204]Fugofugo[np]
-[nl2]TL: You suck! Try again?
+[nl2]TL: Darn! Try one more time!?
 [en2]
 
 [SP$0204]EN-ER-GY......    DE-...PLEAT-ED!!
@@ -14054,30 +14055,30 @@ We can take nutrients and live on
 [F2]I. RE-GRET. NO-THING...!
 [en2]
 
-[F2]We did it! The exit!
-[nl2]Come get some!!
+[F2]Hooray! It's open! They'll be sorry!
+[nl2]Let's go get those Patchies!!
 [en2]
 
 [X$6A][SP$0137]We found Firewood!
 [nl2]That makes [X$6B] total!
 [en2]
 
-Take us with you!...  Please~!
+Yarr! Take us with you!.[Space4].[Space4].[Space4].[Space4].[Space4].[Space4].[Space4]Please~!
 [en2]
 
-[SP$0204]Now now~... 
+[SP$0204]Now~, now~... 
 [nl2]Don't leave the others behind.
 [en2]
 
-Ack! The patchies are too heavy!
+Ack! The Patchies are too heavy!
 [nl2]Tap[ABtn] quickly for more thrust!
 [en2]
 
-[F2]Got the {D}{i}{g}{g}{i}{n}{g} {M}{a}{c}{h}{i}{n}{e}, {M}{r}{.} {D}{i}{g}{g}{y}.
-[nl2]Let's go dig some wells. {*}{*}{*}
+[F2]Got the Digging Machine, Mr. Diggy.
+[nl2]Let's dig where the penguin marked.
 [en2]
 
-Eyyy, we've got you now!
+Hey-a, we've got you now!
 [en2]
 
 [SChing]Found [num] Luck Rock!
@@ -14108,8 +14109,8 @@ No. This tent is already full. You guys
 [nl2]shouldn't be out there, it's dangerous!
 [en2]
 
-Respect your elders!
-[nl2]It's worth it, boys.
+You should respect your elders!
+[nl2]If you do, good things will happen.
 [en2]
 
 [SImprtnt] It's... A ship!! How'd it get here...?
@@ -14118,7 +14119,7 @@ Respect your elders!
 What, what? What an odd noise!
 [en2]
 
-[F2]We got the Stinky Key![np]
+[F2]I pulled the Key out of his mouth![np]
 [nl2]It smells... a bit fishy.
 [en2]
 
@@ -14126,7 +14127,7 @@ Sorry,[team] Team. I can't let
 [nl2]you in because we're full.
 [en2]
 
-We're changing right now.
+Now, now, we're changing in here.
 [nl2]Don't come in!
 [en2]
 
@@ -14156,11 +14157,10 @@ Yep, that's [Two] fish!
 [nl2]           All Done!
 [en2]
 
-Stop it!
-[nl2]You'll get my clothes dirty!!
+Stop it! You'll dirty my precious face!
 [en2]
 
-Watch it!
+What do you think you're doing?!
 [nl2]The baby will catch a cold!
 [en2]
 
@@ -14189,29 +14189,26 @@ Agh~! It's salty!!
 What was that for!?
 [en2]
 
-[SP$0126]Whoa! The clocks are all gone!!!
+[SP$0126]--Whoa! The clocks are all gone!!!
 [en2]
 
-You shall not pass, kiddies.
-[nl2]Take this!!
+Serves-a you right! You shall not
+[nl2]pass, kiddies. Take-a this!!
 [en2]
 
 Oof-!! Max swallowed something!!
 [en2]
 
-[X$79][SDenied]Your team is nearby.
-[nl2]Just whistle or use [RBtn].
+[X$79][SDenied]I can't do it until my friends are
+[nl2]nearby. Whistle or press [RBtn].
 [en2]
 
-[SP$011C]Sorry, we're keepin' that comely
-[nl2]wench as arrr hostage until we
-[nl3]get th' booty![np]
-[scl]Let's get it! 
-[scl]Patchies full speed ahead!!
+[SP$011C]Sorry, she's with us until we get the
+[nl2]booty! Patchies, full speed ahead!!
 [en2]
 
-[SP$011C]If the cops come, yer teacher's
-[nl2]dead!! Arrr' ye saavy?
+[SP$011C]If the cops come after us, then your
+[nl2]teacher gets it!! Are ye saavy?!
 [en2]
 
 [SP$0229]Fishing team, head to the lake.

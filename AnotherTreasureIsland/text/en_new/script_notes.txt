@@ -2831,7 +2831,7 @@ Wow, I saw some ship blazing this way... \I'll be snookered if it isn't RED Team
 
 
 
-
+toning it down a bit
 2 lines.
 
 
@@ -2849,7 +2849,7 @@ Wow, I saw some ship blazing this way... \I'll be snookered if it isn't RED Team
 
 
 
-
+lets only apply special fonts if we know it's not 2-line text
 
 
 
@@ -2873,42 +2873,43 @@ plant confrontation
 
 
 
+Cant use the special font on 2-line text
+
+
+only2 lines
+not sure if 2 lines
+
+
+
+is this the Patchies?... lets try something
 
 
 
 
+only 2 lines.
 
 
+toning it down a bit ;)
 
 
+We did it! The exit! Come get some!! (old translation)
+
+Patchies... I think?
 
 
+Let's go dig where the penguin marked for us. Can't use special font on this 
+verbal equivalent?
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Let's go dig where the penguin marked for us.
-
-
-
-Let's dry them out before we use them with the B button.
+Let's dry them out before we use them with the B button. Is this 2-lines?
 
 2 lines available
 Only two lines are available!
 only two lines are available
-
+Respect your elders! It's worth it, boys. (retranslation)
 2 lines text mode
 
+I got a key from the fish's mouth!
 
 
 
@@ -2919,6 +2920,8 @@ only two lines are available
 
 
 
+2-line text
+2-line text
 
 
 
@@ -2928,14 +2931,11 @@ only two lines are available
 
 
 
+trying to emulate the verbal nuance in the original, but it sounds like mario, lol.
 
-
-
-
-
-
-piratey enough?
-
+I can't use it because my friends are nearby. Call them with the whistle or press the R button. (2 lines)
+two- lines only
+2 lines
 
 
 
