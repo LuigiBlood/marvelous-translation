@@ -13,6 +13,8 @@ tashi
   - Must be in `./tools/bass`.
 - Lunar Compress: http://fusoya.eludevisibility.org/lc/index.html
   - Must be in `./tools/lc`.
+- SuperFamiconv: https://github.com/Optiroc/SuperFamiconv
+  - Must be in `./tools/conv`.
 - Put the original ROM as `./roms/Marvelous_JP.sfc`
 - TransPutt and PuttScript
   - Must be in `./tools/putt`.
@@ -20,9 +22,15 @@ tashi
 
 
 ## Command explanation:
+- `extract_jp` 
+  - Extracts and decompresses every compressed data from the original ROM with Lunar Compress.
+- `_0build_en_gfx` 
+  - Converts PNG images into SNES format and inserts them into files.
 - `_0build_en_script` 
   - Copies script files from TransPutt and builds script binaries.
 - `_1lz_en.bat`
-  - Compresses graphics with Lunar Compress
+  - Compresses graphics with Lunar Compress.
 - `_2build_en.bat`
   - Build the ROM.
+- `_2build_en_pal.bat`
+  - Build the ROM with PAL conversion code.

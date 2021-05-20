@@ -15,6 +15,7 @@
 0x4A - Search - Ch3: Management Office Sign Tilemap (LZ)
 
 0x4D - Search - Various: Chore list, Camp Tips, Benson's Grave Tilemap (LZ)
+0x4E - Search - Various: Camp Moves... Tilemap (LZ)
 
 0x53 - Search - Ch1: Gina Ransom Letter Graphics (LZ)
 

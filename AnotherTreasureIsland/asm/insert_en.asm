@@ -100,6 +100,11 @@ map_ch1_misc:	//Chore list, Camp Tips, Benson`s Grave...
 	insert "../gfx/en/lz/lz_chorelistmisc_map.bin.lz"
 	bound_check($12E9BA)
 
+seekFile($12E9BA)
+map_ch1_misc2:	//Camp Moves...
+	insert "../gfx/en_new/lz/lz_campmovesmisc_map.bin.lz"
+	bound_check($12F278)
+
 seekFile($132FC4)
 gfx_ch1_gina_ransom:
 	insert "../gfx/en/lz/lz_gina_ransom_gfx.bin.lz"
@@ -114,7 +119,7 @@ gfx_ch1_camptips:
 	bound_check($145F3B)
 seekFile($14A478)
 gfx_ch1_controls:
-	insert "../gfx/en/lz/lz_controls_gfx.bin.lz"
+	insert "../gfx/en_new/lz/lz_controls_gfx.bin.lz"
 	bound_check($14B628)
 seekFile($21BBD0)	//$14B628
 gfx_ch1_ship_notes:
