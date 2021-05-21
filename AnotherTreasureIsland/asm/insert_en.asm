@@ -126,7 +126,8 @@ gfx_ch1_controls:
 	bound_check($14B628)
 seekFile($21BBD0)	//$14B628
 gfx_ch1_ship_notes:
-	insert "../gfx/en/lz/lz_ship_notes_gfx.bin.lz"
+	//insert "../gfx/en/lz/lz_ship_notes_gfx.bin.lz"
+	insert "../gfx/en_new/lz/64.bin.lz"
 	//bound_check($14CEBF)
 
 seekFile($2BB96A)

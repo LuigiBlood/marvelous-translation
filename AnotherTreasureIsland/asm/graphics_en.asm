@@ -13,7 +13,7 @@ insert "../gfx/jp/4E.bin"
 origin 0x1000
 insert "../gfx/en_new/tmp/camp_moves.map"
 
-//5F - Graphics - Camp Tips & Monkey
+//5F - Graphics - Camp Tips & Mouse
 output "../gfx/en_new/tmp/5F.bin", create
 insert "../gfx/jp/5F.bin"
 origin 0
@@ -24,3 +24,9 @@ output "../gfx/en_new/tmp/63.bin", create
 insert "../gfx/jp/63.bin"
 origin 0
 insert "../gfx/en_new/tmp/camp_moves.gfx"
+
+//64 - Graphics - Ship Notes
+output "../gfx/en_new/tmp/64.bin", create
+insert "../gfx/jp/64.bin"
+origin 0
+insert "../gfx/en_new/tmp/ship_note_tiles.gfx"
