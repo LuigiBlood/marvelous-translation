@@ -3,7 +3,7 @@ arch snes.cpu
 
 include "./asm/macros.asm"
 
-output "Marvelous_EN_LB_PAL.sfc", create
+output "./roms/Marvelous_EN_LB_PAL.sfc", create
 seekFile(0)
 fill $400000,$FF	//Extend to 4MB
 seekFile(0)
@@ -24,7 +24,7 @@ db $00		//Expansion FLASH
 db $00		//Expansion RAM
 db $00		//Special Version
 db $00
-db "MARVELOUS ENG FAN    "
+db "MARVELOUS ENG FAN PAL"
 db $23		//SuperMMC
 db $35		//ROM+SA1+RAM+Battery
 db $0C		//4MB ROM

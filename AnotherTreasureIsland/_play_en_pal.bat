@@ -1,1 +1,1 @@
-".\tools\bsnes-plus\bsnes-performance" Marvelous_EN_LB_PAL.sfc
+".\tools\bsnes-plus\bsnes-performance" ".\roms\Marvelous_EN_LB_PAL.sfc"

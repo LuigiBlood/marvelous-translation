@@ -3,7 +3,7 @@ arch snes.cpu
 
 include "./asm/macros.asm"
 
-output "Marvelous_EN_LB.sfc", create
+output "./roms/Marvelous_EN_LB.sfc", create
 seekFile(0)
 fill $400000,$FF	//Extend to 4MB
 seekFile(0)

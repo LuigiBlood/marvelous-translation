@@ -1,1 +1,1 @@
-".\tools\bsnes-plus\bsnes-performance" Marvelous_JP.sfc
+".\tools\bsnes-plus\bsnes-performance" ".\roms\Marvelous_JP.sfc"
