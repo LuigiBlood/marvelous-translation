@@ -1,39 +1,252 @@
-0x18 - Team Name Screen Tilemap (LZ)
-
-0x35 - Title Graphics (LZ)
-
-0x38 - Title Tilemap (LZ)
-0x39 - Intro Graphics 1 (LZ)
-0x3A - Intro Graphics 2 (LZ)
-0x3B - ??? (LZ?)
-0x3C - Intro Tilemap (LZ)
-0x3D - Intro Palette
-
-0x3E - Credits Graphics (LZ)
-0x3F - Credits Tilemap (LZ)
-
-0x4A - Search - Ch3: Management Office Sign Tilemap (LZ)
-
-0x4D - Search - Various: Chore list, Camp Tips, Benson's Grave Tilemap (LZ)
-0x4E - Search - Various: Camp Moves... Tilemap (LZ)
-
-0x53 - Search - Ch1: Gina Ransom Letter Graphics (LZ)
-
-0x56 - Search - Ch3: Management Office Sign Graphics (LZ)
-
-0x5A - Search - Ch1: Patchies Note Stuck Graphics (LZ)
-
-0x5E - Search - Ch2: Benson's Grave Graphics (LZ)
-0x5F - Search - Ch1: Camp Tips Graphics (LZ)
-0x60 - Search - Ch2: Monster Poster Graphics (LZ)
-
-0x62 - Search - Ch2: Chore List Graphics (LZ)
-0x63 - Search - Ch1: Controls Graphics (LZ)
-0x64 - Search - Ch1: Ship Wall Paper Graphics (LZ)
-
-0x69 - Search - Ch5: Colonel Note Graphics 2 (LZ)
-
-0xDA - Title Screen - Nintendo Copyright Graphics (LZ)
-0xDB - Title Screen - Subtitle Graphics (LZ)
-
-0xF8 - Search - Ch5: Colonel Note Graphics 1 (LZ)
+0x00 - 0A5600 -    - Map Data
+0x01 - 0CC6E0 - LZ - 
+0x02 - 0CE171 - LZ - 
+0x03 - 0CFBC0 - LZ - 
+0x04 - 0D17F8 - LZ - 
+0x05 - 0D33B7 - LZ - 
+0x06 - 0D4DC9 - LZ - 
+0x07 - 0D6764 - LZ - 
+0x08 - 0D7DAD - LZ - Graphics	- Tileset
+0x09 - 0D97D4 - LZ - Graphics	- Tileset (Final Dungeon?)
+0x0A - 0DB386 - LZ - 
+0x0B - 0DE356 - LZ - Graphics	- Tileset
+0x0C - 0E1B9A - LZ - 
+0x0D - 0E1C2A - LZ - 
+0x0E - 0E1CA5 - LZ - 
+0x0F - 0E1D23 - LZ - 
+0x10 - 0E1DA1 - LZ - 
+0x11 - 0E1E1F - LZ - 
+0x12 - 0E1E97 - LZ - 
+0x13 - 0E1F13 - LZ - 
+0x14 - 0E1F90 - LZ - 
+0x15 - 0E2010 - LZ - 
+0x16 - 0E2090 - LZ - Graphics	- Tree Menu Background
+0x17 - 0E2712 - LZ - 
+0x18 - 0E286B - LZ - Tilemap	- Team Name Menu
+0x19 - 0E2E23 - LZ - 
+0x1A - 0E4667 - LZ - 
+0x1B - 0E6C94 - LZ - 
+0x1C - 0E8E11 - LZ - 
+0x1D - 0EBF3C - LZ - 
+0x1E - 0ED4E0 - LZ - 
+0x1F - 0EFD4B - LZ - 
+0x20 - 0F15AC - LZ - 
+0x21 - 0F4465 - LZ - 
+0x22 - 0F5E11 - LZ - 
+0x23 - 0F7583 - LZ - 
+0x24 - 0FA479 - LZ - 
+0x25 - 0FB04E - LZ - 
+0x26 - 0FC19D - LZ - 
+0x27 - 10584E - LZ - 
+0x28 - 1067CA - LZ - 
+0x29 - 1098F9 - LZ - 
+0x2A - 10CDD5 - LZ - 
+0x2B - 11016F - LZ - 
+0x2C - 112E3D - LZ - 
+0x2D - 115780 - LZ - 
+0x2E - 1166D5 - LZ - 
+0x2F - 11A0D7 - LZ - Graphics	- Intro Clouds (1)
+0x30 - 11B8B1 - LZ - Graphics	- Intro Clouds (2)
+0x31 - 11CFDE -    - Tilemap	- ?
+0x32 - 11D822 -    - Tilemap	- ?
+0x33 - 11E0E7 - LZ - Graphics	- Title Background (1)
+0x34 - 11FB8C - LZ - Graphics	- Title Background (2)
+0x35 - 121964 - LZ - Graphics	- Title Logo
+0x36 - 122F5E - LZ - 
+0x37 - 1236B8 - LZ - 
+0x38 - 123726 - LZ - Tilemap	- Title
+0x39 - 123951 - LZ - Graphics	- Intro Text (1)
+0x3A - 1246DE - LZ - Graphics	- Intro Text (2)
+0x3B - 12550E - LZ - 
+0x3C - 1257F6 - LZ - Tilemap	- Intro
+0x3D - 125ADD - LZ - Palette	- Intro
+0x3E - 125BB6 - LZ - Graphics	- Credits
+0x3F - 12735C - LZ - Tilemap	- Credits
+0x40 - 1276AE - LZ - 
+0x41 - 127F1B - LZ - 
+0x42 - 128890 - LZ - 
+0x43 - 128EF0 - LZ - 
+0x44 - 1297A8 - LZ - 
+0x45 - 129A23 - LZ - 
+0x46 - 129DEC - LZ - 
+0x47 - 12A7C3 - LZ - 
+//Search Mode - Tilemaps
+0x48 - 12A9D0 - LZ - 
+0x49 - 12B55D - LZ - 
+0x4A - 12BDA4 - LZ - Tilemap	- Mgmt Office Sign...
+0x4B - 12C7C8 - LZ - 
+0x4C - 12D41E - LZ - 
+0x4D - 12DEB0 - LZ - Tilemap	- Chore List, Camp Tips, Benson's Grave...
+0x4E - 12E9BA - LZ - Tilemap	- Camp Moves...
+0x4F - 12F278 - LZ - 
+0x50 - 12FBDA - LZ - Tilemap	- Final Dungeon Maps
+//Search Mode - Graphics
+0x51 - 130320 - LZ - 
+0x52 - 13180D - LZ - 
+0x53 - 132FC4 - LZ - Graphics	- Gina Ransom Letter & Ant Buster
+0x54 - 134CA1 - LZ - 
+0x55 - 135932 - LZ - 
+0x56 - 136BFE - LZ - Graphics	- Building & Mgmt Office Sign
+0x57 - 1384BF - LZ - 
+0x58 - 139A26 - LZ - 
+0x59 - 13B07D - LZ - 
+0x5A - 13C578 - LZ - Graphics	- Patchies Note Stuck & Camp Map
+0x5B - 13DF2F - LZ - 
+0x5C - 13F825 - LZ - 
+0x5D - 1416B6 - LZ - 
+0x5E - 142CE4 - LZ - Graphics	- ??? & Benson's Grave Note
+0x5F - 1447AE - LZ - Graphics	- Camp Tips & Mouse
+0x60 - 145F3B - LZ - Graphics	- Gina & Monster Poster
+0x61 - 1476D5 - LZ - 
+0x62 - 1490F9 - LZ - Graphics	- Chore List & Fake Monkey
+0x63 - 14A478 - LZ - Graphics	- Controls & Ship Number Pad
+0x64 - 14B628 - LZ - Graphics	- Ship Notes & ???
+0x65 - 14CEBF - LZ - 
+0x66 - 14DD65 - LZ - 
+0x67 - 14EF06 - LZ - 
+0x68 - 1501EA - LZ - 
+0x69 - 151D31 - LZ - Graphics	- Colonel's Note & Final Dungeon Map [Causes Problems on decompression!]
+0x6A - 153005 - LZ - 
+0x6B - 1537BF - LZ - 
+0x6C - 1537C4 - LZ - 
+0x6D - 1537C9 - LZ - 
+0x6E - 154FF5 - LZ - 
+0x6F - 1568AE - LZ - 
+0x70 - 157FFC - LZ - 
+0x71 - 159A86 - LZ - 
+0x72 - 15A9BE - LZ - 
+0x73 - 15BEDE - LZ - 
+0x74 - 15D258 - LZ - 
+0x75 - 15DA25 - LZ - 
+0x76 - 15F449 - LZ - 
+0x77 - 160D60 - LZ - 
+0x78 - 1627A3 - LZ - 
+0x79 - 1641C3 - LZ - 
+0x7A - 165B2A - LZ - 
+0x7B - 16754B - LZ - 
+0x7C - 167698 - LZ - 
+0x7D - 16769D - LZ - 
+0x7E - 168FE1 - LZ - 
+0x7F - 16AA84 - LZ - 
+0x80 - 16C6D1 - LZ - 
+0x81 - 16D8AF - LZ - 
+0x82 - 16F0F7 - LZ - 
+0x83 - 170AFA - LZ - 
+0x84 - 171F4D - LZ - 
+0x85 - 1736B8 - LZ - 
+0x86 - 175102 - LZ - 
+0x87 - 176606 - LZ - 
+0x88 - 17660B - LZ - 
+0x89 - 176610 - LZ - 
+0x8A - 17794B - LZ - 
+0x8B - 17910F - LZ - 
+0x8C - 17A0C9 - LZ - 
+0x8D - 17BA04 - LZ - 
+0x8E - 17D3EE - LZ - 
+0x8F - 17EF95 - LZ - 
+0x90 - 1808AD - LZ - 
+0x91 - 1822C7 - LZ - 
+0x92 - 18342C - LZ - 
+0x93 - 184014 - LZ - 
+0x94 - 184E8D - LZ - 
+0x95 - 184E92 - LZ - 
+0x96 - 18672E - LZ - 
+0x97 - 1881F7 - LZ - 
+0x98 - 189CC3 - LZ - 
+0x99 - 18B6FD - LZ - 
+0x9A - 18CE2B - LZ - 
+0x9B - 18E3DF - LZ - 
+0x9C - 18FD4C - LZ - 
+0x9D - 191666 - LZ - 
+0x9E - 192EA3 - LZ - 
+0x9F - 1947A5 - LZ - 
+0xA0 - 195EC4 - LZ - 
+0xA1 - 19799A - LZ - 
+0xA2 - 1995CE - LZ - 
+0xA3 - 1995D3 - LZ - 
+0xA4 - 1995D8 - LZ - 
+0xA5 - 1995DD - LZ - 
+0xA6 - 19B1F0 - LZ - 
+0xA7 - 19CD9B - LZ - 
+0xA8 - 19E835 - LZ - 
+0xA9 - 1A0389 - LZ - 
+0xAA - 1A1DDB - LZ - 
+0xAB - 1A395C - LZ - 
+0xAC - 1A54DC - LZ - 
+0xAD - 1A6DC5 - LZ - 
+0xAE - 1A8011 - LZ - 
+0xAF - 1A8016 - LZ - 
+0xB0 - 1A801B - LZ - 
+0xB1 - 1A8020 - LZ - 
+0xB2 - 1A9463 - LZ - 
+0xB3 - 1AA7D7 - LZ - 
+0xB4 - 1AC1C7 - LZ - 
+0xB5 - 1ADA4C - LZ - 
+0xB6 - 1AF18B - LZ - 
+0xB7 - 1B0ECC - LZ - 
+0xB8 - 1B1B6D - LZ - 
+//Sprites
+0xB9 - 1B1B72 - LZ - 
+0xBA - 1B3383 - LZ - 
+0xBB - 1B4938 - LZ - 
+0xBC - 1B5F7F - LZ - 
+0xBD - 1B7558 - LZ - 
+0xBE - 1B88D3 - LZ - 
+0xBF - 1B99E7 - LZ - 
+0xC0 - 1BAB74 - LZ - 
+0xC1 - 1BBE1D - LZ - 
+0xC2 - 1BD207 - LZ - 
+0xC3 - 1BE4E2 - LZ - 
+0xC4 - 1BF601 - LZ - 
+0xC5 - 1C05E5 - LZ - 
+0xC6 - 1C16F5 - LZ - 
+0xC7 - 1C2D06 - LZ - 
+0xC8 - 1C3D9A - LZ - 
+0xC9 - 1C4E7A - LZ - 
+0xCA - 1C60F5 - LZ - 
+0xCB - 1C6E38 - LZ - 
+0xCC - 1C8331 - LZ - 
+0xCD - 1C9BC0 - LZ - 
+0xCE - 1CB3C1 - LZ - 
+0xCF - 1CC851 - LZ - 
+0xD0 - 1CDD2B - LZ - 
+0xD1 - 1CF08E - LZ - 
+0xD2 - 1D024F - LZ - 
+0xD3 - 1D14B1 - LZ - 
+0xD4 - 1D2B38 - LZ - 
+0xD5 - 1D3881 - LZ - 
+0xD6 - 1D4A16 - LZ - 
+0xD7 - 1D5DBD - LZ - 
+0xD8 - 1D73D8 - LZ - 
+0xD9 - 1D860C - LZ - 
+0xDA - 1D948F - LZ - Graphics	- Various Sprites & Nintendo Copyright
+0xDB - 1DA5ED - LZ - Graphics	- Subtitle (Another Treasure Island)
+0xDC - 1DA9B5 - LZ - 
+0xDD - 1DA9BA - LZ - 
+0xDE - 1DC09A - LZ - 
+0xDF - 1DD8AF - LZ - 
+0xE0 - 1DF294 - LZ - 
+0xE1 - 1E098F - LZ - 
+0xE2 - 1E204A - LZ - 
+0xE3 - 1E39C5 - LZ - 
+0xE4 - 1E52CF - LZ - 
+0xE5 - 1E6BFC - LZ - 
+0xE6 - 1E830E - LZ - 
+0xE7 - 1E9105 - LZ - 
+0xE8 - 1EA1BE - LZ - 
+0xE9 - 1EAF74 - LZ - 
+0xEA - 1EC8C0 - LZ - 
+0xEB - 1EDF2C - LZ - 
+0xEC - 1EF4F4 - LZ - 
+0xED - 1F0979 - LZ - 
+0xEE - 1F1B56 - LZ - 
+0xEF - 1F2C83 - LZ - 
+0xF0 - 1F4506 - LZ - 
+0xF1 - 1F5C84 - LZ - 
+0xF2 - 1F721D - LZ - 
+0xF3 - 1F8786 - LZ - 
+0xF4 - 1F9CD2 - LZ - 
+0xF5 - 1FB1F8 - LZ - 
+0xF6 - 1FC500 - LZ - 
+0xF7 - 1FD627 - LZ - 
+0xF8 - 1FE99C - LZ - Graphics	- Colonel's Note and Various Stuff
