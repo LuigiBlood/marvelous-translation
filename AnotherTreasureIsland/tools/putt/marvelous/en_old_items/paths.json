@@ -1,0 +1,8 @@
+{"name":"en_old_items",
+"fontPath":"..\\..\\text\\en\\font.bin",
+"kanjiPath":"..\\..\\text\\en\\kanji.bin",
+"iconsPath":"..\\..\\text\\en\\icons.bin",
+"widthPath":"..\\..\\text\\en\\width.tbl",
+"tablePath":"..\\..\\text\\en\\table.tbl",
+"scriptPath":"..\\..\\text\\en\\items.txt",
+"notesPath":"..\\..\\text\\en\\items_notes.txt"}

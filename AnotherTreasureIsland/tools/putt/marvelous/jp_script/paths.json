@@ -1,0 +1,8 @@
+{"name":"jp_script",
+"fontPath":"..\\..\\text\\jp\\font.bin",
+"kanjiPath":"..\\..\\text\\jp\\kanji.bin",
+"iconsPath":"..\\..\\text\\jp\\icons.bin",
+"widthPath":"..\\..\\text\\jp\\width.tbl",
+"tablePath":"..\\..\\text\\jp\\table.tbl",
+"scriptPath":"..\\..\\text\\jp\\script.txt",
+"notesPath":"..\\..\\text\\jp\\script_notes.txt"}

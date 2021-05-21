@@ -1,0 +1,8 @@
+{"name":"jp_items",
+"fontPath":"..\\..\\text\\jp\\font.bin",
+"kanjiPath":"..\\..\\text\\jp\\kanji.bin",
+"iconsPath":"..\\..\\text\\jp\\icons.bin",
+"widthPath":"..\\..\\text\\jp\\width.tbl",
+"tablePath":"..\\..\\text\\jp\\table.tbl",
+"scriptPath":"..\\..\\text\\jp\\items.txt",
+"notesPath":"..\\..\\text\\jp\\items_notes.txt"}
