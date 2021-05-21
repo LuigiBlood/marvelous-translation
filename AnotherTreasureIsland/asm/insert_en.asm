@@ -97,12 +97,12 @@ seekFile($2C1B1E)	//Change place to entry number
 //-Chapter 1
 seekFile($12DEB0)
 map_ch1_misc:	//Chore list, Camp Tips, Benson`s Grave...
-	insert "../gfx/en/lz/lz_chorelistmisc_map.bin.lz"
+	insert "../gfx/en_new/lz/4D.bin.lz"
 	bound_check($12E9BA)
 
 seekFile($12E9BA)
 map_ch1_misc2:	//Camp Moves...
-	insert "../gfx/en_new/lz/lz_campmovesmisc_map.bin.lz"
+	insert "../gfx/en_new/lz/4E.bin.lz"
 	bound_check($12F278)
 
 seekFile($132FC4)
@@ -113,13 +113,16 @@ seekFile($13C578)
 gfx_ch1_patches_stuck:
 	insert "../gfx/en/lz/lz_patchy_note_gfx.bin.lz"
 	bound_check($13DF2F)
-seekFile($1447AE)
-gfx_ch1_camptips:
-	insert "../gfx/en/lz/lz_camp_tips_gfx.bin.lz"
-	bound_check($145F3B)
+//seekFile($1447AE)
+//gfx_ch1_camptips:
+//	insert "../gfx/en_new/lz/5F.bin.lz"
+//	bound_check($145F3B)
+seekFile($2CAFE0)
+pal_ch1_camptips:
+	insert "../gfx/en_new/tmp/camp_tips.pal"
 seekFile($14A478)
 gfx_ch1_controls:
-	insert "../gfx/en_new/lz/lz_controls_gfx.bin.lz"
+	insert "../gfx/en_new/lz/63.bin.lz"
 	bound_check($14B628)
 seekFile($21BBD0)	//$14B628
 gfx_ch1_ship_notes:
@@ -271,6 +274,8 @@ seekAddr($8DF169)
 
 //Script
 seekFile($300000)
+gfx_ch1_camptips:
+	insert "../gfx/en_new/lz/5F.bin.lz"
 text_script:
 	insert "../text/en_new/script.bin"
 	include "../text/en_new/menu.asm"
