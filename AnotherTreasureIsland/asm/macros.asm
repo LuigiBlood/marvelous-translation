@@ -65,3 +65,9 @@ macro bound_check(n) {
 		error "ERROR, OVERWRITING ANOTHER FILE"
 	}
 }
+
+macro size_check(b, n) {
+	if pc() > ({b} + {n}) {
+		error "ERROR, OVERSIZED"
+	}
+}
