@@ -54,23 +54,6 @@ seekFile($2C1B1E)	//Change place to entry number
 	sta $7F00AC
 
 
-//Palette Changes
-seekFile($125ADD)
-pal_intro:
-	insert "../gfx/en/intro_pal.bin"
-	bound_check($125BB6)
-
-seekFile($2CAF40)
-pal_ch1_patchiesnote:
-	insert "../gfx/en_new/tmp/patchies_stuck_note.pal"
-seekFile($2CAFA0)
-pal_ch1_ginaransomletter:
-	insert "../gfx/en_new/tmp/gina_ransom_letter.pal"
-seekFile($2CAFE0)
-pal_ch1_camptips:
-	insert "../gfx/en_new/tmp/camp_tips.pal"
-
-
 seekFile($2BB96A)
 map_ch1_ship_note_13:
 	dw $01AC, $01AD, $01AC, $01AE, $01AF, $01B4, $01B1
@@ -163,6 +146,22 @@ seekAddr($8DF169)
 	nop; nop; nop; nop; nop
 	nop; nop; nop; nop; nop
 	nop
+
+//Palette Changes
+seekFile($125ADD)
+pal_intro:
+	insert "../gfx/en/intro_pal.bin"
+	bound_check($125BB6)
+
+seekFile($2CAF40)
+pal_ch1_patchiesnote:
+	insert "../gfx/en_new/tmp/patchies_stuck_note.pal"
+seekFile($2CAFA0)
+pal_ch1_ginaransomletter:
+	insert "../gfx/en_new/tmp/gina_ransom_letter.pal"
+seekFile($2CAFE0)
+pal_ch1_camptips:
+	insert "../gfx/en_new/tmp/camp_tips.pal"
 
 //Free Space (1)
 seekFile($21B400)
