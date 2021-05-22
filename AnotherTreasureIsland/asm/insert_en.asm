@@ -12,49 +12,19 @@ seekFile($2AC000)
 seekFile($270000)
 	insert "../text/en_new/kanji.bin"
 
-	
-//-Title Screen
-
-//--Title
-seekFile($121964)
-gfx_title:
-	insert "../gfx/en/lz/lz_title_gfx.bin.lz"
-	bound_check($122F5E)
-seekFile($123726)
-map_title:
-	insert "../gfx/en/lz/lz_title_map.bin.lz"
-	bound_check($123951)
-
-//--Nintendo Copyright
-seekFile($1D948F)
-gfx_title_nintendo:
-	insert "../gfx/en_new/lz/lz_nintendo_gfx.bin.lz"
-	bound_check($1DA5ED)
-
-//--Subtitle
-seekFile($1DA5ED)
-gfx_title_sub:
-	insert "../gfx/en_new/lz/lz_subtitle_gfx.bin.lz"
-	bound_check($1DA9B5)
-
 //--Intro
 seekFile($123951)
-gfx_intro1:
+gfx_intro1:				//39 - $123951
 	insert "../gfx/en/lz/lz_intro_gfx1.bin.lz"
 	bound_check($1246DE)
 seekFile($1246DE)
-gfx_intro2:
+gfx_intro2:				//3A - $1246DE
 	insert "../gfx/en/lz/lz_intro_gfx2.bin.lz"
 	bound_check($12550E)
-seekFile($21B9AC)	//$12550E
-map_intro:
-	insert "../gfx/en/lz/lz_intro_map.bin.lz"
-	//bound_check($1257F6)
 seekFile($125ADD)
 pal_intro:
 	insert "../gfx/en/intro_pal.bin"
 	bound_check($125BB6)
-
 
 //-Menu
 
@@ -64,16 +34,9 @@ seekFile($2B6000)
 
 //--Misc HUD
 seekFile($268000)
-	//insert "../gfx/en_new/hud_gfx.bin"
 	insert "../text/en_new/icons.bin"	//TransPutt Integration
 
-//--Team Name Screen
-seekFile($0E286B)
-map_teamname:
-	insert "../gfx/en_new/lz/lz_teamname_map.bin.lz"
-	bound_check($0E2E23)
-
-//--Journal Menu Tilemap Stuff (???)
+//--Journal Menu Tilemap Hacks
 seekFile($2C09B0)	//SELECTでゲーム画面た & Move & Select Text Hack
 map_journal1:
 	insert "../gfx/en_new/journal1_map.bin"
@@ -95,40 +58,9 @@ seekFile($2C1B1E)	//Change place to entry number
 
 
 //-Chapter 1
-seekFile($12DEB0)
-map_ch1_misc:	//Chore list, Camp Tips, Benson`s Grave...
-	insert "../gfx/en_new/lz/4D.bin.lz"
-	bound_check($12E9BA)
-
-seekFile($12E9BA)
-map_ch1_misc2:	//Camp Moves...
-	insert "../gfx/en_new/lz/4E.bin.lz"
-	bound_check($12F278)
-
-seekFile($132FC4)
-gfx_ch1_gina_ransom:
-	insert "../gfx/en/lz/lz_gina_ransom_gfx.bin.lz"
-	bound_check($134CA1)
-seekFile($13C578)
-gfx_ch1_patches_stuck:
-	insert "../gfx/en/lz/lz_patchy_note_gfx.bin.lz"
-	bound_check($13DF2F)
-//seekFile($1447AE)
-//gfx_ch1_camptips:
-//	insert "../gfx/en_new/lz/5F.bin.lz"
-//	bound_check($145F3B)
 seekFile($2CAFE0)
 pal_ch1_camptips:
 	insert "../gfx/en_new/tmp/camp_tips.pal"
-seekFile($14A478)
-gfx_ch1_controls:
-	insert "../gfx/en_new/lz/63.bin.lz"
-	bound_check($14B628)
-seekFile($21BBD0)	//$14B628
-gfx_ch1_ship_notes:
-	//insert "../gfx/en/lz/lz_ship_notes_gfx.bin.lz"
-	insert "../gfx/en_new/lz/64.bin.lz"
-	//bound_check($14CEBF)
 
 seekFile($2BB96A)
 map_ch1_ship_note_13:
@@ -156,19 +88,6 @@ map_ch1_ship_note_2:
 
 
 //-Chapter 2
-seekFile($142CE4)
-gfx_ch2_bensongrave:
-	insert "../gfx/en/lz/lz_bensongrave_gfx.bin.lz"
-	bound_check($1447AE)
-seekFile($145F3B)
-gfx_ch2_monster:
-	insert "../gfx/en/lz/lz_monsterposter_gfx.bin.lz"
-	bound_check($1476D5)
-seekFile($1490F9)
-gfx_ch2_chorelist:
-	insert "../gfx/en/lz/lz_chorelist_gfx.bin.lz"
-	bound_check($14A478)
-
 seekFile($2BB55F)
 map_ch2_chorelist_1:
 	insert "../gfx/en/chorelist_map1_edit.bin"
@@ -176,43 +95,6 @@ seekFile($2D2060)
 map_ch2_chorelist_2:
 	insert "../gfx/en/chorelist_map2_edit.bin"
 
-
-//-Chapter 3
-seekFile($12BDA4)
-map_ch3_sign:
-	insert "../gfx/en/lz/lz_officesign_map.bin.lz"
-	bound_check($12C7C8)
-seekFile($136BFE)
-gfx_ch3_sign:
-	insert "../gfx/en/lz/lz_officesign_gfx.bin.lz"
-	bound_check($1384BF)
-
-
-//-Chapter 4
-
-
-//-Chapter 5
-seekFile($1FE99C)
-gfx_ch5_colonel_note1:
-	insert "../gfx/en/lz/lz_colonel_note_gfx1.bin.lz"
-	bound_check($200000)
-seekFile($151D31)
-gfx_ch5_colonel_note2:
-	insert "../gfx/en/lz/lz_colonel_note_gfx2.bin.lz"
-	bound_check($153005)
-
-
-//-Misc
-
-//--Credits
-seekFile($125BB6)
-gfx_credits:
-	insert "../gfx/en/lz/lz_credits_gfx.bin.lz"
-	bound_check($12735C)
-seekFile($21B400)	//$12735C
-map_credits:
-	insert "../gfx/en/lz/lz_credits_map.bin.lz"
-	//bound_check($1276AE)
 
 //--Large Messages
 //Monkey Screech, "HEY!", "That's Enough / Cut it OUT!"
@@ -273,10 +155,74 @@ seekAddr($8DF169)
 	nop; nop; nop; nop; nop
 	nop
 
-//Script
-seekFile($300000)
-gfx_ch1_camptips:
+//Free Space (1)
+seekFile($21B400)
+free_space1:
+
+map_teamname:			//18 - $0E286B
+	insert "../gfx/en_new/lz/lz_teamname_map.bin.lz"
+
+gfx_title:				//35 - $121964
+	insert "../gfx/en/lz/lz_title_gfx.bin.lz"
+
+map_title:				//38 - $123726
+	insert "../gfx/en/lz/lz_title_map.bin.lz"
+
+map_intro:				//3C - $1257F6
+	insert "../gfx/en/lz/lz_intro_map.bin.lz"
+
+gfx_credits:			//3E - $125BB6
+	insert "../gfx/en/lz/lz_credits_gfx.bin.lz"
+map_credits:			//3F - $12735C
+	insert "../gfx/en/lz/lz_credits_map.bin.lz"
+
+map_ch3_sign:			//4A - $12BDA4
+	insert "../gfx/en/lz/lz_officesign_map.bin.lz"
+
+map_ch1_misc:			//4D - $12DEB0
+	insert "../gfx/en_new/lz/4D.bin.lz"
+map_ch1_misc2:			//4E - $12E9BA
+	insert "../gfx/en_new/lz/4E.bin.lz"
+
+gfx_ch1_gina_ransom:	//53 - $132FC4
+	insert "../gfx/en/lz/lz_gina_ransom_gfx.bin.lz"
+
+gfx_ch3_sign:			//56 - $136BFE
+	insert "../gfx/en/lz/lz_officesign_gfx.bin.lz"
+
+gfx_ch1_patches_stuck:	//5A - $13C578
+	insert "../gfx/en/lz/lz_patchy_note_gfx.bin.lz"
+
+gfx_ch2_bensongrave:	//5E - $142CE4
+	insert "../gfx/en/lz/lz_bensongrave_gfx.bin.lz"
+gfx_ch1_camptips:		//5F - $1447AE
 	insert "../gfx/en_new/lz/5F.bin.lz"
+gfx_ch2_monster:		//60 - $145F3B
+	insert "../gfx/en/lz/lz_monsterposter_gfx.bin.lz"
+
+gfx_ch2_chorelist:		//62 - $1490F9
+	insert "../gfx/en/lz/lz_chorelist_gfx.bin.lz"
+gfx_ch1_controls:		//63 - $14A478
+	insert "../gfx/en_new/lz/63.bin.lz"
+gfx_ch1_ship_notes:		//64 - $14B628
+	insert "../gfx/en_new/lz/64.bin.lz"
+
+gfx_ch5_colonel_note2:	//69 - $151D31
+	insert "../gfx/en/lz/lz_colonel_note_gfx2.bin.lz"
+
+gfx_title_nintendo:		//DA - $1D948F
+	insert "../gfx/en_new/lz/lz_nintendo_gfx.bin.lz"
+gfx_title_sub:			//DB - $1DA5ED
+	insert "../gfx/en_new/lz/lz_subtitle_gfx.bin.lz"
+
+gfx_ch5_colonel_note1:	//F8 - $1FE99C
+	insert "../gfx/en/lz/lz_colonel_note_gfx1.bin.lz"
+
+
+size_check(free_space1, 0x20B9D)
+
+//Free Space (2) & Script
+seekFile($300000)
 text_script:
 	insert "../text/en_new/script.bin"
 	include "../text/en_new/menu.asm"
