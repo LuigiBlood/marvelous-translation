@@ -13859,7 +13859,7 @@ Okay, now the hole is plugged!
 [SQMrk]Well, that felt weird!!
 [en2]
 
-..!...[team]... Team...?
+.[Space4].[Space4].[Space4]![Space4].[Space4].[Space4].[team]... Team...?
 [nl2]It's you, [team] Team!!
 [en2]
 
@@ -13886,7 +13886,7 @@ It's shaking too much to use
 [SImprtnt]The plant... It turned into you!!
 [en2]
 
-[SP$012A]CA-PACITY. O-VER-LOAD. O-VER-LOAD.
+[SP$012A]O-VER-LOAD. O-VER-LOAD.
 [nl2]ON-LY[Three] PE-OPLE. MAX-IMUM.
 [en2]
 
@@ -13898,8 +13898,8 @@ It's shaking too much to use
 [SP$0204]Dear~! What's wrong~?!
 [en2]
 
-[F2]Got a Doll![np] Pity, someone must have
-[nl2]dropped it. But who?
+[F2]Got a Doll! Pity, someone must
+[nl2]have dropped it. But who?
 [en2]
 
 [F2]We got a Cave Key![np]
@@ -13910,7 +13910,7 @@ It's shaking too much to use
 [nl2]Shall we spray some plants with it?
 [en1]
 
-[SP$0204]Eek-! A mouse! There's a mouse!
+[SP$0204]Eeek-! A m-mouse! There's a mouse!
 [nl2]...S-save me!!
 [en2]
 
