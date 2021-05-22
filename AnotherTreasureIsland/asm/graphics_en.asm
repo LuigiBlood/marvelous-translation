@@ -6,6 +6,11 @@ output "../gfx/en_new/tmp/48.bin", create
 insert "../gfx/jp/48.bin"
 origin 0x1800; insert "../gfx/en_new/tmp/gina_ransom_letter.map"
 
+//4B - Tilemap - Patchies' Note...
+output "../gfx/en_new/tmp/4B.bin", create
+insert "../gfx/jp/4B.bin"
+origin 0x1800; insert "../gfx/en_new/tmp/patchies_stuck_note.map"
+
 //4D - Tilemap - Camp Tips, Chores List, Benson's Grave...
 output "../gfx/en_new/tmp/4D.bin", create
 //insert "../gfx/jp/4D.bin"
@@ -23,6 +28,10 @@ output "../gfx/en_new/tmp/53.bin", create
 //insert "../gfx/jp/53.bin"
 insert "../gfx/en/lz_gina_ransom_gfx.bin"
 origin 0x0000; insert "../gfx/en_new/tmp/gina_ransom_letter.gfx"
+
+//5A - Graphics - Patchies' Note & Island Map
+output "../gfx/en_new/tmp/5A.bin", create
+origin 0x0000; insert "../gfx/en_new/tmp/patchies_stuck_note.gfx"
 
 //5F - Graphics - Camp Tips & Mouse
 output "../gfx/en_new/tmp/5F.bin", create

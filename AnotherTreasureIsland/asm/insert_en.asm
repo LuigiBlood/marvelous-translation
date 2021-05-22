@@ -60,6 +60,9 @@ pal_intro:
 	insert "../gfx/en/intro_pal.bin"
 	bound_check($125BB6)
 
+seekFile($2CAF40)
+pal_ch1_patchiesnote:
+	insert "../gfx/en_new/tmp/patchies_stuck_note.pal"
 seekFile($2CAFA0)
 pal_ch1_ginaransomletter:
 	insert "../gfx/en_new/tmp/gina_ransom_letter.pal"
@@ -188,6 +191,8 @@ map_ch1_gina_ransom:	//48 - $12A9D0
 
 map_ch3_sign:			//4A - $12BDA4
 	insert "../gfx/en/lz/lz_officesign_map.bin.lz"
+map_ch1_patchiesnote:	//4B - $12C7C8
+	insert "../gfx/en_new/lz/4B.bin.lz"
 
 map_ch1_misc:			//4D - $12DEB0
 	insert "../gfx/en_new/lz/4D.bin.lz"
@@ -202,7 +207,7 @@ gfx_ch3_sign:			//56 - $136BFE
 	insert "../gfx/en/lz/lz_officesign_gfx.bin.lz"
 
 gfx_ch1_patches_stuck:	//5A - $13C578
-	insert "../gfx/en/lz/lz_patchy_note_gfx.bin.lz"
+	insert "../gfx/en_new/lz/5A.bin.lz"
 
 gfx_ch2_bensongrave:	//5E - $142CE4
 	insert "../gfx/en/lz/lz_bensongrave_gfx.bin.lz"

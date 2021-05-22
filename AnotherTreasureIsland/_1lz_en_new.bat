@@ -2,9 +2,11 @@
 ".\tools\lc\recomp.exe" "./gfx/en_new/lz_subtitle_gfx.bin" "./gfx/en_new/lz/lz_subtitle_gfx.bin.lz" 0 1 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/lz_nintendo_gfx.bin" "./gfx/en_new/lz/lz_nintendo_gfx.bin.lz" 0 1 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/48.bin" "./gfx/en_new/lz/48.bin.lz" 0 1 0
+".\tools\lc\recomp.exe" "./gfx/en_new/tmp/4B.bin" "./gfx/en_new/lz/4B.bin.lz" 0 1 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/4D.bin" "./gfx/en_new/lz/4D.bin.lz" 0 1 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/4E.bin" "./gfx/en_new/lz/4E.bin.lz" 0 1 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/53.bin" "./gfx/en_new/lz/53.bin.lz" 0 1 0
+".\tools\lc\recomp.exe" "./gfx/en_new/tmp/5A.bin" "./gfx/en_new/lz/5A.bin.lz" 0 1 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/5F.bin" "./gfx/en_new/lz/5F.bin.lz" 0 1 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/63.bin" "./gfx/en_new/lz/63.bin.lz" 0 1 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/64.bin" "./gfx/en_new/lz/64.bin.lz" 0 1 0
