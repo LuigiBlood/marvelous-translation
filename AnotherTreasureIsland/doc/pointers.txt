@@ -59,7 +59,7 @@
 0x3A - 1246DE - LZ - Graphics	- Intro Text (2)
 0x3B - 12550E - LZ - 
 0x3C - 1257F6 - LZ - Tilemap	- Intro
-0x3D - 125ADD - LZ - Palette	- Intro
+0x3D - 125ADD -    - Palette	- Intro
 0x3E - 125BB6 - LZ - Graphics	- Credits
 0x3F - 12735C - LZ - Tilemap	- Credits
 0x40 - 1276AE - LZ - 

@@ -21,10 +21,7 @@ seekFile($1246DE)
 gfx_intro2:				//3A - $1246DE
 	insert "../gfx/en/lz/lz_intro_gfx2.bin.lz"
 	bound_check($12550E)
-seekFile($125ADD)
-pal_intro:
-	insert "../gfx/en/intro_pal.bin"
-	bound_check($125BB6)
+
 
 //-Menu
 
@@ -57,10 +54,19 @@ seekFile($2C1B1E)	//Change place to entry number
 	sta $7F00AC
 
 
-//-Chapter 1
+//Palette Changes
+seekFile($125ADD)
+pal_intro:
+	insert "../gfx/en/intro_pal.bin"
+	bound_check($125BB6)
+
+seekFile($2CAFA0)
+pal_ch1_ginaransomletter:
+	insert "../gfx/en_new/tmp/gina_ransom_letter.pal"
 seekFile($2CAFE0)
 pal_ch1_camptips:
 	insert "../gfx/en_new/tmp/camp_tips.pal"
+
 
 seekFile($2BB96A)
 map_ch1_ship_note_13:
@@ -176,6 +182,10 @@ gfx_credits:			//3E - $125BB6
 map_credits:			//3F - $12735C
 	insert "../gfx/en/lz/lz_credits_map.bin.lz"
 
+//Search Mode - Tilemaps (48 to 50)
+map_ch1_gina_ransom:	//48 - $12A9D0
+	insert "../gfx/en_new/lz/48.bin.lz"
+
 map_ch3_sign:			//4A - $12BDA4
 	insert "../gfx/en/lz/lz_officesign_map.bin.lz"
 
@@ -184,8 +194,9 @@ map_ch1_misc:			//4D - $12DEB0
 map_ch1_misc2:			//4E - $12E9BA
 	insert "../gfx/en_new/lz/4E.bin.lz"
 
+//Search Mode - Graphics (51 to ??)
 gfx_ch1_gina_ransom:	//53 - $132FC4
-	insert "../gfx/en/lz/lz_gina_ransom_gfx.bin.lz"
+	insert "../gfx/en_new/lz/53.bin.lz"
 
 gfx_ch3_sign:			//56 - $136BFE
 	insert "../gfx/en/lz/lz_officesign_gfx.bin.lz"
@@ -210,6 +221,7 @@ gfx_ch1_ship_notes:		//64 - $14B628
 gfx_ch5_colonel_note2:	//69 - $151D31
 	insert "../gfx/en/lz/lz_colonel_note_gfx2.bin.lz"
 
+//Sprites (B9 to F8)
 gfx_title_nintendo:		//DA - $1D948F
 	insert "../gfx/en_new/lz/lz_nintendo_gfx.bin.lz"
 gfx_title_sub:			//DB - $1DA5ED
