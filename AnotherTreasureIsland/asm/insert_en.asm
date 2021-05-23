@@ -13,15 +13,6 @@ seekFile($270000)
 	insert "../text/en_new/kanji.bin"
 
 //--Intro
-seekFile($123951)
-gfx_intro1:				//39 - $123951
-	insert "../gfx/en/lz/lz_intro_gfx1.bin.lz"
-	bound_check($1246DE)
-seekFile($1246DE)
-gfx_intro2:				//3A - $1246DE
-	insert "../gfx/en/lz/lz_intro_gfx2.bin.lz"
-	bound_check($12550E)
-
 
 //-Menu
 
@@ -175,6 +166,10 @@ gfx_title:				//35 - $121964
 
 map_title:				//38 - $123726
 	insert "../gfx/en/lz/lz_title_map.bin.lz"
+gfx_intro1:				//39 - $123951
+	insert "../gfx/en/lz/lz_intro_gfx1.bin.lz"
+gfx_intro2:				//3A - $1246DE
+	insert "../gfx/en/lz/lz_intro_gfx2.bin.lz"
 
 map_intro:				//3C - $1257F6
 	insert "../gfx/en/lz/lz_intro_map.bin.lz"
