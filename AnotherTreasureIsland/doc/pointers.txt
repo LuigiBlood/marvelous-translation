@@ -57,9 +57,9 @@
 0x38 - 123726 - LZ - Tilemap	- Title
 0x39 - 123951 - LZ - Graphics	- Intro Text (1)
 0x3A - 1246DE - LZ - Graphics	- Intro Text (2)
-0x3B - 12550E - LZ - 
+0x3B - 12550E - LZ - Graphics	- Intro Text (3)
 0x3C - 1257F6 - LZ - Tilemap	- Intro
-0x3D - 125ADD -    - Palette	- Intro
+0x3D - 125ADD - LZ - Palette	- Intro
 0x3E - 125BB6 - LZ - Graphics	- Credits
 0x3F - 12735C - LZ - Tilemap	- Credits
 0x40 - 1276AE - LZ - 
@@ -74,7 +74,7 @@
 0x48 - 12A9D0 - LZ - 
 0x49 - 12B55D - LZ - 
 0x4A - 12BDA4 - LZ - Tilemap	- Mgmt Office Sign...
-0x4B - 12C7C8 - LZ - 
+0x4B - 12C7C8 - LZ - Tilemap	- Patchies' Note...
 0x4C - 12D41E - LZ - 
 0x4D - 12DEB0 - LZ - Tilemap	- Chore List, Camp Tips, Benson's Grave...
 0x4E - 12E9BA - LZ - Tilemap	- Camp Moves...
