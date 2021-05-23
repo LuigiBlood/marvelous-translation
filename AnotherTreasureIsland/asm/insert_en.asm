@@ -138,12 +138,11 @@ seekAddr($8DF169)
 	nop; nop; nop; nop; nop
 	nop
 
-//Palette Changes
-seekFile($125ADD)
-pal_intro:
-	insert "../gfx/en/intro_pal.bin"
-	bound_check($125BB6)
+//Expand File 0x3B to 0x2000 bytes
+seekAddr($148122)
+	ldy.w #$2000
 
+//Palette Changes
 seekFile($2CAF40)
 pal_ch1_patchiesnote:
 	insert "../gfx/en_new/tmp/patchies_stuck_note.pal"
@@ -167,13 +166,15 @@ gfx_title:				//35 - $121964
 map_title:				//38 - $123726
 	insert "../gfx/en/lz/lz_title_map.bin.lz"
 gfx_intro1:				//39 - $123951
-	insert "../gfx/en/lz/lz_intro_gfx1.bin.lz"
+	insert "../gfx/en_new/lz/39.bin.lz"
 gfx_intro2:				//3A - $1246DE
-	insert "../gfx/en/lz/lz_intro_gfx2.bin.lz"
-
+	insert "../gfx/en_new/lz/3A.bin.lz"
+gfx_intro3:				//3B - $12550E
+	insert "../gfx/en_new/lz/3B.bin.lz"
 map_intro:				//3C - $1257F6
-	insert "../gfx/en/lz/lz_intro_map.bin.lz"
-
+	insert "../gfx/en_new/lz/3C.bin.lz"
+pal_intro:				//3D - $125ADD
+	insert "../gfx/en_new/lz/3D.bin.lz"
 gfx_credits:			//3E - $125BB6
 	insert "../gfx/en/lz/lz_credits_gfx.bin.lz"
 map_credits:			//3F - $12735C
