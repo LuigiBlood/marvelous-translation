@@ -346,8 +346,8 @@ Fugo, fufugo, fugogo.[np]
 [nl3]thing on my back, right? Well, I'll
 [scl]consider it if you can beat me.
 [scl]What about it?[X$6A][np]
-[scl]    I'll do it.
-[scl]    I'll pass.[X$68]
+[scl][ ][ ][ ][ ]I'll do it.
+[scl][ ][ ][ ][ ]I'll pass.[X$68]
 [en1]
 
 Fugo! Fugo, fugogo.[np]
@@ -682,20 +682,20 @@ Hassan isn't really a soldier,[np]
 [SMonkey1]Uho-ho![np]
 [nl2]TL: Want to challenge me?
 [nl3]It'll cost you [num] {L}{u}{c}{k} {R}{o}{c}{k}.[X$6A][np]
-[scl]    Let's go!
-[scl]    No way. Ookiki![X$68]
+[scl][ ][ ][ ][ ]Let's go!
+[scl][ ][ ][ ][ ]No way. Ookiki![X$68]
 [en1]
 
 What about wagering your life? If
 [nl2]you lose, you'll lose HP.[np]
 [nl3]What about it?[X$6A]
-[scl]     Well, okay.
-[scl]     Sounds painful...[X$68]
+[scl][ ][ ][ ][ ]Well, okay.
+[scl][ ][ ][ ][ ]Sounds painful...[X$68]
 [en1]
 
-Team, you were {V}{e}{r}{y} {M}{a}{r}{v}{e}{l}{o}{u}{s}!!
+You were a {V}{e}{r}{y} {M}{a}{r}{v}{e}{l}{o}{u}{s} Team!!
 [nl2]    
-[nl3]       T h e   E n d !
+[nl3][ ][ ][ ][ ][ ][ ]T h e   E n d !
 [en1]
 
 Ooo Ooo![np]
@@ -725,8 +725,8 @@ Fugo. Fugofugogo.[np]
 [nl3]my back, right?[np]
 [scl]You'll have to beat me first.[np]
 [scl]Will you take the challenge?[X$6A]
-[scl]      I'll do it.[np]
-[scl]      No, thanks.[X$68]
+[scl][ ][ ][ ][ ]I'll do it.[np]
+[scl][ ][ ][ ][ ]No, thanks.[X$68]
 [en1]
 
 I'm a biologist, here to help the
@@ -784,8 +784,8 @@ Fugo! Fufu-gogo.[np]
 [nl2]TL: You're so slow! You'll never
 [nl3]   beat me with those old moves.[np]
 [scl]   Try again? It'll cost 1 [LuckRock].[X$6A]
-[scl]      Yeah.
-[scl]      I'm done with you.[X$68]
+[scl][ ][ ][ ][ ]Yeah.
+[scl][ ][ ][ ][ ]I'm done with you.[X$68]
 [en1]
 
 Fugo! Fugo. Fufugo.[np]
@@ -880,8 +880,8 @@ Fufo- fugo.[np]
 [scl]   How about a friendly wager on
 [scl]   the race?[np]
 [scl]   It'll be 1[LuckRock].[X$6A]
-[scl]      I'll go for it.
-[scl]      I'd better not...[X$68]
+[scl][ ][ ][ ][ ]I'll go for it.
+[scl][ ][ ][ ][ ]I'd better not...[X$68]
 [en1]
 
 Hey, I'd recognize that spicy lunch
@@ -915,8 +915,8 @@ Eh? What? A doll... You say you
 [scl]F-for my reference, I feel like I
 [scl]should ask who s-sold it to you~.[np]
 [scl]What will you say?[X$6A]
-[scl]     I didn't get a name.
-[scl]     Even if I knew...[X$68]
+[scl][ ][ ][ ][ ]I didn't get a name.
+[scl][ ][ ][ ][ ]Even if I knew, wouldn't tell.[X$68]
 [en1]
 
 How can you not know?! How
@@ -942,8 +942,8 @@ Fugo. Fugo-go?[np]
 [nl3]   on my back? I'll give it to you
 [scl]   if you can beat me.[np]
 [scl]   What'cha gonna do?[X$6A]
-[scl]     I'll do it.
-[scl]     No, thanks.[X$68]
+[scl][ ][ ][ ][ ]I'll do it.
+[scl][ ][ ][ ][ ]No, thanks.[X$68]
 [en1]
 
 Fu-go. Fugofugo![np]
@@ -1305,15 +1305,16 @@ Whoa, that's so many tomatoes! I
 [en2]
 
 Dear stinky brats,[np]
-[nl2]You guys suck.[np]
-[nl3]Don't think you'll get away with
-[scl]lifting my treasure.[np]
-[scl]So, I'm keeping an eye on your
-[scl]smokin' hot teacher.[np]
+[nl2]You twerps really stepped in it
+[nl3]this time. Don't think you'll get
+[scl]away with lifting my treasure.[np]
+[scl]Until you bring it back, I'll be
+[scl]keeping an eye on your smokin' hot
+[scl]teacher for you.[np]
 [scl]If you ever want to see her
 [scl]again, come to the valley past the 
 [scl]lake.[np]
-[scl]Don't forget my Crystal Ball![np]
+[scl]Don't forget my {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}![np]
 [scl]Signed:
 [scl]The Greatest Pirate Under the Sky
 [scl]King Bull
@@ -1340,7 +1341,7 @@ What?... This {B}{l}{u}{e} {K}{e}{y} won't open
 [en2]
 
 You wanna know my number?[np]
-[nl2]It sounds like "socks."
+[nl2]It sounds kinda like "socks."
 [nl3]
 [en2]
 
@@ -1366,7 +1367,7 @@ Er, no, I mean, I, uh, not... is it
 
 ...Eh?
 [nl2]You wanna know my number?
-[nl3]Okay... So... ...[np]
+[nl3]Okay... Here's a clue.[np]
 [scl]If you flip my number upside-down
 [scl]it becomes a smaller number.
 [en2]
@@ -1616,8 +1617,8 @@ That's pretty... huge!
 If ya' hand over our treasure,
 [nl2]the wench lives.[np]
 [nl3]What'll it be, bucko?[X$6A]
-[scl]      Fine, take it.
-[scl]      No way! Let her go![X$68]
+[scl][ ][ ][ ][ ]Fine, take it.
+[scl][ ][ ][ ][ ]No way! Let her go![X$68]
 [en1]
 
 I'll just take the payment in
@@ -2263,8 +2264,8 @@ I can't do my job like this, man![np]
 [nl3]to persuade Mr. Smith to let me
 [scl]back inside?[np]
 [scl]Will you please talk to him?[X$6A]
-[scl]    OK.
-[scl]    Nah.[X$68]
+[scl][ ][ ][ ][ ]OK.
+[scl][ ][ ][ ][ ]Nah.[X$68]
 [en1]
 
 Thanks a ton![np]
@@ -2397,8 +2398,8 @@ Even if the ants want to attack,
 [scl]me make the Ant Buster, I'm sure
 [scl]the king will forgive you.[np]
 [scl]What do you say? Will you help?[X$6A]
-[scl]    Okay.
-[scl]    No way![X$68]
+[scl][ ][ ][ ][ ]Okay.
+[scl][ ][ ][ ][ ]No way![X$68]
 [en1]
 
 I'm begging you. If you can help
@@ -2820,9 +2821,9 @@ Come a little closer!
 [SUnKwn]Gingham Quiz Time! You've got 3
 [nl2]seconds to answer the question![np]
 [nl3]The castle has how many fans?[np]
-[scl]    18 total fans
-[scl]    20 total fans
-[scl]    22 total fans[X$6E]
+[scl][ ][ ][ ][ ]18 total fans
+[scl][ ][ ][ ][ ]20 total fans
+[scl][ ][ ][ ][ ]22 total fans[X$6E]
 [en1]
 
 [SUnKwn]Gingham Quiz Time! You've got 3
@@ -2838,9 +2839,9 @@ Come a little closer!
 [nl2]seconds to answer the question![np]
 [nl3]The king's chair is blue.
 [scl]What color is Polly's chair?[np]
-[scl]    Blue
-[scl]    Red
-[scl]    Yellow[X$6E]
+[scl][ ][ ][ ][ ]Blue
+[scl][ ][ ][ ][ ]Red
+[scl][ ][ ][ ][ ]Yellow[X$6E]
 [en1]
 
 [SUnKwn]Gingham Quiz Time! You've got 3
@@ -2857,9 +2858,9 @@ Come a little closer!
 [nl3]The king wears only boxer shorts
 [scl]beneath his robes.
 [scl]What pattern does he wear?[np]
-[scl]    Polka dot
-[scl]    Striped
-[scl]    Checkered[X$6E]
+[scl][ ][ ][ ][ ]Polka dot
+[scl][ ][ ][ ][ ]Striped
+[scl][ ][ ][ ][ ]Checkered[X$6E]
 [en1]
 
 [SUnKwn]Gingham Quiz Time! You've got 3
@@ -2876,9 +2877,9 @@ Come a little closer!
 [nl3]Polly, the tomboy princess, is
 [scl]known by the people of this
 [scl]country by what nickname?[np]
-[scl]    "The shrew"
-[scl]    "Little Queenie"
-[scl]    "Bad mama-jama"[X$6E]
+[scl][ ][ ][ ][ ]"The shrew"
+[scl][ ][ ][ ][ ]"Little Queenie"
+[scl][ ][ ][ ][ ]"Bad mama-jama"[X$6E]
 [en1]
 
 [SUnKwn]Gingham Quiz Time! You've got 3
@@ -2886,9 +2887,9 @@ Come a little closer!
 [nl3]Which of these 3 people sound like
 [scl]a woman even though they are
 [scl]actually a man?[np]
-[scl]    Hassan
-[scl]    Solomon
-[scl]    Polly[X$6E]
+[scl][ ][ ][ ][ ]Hassan
+[scl][ ][ ][ ][ ]Solomon
+[scl][ ][ ][ ][ ]Polly[X$6E]
 [en1]
 
 Wowza! You got it right. If you
@@ -3289,8 +3290,8 @@ Heeeeyyyy~!
 [nl3]If you graaab~ the rooope~,
 [scl]we'll puull~ you up~![np]
 [scl]Do yoou~ neeed~ helllp~?
-[scl]    Yes, pleeease~!
-[scl]    Nooo~, thanks~~![X$68]
+[scl][ ][ ][ ][ ]Yes, pleeease~!
+[scl][ ][ ][ ][ ]Nooo~, thanks~~![X$68]
 [en1]
 
 We sprayed {A}{n}{t} {B}{u}{s}{t}{e}{r} on the
@@ -3956,14 +3957,14 @@ Start by pressing [ABtn].
 [nl3]...Cool.
 [en1]
 
-[SMenu]Gah! How'd ya' figur' it out!?
+[SMenu]Gah! How'd ya' figure it out!?
 [nl2]Fine, a promise be a prom---...[np]
 [nl3]Nyarr, harr! We be pirates!
-[scl]No way we let ye' outta tharr...
-[scl]'Nless ya' hand over tha' booty![np]
+[scl]No way we let ye' outta there...
+[scl]Unless ya' hand over the booty![np]
 [scl]Whaddaya' say, me bucko?[X$6A]
-[scl]      Okay, here ya go...
-[scl]      No way! Return Miss Gina![X$68]
+[scl][ ][ ][ ][ ]Okay, here ya go...
+[scl][ ][ ][ ][ ]No way! Return Miss Gina![X$68]
 [en1]
 
 [nl2] Then ye' can rot in tharr!
@@ -4089,15 +4090,16 @@ Jim is still missing...
 [en1]
 
 Dear stinky brats,[np]
-[nl2]You guys suck.[np]
-[nl3]Don't think you'll get away with
-[scl]lifting my treasure.[np]
-[scl]So, I'm keeping an eye on your
-[scl]smokin' hot teacher.[np]
+[nl2]You twerps really stepped in it
+[nl3]this time. Don't think you'll get
+[scl]away with lifting my treasure.[np]
+[scl]Until you bring it back, I'll be
+[scl]keeping an eye on your smokin' hot
+[scl]teacher for you.[np]
 [scl]If you ever want to see her
 [scl]again, come to the valley past the 
 [scl]lake.[np]
-[scl]Don't forget my Crystal Ball![np]
+[scl]Don't forget my {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}![np]
 [scl]Signed:
 [scl]The Greatest Pirate Under the Sky
 [scl]King Bull
@@ -4197,7 +4199,7 @@ T-thanks for that, [team] Team.
 [team] Team, come closer.
 [en2]
 
-You guys make a 
+You guys turned out to be a
 [nl2]"pretty marvelous" Team.
 [nl3]       T h e   E n d !
 [en1]
@@ -4277,8 +4279,8 @@ Let's get some speed and BOOM!
 [en1]
 
 What's this...?
-[nl2]"WE'RE SORRY! You're stuck here
-[nl3]forever, nerds!"[np]
+[nl2]"Sorry! You're stuck here forever, 
+[nl3]nerds! -Patchies"[np]
 [scl]Sarcastic AND rude!... Humpfh!...
 [en2]
 
@@ -4325,7 +4327,7 @@ Is this for real......!!!?
 
 You guys turned out to be a
 [nl2]"sort of marvelous" Team.
-[nl3]       T h e   E n d !
+[nl3][ ][ ][ ][ ][ ][ ]T h e   E n d !
 [en1]
 
 You guys turned out to be a
@@ -4923,8 +4925,8 @@ There are 4 handles that extend
 [scl]If you want another tip, I'll need
 [scl][num] more {L}{u}{c}{k} {R}{o}{c}{k} from you.
 [scl]Whadda ya say to that?[X$6A][np]
-[scl]      Yeah, I'll cough it up.
-[scl]      Nah, I got it.[X$68]
+[scl][ ][ ][ ][ ]Yeah, I'll cough it up.
+[scl][ ][ ][ ][ ]Nah, I got it.[X$68]
 [en1]
 
 I'll tell you the correct way to
@@ -5240,8 +5242,8 @@ Indio said this lake will dry up
 [scl]middle of mating season! I can't
 [scl]get any of them to leave the lake.[np]
 [scl]Can you help me catch one?[X$6A]
-[scl]      Okay, sure!
-[scl]      Catch it yourself![X$68]
+[scl][ ][ ][ ][ ]Okay, sure!
+[scl][ ][ ][ ][ ]Catch it yourself![X$68]
 [en1]
 
 That's the spirit!
@@ -5698,9 +5700,9 @@ This is maybe a pirate rug...?[np]
 [X$6A][SStop]
 [nl2]      Hang on, Miss Gina!
 [nl3][np]
-[scl]    I'll stay! (Deon)
-[scl]    I'll hang back! (Max)
-[scl]    I'll stay, I suppose! (Jack)[X$6E]
+[scl][ ][ ][ ][ ]I'll stay! (Dion)
+[scl][ ][ ][ ][ ]I'll hang back! (Max)
+[scl][ ][ ][ ][ ]I'll stay, I suppose! (Jack)[X$6E]
 [en1]
 
 What is this picture?!
@@ -6041,7 +6043,7 @@ It's heavy, so it has to be
 Hurry! It'll get away!!
 [en2]
 
-[nl2]          1[STink]
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]1[STink]
 [en1]
 
 [F2]Max got {S}{w}{i}{m}{m}{i}{n}{g} {G}{o}{g}{g}{l}{e}{s}![np]
@@ -6770,10 +6772,10 @@ You dummies aren't planning on
 [scl]you know.     Later~.
 [en1]
 
-[nl2]          2[STink]
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]2[STink]
 [en1]
 
-[nl2]         [Three][SHLow]
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][Three][SHLow]
 [en1]
 
 [nl2][F2]       Alright, it's open!
@@ -6837,7 +6839,7 @@ Did you open the red chest where
 [nl3]...How unfortunate.
 [en1]
 
-Are you using the "Hammer"?[np]
+Are you using the {H}{a}{m}{m}{e}{r}?[np]
 [nl2]Try hammering the peg in front of
 [nl3]the pipe![np]
 [scl]You can move the pipe with
@@ -6851,12 +6853,13 @@ Are you using the "Hammer"?[np]
 [nl2]You have [X$6C] now!
 [en1]
 
-It says "Danger ahead! You WILL
-[nl2]be injured!" ...What should we do?
+It says: "Danger ahead! 
+[nl2]You WILL be injured!" 
+[nl3]...What should we do?
 [en2]
 
 Oh, that's the Colonel's official
-[nl2]permission slip! How did you get
+[nl2]{p}{e}{r}{m}{i}{s}{s}{i}{o}{n} {s}{l}{i}{p}! How did you get
 [nl3]it? ...It's real, right?[np]
 [scl]Well, alright, go on ahead.
 [en1]
@@ -6876,7 +6879,7 @@ Blub, glub![np]
 [scl]   all by myself.
 [en2]
 
-Hurry and show the "Fishing Hook"
+Hurry and show the {F}{i}{s}{h}{i}{n}{g} {H}{o}{o}{k}
 [nl2]to our leader!
 [en2]
 
@@ -6885,9 +6888,9 @@ I see... Just as I thought!
 [nl3]a clue!
 [en2]
 
-Hurry up and choose "Fishing
-[nl2]Hook" from the [Item] panel.
-[nl3]Use it with the [ABtn] button.
+Hurry up and choose the {F}{i}{s}{h}{i}{n}{g}
+[nl2]{H}{o}{o}{k} from the[Space4][Item] panel.
+[nl3]Use it with the[Space1][ABtn] button.
 [en2]
 
 We need to call the police on the
@@ -6909,11 +6912,11 @@ A small {R}{e}{d} {K}{e}{y} might fit this
 [nl2]keyhole!
 [en2]
 
-A small lanky {B}{l}{u}{e} {K}{e}{y} might fit
-[nl2]this keyhole!
+A lanky {B}{l}{u}{e} {K}{e}{y} might fit this
+[nl2]keyhole!
 [en2]
 
-A great big {G}{r}{e}{e}{n} {K}{e}{y} might fit
+A great-big {G}{r}{e}{e}{n} {K}{e}{y} might fit
 [nl2]this keyhole!
 [en2]
 
@@ -6933,7 +6936,7 @@ Upon inspecting closer, you see 3
 [nl2]of them...
 [en2]
 
-[nl2]     Why won't this open?
+[nl2][ ][ ][ ][ ] Why won't this open?
 [en2]
 
 Something's wrong. Get on 3 sides
@@ -6984,7 +6987,7 @@ Thank you come again~!
 [nl2]Received [X$6B] {L}{u}{c}{k} {R}{o}{c}{k}{s}!
 [en1]
 
-[nl2] Who could it be?!
+[nl2]Who could it be?!
 [en2]
 
 It's dangerous, so you really
@@ -6996,8 +6999,8 @@ The camp island is this way!
 [nl3]......Miss Gina!!
 [en2]
 
-...By the way, who has the tape
-[nl2]recorder? I hate to ask, but could
+...By the way, who has the {t}{a}{p}{e}
+[nl2]{r}{e}{c}{o}{r}{d}{e}{r}? I hate to ask, but could
 [nl3]you give it back to me?
 [en2]
 
@@ -7021,8 +7024,8 @@ Did you listen to the request of
 
 There must be a water supply
 [nl2]store in town.[np]
-[nl3]If you show him that picture, I
-[scl]imagine he'll be surprised!
+[nl3]If you show him that {p}{i}{c}{t}{u}{r}{e}, I
+[scl]imagine he'll be surprised~!
 [en1]
 
 The old lady next door is in quite
@@ -7046,8 +7049,8 @@ Penguins and humans alike are
 [scl]couples.
 [en1]
 
-"Hole Digging Machine" made from
-[nl2]old junk! Didn't we see some parts
+{H}{o}{l}{e} {D}{i}{g}{g}{i}{n}{g} {M}{a}{c}{h}{i}{n}{e} made from
+[nl2]old junk! Didn't we see some {p}{a}{r}{t}{s}
 [nl3]at the plumber's house?
 [en1]
 
@@ -7058,12 +7061,12 @@ Did you try digging 3 holes? One
 [en1]
 
 To chase off the Sheriff, you need
-[nl2]a Frog! You can catch a Frog
-[nl3]with the Fishing Rod.[np]
+[nl2]a {F}{r}{o}{g}! You can catch a {F}{r}{o}{g}
+[nl3]with the {F}{i}{s}{h}{i}{n}{g} {R}{o}{d}.[np]
 [scl]But you can't just throw it out
 [scl]there![np]
 [scl]You have to cast it on a leaf,
-[scl]and then watch the Frog's
+[scl]and then watch the {F}{r}{o}{g}{'}{s}
 [scl]reaction.[np]
 [scl]Sorry if you already knew~!
 [en1]
@@ -7117,23 +7120,23 @@ Come over here a second.
 [en2]
 
 Would you want it for [X$6B][LuckRock]?[X$6A]
-[nl2]      Okay
-[nl3]      Can you go lower...?[X$68]
+[nl2][ ][ ][ ][ ]Okay
+[nl3][ ][ ][ ][ ]Can you go lower...?[X$68]
 [en1]
 
 Well then, how about [X$6B][LuckRock]?![X$6A]
-[nl2]      Okay
-[nl3]      Can you go lower...?[X$68]
+[nl2][ ][ ][ ][ ]Okay
+[nl3][ ][ ][ ][ ]Can you go lower...?[X$68]
 [en1]
 
 It's the lowest I'll go! [X$6B][LuckRock]?![X$6A]
-[nl2]    Okay
-[nl3]    Can you go lower...?[X$68]
+[nl2][ ][ ][ ][ ]Okay
+[nl3][ ][ ][ ][ ]Can you go lower...?[X$68]
 [en1]
 
 Hmmph~. Thief! Then [X$6B][LuckRock]![X$6A]
-[nl2]      Okay
-[nl3]      Can you go lower...?[X$68]
+[nl2][ ][ ][ ][ ]Okay
+[nl3][ ][ ][ ][ ]Can you go lower...?[X$68]
 [en1]
 
 If you're going to act like that
@@ -7143,16 +7146,16 @@ If you're going to act like that
 [en1]
 
 Hmm~... [X$6B][LuckRock]![X$6A]
-[nl2]      Okay
-[nl3]      Can you go lower...?[X$68]
+[nl2][ ][ ][ ][ ]Okay
+[nl3][ ][ ][ ][ ]Can you go lower...?[X$68]
 [en1]
 
 [nl2]  Well, who needs you, anyway!
 [en1]
 
 Ready to pay up?[X$6A]
-[nl2]      Okay
-[nl3]      Never![X$68]
+[nl2][ ][ ][ ][ ]Okay
+[nl3][ ][ ][ ][ ]Never![X$68]
 [en1]
 
 Heheh! Thanks, pal.
@@ -7169,8 +7172,8 @@ I would have taken [X$6B][LuckRock] for that...
 [en1]
 
 Would ya trade for [X$6B][LuckRock]?[X$6A]
-[nl2]      Okay
-[nl3]      Can you go lower...?[X$68]
+[nl2][ ][ ][ ][ ]Okay
+[nl3][ ][ ][ ][ ]Can you go lower...?[X$68]
 [en1]
 
 But what will you do with it?
@@ -7188,27 +7191,27 @@ A long time ago, there were
 [nl2]penguins living in {D}{e}{a}{t}{h} {L}{a}{k}{e}.[np]
 [nl3]How many penguins were there?[X$6A]
 [scl][np]
-[scl]      15 penguins
-[scl]      17 penguins
-[scl]      19 penguins[X$6E]
+[scl][ ][ ][ ][ ]15 penguins
+[scl][ ][ ][ ][ ]17 penguins
+[scl][ ][ ][ ][ ]19 penguins[X$6E]
 [en1]
 
 A long time ago, there were
 [nl2]penguins living in {D}{e}{a}{t}{h} {L}{a}{k}{e}.
 [nl3]How many penguins were female?[X$6A]
 [scl][np]
-[scl]      6 females
-[scl]      8 females
-[scl]      9 females[X$6E]
+[scl][ ][ ][ ][ ]6 females
+[scl][ ][ ][ ][ ]8 females
+[scl][ ][ ][ ][ ]9 females[X$6E]
 [en1]
 
 Long ago, Indio used a wear a
 [nl2]headband.
 [nl3]What color was it?[X$6A]
 [scl][np]
-[scl]      Red
-[scl]      Blue
-[scl]      Green[X$6E]
+[scl][ ][ ][ ][ ]Red
+[scl][ ][ ][ ][ ]Blue
+[scl][ ][ ][ ][ ]Green[X$6E]
 [en1]
 
 Wow! You kids know your stuff...
@@ -7280,13 +7283,13 @@ I think we can peek inside from
 There he is!
 [en2]
 
-[X$6A]      Play
-[nl2]      Record
-[nl3]      Do nothing[X$6E]
+[X$6A][ ][ ][ ][ ]Play
+[nl2][ ][ ][ ][ ]Record
+[nl3][ ][ ][ ][ ]Do nothing[X$6E]
 [en1]
 
 [X$6A][SWrClck]
-[nl2]       Playing!
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ] Playing!
 [en1]
 
 [X$6A][SDenied]
@@ -7303,12 +7306,12 @@ Fight, fight, let's fight!
 Do you play rock, paper, scissors?
 [nl2]Then let's go!
 [nl3]Rock, paper, scissors![X$6A][np]
-[scl]    Rock
-[scl]    Scissors
-[scl]    Paper[X$6E]
+[scl][ ][ ][ ][ ]Rock
+[scl][ ][ ][ ][ ]Scissors
+[scl][ ][ ][ ][ ]Paper[X$6E]
 [en1]
 
-[nl2]       [SP$010B]Shoot!
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][ ][SP$010B]Shoot!
 [en1]
 
 [SAwe]Haha! Too bad, chumps!
@@ -7318,9 +7321,9 @@ Do you play rock, paper, scissors?
 Shoot, we tied...
 [nl2]Let's go one more time!
 [nl3]Rock, paper, scissors![X$6A][np]
-[scl]    Rock
-[scl]    Scissors
-[scl]    Paper[X$6E]
+[scl][ ][ ][ ][ ]Rock
+[scl][ ][ ][ ][ ]Scissors
+[scl][ ][ ][ ][ ]Paper[X$6E]
 [en1]
 
 [F2]Bananas~! I lost...
@@ -7511,8 +7514,8 @@ The plant must have assumed
 [nl2]human form! This calls for some
 [nl3]detective work! We need to hurry.[np]
 [scl]Will you help me?[X$6A]
-[scl]      Yes
-[scl]      No[X$68]
+[scl][ ][ ][ ][ ]Yes
+[scl][ ][ ][ ][ ]No[X$68]
 [en1]
 
 Ooh, what great music!
@@ -8291,8 +8294,8 @@ We've gotta do something, quick.
 [scl]pattern as an egg, maybe the
 [scl]eagle will take it away for us![np]
 [scl]So, will you give it a try?
-[scl]      Yeah, we got this.
-[scl]      What did it look like again?[X$68]
+[scl][ ][ ][ ][ ]Yeah, we got this.
+[scl][ ][ ][ ][ ]What did it look like again?[X$68]
 [en1]
 
 Sounds like you'll need to go back
@@ -8315,17 +8318,17 @@ Are you ready?
 [nl2]I'm not sure if this will work, but
 [nl3]it's our best shot.[np]
 [scl]What'll you do?[X$6A]
-[scl]      Let's try it.
-[scl]      What did it look like again?[X$68]
+[scl][ ][ ][ ][ ]Let's try it.
+[scl][ ][ ][ ][ ]What did it look like again?[X$68]
 [en1]
 
 [SStop]Let's start. Remember Caesar's
 [nl2]special technique?
 [nl3]Whose color do we paint first?[X$6A][np]
 [scl]
-[scl]      Deon - Red
-[scl]      Jack - Blue    
-[scl]      Max - Green[X$6E]
+[scl][ ][ ][ ][ ]Deon - Red
+[scl][ ][ ][ ][ ]Jack - Blue    
+[scl][ ][ ][ ][ ]Max - Green[X$6E]
 [en1]
 
 Whose color do we do next?
@@ -8481,8 +8484,8 @@ In order to open the door, you
 [scl]teacher. Otherwise, you'll end up
 [scl]like those pirates.[np]
 [scl]So, how about it? You got it?
-[scl]      Yes.
-[scl]      No.[X$68]
+[scl][ ][ ][ ][ ]Yes.
+[scl][ ][ ][ ][ ]No.[X$68]
 [en1]
 
 You understand anything~?
@@ -8604,8 +8607,8 @@ Did you put the {L}{u}{c}{k} {R}{o}{c}{k}{s} in the
 [nl2]furnace? If you need more, I'll
 [nl3]give you mine.[np]
 [scl]Need an assist?
-[scl]      Yes, please.
-[scl]      I don't need you![X$68]
+[scl][ ][ ][ ][ ]Yes, please.
+[scl][ ][ ][ ][ ]I don't need you![X$68]
 [en1]
 
 Well, fine then!
@@ -9279,8 +9282,8 @@ What the heck? What's this!
 
 Whoa! Well take a look at that![np]
 [nl2]Does it look good?
-[nl3]      Yup.
-[scl]      I hate it.[X$68]
+[nl3][ ][ ][ ][ ]Yup.
+[scl][ ][ ][ ][ ]I hate it.[X$68]
 [en1]
 
 What? Then show me something
@@ -9941,8 +9944,8 @@ Fugofugo. Fugofugo.[np]
 [nl2]TL: Can you run?
 [nl3]I'll let [num] sprinter through here.[np]
 [scl]What'll it be?[X$6A]
-[scl]      Let me in there.
-[scl]      I'll come back.[X$68]
+[scl][ ][ ][ ][ ]Let me in there.
+[scl][ ][ ][ ][ ]I'll come back.[X$68]
 [en1]
 
 Fugo. Fugogo.[np]
@@ -9955,8 +9958,8 @@ Fugofugo. Fugogo.[np]
 [nl2]TL: Can you jump?
 [nl3]I'll let [num] jumper in.[np]
 [scl]How about it?[X$6A]
-[scl]      Let me through.
-[scl]      I'll come back.[X$68]
+[scl][ ][ ][ ][ ]Let me through.
+[scl][ ][ ][ ][ ]I'll come back.[X$68]
 [en1]
 
 It's the lonely penguin's footprint.
@@ -10097,8 +10100,8 @@ Fugo? Fugogo?[np]
 [nl2]TL: Gonna bugger off? I wont even
 [nl3]   call you a pansy if you do.[np]
 [scl]   Whadda' ya' say?[X$6A]
-[scl]      I'm leaving.    
-[scl]      Not yet.[X$68]
+[scl][ ][ ][ ][ ]I'm leaving.    
+[scl][ ][ ][ ][ ]Not yet.[X$68]
 [en1]
 
 Pretty good quality for a freebie
@@ -11608,8 +11611,8 @@ Hehehe. We're doing a PK shootout.
 [scl]there. If you can do it, we'll give
 [scl]you a prize.[np]
 [scl]How about it?[X$6A]
-[scl]      I'll do it!
-[scl]      I'm sorry, but nah...[X$68]
+[scl][ ][ ][ ][ ]I'll do it!
+[scl][ ][ ][ ][ ]I'm sorry, but nah...[X$68]
 [en1]
 
 Hurry up and kick it!
@@ -12329,8 +12332,8 @@ Isn't there someone a little
 [nl2]stronger?
 [en2]
 
-Thanks! Pull on 1, 2, [Three]!
-[nl2]On [Three], push the [ABtn] button.
+Thanks! Pull on 1, 2,[Space4][Three]!
+[nl2]On[Three], push the[ABtn] button.
 [nl3]Time it carefully.
 [en1]
 
@@ -12928,7 +12931,7 @@ If what that man said is true,
 [nl3]ridiculously mean plant.
 [en2]
 
-Say what?
+Say~ what?
 [nl2]The ghost was Benson?!
 [nl3]Hahahahah...
 [en2]
@@ -13228,8 +13231,8 @@ Fugofugo, fugogo.[np]
 [nl2]TL: Can you kick?
 [nl3]   I'll let [One] kicker through.[np]
 [scl]   How about it?[X$6A]
-[scl]      Let me pass.    
-[scl]      I'll come back.[X$68]
+[scl][ ][ ][ ][ ]Let me pass.    
+[scl][ ][ ][ ][ ]I'll come back.[X$68]
 [en1]
 
 Look!! You boys were telling the
@@ -13770,7 +13773,6 @@ After not seeing you guys for a
 
 ...It won't move anymore.
 [en2]
-
 
 [nl2]Ah! There's a soldier here!
 [en2]

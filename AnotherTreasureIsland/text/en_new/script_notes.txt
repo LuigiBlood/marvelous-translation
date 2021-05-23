@@ -248,7 +248,7 @@ revise
 
 
 
-
+original script calls them cheeky, but it's not really a word most americans use or are familiar with. Could say impudent, but I like the thought of king bull calling them stinky.
 
 
 
@@ -259,7 +259,7 @@ revise\[nl2]If you say "comfort" in Japanese,\[nl3]it sounds like this number.[n
 
 
 
-
+... this may need to be changed. I cant remember the number.
 
 
 
@@ -1339,6 +1339,7 @@ solved by using full space
 
 
 
+I think this is the 2 line text mode.
 
 
 
@@ -1348,8 +1349,7 @@ solved by using full space
 
 
 
-
-
+it actually calls it a "ball"
 
 
 
