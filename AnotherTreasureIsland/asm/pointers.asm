@@ -7,6 +7,7 @@ ptr_replace(0x35, gfx_title)
 ptr_replace(0x38, map_title)
 ptr_replace(0x39, gfx_intro1)
 ptr_replace(0x3A, gfx_intro2)
+ptr_replace(0x3B, gfx_intro3)
 ptr_replace(0x3C, map_intro)
 ptr_replace(0x3D, pal_intro)
 
