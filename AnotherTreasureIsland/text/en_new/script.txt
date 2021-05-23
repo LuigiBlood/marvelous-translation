@@ -1304,17 +1304,19 @@ Whoa, that's so many tomatoes! I
 [nl2]feel full just looking at them.
 [en2]
 
-Dear stinky brats,[np]
-[nl2]You twerps really stepped in it
-[nl3]this time. Don't think you'll get
-[scl]away with lifting my treasure.[np]
+
+[nl2]  Dear stinky brats,[np]
+[nl3]You guys know what this is
+[scl]about, right?[np]
+[scl]You made a really huge mistake
+[scl]by taking my treasure![np]
 [scl]Until you bring it back, I'll be
 [scl]keeping an eye on your smokin' hot
-[scl]teacher for you.[np]
+[scl]teacher.[np]
 [scl]If you ever want to see her
 [scl]again, come to the valley past the 
 [scl]lake.[np]
-[scl]Don't forget my {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}![np]
+[scl]Don't forget my {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}.[np]
 [scl]Signed:
 [scl]The Greatest Pirate Under the Sky
 [scl]King Bull
@@ -4089,17 +4091,19 @@ Jim is still missing...
 [scl]
 [en1]
 
-Dear stinky brats,[np]
-[nl2]You twerps really stepped in it
-[nl3]this time. Don't think you'll get
-[scl]away with lifting my treasure.[np]
+
+[nl2]  Dear stinky brats,[np]
+[nl3]You guys know what this is
+[scl]about, right?[np]
+[scl]You made a really huge mistake
+[scl]by taking my treasure![np]
 [scl]Until you bring it back, I'll be
 [scl]keeping an eye on your smokin' hot
-[scl]teacher for you.[np]
+[scl]teacher.[np]
 [scl]If you ever want to see her
 [scl]again, come to the valley past the 
 [scl]lake.[np]
-[scl]Don't forget my {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}![np]
+[scl]Don't forget my {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}.[np]
 [scl]Signed:
 [scl]The Greatest Pirate Under the Sky
 [scl]King Bull
