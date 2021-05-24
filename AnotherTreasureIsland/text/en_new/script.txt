@@ -1304,7 +1304,6 @@ Whoa, that's so many tomatoes! I
 [nl2]feel full just looking at them.
 [en2]
 
-
 [nl2]  Dear stinky brats,[np]
 [nl3]You guys know what this is
 [scl]about, right?[np]
@@ -4091,7 +4090,6 @@ Jim is still missing...
 [scl]
 [en1]
 
-
 [nl2]  Dear stinky brats,[np]
 [nl3]You guys know what this is
 [scl]about, right?[np]
@@ -5291,7 +5289,7 @@ If we don't dig them fast, it'll be
 [nl2]a disaster!
 [en2]
 
-[F2]You made a {H}{o}{l}{e} {D}{i}{g}{g}{i}{n}{g} {M}{a}{c}{h}{i}{n}{e}![np]
+[F2]You made a {H}{o}{l}{e} {D}{i}{g}{g}{i}{n}{g} {M}{a}{c}{h}{i}{n}{e}!
 [nl2]Let's call it {M}{r}{.} {D}{i}{g}{g}{y}!
 [en1]
 
@@ -5319,7 +5317,7 @@ Let's get closer and try
 [en2]
 
 You scoundrels!
-[nl2]Is this any way to treat a lady?!
+[nl2]This is no way to treat a lady!
 [en1]
 
 [F2]You did it! Now the town will
@@ -5347,7 +5345,7 @@ Rrriibit ribbit.[np]
 [nl3]   moves looks like food...
 [en2]
 
-[F2]You got a {F}{r}{o}{g}![np]
+[F2]You got a Frog!
 [nl2]You earned it~.
 [en2]
 
@@ -5491,7 +5489,7 @@ I wonder if something would
 [nl2]happen if I smacked it?
 [en2]
 
-Rakko, rakko.[np]
+Lukko, rakko.[np]
 [nl2]TL: I scare easily, so don't startle
 [nl3]   me!
 [en2]
@@ -7145,8 +7143,7 @@ Hmmph~. Thief! Then [X$6B][LuckRock]![X$6A]
 
 If you're going to act like that
 [nl2]about it then I want [X$6B][LuckRock]![np]
-[nl3]And I won't take one {L}{u}{c}{k} {R}{o}{c}{k}
-[scl]fewer!
+[nl3]Not one {L}{u}{c}{k} {R}{o}{c}{k} fewer, either!
 [en1]
 
 Hmm~... [X$6B][LuckRock]![X$6A]
@@ -8479,11 +8476,11 @@ The door in the cave can't be
 [en1]
 
 In order to open the door, you
-[nl2]need [Three] more Crystal Balls.[np]
+[nl2]need[Space4][Three] more Crystal Balls.[np]
 [nl3]Don't blame me, it's the first
 [scl]puzzle left by Captain Maverick.[np]
 [scl]We can use this ship to track
-[scl]down the other [Three] balls.[np]
+[scl]down the other[Three] balls.[np]
 [scl]It's the only way to save your
 [scl]teacher. Otherwise, you'll end up
 [scl]like those pirates.[np]
@@ -8492,7 +8489,7 @@ In order to open the door, you
 [scl][ ][ ][ ][ ]No.[X$68]
 [en1]
 
-You understand anything~?
+You don't understand anything~?
 [nl2]Seriously, it's like there are FOUR
 [nl3]Winkys before me![np]
 [scl]What don't you get?
@@ -9350,8 +9347,8 @@ This toy robot is enormous...
 They look impossible to move...
 [en2]
 
-If my dog eats anything, he falls
-[nl2]straight to sleep!
+If ma' dog eats anythin', he falls
+[nl2]straight ta' sleep!
 [en1]
 
 [nl2]            Not!
@@ -11149,7 +11146,7 @@ How careless.
 [en1]
 
 How careless.
-[nl2]Let's take them to our boss!
+[nl2]Let's take them to the Cap'n!
 [en1]
 
 I'm the greatest pirate under the
@@ -11180,7 +11177,8 @@ Only one Crystal Ball isn't enough...
 What in the world is going on?
 [en2]
 
-[SP$011A][nl2]   Now's our chance! Get 'em!
+[SP$011A][ ][ ][ ][ ][ ] Now's our chance!
+[nl2][ ][ ][ ][ ][ ][Space4]Get the bilge rats!
 [en1]
 
 It's a mechanical door...
@@ -11477,8 +11475,8 @@ The dog fell fast asleep after
 It's a dog food dish.
 [en2]
 
-[F2]Received {F}{l}{o}{w}{e}{r}{s} from Miss Sisko!![np]
-[nl2]Oh, Looks like she's pretty crafty!
+[F2]Received {F}{l}{o}{w}{e}{r}{s} from Miss Sisko!!
+[nl3]Oh, Looks like she's pretty crafty!
 [en1]
 
 The {T}{i}{m}{e} {R}{o}{o}{m} is in the locked
@@ -11949,8 +11947,8 @@ It seems there used to be a
 This rock has a crack...!?
 [en2]
 
-The lucky otters have {L}{u}{c}{k} {R}{o}{c}{k}{s}!
-[nl2]
+The lazy, lucky otters are lounging
+[nl2]with {L}{u}{c}{k} {R}{o}{c}{k}{s}!
 [nl3]...Ouch, I bit my tongue!
 [en2]
 
