@@ -9,8 +9,8 @@ fill $400000,$FF	//Extend to 4MB
 seekFile(0)
 insert "./roms/Marvelous_JP.sfc"
 
-include "./asm/insert_en.asm"
 include "./asm/code.asm"
+include "./asm/insert_en.asm"
 include "./asm/pointers.asm"
 include "./asm/vwf.asm"
 
