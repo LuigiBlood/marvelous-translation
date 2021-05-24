@@ -43,6 +43,10 @@ map_journal4:
 	insert "../gfx/en_new/journal4_map.bin"
 seekFile($2C1B1E)	//Change place to entry number
 	sta $7F00AC
+seekFile($2C1E1E)	//Change place to entry number (???)
+	sta $7F00AC
+seekFile($2C1F12)	//Change place to entry number (see code.asm)
+	sta $7F00AC
 
 
 seekFile($2BB96A)
