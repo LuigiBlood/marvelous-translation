@@ -37,15 +37,15 @@ map_journal3:
 	insert "../gfx/en_new/journal3_map.bin"
 seekFile($2C19BB)	//Change place to entry number
 	sta $7F00B2
+seekFile($2C1E1E)	//Change place to entry number (Save & Exit)
+	sta $7F00B2
 seekFile($2C1AAF)	//#に記録しました。
 					//Journal entry # has been saved.
 map_journal4:
 	insert "../gfx/en_new/journal4_map.bin"
 seekFile($2C1B1E)	//Change place to entry number
 	sta $7F00AC
-seekFile($2C1E1E)	//Change place to entry number (???)
-	sta $7F00B2
-seekFile($2C1F12)	//Change place to entry number (see code.asm)
+seekFile($2C1F12)	//Change place to entry number (Save & Exit, see code.asm)
 	sta $7F00AC
 
 
