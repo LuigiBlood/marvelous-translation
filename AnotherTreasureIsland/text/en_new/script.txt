@@ -5494,7 +5494,7 @@ Lukko, rakko.[np]
 [nl3]   me!
 [en2]
 
-Rakko, rakko.[np]
+Rakko, tomakko.[np]
 [nl2]TL: I scare easily, so don't startle
 [nl3]   me!
 [en2]
@@ -5521,19 +5521,25 @@ Don't think you can escape from
 ........
 [en2]
 
-Listen to what they're saying!
+Pay attention to what the
+[nl2]Mammoth guys say when they
+[nl3]attack!
 [en2]
 
 If you don't push it quickly, the
 [nl2]Mammoth guys will wake up.
 [en2]
 
-If you return to the other world,
-[nl2]give me a visit, okay?
+When you return to your time,
+[nl2]don't forget to give me a visit,
+[nl3]okay? Good!
 [en2]
 
-If you return to the other world,
-[nl2]give me a visit, okay?
+When you return to your time,
+[nl2]don't forget to give me a visit,
+[nl3]okay? Good![np]
+[scl]Hurry now, I can't hold this
+[scl]dramatic pose forever!
 [en2]
 
 Thank goodness he was found
@@ -5823,7 +5829,9 @@ This is where life begins!
 [nl2]   Hey![C$56] Wait for me!
 [en2]
 
-Meow~, meow~.
+Meow~, meow~.[np]
+[nl2]TL: Darn this yarn! I'll tear you
+[nl3]   thread-from-thread!
 [en2]
 
 I feel like everything is different
@@ -7852,7 +7860,7 @@ If you want to play, choose {L}{u}{c}{k}
 [nl2]{R}{o}{c}{k} from the [Item] menu!
 [en2]
 
-Alright, I have taken 1 {L}{u}{c}{k} {R}{o}{c}{k}.
+Alright, thanks for the {L}{u}{c}{k} {R}{o}{c}{k}.
 [nl2]Look carefully at the moving
 [nl3]panels before you kick!
 [en1]
@@ -8400,7 +8408,7 @@ Received [num] {L}{u}{c}{k} {R}{o}{c}{k} from Jam.
 [en1]
 
 Okay, you got lucky that time.
-[nl2]Try again?
+[nl2]You wanna try again?
 [nl3]Don't run out on me, now.
 [en1]
 
@@ -10000,7 +10008,7 @@ Uhfoofoo! Uhfoofooo![np]
 Holy clocks, Batman!
 [en2]
 
-This must be a telescope.
+This is a telescope, right?
 [en2]
 
 [nl2]There's a picture.
@@ -11978,8 +11986,8 @@ Be careful!!
 [nl3]spinning.
 [en2]
 
-Hurry, push the button in front of
-[nl2]you and save me!!
+Hurry, push the buttons in front
+[nl2]of the cage and save me!!
 [en2]
 
 Thank you!
@@ -11988,7 +11996,7 @@ Thank you!
 [en1]
 
 [SP$000B]You came here looking for this
-[nl2]"Blue Crystal", right?[np]
+[nl2]{B}{l}{u}{e} {C}{r}{y}{s}{t}{a}{l}, right?[np]
 [nl3]I apologize, but you can't have it
 [scl]until I've proven Indio innocent.[np]
 [scl]I promise I'll let you have it in
@@ -11997,7 +12005,7 @@ Thank you!
 [en2]
 
 I'll make sure you guys get the
-[nl2]"Blue Crystal." Go on and head
+[nl2]{B}{l}{u}{e} {C}{r}{y}{s}{t}{a}{l}. Go on and head
 [nl3]back to wherever you're from.
 [en2]
 
@@ -12075,7 +12083,8 @@ There's a hole...
 [en2]
 
 Ribbit. Ribbit.[np]
-[nl2]TL: Man, what a pansy!
+[nl2]TL: Man, how pathetic was that
+[nl3]   guy? What a pansy, ribbit!
 [en2]
 
 My child just loves Miss Sisko's
