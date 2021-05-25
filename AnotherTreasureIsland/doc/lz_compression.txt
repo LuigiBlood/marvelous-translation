@@ -1,0 +1,42 @@
+Marvelous - Another Treasure Island - uses a variant of Super Mario World / A Link To The Past / Yoshi's Island compression format, also called LC_LZ2 by Lunar Compress.
+Copied from https://sneslab.net/wiki/LC_LZ2
+
+Decompression code is found at SNES address $00B904 / PC address 0x3904
+
+The compressed data consists of "chunks", each with a header:
+bits
+76543210
+CCCLLLLL
+
+CCC:   Command bits
+LLLLL: Length
+
+If the header byte is $FF, the end of the compressed data has been reached, and decompression will be aborted.
+
+Commands:
+000    "Direct Copy"
+       Followed by (L+1) bytes of data
+001    "Byte Fill"
+       Followed by one byte to be repeated (L+1) times
+010    "Word Fill"
+       Followed by two bytes. Output first byte, then second, then first,
+       then second, etc. until (L+1) bytes has been outputted
+011    "Increasing Fill"
+       Followed by one byte to be repeated (L+1) times, but the byte is
+       increased by 1 after each write
+100    "Repeat"
+       Followed by two bytes (ABCD byte order) containing address (in the
+       output buffer) to copy (L+1) bytes from
+101    (Unused command)
+110    "16-bit length"
+       This command has got a three-byte header:
+	   110CCC00 LLLLLLLL LLLLLLLL
+	   CCC:              Real command
+	   LLLLLLLLLLLLLLLL: Length
+111    "10-bit length"
+       This command has got a two-byte header:
+       111CCCLL LLLLLLLL
+       CCC:        Real command
+       LLLLLLLLLL: Length
+
+If it's a longer length, command 100, 101, 110, 111 is Repeat.
