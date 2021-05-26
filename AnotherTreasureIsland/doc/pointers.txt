@@ -218,7 +218,7 @@
 0xD6 - 1D4A16 - LZ - 
 0xD7 - 1D5DBD - LZ - 
 0xD8 - 1D73D8 - LZ - 
-0xD9 - 1D860C - LZ - 
+0xD9 - 1D860C - LZ - Graphics	- Kick & Smash Minigame
 0xDA - 1D948F - LZ - Graphics	- Various Sprites & Nintendo Copyright
 0xDB - 1DA5ED - LZ - Graphics	- Subtitle (Another Treasure Island)
 0xDC - 1DA9B5 - LZ - 
