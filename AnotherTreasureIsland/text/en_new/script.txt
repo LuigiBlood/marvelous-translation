@@ -5771,8 +5771,9 @@ Thanks to those two, I became
 
 My husband once told me about
 [nl2]some heroic kids that he knew.[np]
-[nl3]Now that I've got a story to
-[scl]match, I'm sure he'll be happy.
+[nl3]I'm sure that he'd be happy to
+[scl]hear that now I've got a story 
+[scl]to match.
 [en2]
 
 Our town became prosperous
@@ -5808,7 +5809,7 @@ If you don't like studying, you
 [nl3]They're really easy to understand!
 [en2]
 
-Hey. Hey. Isn't Miss Sisko just
+Hey, hey. Isn't Miss Sisko just
 [nl2]wonderful?
 [en2]
 
@@ -5841,7 +5842,7 @@ I feel like everything is different
 Did you remember our promise?
 [en2]
 
-What's with this picture...
+What? This photo is...
 [en2]
 
 I dunno...
