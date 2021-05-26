@@ -9548,7 +9548,7 @@ It's a suspicious boulder. I think
 [nl3]together...
 [en2]
 
-[nl2]   It's the monkey from before.
+[nl2][ ] It's the monkey from before.
 [en2]
 
 {L}{u}{c}{k} {R}{o}{c}{k}{s} won't come out anymore.
@@ -9589,7 +9589,7 @@ What a weird robot. It's sprinkling
 [nl2]  You can't see what is written.
 [en2]
 
-[nl2] Hey! It's the Crystal Ball!
+[nl2][ ]Hey! It's the Crystal Ball!
 [en2]
 
 It's a pipe.
@@ -9627,10 +9627,10 @@ The plant that attacked me was
 [nl2]huge...!
 [en2]
 
-[nl2]      Huh? There's a hole.
+[nl2][ ][ ][ ][ ] Huh? There's a hole.
 [en2]
 
-[nl2]        It's a sign!
+[nl2][ ][ ][ ][ ][ ][ ][ ] It's a sign!
 [en2]
 
 A treasure chest!!
@@ -9644,7 +9644,7 @@ The parasite has been cleansed
 [nl2]from the Baobab tree.
 [en2]
 
-[nl2]  Too bad. The chest is empty.
+[nl2][ ] Too bad. The chest is empty.
 [en2]
 
 Why is there a door here?
@@ -9678,14 +9678,14 @@ People call me Crusher Bob!
 [en2]
 
 Toot, toot!
-[nl2]Here comes the train~!
+[nl2]Here~ comes~ the train~!
 [nl3]It'll ruin your day if you get hit~!
 [en2]
 
 Look! {F}{i}{r}{e}{w}{o}{o}{d}!
 [en2]
 
-[nl2] The picture said something?
+[nl2]  Did the picture say something?
 [en2]
 
 It's a picture of Pirate Bull's
@@ -9716,7 +9716,7 @@ A little bitty bed... I wonder who
 [nl2]would be able to sleep here?
 [en2]
 
-What do you brats want?
+What do you boys want?
 [nl2]You're jealous of my beauty so
 [nl3]you came to steal our oil!?
 [en2]
@@ -9730,7 +9730,7 @@ So, [team] team is in charge of
 [nl3]Let's see, you need [Six] pieces...
 [en2]
 
-[nl2]     !....??????
+[nl2][ ][ ][ ]![ ].[ ].[ ].[ ].[ ]?[ ]?[ ]?[ ]?[ ]?[ ]?
 [en2]
 
 It's a Crystal Ball!
@@ -9753,14 +9753,14 @@ Didja get it yet?
 [nl2]Time is money, so go quickly!
 [en2]
 
-[nl2]    A biiite~!!!!
+[nl2][ ][ ][ ][ ][ ][ ][ ] A biiite~!!!!
 [en2]
 
 Ooo kii, ooo kii kii![np]
 [nl2]TL: This bye-bye time.
 [en2]
 
-[nl2]  What a creepy door.
+[nl2][ ]It's kind of an ominous door.
 [en2]
 
 Hey, [team] Team.
@@ -9849,8 +9849,8 @@ Fugo. Fugofu. Fugogo.[np]
 
 Fugo? Fugofugo.[np]
 [nl2]TL: What's wrong?
-[nl3]Hurry up and start.
-[scl]Make sure you run the right way.
+[nl3]   Hurry up and start. Make sure
+[scl]   you run the right way.
 [en2]
 
 Fugofugo.[np]
@@ -9867,15 +9867,13 @@ These penguins are a couple.
 [nl3]Let's give them some privacy.
 [en2]
 
-These penguins aren't a couple
-[nl2]yet.
+These penguins aren't a couple yet.
 [en2]
 
 [SStop]It's the male group.
 [en2]
 
-What's he doing?
-[nl2]He won't get off.
+What's he doing? He won't get off.
 [en2]
 
 Let's set these guys up!
@@ -10037,8 +10035,9 @@ What am I doing here, you say...?
 My job is recording animal sounds!
 [en2]
 
-[X$6A]The princess was squished...[np]
-[nl2]You stupid bird!! Get off her!!
+[X$6A]The princess got pancaked.[Space4].[Space4].[Space4].[Space4].[Space4].[Space4].[np]
+[nl2]Gahh!!! You stupid bird!!
+[nl3]Get off of her this INSTANT!!
 [en1]
 
 Fugofugo. Fugofugo.[np]
@@ -10048,7 +10047,7 @@ Fugofugo. Fugofugo.[np]
 [en1]
 
 What is it?[np]
-[nl2]Without soldier #[Five]'s permission,
+[nl2]Without soldier[Space2][Five]'s permission,
 [nl3]I can't let you pass.
 [en2]
 
@@ -10059,18 +10058,18 @@ What am I doing?
 [en2]
 
 Hmm?
-Ohh... You need something?
-[np]
-[nl2]If it's something about plants, I
-[nl3]know everything!
+[nl2]Ohh... You need something?
+[nl3][np]
+[scl]If it's something about plants, I
+[scl]know everything!
 [scl]I am the biologist Phillip Marlowe!
 [en2]
 
 What is it, boys?
 [en2]
 
-This picture... Seems to be an
-[nl2]ancient pirate?
+This picture...
+[nl2]Seems to be an ancient pirate?
 [en2]
 
 It's a mysterious cactus.
@@ -10078,27 +10077,27 @@ It's a mysterious cactus.
 
 [X$6A]A research thesis:
 [nl2]       "Island Plant Life"
-[nl3]              Phillip Marlowe
+[nl3]            by Phillip Marlowe
 [en2]
 
 ...What?
-[nl2]You're looking for soldier #[X$6B]?
+[nl2]You're looking for soldier[Space2][X$6B]?
 [nl3]Sorry, that's not my number.
 [en2]
 
 ...What?
-[nl2]You're looking for soldier #[X$6B]?
+[nl2]You're looking for soldier[Space2][X$6B]?
 [scl]Well, here I am, in the flesh.
 [en2]
 
 ...What?
-[nl2]Oh, you're looking for the #[Six]
+[nl2]Oh, you're looking for the[Space2][Six]th
 [nl3]soldier?
 [en2]
 
 Looks like you have permission
-[nl2]now. ...Oh, it was the #[Six] soldier,
-[nl3]not the #[Five] soldier?[np]
+[nl2]now. ...Oh, it was the [Six]th
+[nl3]soldier, not the[Five]th soldier?[np]
 [scl]Whoops, my bad.
 [en2]
 
@@ -10106,11 +10105,12 @@ You need more {L}{u}{c}{k} {R}{o}{c}{k}{s}!
 [en2]
 
 Fugo? Fugogo?[np]
-[nl2]TL: Gonna bugger off? I wont even
-[nl3]   call you a pansy if you do.[np]
-[scl]   Whadda' ya' say?[X$6A]
-[scl][ ][ ][ ][ ]I'm leaving.    
-[scl][ ][ ][ ][ ]Not yet.[X$68]
+[nl2]TL: Gonna scamper off home?
+[nl3]   I wont even call you a pansy
+[scl]   if you do.[np]
+[scl]   Whatcha' gonna' do?[X$6A]
+[scl][ ][ ][ ][ ]I'm leaving.
+[scl][ ][ ][ ][ ]I'm not ready to give up.[X$68]
 [en1]
 
 Pretty good quality for a freebie

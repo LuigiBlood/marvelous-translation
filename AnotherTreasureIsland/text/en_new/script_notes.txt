@@ -1918,7 +1918,7 @@ robot?
 
 
 
-
+not sure where "brats" came from... changed to boys
 
 
 
@@ -2009,7 +2009,7 @@ winky
 
 
 
-
+Do you want to go home? If you wanna go home, then go home.
 
 
 
