@@ -1046,6 +1046,7 @@ Pirroc
 
 
 
+the mark on the ground near the graves
 
 
 
@@ -1101,13 +1102,12 @@ Pirroc
 
 
 
+sheriff
 
 
 
 
-
-
-
+2 line text
 
 
 
@@ -2406,7 +2406,7 @@ The Mammoth Brothers, Three
 
 
 
-
+doing rhymes is hard
 
 
 
@@ -2842,7 +2842,7 @@ toning it down a bit
 
 
 
-
+2 lines text
 
 
 
@@ -2876,7 +2876,7 @@ plant confrontation
 Cant use the special font on 2-line text
 
 
-only2 lines
+only2 lines, so no highlights allowed
 not sure if 2 lines
 
 

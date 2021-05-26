@@ -1,174 +1,261 @@
+
 Red Crystal
 [en2]
+
 Blue Crystal
 [en2]
+
 Yellow Crystal
 [en2]
+
 Green Crystal
 [en2]
 
-[en2]
 
 [en2]
 
-[en2]
 
 [en2]
 
+
 [en2]
+
+
+[en2]
+
+
+[en2]
+
 Acidic Key
 [en2]
+
 Gate Key
 [en2]
+
 Jump Boots
 [en2]
-Giant Hammer
+
+Big Hammer
 [en2]
+
 Punch Gloves
 [en2]
+
 Marlowe Magnet
 [en2]
+
 Walkie-Talkie
 [en2]
-Hidden Board
+
+Salvaged Broken Board
 [en2]
-Old Cheese
+
+Holey Aged Cheese
 [en2]
+
 Salty Spray
 [en2]
-Old Rope
+
+Long Old Rope
 [en2]
-Remote Control
+
+Complex Remote Control
 [en2]
-Eagle Egg
+
+A Real Eagle's Egg
 [en2]
-Pocket Polly
+
+Selfish Pocket Polly
 [en2]
-A Fishing Hook
+
+A Large Fishing Hook
 [en2]
+
 A Fishing Rod
 [en2]
-A Secret Coin
+
+Secret Village Coin
 [en2]
+
 Dash Shoes
 [en2]
+
 Mitt and Ball
 [en2]
-Tape Recorder
+
+Borrowed Tape Recorder
 [en2]
-Mystery Photo
+
+Mysterious Photo
 [en2]
+
 Forgotten Doll
 [en2]
-Mr. Diggy
+
+Mr. Diggy the Hole Digger
 [en2]
+
 Sour Cage Key
 [en2]
-Soldier Blue
+
+Soldier Blue (Medicine)
 [en2]
+
 Tomato
 [en2]
-Lunch Box
+
+Spicy Lunch Box of Love
 [en2]
-Empty Bottle
+
+A Bottle (Not A Weapon)
 [en2]
-Napoleon's Pot
+
+(Not) Napoleon's Pot
 [en2]
-Iffy Shogun Pot
+
+Super-fake Shogun's Pot
 [en2]
-Shady Chef Hat
+
+Shady Chef's Hat
 [en2]
-Forest Shell
+
+Used Forest Shell
 [en2]
-Rolypoly Shell
+
+Rolypoly's Shell
 [en2]
-Frog's Tail
+
+Electrified Frog's Tail
 [en2]
-Dog House
+
+Decent Dog House
 [en2]
-Forest Coat
+
+Fashionable Forest Coat
 [en2]
-Golden Drop
+
+Scardy-Bee's Golden Drop
 [en2]
-Silver Thread
+
+Spider's Silver Thread
 [en2]
-Red Paints
+
+Red Paint with Brush
 [en2]
-Green Paints
+
+Green Paint with Brush
 [en2]
-Blue Paints
+
+Blue Paint with Brush
 [en2]
-Small Key
+
+A Small Key
 [en2]
-Crystal Ball
+
+Mysterious Crystal Ball
 [en2]
+
 Red Key
 [en2]
+
 Green Key
 [en2]
+
 Blue Key
 [en2]
+
 You have 0 Firewood.
 [en2]
-Sisko's Flower
+
+Sisko's Pretty Flowers
 [en2]
+
 Dog Bone
 [en2]
-Mansion Key
+
+Creepy Mansion Key
 [en2]
-Frog
+
+Slippery Frog
 [en2]
-Benson's TNT
+
+Benson's Lucky Dynamite
 [en2]
-Luck Rock:{0}  
+
+{0} Luck Rocks
 [en2]
+
 Soccer Shoes
 [en2]
+
 Swimming Goggles
 [en2]
-Blueprints
+
+Digging Machine Blueprints
 [en2]
-MissGina Scarf
+
+Miss Gina's Scarf
 [en2]
+
 Stinky Fish Key
 [en2]
-Saltwater
+
+Salty Saltwater Bottle
 [en2]
+
 Buster Cannon
 [en2]
-Colonel's Slip
+
+Colonel's Permission Slip
 [en2]
+
 Red Key 1
 [en2]
+
 Red Key 2
 [en2]
+
 Red Key 3
 [en2]
+
 Red Key 4
 [en2]
+
 Green Key 1
 [en2]
+
 Green Key 2
 [en2]
+
 Green Key 3
 [en2]
+
 Green Key 4
 [en2]
+
 Blue Key 1
 [en2]
+
 Blue Key 2
 [en2]
+
 Blue Key 3
 [en2]
+
 Blue Key 4
 [en2]
 
-[en2]
 
 [en2]
 
-[en2]
 
 [en2]
+
+
+[en2]
+
+
+[en2]
+
 
 [en2]

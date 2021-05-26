@@ -2396,7 +2396,7 @@ Even if the ants want to attack,
 [scl]am asking you as a personal favor
 [scl]for myself. I need your help.[np]
 [scl]I'm begging you. If you can help
-[scl]me make the Ant Buster, I'm sure
+[scl]me make the {A}{n}{t} {B}{u}{s}{t}{e}{r}, I'm sure
 [scl]the king will forgive you.[np]
 [scl]What do you say? Will you help?[X$6A]
 [scl][ ][ ][ ][ ]Okay.
@@ -2404,7 +2404,7 @@ Even if the ants want to attack,
 [en1]
 
 I'm begging you. If you can help
-[nl2]me make the Ant Buster, I'm sure
+[nl2]me make the {A}{n}{t} {B}{u}{s}{t}{e}{r}, I'm sure
 [nl3]the king will forgive you.[np]
 [scl]What do you say? Will you help?[X$6A]
 [scl]    Okay.
@@ -2736,7 +2736,7 @@ What? It won't open.
 [scl]on here...
 [en1]
 
-[F2]You got the {S}{h}{o}{g}{u}{n}{'}{s} {P}{o]{t}![np]
+[F2]You got the {S}{h}{o}{g}{u}{n}{'}{s} {P}{o}{t}![np]
 [nl2]It... looks like a normal pot.
 [nl3]It must be a fake.
 [en1]
@@ -2804,7 +2804,7 @@ There are [X$6B] items left.
 [en2]
 
 Great! Now I have everything I
-[nl2]need to make the Ant Buster.
+[nl2]need to make the {A}{n}{t} {B}{u}{s}{t}{e}{r}.
 [nl3]Let's start immediately.
 [en1]
 
@@ -4572,8 +4572,8 @@ Where did you get this picture?
 
 It's the legendary pirate
 [nl2]Christopher Benson, isn't it?[np]
-[nl3]He tried to take back the "town's
-[scl]treasure" and died doing it.[np]
+[nl3]He tried to take back the {t}{o}{w}{n}{'}{s}
+[scl]{t}{r}{e}{a}{s}{u}{r}{e} and died doing it.[np]
 [scl]He was buried in the cemetery
 [scl]outside of town.
 [en2]
@@ -4584,7 +4584,7 @@ Indio was leading the bandits!![np]
 [scl]nothing will go our way.
 [en2]
 
-It's called the "town's treasure."
+It's called the {t}{o}{w}{n}{'}{s} {t}{r}{e}{a}{s}{u}{r}{e}.
 [nl2]The legendary pirate,  Christopher
 [nl3]Benson, once spoke of this...[np]
 [scl]He said that it could be used to
@@ -4638,8 +4638,8 @@ A long time ago, Indio fabricated
 [scl]stories, right...?
 [en2]
 
-This crystal was the "town's
-[nl2]treasure" to us, but to Indio it
+This {B}{l}{u}{e} {C}{r}{y}{s}{t}{a}{l} was the {t}{o}{w}{n}{'}{s}
+[nl2]{t}{r}{e}{a}{s}{u}{r}{e} to us, but to Indio it
 [nl3]was a piece of a time machine.
 [en2]
 
@@ -5174,7 +5174,7 @@ Press the [BBtn] button to punch,
 Hehehe, later!
 [en1]
 
-The "town's treasure" is gone![np]
+The {t}{o}{w}{n}{'}{s} {t}{r}{e}{a}{s}{u}{r}{e} is gone![np]
 [nl2]You stole it, didn't you, Indio?!
 [nl3]I just received an anonymous tip
 [scl]about you!
@@ -5550,7 +5550,7 @@ It's a message Benson left for us!
 [nl2]...What does it mean?
 [en2]
 
-Is something there?
+Is something buried here?
 [en2]
 
 Come here and look at the
@@ -5762,7 +5762,7 @@ That's Miss Sisko for ya![np]
 [nl3]the same blood is in her!
 [en2]
 
-How peaceful~!
+How downright peaceful~!
 [en2]
 
 Thanks to those two, I became
@@ -5786,12 +5786,12 @@ Indio's daughter is a school
 [scl]knows where he went to.
 [en2]
 
-Miss Sisko reminds me of Miss
-[nl2]Gina.
+When I saw Miss Sisko just now, she
+[nl2]reminded me of Miss Gina a little bit.
 [en2]
 
 Studying is all well and good.[np]
-[nl2]But sometimes you need play
+[nl2]But sometimes you need to play
 [nl3]outside!
 [en2]
 
@@ -5804,7 +5804,7 @@ This is Miss Sisko's class... but
 [en2]
 
 If you don't like studying, you
-[nl2]should try Miss S's classes![np]
+[nl2]should try Miss S's classes!
 [nl3]They're really easy to understand!
 [en2]
 
@@ -5823,7 +5823,7 @@ When you get home, say hi to your
 Isn't it a great house?!
 [en2]
 
-This is where life begins!
+There's plenty of life yet to enjoy!
 [en2]
 
 [nl2]   Hey![C$56] Wait for me!
@@ -9073,9 +9073,9 @@ Boy, what a handful. We have to
 [nl2]collect 5 objects...[np]
 [nl3]For now, let's choose one of the
 [scl]following 3 sets of objects:[np]
-[scl]Frog Tail - Shell
-[scl]Gold Drop - Coat
-[scl]Silver Thread - Paints[X$6E]
+[scl][ ][ ][ ]*Frog Tail and Forest Shell
+[scl][ ][ ][ ]*Gold Drop and Forest Coat
+[scl][ ][ ][ ]*Silver Thread and Paints[X$6E]
 [en1]
 
 Frogs don't actually have tails
@@ -9133,7 +9133,7 @@ There are 4 spiders in the forest
 
 Do you know about the town's
 [nl2]artist, Caesar?[np]
-[nl3]You should bring him the paints
+[nl3]You should bring him the {P}{a}{i}{n}{t}{s}
 [scl]you got from the forest.[np]
 [scl]Do you remember what the King's
 [scl]gown looked like?[np]
@@ -9151,7 +9151,7 @@ Do you know about the town's
 [en1]
 
 You've done a lot, but there's no
-[nl2]trace of the Crystal Ball.[np]
+[nl2]trace of the {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}.[np]
 [nl3]For the time being, perhaps you
 [scl]should go talk to Solomon?
 [en1]
@@ -10882,7 +10882,7 @@ It's looking good! I've spent years
 [en2]
 
 Hassan's memo: "The 5 ingredients
-[nl2]of the Ant Buster"
+[nl2]of the {A}{n}{t} {B}{u}{s}{t}{e}{r}"
 [en2]
 
 What are you doing here?
@@ -11816,7 +11816,7 @@ Oh man...
 [en2]
 
 Was Indio really arrested for
-[nl2]stealing the "town's treasure"?
+[nl2]stealing the {t}{o}{w}{n}{'}{s} {t}{r}{e}{a}{s}{u}{r}{e}?
 [nl3]What's the Sheriff got on him?
 [en2]
 
@@ -11865,8 +11865,8 @@ I can smell the water.
 [scl]Were you the ones who rescued
 [scl]me? In order for me to prove my
 [scl]innocence, I have to stay here.[np]
-[scl]The guys who stole the "town's
-[scl]treasure" are in their mountain
+[scl]The guys who stole the {t}{o}{w}{n}{'}{s}
+[scl]{t}{r}{e}{a}{s}{u}{r}{e} are in their mountain
 [scl]hideout.[np]
 [scl]They're called the "Mammoth
 [scl]Brothers." You need to alert
@@ -11960,7 +11960,7 @@ The lazy, lucky otters are lounging
 [nl3]...Ouch, I bit my tongue!
 [en2]
 
-The otters have tomatoes!
+The otters have tomatters~!
 [en2]
 
 Hey~, help me! The Mammoth
@@ -11968,7 +11968,7 @@ Hey~, help me! The Mammoth
 [nl3]the buttons in front of you!
 [en2]
 
-Wh, wh, what!? What was that!?
+Wh-wh-what!? What was that!?
 [nl2]We're the Mammoth Brothers! We
 [nl3]defeat our enemies leader first!
 [en2]
@@ -11991,7 +11991,7 @@ Hurry, push the buttons in front
 [en2]
 
 Thank you!
-[nl2]Now the "town's treasure" can be
+[nl2]Now the {t}{o}{w}{n}{'}{s} {t}{r}{e}{a}{s}{u}{r}{e} can be
 [nl3]returned!
 [en1]
 
@@ -12092,8 +12092,8 @@ My child just loves Miss Sisko's
 [nl3]teacher.
 [en2]
 
-Thanks to Sisko's father, this town
-[nl2]has plenty of water...
+Thanks to Sisko's pa, this town's
+[nl2]got plenty of water...
 [en2]
 
 Indio and Christopher Benson
@@ -12160,9 +12160,9 @@ Look, look! It's the home of my
 [nl2]dreams!
 [en2]
 
-Everything used to be better...
-[nl2]Isn't something I think about
-[nl3]saying all the time!
+Everything used to be better...[np]
+[nl2]Isn't something I ever think about
+[nl3]saying!
 [en2]
 
 Look how small it became...
@@ -13890,7 +13890,7 @@ It's shaking too much to use
 
 [en1]
 
-[F2]You got the second {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}!
+[F2]You got the second Crystal Ball!
 [en1]
 
 
@@ -13977,7 +13977,7 @@ We can take nutrients and live on
 [SP$0204][ ][ ][ ][ ][ ][ ]W-waaaaaahh~!!
 [en2]
 
-[F2]You got the third {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}!
+[F2]You got the third Crystal Ball!
 [en1]
 
 [SStop][SP$011D]       Grrr bark! bark!
