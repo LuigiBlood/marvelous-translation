@@ -12019,7 +12019,8 @@ I'll make sure you guys get the
 [nl3]Hey! What's this?...
 [en2]
 
-There is a mark left here...
+The soil in this spot looks a bit
+[nl2]different than the rest... 
 [en2]
 
 It's the crow from the cemetery!
