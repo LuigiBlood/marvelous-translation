@@ -130,11 +130,11 @@ You wanna piece of me?[np]
 [X$6A]To the members of [team] Team:[np]
 [nl2]Since the ship arrived from town,
 [nl3]we're leaving right away.[np]
-[scl]We waited two hours for you to
-[scl]show, but you never came.[np]
-[scl]We've called the police, so you
-[scl]should just let them look for Miss
-[scl]Gina.[np]
+[scl]I waited two hours for you to
+[scl]show, but you never came.
+[scl]Where on earth did you go?[np]
+[scl]We called the police, so you should
+[scl]just let them look for Miss Gina.[np]
 [scl]You should probably get a ride
 [scl]from the cops back to town, too.[np]
 [scl]This year's camp really got out of
