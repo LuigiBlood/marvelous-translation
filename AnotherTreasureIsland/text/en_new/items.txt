@@ -92,7 +92,7 @@ Mysterious Photo
 Forgotten Doll
 [en2]
 
-Mr. Diggy the Hole Digger
+Mr. Diggy (The Digger)
 [en2]
 
 Sour Cage Key
@@ -182,7 +182,7 @@ Slippery Frog
 Benson's Lucky Dynamite
 [en2]
 
-{0} Luck Rocks
+[ ]{0} Luck Rocks
 [en2]
 
 Soccer Shoes

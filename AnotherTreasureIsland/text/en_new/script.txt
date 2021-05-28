@@ -6672,7 +6672,9 @@ The answer is simple...
 [nl2]          [C$42][X$7E]
 [en1]
 
-Su-...Sucker?!
+S...S-Sike?![np]
+[nl2]And I thought it was gonna be
+[nl3]something good! Oh, well~...
 [en2]
 
 Enter the numbers with[ABtn] and
@@ -7857,27 +7859,28 @@ Want to play a fun game?
 [nl2]Hehehe... Come a little closer.
 [en2]
 
-If you want to play, choose {L}{u}{c}{k}
-[nl2]{R}{o}{c}{k} from the [Item] menu!
+If you wanna play, then choose
+[nl2]{L}{u}{c}{k} {R}{o}{c}{k} from the[Space2][Item] menu!
 [en2]
 
 Alright, thanks for the {L}{u}{c}{k} {R}{o}{c}{k}.
-[nl2]Look carefully at the moving
-[nl3]panels before you kick!
+[nl2]Watch the moving panels carefully
+[nl3]before you take your shot!
 [en1]
 
 ...Where were you even looking?!
-[nl2]You suck so bad~!
-[nl3]Want to try again?
+[nl2]Your reflexes are so bad~!
+[nl3]So, you wanna try again?
 [en1]
 
-Dummy. Did you see those catching
-[nl2]skills? ...You're so unlucky!
-[nl3]Try again?
+Dummy. That kick'd be too easy to
+[nl2]catch.      .[Space4].[Space4].[Space4].[Space4].[Space4]You're so unlucky!
+[nl3]So, you gonna try again?
 [en1]
 
-If you don't concentrate, you can't
-[nl2]hit the middle!
+If you don't concentrate, you're not
+[nl2]going to kick it through the
+[nl3]middle!
 [en2]
 
 Oh! You found my "Kick Slots"
@@ -12020,7 +12023,7 @@ I'll make sure you guys get the
 [en2]
 
 The soil in this spot looks a bit
-[nl2]different than the rest... 
+[nl2]different than the rest...
 [en2]
 
 It's the crow from the cemetery!
@@ -13143,11 +13146,11 @@ Just what are you lookin' at?!
 [nl2]Come closer if you want to talk.
 [en2]
 
-What are you staring at?
-[nl2]Want to try Papa Jam's "Kick and
-[nl3]Smash!" game~?[np]
-[scl]1 play for 1 {L}{u}{c}{k} {R}{o}{c}{k}.
-[scl]You up for it?
+Is there something on my face?
+[nl2]Quit your gawking![np]
+[nl3]Do you wanna try Papa Jam's new
+[scl]"Kick and Smash!" game~?
+[scl]You get 1 play for 1 {L}{u}{c}{k} {R}{o}{c}{k}.
 [en2]
 
 Hurry up and kick the ball!

@@ -226,6 +226,8 @@ gfx_ch5_colonel_note2:	//69 - $151D31
 	insert "../gfx/en/lz/lz_colonel_note_gfx2.bin.lz"
 
 //Sprites (B9 to F8)
+gfx_kick_smash_minigame://D9 - $1D860C
+    insert "../gfx/en_new/lz/D9.bin.lz"
 gfx_title_nintendo:		//DA - $1D948F
 	insert "../gfx/en_new/lz/lz_nintendo_gfx.bin.lz"
 gfx_title_sub:			//DB - $1DA5ED

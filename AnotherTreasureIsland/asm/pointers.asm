@@ -38,6 +38,7 @@ ptr_replace(0x64, gfx_ch1_ship_notes)
 
 ptr_replace(0x69, gfx_ch5_colonel_note2)
 
+ptr_replace(0xD9, gfx_kick_smash_minigame)
 ptr_replace(0xDA, gfx_title_nintendo)
 ptr_replace(0xDB, gfx_title_sub)
 
