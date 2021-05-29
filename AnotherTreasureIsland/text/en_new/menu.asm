@@ -163,62 +163,78 @@ db $FB
 
 //-Chapter 2 (Select)
 //Ch. 2
-db $43, $93, $94, $20
+db $43, $89, $8A, $20
 //t
-db $3B, $F0, $F0, $F0
+db $F0, $F0, $F0, $F0
 //Name
-db $67, $68, $69, $6A, $6B, $6C, $6D, $F0
+name_ch2()
 //From Ship
-db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_start()
+db $FD, $BB, $FD, $BC, $FD, $BD
+db $F0, $F0, $F0, $F0, $F0
 //From Mansion
-db $05, $39, $36, $34, $F0, $0C, $28, $35, $3A, $30, $36, $35, $F0, $F0, $F0, $F0
+menu_start()
+db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
+db $F0, $F0, $F0
 //Save&Qui
-db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_save()
 db $FB
 
 //-Chapter 3 (Select)
 //Ch. 3
-db $43, $93, $94, $21
+db $43, $89, $8A, $21
 //t
-db $3B, $F0, $F0, $F0
+db $F0, $F0, $F0, $F0
 //Name
-db $6E, $6F, $70, $71, $72, $73, $F0, $F0
+name_ch3()
 //From Ship
-db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_start()
+db $FD, $BB, $FD, $BC, $FD, $BD
+db $F0, $F0, $F0, $F0, $F0
 //From Stable
-db $05, $39, $36, $34, $F0, $12, $3B, $28, $29, $33, $2C, $F0, $F0, $F0, $F0, $F0
+menu_start()
+db $FC, $18, $FC, $19, $FC, $1A, $FC, $1B
+db $F0, $F0, $F0, $F0
 //Save&Qui
-db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_save()
 db $FB
 
 //-Chapter 4 (Select)
 //Ch. 4
-db $43, $93, $94, $22
+db $43, $89, $8A, $22
 //t
-db $3B, $F0, $F0, $F0
+db $F0, $F0, $F0, $F0
 //Name
-db $74, $75, $76, $77, $78, $79, $F0, $F0
+name_ch4()
 //From Ship
-db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_start()
+db $FD, $BB, $FD, $BC, $FD, $BD
+db $F0, $F0, $F0, $F0, $F0
 //From Inn
-db $05, $39, $36, $34, $F0, $08, $35, $35, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_start()
+db $FD, $BE, $FD, $BF
+db $F0, $F0, $F0, $F0, $F0, $F0
 //Save&Qui
-db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_save()
 db $FB
 
 //-Chapter 5 (Select)
 //Ch. 5
-db $43, $93, $94, $23
+db $43, $89, $8A, $23
 //t
-db $3B, $F0, $F0, $F0
+db $F0, $F0, $F0, $F0
 //Name
-db $7A, $7B, $7C, $7D, $F0, $F0, $F0, $F0
+name_ch4()
 //From Ship
-db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_start()
+db $FD, $BB, $FD, $BC, $FD, $BD
+db $F0, $F0, $F0, $F0, $F0
 //From Ship
-db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_start()
+db $FD, $BB, $FD, $BC, $FD, $BD
+db $F0, $F0, $F0, $F0, $F0
 //Save&Qui
-db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_save()
 db $FB
 
 //-...Swooned... Try Again!
@@ -233,7 +249,7 @@ db $FB
 //Ch. 1
 db $43, $89, $8A, $1F
 //t
-db $F0,  $F0, $F0, $F0
+db $F0, $F0, $F0, $F0
 //Name
 name_ch1()
 //From Tent
@@ -250,60 +266,76 @@ db $FB
 
 //--Chapter 2 (Game Over)
 //Ch. 2
-db $43, $93, $94, $20
+db $43, $89, $8A, $20
 //t
-db $3B, $F0, $F0, $F0
+db $F0, $F0, $F0, $F0
 //Name
-db $67, $68, $69, $6A, $6B, $6C, $6D, $F0
+name_ch2()
 //From Ship
-db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_restart()
+db $FD, $BB, $FD, $BC, $FD, $BD
+db $F0, $F0, $F0, $F0
 //From Mansion
-db $05, $39, $36, $34, $F0, $0C, $28, $35, $3A, $30, $36, $35, $F0, $F0, $F0, $F0
+menu_restart()
+db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
+db $F0, $F0
 //Save&Qui
-db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_save()
 db $FB
 
 //--Chapter 3 (Game Over)
 //Ch. 3
-db $43, $93, $94, $21
+db $43, $89, $8A, $21
 //t
-db $3B, $F0, $F0, $F0
+db $F0, $F0, $F0, $F0
 //Name
-db $6E, $6F, $70, $71, $72, $73, $F0, $F0
+name_ch3()
 //From Ship
-db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_restart()
+db $FD, $BB, $FD, $BC, $FD, $BD
+db $F0, $F0, $F0, $F0
 //From Stable
-db $05, $39, $36, $34, $F0, $12, $3B, $28, $29, $33, $2C, $F0, $F0, $F0, $F0, $F0
+menu_restart()
+db $FC, $18, $FC, $19, $FC, $1A, $FC, $1B
+db $F0, $F0, $F0
 //Save&Qui
-db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_save()
 db $FB
 
 //--Chapter 4 (Game Over)
 //Ch. 4
-db $43, $93, $94, $22
+db $43, $89, $8A, $22
 //t
-db $3B, $F0, $F0, $F0
+db $F0, $F0, $F0, $F0
 //Name
-db $74, $75, $76, $77, $78, $79, $F0, $F0
+name_ch4()
 //From Ship
-db $05, $39, $36, $34, $F0, $12, $2F, $30, $37, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_restart()
+db $FD, $BB, $FD, $BC, $FD, $BD
+db $F0, $F0, $F0, $F0
 //From Inn
-db $05, $39, $36, $34, $F0, $08, $35, $35, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_restart()
+db $FD, $BE, $FD, $BF
+db $F0, $F0, $F0, $F0, $F0
 //Save&Qui
-db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_save()
 db $FB
 
 //--Chapter 5 (Game Over)
 //Ch. 5
-db $43, $93, $94, $23
+db $43, $89, $8A, $23
 //t
-db $3B, $F0, $F0, $F0
+db $F0, $F0, $F0, $F0
 //Name
-db $7A, $7B, $7C, $7D, $F0, $F0, $F0, $F0
+name_ch5()
 //From Blue Door
-db $05, $39, $36, $34, $F0, $0F, $39, $2C, $3D, $4A, $F0, $03, $36, $36, $39, $F0
+menu_restart()
+db $FC, $20, $FC, $21, $FC, $22, $FC, $23, $FC, $24
+db $F0, $F0
 //From Blue Door
-db $05, $39, $36, $34, $F0, $0B, $28, $3A, $3B, $F0, $03, $36, $36, $39, $F0, $F0
+menu_restart()
+db $FC, $20, $FC, $21, $FC, $22, $FC, $23, $FC, $24
+db $F0, $F0
 //Save&Qui
-db $12, $28, $3D, $2C, $42, $10, $3C, $30, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+menu_save()
 db $FB
