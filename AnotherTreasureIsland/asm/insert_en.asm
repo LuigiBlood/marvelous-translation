@@ -213,7 +213,7 @@ gfx_ch2_bensongrave:	//5E - $142CE4
 gfx_ch1_camptips:		//5F - $1447AE
 	insert "../gfx/en_new/lz/5F.bin.lz"
 gfx_ch2_monster:		//60 - $145F3B
-	insert "../gfx/en/lz/lz_monsterposter_gfx.bin.lz"
+	insert "../gfx/en_new/lz/60.bin.lz"
 
 gfx_ch2_chorelist:		//62 - $1490F9
 	insert "../gfx/en/lz/lz_chorelist_gfx.bin.lz"

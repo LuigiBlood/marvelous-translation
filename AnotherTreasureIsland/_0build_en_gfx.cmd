@@ -17,7 +17,9 @@ echo - patchies_stuck_note.png
 ".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\patchies_stuck_note.png" -d ".\gfx\en_new\tmp\patchies_stuck_note.pal" -S
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\patchies_stuck_note.png" -p ".\gfx\en_new\tmp\patchies_stuck_note.pal" -d ".\gfx\en_new\tmp\patchies_stuck_note.gfx" -T 128
 ".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\patchies_stuck_note.png" -p ".\gfx\en_new\tmp\patchies_stuck_note.pal" -t ".\gfx\en_new\tmp\patchies_stuck_note.gfx" -d ".\gfx\en_new\tmp\patchies_stuck_note.map" -T 512 -P 7
-
+echo - the_monster_bg.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\the_monster_bg.png" -p ".\gfx\en_new\img\the_monster_bg.pal" -d ".\gfx\en_new\tmp\the_monster_bg.gfx" -T 128
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\the_monster_bg.png" -p ".\gfx\en_new\img\the_monster_bg.pal" -t ".\gfx\en_new\tmp\the_monster_bg.gfx" -d ".\gfx\en_new\tmp\the_monster_bg.map" -T 512 -P 7
 echo Building English Graphics Files...
 ".\tools\bass\bass" ".\asm\graphics_en.asm"
 echo Done.
