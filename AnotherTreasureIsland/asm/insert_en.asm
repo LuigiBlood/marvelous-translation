@@ -117,11 +117,19 @@ seekAddr($9FCB4C)
 //(Set up {0} in the item names; it will automatically be replaced, no spaces needed)
 seekAddr($9FBFFC)
 	cmp.w #$5C02
-seekAddr($9FC0F5)
+seekAddr($9FC069)	//X000 Digit
+	adc.b #$2E
+seekAddr($9FC077)
+	lda.b #$02
+seekAddr($9FC0AF)	//0X00 Digit
+	adc.b #$2E
+seekAddr($9FC0BD)
+	lda.b #$02
+seekAddr($9FC0F5)	//00X0 Digit
 	adc.b #$2E
 seekAddr($9FC103)
 	lda.b #$02
-seekAddr($9FC11C)
+seekAddr($9FC11C)	//000X Digit
 	adc.b #$2E
 seekAddr($9FC12A)
 	lda.b #$02
