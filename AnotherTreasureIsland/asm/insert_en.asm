@@ -112,6 +112,7 @@ seekAddr($9FCB46)
 seekAddr($9FCB4C)
 	lda.w #$0046		// ?
 
+//003182 - Luck Rock Amount (can be up to 9999)
 //Fix Luck Rock Amount
 //(Set up {0} in the item names; it will automatically be replaced, no spaces needed)
 seekAddr($9FBFFC)
@@ -145,6 +146,12 @@ seekAddr($8DF169)
 //Expand File 0x3B to 0x2000 bytes
 seekAddr($148122)
 	ldy.w #$2000
+
+//Luck Rock Cannon
+//B Button Palette (Not enough)
+seekAddr($9FD84F)
+	sta $40AE2B+4
+	sta $40AE2D+4
 
 //Palette Changes
 seekFile($2CAF40)
