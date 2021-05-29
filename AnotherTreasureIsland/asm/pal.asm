@@ -45,3 +45,6 @@ seekAddr($05AEA1)
 
 //Indio Kidnapping Dance Sync
 //Jean & Ken Dance Sync
+//Team Victory Dance
+//Jack - Building Stairs (Ch.1)
+//Jack - Building Mr. Diggy (Ch.2)
