@@ -155,11 +155,19 @@ seekAddr($8DF169)
 seekAddr($148122)
 	ldy.w #$2000
 
-//Luck Rock Cannon
-//B Button Palette (Not enough)
+//Luck Rock Cannon Amount ($9FD7A6)
+//B Button Palette
 seekAddr($9FD84F)
 	sta $40AE2B+4
 	sta $40AE2D+4
+//Remove Kanji
+seekAddr($9FD7D2)
+	nop; nop; nop
+seekAddr($9FD7F4)
+	nop; nop; nop
+//Position
+seekAddr($9FD73A)
+	//ldx.w #$00E2
 
 //Palette Changes
 seekFile($2CAF40)
