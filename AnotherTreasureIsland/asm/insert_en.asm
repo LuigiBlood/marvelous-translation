@@ -161,10 +161,10 @@ seekAddr($9FD84F)
 	sta $40AE2B+4
 	sta $40AE2D+4
 //Remove Kanji
-seekAddr($9FD7D2)
-	nop; nop; nop
-seekAddr($9FD7F4)
-	nop; nop; nop
+seekAddr($9FD7AE)
+	lda.w #$0254
+seekAddr($9FD7D7)
+	lda.w #$0255
 //Position
 seekAddr($9FD73A)
 	//ldx.w #$00E2
