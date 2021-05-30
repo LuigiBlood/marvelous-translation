@@ -7279,7 +7279,7 @@ These are hard enough that we
 
 [X$79][CPad]: Aim! [ABtn]: Fire!  [BBtn]: Cancel
 [nl2][ ][C$42][ ][ ][C$12]
-[nl3][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][LuckRock][X$6B] pcs.[X$7E]
+[nl3][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][LuckRock][X$6B][X$7E]
 [en1]
 
 [nl2]   Great! The door opened up!
