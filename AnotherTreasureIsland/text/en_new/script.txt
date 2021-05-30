@@ -4462,10 +4462,10 @@ Oh, stop it, it's me when I was
 This's my only son, Bull. He left
 [nl2]town to try to become a pirate
 [nl3]just like his father.[np]
-[scl]This was long ago... 
-[scl]I wonder what he's doing now... [np]
-[scl]I hope he hasn't gotten himself
-[scl]killed on some far away island...
+[scl]This was long ago...
+[scl]I wonder what he's doing now.[np]
+[scl]I hope he hasn't been stranded on
+[scl]some far away island, or worse...
 [en2]
 
 We should take this child home
@@ -5701,8 +5701,8 @@ I wonder if it's still in use?
 This chair looks pretty hard.
 [en2]
 
-This is maybe a pirate rug...?[np]
-[nl2]Nah... That'd just be dumb!
+This might be a pirate's rug...[np]
+[nl2]But how would I know?!
 [en2]
 
 [X$6A][SStop]
@@ -11487,8 +11487,8 @@ The dog fell fast asleep after
 It's a dog food dish.
 [en2]
 
-[F2]Received {F}{l}{o}{w}{e}{r}{s} from Miss Sisko!!
-[nl3]Oh, Looks like she's pretty crafty!
+[F2]Received {F}{l}{o}{w}{e}{r}{s} from Miss Sisko!![np]
+[nl3]Oh, Looks like she's pretty crafty![np]
 [en1]
 
 The {T}{i}{m}{e} {R}{o}{o}{m} is in the locked
@@ -11878,7 +11878,7 @@ I can smell the water.
 [scl]He'll help you take care of the
 [scl]bandits! Oh...? Benson...?[np]
 [scl]He's tall and his face is...
-[scl]Oh, I'm sure you'll regognize him
+[scl]Oh, I'm sure you'll recognize him
 [scl]from my description...
 [en2]
 
