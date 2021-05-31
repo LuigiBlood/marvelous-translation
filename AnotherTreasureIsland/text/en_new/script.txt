@@ -1679,8 +1679,8 @@ These logs are tied down with
 
 How dare you just barge in here
 [nl2]without an appointment![np]
-[nl3]I'm a very busy man. Come back
-[scl]later...
+[nl3]I'm a very busy man, here.
+[scl]You should come back later...
 [en2]
 
 Oh, you want to go deeper into
@@ -1766,12 +1766,12 @@ My baby is sleeping, don't you
 [nl2]dare wake him up...!
 [en2]
 
-Oh no, I'm sorry![np]
+No? Oh, how rude of me![np]
 [nl2]Thanks to Mr. Smith, the villagers
 [nl3]can make a living selling tree oil.[np]
 [scl]But lately, thieves have been
 [scl]coming around to steal it.[np]
-[scl]By the way, I'm one of them.
+[scl]I'm one of them, by the way.
 [en1]
 
 John's just inside, follow me!
@@ -7307,7 +7307,7 @@ There he is!
 [en1]
 
 [X$6A][SWrClck]
-[nl2][ ][ ][ ][ ][ ][ ][ ][ ] Playing!
+[nl2][ ][ ][ ][ ][ ][ ][ ] Playing!
 [en1]
 
 [X$6A][SDenied]
@@ -7409,9 +7409,10 @@ Okay, I'll stay here and examine
 [nl2]these notes.
 [en1]
 
-Day 1: Shortly after arrival, I
-[nl2]found a mysterious ball which
-[nl3]seems to be made of crystal.[np]
+Day 1:[np]
+[nl2]Shortly after arrival, I found a
+[nl3]mysterious ball which seems to be
+[scl]made of crystal.[np]
 [scl]We brought it with us to the
 [scl]center of the island, where we
 [scl]found the enormous Baobab tree.[np]
@@ -7429,7 +7430,7 @@ Day 1: Shortly after arrival, I
 [scl]health.[np]
 [scl]I worry that if discovered, the
 [scl]Crystal Ball may be abused for
-[scl]nefarious purposes.[np]
+[scl]nefarious purposes....[np]
 [scl][SImprtnt]Other strange things have started
 [scl]happening on this island. I can't
 [scl]quite put a finger on it.[np]
@@ -10751,7 +10752,7 @@ They're shaking!
 They're entranced!
 [en2]
 
-It's a firmly shut door.
+It's a sturdy gate.
 [en2]
 
 Hahaha, you think I'm afraid of
@@ -13915,9 +13916,8 @@ The ship's rocking too much for us
 [nl2]ON-LY[Three] PE-OPLE. MAX-IMUM.
 [en2]
 
-[SP$0204]Ook!! Ook~!![np]
-[nl2]TL: Oh! Such a lovely voice!
-[nl3]   Where are you, my beloved?
+[SP$0204]Ook!! Ook~!![np] TL: Oh, that lovely voice!
+[nl2]Where are you, my beloved?
 [en2]
 
 [SP$0204]Dear~! What's wrong~?!
