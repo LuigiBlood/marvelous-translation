@@ -1019,8 +1019,8 @@ Pengi. Pegi. Pengu.[np]
 [en2]
 
 Try it again?
-[nl2]    I'll do it.
-[nl3]    I pass...[X$68]
+[nl2][ ][ ][ ][ ]I'll do it.
+[nl3][ ][ ][ ][ ]I pass...[X$68]
 [en1]
 
 Fugofugo. Fu-go.[np]
@@ -1205,8 +1205,8 @@ You wanna know about the
 [en2]
 
 [X$6A]Record sound? 
-[nl2]    Okay!
-[nl3]    No way![X$68]
+[nl2][ ][ ][ ][ ]Okay!
+[nl3][ ][ ][ ][ ]No way![X$68]
 [en1]
 
 [X$6A][SWrClck]
@@ -1268,16 +1268,18 @@ It's too far to recognize the
 [nl2]picture!
 [en2]
 
-Wow, what a picture![np]
-[nl2]This must be a new species of
-[nl3]plant! I've never seen anything like
+
+[nl2]      Wow, what a picture!
+[nl3][np]
+[scl]This must be a new species of
+[scl]plant! I've never seen anything like
 [scl]it~.[np]
 [scl]What fortune that I chose this
 [scl]island! Good work, kids. I'd like to
 [scl]give you something...[np]
 [scl]But all I have are scientific
 [scl]tools...[np]
-[scl] Of course! Take this.[np]
+[scl]Of course! Take this.[np]
 [scl]I'd like to give it to someone who
 [scl]really likes building things.[np]
 [scl]Who wants it?
@@ -1296,7 +1298,7 @@ So... That's all I have.[np]
 [scl]I'll check it out for you... 
 [scl]All because...[np]
 [scl]
-[scl]     I'm a nice guy!
+[scl][ ][ ][ ][ ][ ][ ]I'm a nice guy!
 [scl]
 [en1]
 
@@ -1717,7 +1719,7 @@ If there's nothing behind it, the
 [nl2]machine won't work...?!
 [en2]
 
-Is Deon really a coward!?
+Is Dion really a coward!?
 [nl2]Look at his heart beating!
 [en2]
 
@@ -2406,8 +2408,8 @@ I'm begging you. If you can help
 [nl2]me make the {A}{n}{t} {B}{u}{s}{t}{e}{r}, I'm sure
 [nl3]the king will forgive you.[np]
 [scl]What do you say? Will you help?[X$6A]
-[scl]    Okay.
-[scl]    No way![X$68]
+[scl][ ][ ][ ][ ]Okay.
+[scl][ ][ ][ ][ ]No way![X$68]
 [en1]
 
 I'm terribly sorry to hear that.[np]
@@ -2830,9 +2832,9 @@ Come a little closer!
 [nl2]seconds to answer the question![np]
 [nl3]Polly's father is King Gingham.
 [scl]King Gingham is which generation?[np]
-[scl]    2nd generation
-[scl]    3rd generation
-[scl]    4th generation[X$6E]
+[scl][ ][ ][ ][ ]2nd generation
+[scl][ ][ ][ ][ ]3rd generation
+[scl][ ][ ][ ][ ]4th generation[X$6E]
 [en1]
 
 [SUnKwn]Gingham Quiz Time! You've got 3
@@ -2848,9 +2850,9 @@ Come a little closer!
 [nl2]seconds to answer the question![np]
 [nl3]Hassan is 3 cm tall.
 [scl]How tall is Solomon?[np]
-[scl]    Solomon is 6cm tall.
-[scl]    Solomon is 5cm tall.
-[scl]    Solomon is 4cm tall.[X$6E]
+[scl][ ][ ][ ][ ]Solomon is 6cm tall.
+[scl][ ][ ][ ][ ]Solomon is 5cm tall.
+[scl][ ][ ][ ][ ]Solomon is 4cm tall.[X$6E]
 [en1]
 
 [SUnKwn]Gingham Quiz Time! You've got 3
@@ -2867,9 +2869,9 @@ Come a little closer!
 [nl2]seconds to answer the question![np]
 [nl2]You have 3 seconds.
 [nl3]You shrunk from the...[np]
-[scl]    Ball in the Forest
-[scl]    Ball in the Castle
-[scl]    Ball in the Cave[X$6E]
+[scl][ ][ ][ ][ ]Ball in the Forest
+[scl][ ][ ][ ][ ]Ball in the Castle
+[scl][ ][ ][ ][ ]Ball in the Cave[X$6E]
 [en1]
 
 [SUnKwn]Gingham Quiz Time! You've got 3
@@ -3381,24 +3383,24 @@ Unless you have all 3 paints, we
 [SStop]Who's gonna paint now?[np]
 [nl2]Think of the king's gown and pick
 [nl3]the first color.[np]
-[scl]    Deon - Red
-[scl]    Jack - Blue    
-[scl]    Max - Green[X$6E]
+[scl][ ][ ][ ][ ]Dion - Red
+[scl][ ][ ][ ][ ]Jack - Blue    
+[scl][ ][ ][ ][ ]Max - Green[X$6E]
 [en1]
 
 Whose color is next?
-[nl2]    Deon - Red
-[nl3]    Jack - Blue[X$68]
+[nl2][ ][ ][ ][ ]Dion - Red
+[nl3][ ][ ][ ][ ]Jack - Blue[X$68]
 [en1]
 
 And then whose color?
-[nl2]    Deon - Red
-[nl3]    Max - Green[X$68]
+[nl2][ ][ ][ ][ ]Dion - Red
+[nl3][ ][ ][ ][ ]Max - Green[X$68]
 [en1]
 
 Whose gonna go next?
-[nl2]    Jack - Blue
-[nl3]    Max - Green[X$68]
+[nl2][ ][ ][ ][ ]Jack - Blue
+[nl3][ ][ ][ ][ ]Max - Green[X$68]
 [en1]
 
 Close, but the design is wrong.[np]
@@ -3837,8 +3839,8 @@ Some numbers have appeared...
 [en1]
 
 GO. FOR. A. RIDE?
-[nl2]      Okay.
-[nl3]      Nah.[X$68]
+[nl2][ ][ ][ ][ ]Okay.
+[nl3][ ][ ][ ][ ]Nah.[X$68]
 [en1]
 
 [nl2] What is it?
@@ -4894,10 +4896,10 @@ Whassat?
 You guys are pretty nice.
 [en2]
 
-[nl2]    Bzzt! Wrong item, Deon!
+[nl2]    Bzzt! Wrong item, Dion!
 [en2]
 
-Come on, Deon, you know better
+Come on, Dion, you know better
 [nl2]than that.
 [en2]
 
@@ -5997,8 +5999,8 @@ If you don't go underwater, you
 [en2]
 
 We need your help![X$6A]
-[nl2]      Okay.
-[nl3]      Nope.[X$68]
+[nl2][ ][ ][ ][ ]Okay.
+[nl3][ ][ ][ ][ ]Nope.[X$68]
 [en1]
 
 Oof, that's harsh~.
@@ -7327,7 +7329,7 @@ Do you play rock, paper, scissors?
 [scl][ ][ ][ ][ ]Paper[X$6E]
 [en1]
 
-[nl2][ ][ ][ ][ ][ ][ ][ ][ ] [SP$010B]Shoot!
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][SP$010B]Shoot!
 [en1]
 
 [SAwe]Haha! Too bad, chumps!
@@ -7747,8 +7749,8 @@ You have [X$6B][LuckRock]!
 [en1]
 
 You have[X$6B][LuckRock]. Put them in?
-[nl2]      Put 'em in!
-[nl3]      Let's not after all![X$68]
+[nl2][ ][ ][ ][ ]Put 'em in!
+[nl3][ ][ ][ ][ ]Let's not after all![X$68]
 [en1]
 
 {L}{u}{c}{k} {R}{o}{c}{k}{s} sure are strange
@@ -8343,24 +8345,24 @@ Are you ready?
 [nl2]special technique?
 [nl3]Whose color do we paint first?[X$6A][np]
 [scl]
-[scl][ ][ ][ ][ ]Deon - Red
+[scl][ ][ ][ ][ ]Dion - Red
 [scl][ ][ ][ ][ ]Jack - Blue    
 [scl][ ][ ][ ][ ]Max - Green[X$6E]
 [en1]
 
 Whose color do we do next?
-[nl2]      Deon - Red
-[nl3]      Jack - Blue[X$68]
+[nl2][ ][ ][ ][ ]Dion - Red
+[nl3][ ][ ][ ][ ]Jack - Blue[X$68]
 [en1]
 
 Whose is next?
-[nl2]      Deon - Red
-[nl3]      Max  - Green[X$68]
+[nl2][ ][ ][ ][ ]Dion - Red
+[nl3][ ][ ][ ][ ]Max  - Green[X$68]
 [en1]
 
 Whose color is next?
-[nl2]      Jack - Blue
-[nl3]      Max  - Green[X$68]
+[nl2][ ][ ][ ][ ]Jack - Blue
+[nl3][ ][ ][ ][ ]Max  - Green[X$68]
 [en1]
 
 ...I don't think the eagle will be
@@ -10955,7 +10957,7 @@ Next is[team] Team!
 [en1]
 
 Now, I'll pick the team leader.
-[nl2]Hmmm, is it okay if I make Deon
+[nl2]Hmmm, is it okay if I make Dion
 [nl3]the leader for now?[np]
 [scl]Okay then, as the leader, you get
 [scl]to wear this!
@@ -13812,7 +13814,7 @@ Hey, Bro! You told my grampy,
 
 There's no time!
 [nl2]Put Max on the left side and put
-[nl3]Jack and Deon on the right![np]
+[nl3]Jack and Dion on the right![np]
 [scl]It's the only way!
 [en2]
 
