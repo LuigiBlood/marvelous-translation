@@ -914,9 +914,9 @@ Eh? What? A doll... You say you
 [scl]...F-friend...[np]
 [scl]F-for my reference, I feel like I
 [scl]should ask who s-sold it to you~.[np]
-[scl]What will you say?[X$6A]
+[scl]Who did you get it from?[X$6A]
 [scl][ ][ ][ ][ ]I didn't get a name.
-[scl][ ][ ][ ][ ]Even if I knew, wouldn't tell.[X$68]
+[scl][ ][ ][ ][ ]I'm not telling![X$68]
 [en1]
 
 How can you not know?! How
@@ -1267,7 +1267,6 @@ Stop whining!
 It's too far to recognize the
 [nl2]picture!
 [en2]
-
 
 [nl2]      Wow, what a picture!
 [nl3][np]
@@ -2206,8 +2205,8 @@ If you want to find out how many
 [nl2]people live in the village, you
 [nl3]should ask Mike.[np]
 [scl]He's a coward who can't bear to
-[scl]hear a mouse's squeak, so he
-[scl]never leaves his home.
+[scl]even {h}{e}{a}{r} {a} {m}{o}{u}{s}{e}{'}{s} {s}{q}{u}{e}{a}{k}, so he
+[scl]never leaves his house.
 [en2]
 
 What?... You want to know how
@@ -2275,7 +2274,7 @@ Thanks a ton![np]
 [nl3]you a reward!
 [scl]            ...It's something nice![np]
 [scl]Oh, I think there's a lot of {L}{u}{c}{k}
-[scl]{R}{o}{c}{k}{s} in the tree west of here.[np]
+[scl]{R}{o}{c}{k}{s} in the shrubs west of here.[np]
 [scl]Okay, I'll see you guys later!
 [en1]
 
@@ -3217,7 +3216,9 @@ I don't have anymore~!
 [scl]get hurt!!
 [en1]
 
-Stay back when it's moving!
+Keep away while it's moving!
+[nl2]If it would just hold still, I think
+[nl3]we could land a hit. Keep trying!
 [en2]
 
 Round 1 goes to the plant!
@@ -3275,7 +3276,7 @@ I have something for you, so get
 [nl2]over here!
 [en2]
 
-Sorry for what I said earlier!
+Here's the reward I promised you.
 [nl2]It's just a leftover from lunch,
 [nl3]but take this snack!
 [en1]
@@ -7431,15 +7432,7 @@ Day 1:[np]
 [scl]I worry that if discovered, the
 [scl]Crystal Ball may be abused for
 [scl]nefarious purposes....[np]
-[scl][SImprtnt]Other strange things have started
-[scl]happening on this island. I can't
-[scl]quite put a finger on it.[np]
-[scl]My dog "Socks" has begun acting
-[scl]strangely after having gone missing
-[scl]for a few hours this afternoon.[np]
-[scl]Something is definitely off around
-[scl]here and it has me feeling a bit...
-[scl]anxious about staying.
+[scl][SImprtnt]
 [en2]
 
 Have you been to the inner part
@@ -10408,7 +10401,10 @@ I didn't cower in fear at the
 There's a hole here?
 [en2]
 
-It's a loud, squeaky mouse.
+It's a loud, squeaky mouse.[np]
+[nl2]Didn't Mr. Smith say Mike would
+[nl3]get scared if he so much as
+[scl]{h}{e}{a}{r}{d} {a} {m}{o}{u}{s}{e} squeak?
 [en2]
 
 There's trouble, man... I was
@@ -10769,8 +10765,8 @@ You children do not belong here...!
 It's a mysterious cactus.
 [en2]
 
-Crap~! It must have a weak spot
-[nl2]somewhere!
+Crap~!
+[nl2]It's gotta have a weakness!
 [en2]
 
 There seems to be a switch on top

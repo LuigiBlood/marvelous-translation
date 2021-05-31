@@ -47,7 +47,7 @@ Marlowe Magnet
 Walkie-Talkie
 [en2]
 
-Salvaged Broken Board
+Recovered Broken Board
 [en2]
 
 Holey Aged Cheese
