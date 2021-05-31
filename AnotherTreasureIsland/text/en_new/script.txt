@@ -84,7 +84,7 @@ It seems that this lever can be
 [nl3]But it's too heavy for one person.
 [en2]
 
---I wonder if I can move this...?
+I wonder if I can move this...?
 [en2]
 
 The powerful water flow moved
@@ -95,7 +95,7 @@ Ooo-kiii![np]
 [nl2]TL: ...Wait!
 [en1]
 
---It says:
+It says:
 [nl3]"Danger! Pitfall ahead."
 [en2]
 
@@ -111,7 +111,7 @@ It's all ready!
 [nl2]object...?
 [en2]
 
---If we lift from both sides of the
+If we lift from both sides of the
 [nl2]boulder, maybe we can move it.
 [en2]
 
@@ -277,7 +277,7 @@ I think there's a keyhole.[np]
 [nl2]*Woooooooooosh~!*
 [en2]
 
---Something's wrong. All 3 of us
+Something's wrong. All 3 of us
 [nl2]need to line up behind the box.
 [en1]
 
@@ -1514,9 +1514,8 @@ It looks like a monster cuckoo
 [en1]
 
 Pegi, pegi, pengi.[np]
-[nl2]TL: It's dangerous to
-[nl3]follow you guys, my
-[scl]intuition says.
+[nl2]TL: It's dangerous to follow you
+[nl3]   guys, my intuition says.
 [en2]
 
 If that's true, you should know
@@ -5868,21 +5867,22 @@ I want it~...
 What could it be used for...?
 [en2]
 
-You shouldn't decorate your house
-[nl2]with something like this.
-[nl3]It'll just add to the clutter!
+I like it, but I wouldn't decorate
+[nl2]my house with it because skulls
+[nl3]creep me out!
 [en2]
 
-Decorating your house with
-[nl2]something like this'll just look bad!
+I like it, but I wouldn't decorate
+[nl2]my house with it because it might
+[nl3]be disturbing after a while!
 [en2]
 
 The treasure chest won't open like
 [nl2]that!
 [en2]
 
-It's made of gold? That's kinda
-[nl2]weird!
+Gold, eh? It's kind of gaudy for
+[nl2]my taste!
 [en2]
 
 Ah, hah!
@@ -11488,7 +11488,7 @@ It's a dog food dish.
 [en2]
 
 [F2]Received {F}{l}{o}{w}{e}{r}{s} from Miss Sisko!![np]
-[nl3]Oh, Looks like she's pretty crafty![np]
+[nl3]Oh, looks like she's pretty crafty![np]
 [en1]
 
 The {T}{i}{m}{e} {R}{o}{o}{m} is in the locked
@@ -11554,7 +11554,7 @@ We can use this to pump hot air
 
 [SP$033A]Chirpy-chirp![np]
 [nl2]TL: Thank you for your patronage!
-[nl3]   That's [num] {L}{u}{c}{k} {R}{o}{c}{k}, please!
+[nl3]   That's[Space2][num] {L}{u}{c}{k} {R}{o}{c}{k}, please!
 [en1]
 
 The anchor is up. If this were in 
