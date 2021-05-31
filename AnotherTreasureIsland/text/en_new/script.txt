@@ -107,7 +107,7 @@ It's all ready!
 [nl2]       More junk? Shucks.
 [en2]
 
---How can we lift such a large
+How can we lift such a large
 [nl2]object...?
 [en2]
 
@@ -198,7 +198,7 @@ I AM A GENT-LE WA-TER-ING RO-
 [scl]I SERVE NO PUR-POSE.
 [en2]
 
---Let's move closer to take a look.
+Let's move closer to take a look.
 [en2]
 
 W...water...!
@@ -5042,8 +5042,12 @@ Even if he's a ghost, he's awfully
 [nl2]shy...
 [en2]
 
-I've always been bad with ghosts
-[nl2]and frogs....
+Ever since I was knee-high to a
+[nl2]grasshopper, ghosts and {f}{r}{o}{g}{s}'ve
+[nl3]giv'n me the tootin' willies...[np]
+[scl]If I ever saw one m'self, I'd high-
+[scl]tail it outta here faster than a
+[scl]spooked owl-headed cayuse!
 [en2]
 
 Indio's daughter must be behind it.
@@ -5775,7 +5779,7 @@ My husband once told me about
 [scl]to match.
 [en2]
 
-Our town became prosperous
+Our town became prosperous, all
 [nl2]thanks to Benson and Indio!
 [en2]
 
@@ -7323,7 +7327,7 @@ Do you play rock, paper, scissors?
 [scl][ ][ ][ ][ ]Paper[X$6E]
 [en1]
 
-[nl2][ ][ ][ ][ ][ ][ ][ ][ ][ ][SP$010B]Shoot!
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ] [SP$010B]Shoot!
 [en1]
 
 [SAwe]Haha! Too bad, chumps!
@@ -7345,9 +7349,9 @@ Shoot, we tied...
 Which hand has the {L}{u}{c}{k} {R}{o}{c}{k}?
 [nl2]If you guess, it's yours![X$6A]
 [nl3][np]
-[scl]    Left
-[scl]    Right
-[scl]    Neither![X$6E]
+[scl][ ][ ][ ][ ]Left
+[scl][ ][ ][ ][ ]Right
+[scl][ ][ ][ ][ ]Neither![X$6E]
 [en1]
 
 If you're playing tug-o-war, hurry
@@ -8430,8 +8434,8 @@ Ooo ooo![np]
 [en2]
 
 Ooo-kii-kii![np]
-[nl2]TL: Find man in charge on
-[nl3]   island. He somewhere cramped.
+[nl2]TL: Find man in charge on island.
+[nl3]   He somewhere cramped.
 [scl]   Poor guy.
 [en2]
 
@@ -10007,7 +10011,7 @@ Uhfoofoo! Uhfoofooo![np]
 [nl3]not eat it.
 [en1]
 
-Holy clocks, Batman!
+Jeepers! Holy clocks, Batman!
 [en2]
 
 This is a telescope, right?
@@ -11702,10 +11706,10 @@ Listen to this! The ghost of my
 [scl]disappeared.
 [en2]
 
-We just got done handling a
-[nl2]kidnapping case, and now a ghost
-[nl3]has begun terrorizing the town.[np]
-[scl]What is going on here~?!
+Thunderation! We just got done
+[nl2]settlin' a kidnappin', and now a
+[nl3]durn ghost's terrorizin' the town.[np]
+[scl]Ain't that a plumb bag-o-nails~?!
 [en2]
 
 It seems a ghost has appeared!
@@ -12115,7 +12119,7 @@ I'm so happy to live in this
 [nl2]beautiful town!
 [en2]
 
-The fancy graves in the west are
+The fancy graves to the west are
 [nl2]for Benson and Indio.[np]
 [nl3]They defended the village from
 [scl]bandits a long time ago!
@@ -13874,7 +13878,8 @@ Phew~, we finished cleaning!
 Okay, now the hole is plugged!
 [en2]
 
-[SQMrk]Well, that felt weird!!
+[SQMrk]What an ominous feeling!
+[nl2]My skin is crawling!!!
 [en2]
 
 .[Space4].[Space4].[Space4]![Space4].[Space4].[Space4].[team]... Team...?
@@ -13885,8 +13890,8 @@ Okay, now the hole is plugged!
 [nl2][Six][Zero] SE-CONDS. RE-MAIN.
 [en2]
 
-It's shaking too much to use
-[nl2]items~!
+The ship's rocking too much for us
+[nl2]to use items~!
 [en2]
 
 
@@ -14134,7 +14139,7 @@ You should respect your elders!
 [SImprtnt] It's... A ship!! How'd it get here...?
 [en2]
 
-What, what? What an odd noise!
+What, what? What's that sound?!
 [en2]
 
 [F2]I pulled the Key out of his mouth![np]
