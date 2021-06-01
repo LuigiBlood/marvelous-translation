@@ -895,11 +895,11 @@ Hey, I'd recognize that spicy lunch
 [scl] Well, he seems hungry.
 [en1]
 
-Hyaaaah!![np]
-[nl2]What are you doing with that
-[nl3]dangerously spicy stuff??[np]
+Hyaaaah!! What are you doing with
+[nl2]that dangerously spicy stuff?!?!?
+[nl3][np]
 [scl]Get it away from me before you
-[scl]ruin my beauty!!!
+[scl]ruin my beauty.
 [en1]
 
 Eh? What? A doll... You say you
@@ -1761,8 +1761,8 @@ We sell the Baobab tree's oil in
 [scl]and ask him personally.
 [en2]
 
-My baby is sleeping, don't you
-[nl2]dare wake him up...!
+My child is sleeping in that bed,
+[nl2]don't you dare wake him up...!
 [en2]
 
 No? Oh, how rude of me![np]
@@ -1850,8 +1850,8 @@ Uhh... Which one is John!?
 [en1]
 
 It says...
-[nl2] 1.Latin   3.Rock
-[nl3] 2.Jazz   4.J-Pop
+[nl2] 1. Latin   3. Rock
+[nl3] 2. Jazz   4. Classic Japanese
 [en2]
 
 Hmm~! I'm feelin' that Latin flava'!
@@ -1863,8 +1863,8 @@ Hmm~! Feelin' Jazzy!
 Hmm~! I feel like rockin'!
 [en2]
 
-Hmm~!... J-Pop... Umm... M...maybe
-[nl2]some J-Pop?!
+Hmm~!... It's classic... 
+[nl2]Ja... Japanese!?
 [en2]
 
 Okay, the engine stopped!
@@ -2032,7 +2032,8 @@ Eh! What was that? I can't hear
 [nl3]Come closer...!
 [en2]
 
-[X$6A]    Oh, she stopped crying!
+[X$6A]
+[nl2]   Oh, the baby stopped crying!
 [nl3][np]
 [scl][X$6A]Why~ thank you!
 [scl]She stopped crying when she saw
@@ -2099,7 +2100,7 @@ It's too far to tell what it is!
 [scl]into people? What on earth?...
 [scl]Who's it turnin' into?![np]
 [scl]If what you say is true...
-[scl]that sure is a fine pickle!![np]
+[scl]That sure is a fine pickle!![np]
 [scl]I used to have all kinds of
 [scl]weapons for defeatin' bad guys,
 [scl]but now all I have is this.[np]
@@ -3201,8 +3202,8 @@ The door is locked and won't open.
 [en2]
 
 I don't have anymore~!
-[nl2]Because of you and the rest, 
-[nl3]my wallet is dry as dust![np]
+[nl2]Because of you lot, my wallet is 
+[nl3]dry as dust![np]
 [scl]I would have been better off with
 [scl]the mouse!
 [en2]
@@ -3276,13 +3277,13 @@ I have something for you, so get
 [nl2]over here!
 [en2]
 
-Here's the reward I promised you.
+Here's the reward i promised you.
 [nl2]It's just a leftover from lunch,
 [nl3]but take this snack!
 [en1]
 
-If you don't have a key~,
-[nl2]just give up already!
+If you don't have a key~, just
+[nl2]give up already!
 [en2]
 
 [nl2] It goes all the way to the top.
@@ -9716,8 +9717,8 @@ What is it?
 What's wrong, 'chitlins?
 [en2]
 
-A little bitty bed... I wonder who
-[nl2]would be able to sleep here?
+It's a small bed...
+[nl2]Is there someone sleeping in it?
 [en2]
 
 What do you boys want?
@@ -9989,7 +9990,7 @@ I had ingredients left over, so I
 [nl3]You kids can have this one!
 [en1]
 
-[X$6A]Maybe now he'll stop crying?
+[X$6A]Maybe now it'll stop crying?
 [en1]
 
 I shall not allow you to enter or
@@ -10314,9 +10315,9 @@ Who wants to challenge me?
 [nl3]of the 3 females.
 [en2]
 
-You busted us! We're John and
-[nl2]Ken!... But we know who is
-[nl3]suspicious in town!
+You busted us!
+[nl2]We're John and Ken! ...But we know
+[nl3]who's suspicious in town!
 [en2]
 
 [X$6A]This one's a fake?!
@@ -13916,11 +13917,11 @@ The ship's rocking too much for us
 [nl2]Where are you, my beloved?
 [en2]
 
-[SP$0204]Dear~! What's wrong~?!
+[SP$0204]Dear~! Are you okay~?!
 [en2]
 
-[F2]Got a Doll! Pity, someone must
-[nl2]have dropped it. But who?
+[F2]Got a Doll! Pity, someone must have
+[nl2]dropped it. But who?
 [en2]
 
 [F2]We got a Cave Key![np]

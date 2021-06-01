@@ -1981,7 +1981,7 @@ winky
 
 
 
-
+pretty sure the baby's a girl, but you dont know that until you give the doll.
 
 
 
@@ -2848,7 +2848,7 @@ toning it down a bit
 
 only 2 lines for this
 
-
+only 2 lines. [np] is bugged so not used here.
 lets only apply special fonts if we know it's not 2-line text
 
 
