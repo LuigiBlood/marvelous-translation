@@ -65,6 +65,51 @@ seekFile($2FB690)	//9FB690
 seekFile($2FCE9F)	//9fce9f
 	jsr item_name_render_stop
 
+//VWF Hack - Make only one half for regular and kanji chars
+//VRAM Setup
+seekAddr($98A025)
+	ldx $9A
+	lda $40A400,x
+	xba
+	inc
+	nop; nop; nop
+seekAddr($989FC7)
+	xba
+	inc
+	nop; nop; nop; nop; nop; nop; nop; nop; nop; nop
+//VRAM Setup (Journal)
+seekAddr($988ABF)
+	nop; nop; nop; nop; nop; nop; nop; nop
+seekAddr($988B36)
+	nop; nop; nop; nop; nop; nop; nop; nop
+//00-01
+seekAddr($9FBA71)
+	nop; nop; nop; nop; nop
+seekAddr($9FBA81)
+	nop; nop; nop; nop
+seekAddr($9FBA8A)
+	nop; nop
+//02-03
+seekAddr($9FBABA)
+	nop; nop; nop; nop; nop
+seekAddr($9FBACA)
+	nop; nop; nop; nop
+seekAddr($9FBAD3)
+	nop; nop
+//04-05
+seekAddr($9FBAE4)
+	nop; nop; nop; nop; nop
+seekAddr($9FBAF4)
+	nop; nop; nop; nop
+seekAddr($9FBAFD)
+	nop; nop
+//06-07
+seekAddr($9FBB0E)
+	nop; nop; nop; nop; nop
+seekAddr($9FBB1E)
+	nop; nop; nop; nop
+seekAddr($9FBB27)
+	nop; nop
 
 //VWF Hack - Search Mode
 seekFile($2BFD2C)	//SNES CPU - Text
@@ -79,6 +124,12 @@ seekFile($2FB6C9)	//SA-1 - Text
 //-Regular Chars
 seekFile($2FBD0C)	//Left Half of Char
 	jsr setup_vwf_r
+seekAddr($9FBD31)	//Auto calculate right half
+	ldx $9A
+	lda $40A400,x
+	xba
+	inc
+	nop; nop; nop
 seekFile($2FBD3C)	//Right Half of Char
 	jsr setup_vwf_r
 seekFile($2FBD58)
@@ -86,6 +137,12 @@ seekFile($2FBD58)
 //-Kanji Chars
 seekFile($2FBD7B)	//Left Half of Char
 	jsr setup_vwf_rsk
+seekAddr($9FBDA4)	//Auto calculate right half
+	ldx $9A
+	lda $40A400,x
+	xba
+	inc
+	nop; nop; nop
 seekFile($2FBDAF)	//Right Half of Char
 	jsr setup_vwf_rsk
 seekFile($2FBDCF)
@@ -105,16 +162,28 @@ seekFile($2FBCD5)	//Space Fix
 seekFile($2FDDD2)
 	jsr reset_vwf_r2
 //-Regular Chars
-seekFile($2FDF48)
+seekFile($2FDF48)	//Left Half of Char
 	jsr setup_vwf_rs
-seekFile($2FDF78)
+seekAddr($9FDF6D)	//Auto calculate right half
+	ldx $9A
+	lda $40A400,x
+	xba
+	inc
+	nop; nop; nop
+seekFile($2FDF78)	//Right Half of Char
 	jsr setup_vwf_rs
 seekFile($2FDF94)
 	jsl next_vwf
 //-Kanji Chars
-seekFile($2FDFB7)
+seekFile($2FDFB7)	//Left Half of Char
 	jsr setup_vwf_rsk
-seekFile($2FDFEB)
+seekAddr($9FDFE0)	//Auto calculate right half
+	ldx $9A
+	lda $40A400,x
+	xba
+	inc
+	nop; nop; nop
+seekFile($2FDFEB)	//Right Half of Char
 	jsr setup_vwf_rsk
 seekFile($2FE017)
 	jsl next_vwf
