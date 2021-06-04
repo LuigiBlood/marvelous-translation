@@ -946,6 +946,28 @@ fix_waterrobotpath1:
 	and.w #$0010
 	rtl
 
+//Half Char for Luck Rock Amount Fixes
+pushvar pc
+seekAddr($9FC072)
+	nop; nop; nop; nop; nop
+seekAddr($9FC07D)
+	nop; nop; nop; nop
+
+seekAddr($9FC0B8)
+	nop; nop; nop; nop; nop
+seekAddr($9FC0C3)
+	nop; nop; nop; nop
+
+seekAddr($9FC0FE)
+	nop; nop; nop; nop; nop
+seekAddr($9FC109)
+	nop; nop; nop; nop
+
+seekAddr($9FC125)
+	nop; nop; nop; nop; nop
+seekAddr($9FC130)
+	nop; nop; nop; nop
+pullvar pc
 
 //--List of Pixel Widths per Char
 width_list:
