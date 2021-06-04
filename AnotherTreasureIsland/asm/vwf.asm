@@ -82,6 +82,11 @@ seekAddr($988ABF)
 	nop; nop; nop; nop; nop; nop; nop; nop
 seekAddr($988B36)
 	nop; nop; nop; nop; nop; nop; nop; nop
+//Team Name Entry
+seekAddr($989107)
+	nop; nop; nop; nop; nop; nop; nop
+seekAddr($989110)
+	nop; nop
 //00-01
 seekAddr($9FBA71)
 	nop; nop; nop; nop; nop
