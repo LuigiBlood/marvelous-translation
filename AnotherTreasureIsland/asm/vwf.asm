@@ -304,9 +304,15 @@ bound_check($300000)
 //VWF Hack - Item Name in Pause Menu
 seekFile($2FBA48)
 	jsr reset_vwf_ri
-seekFile($0072B3)
+seekFile($0072B3)	//Left Half of Char
 	jsr setup_vwf_ri1
-seekFile($0072E6)
+seekAddr($00F2DB)	//Auto calculate right half
+	ldx $9A
+	lda $40A400,x
+	xba
+	inc
+	nop; nop; nop
+seekFile($0072E6)	//Right Half of Char
 	jsr setup_vwf_ri2
 seekFile($007307)	
 	jsl next_vwf
