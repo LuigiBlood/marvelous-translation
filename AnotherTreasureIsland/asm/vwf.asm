@@ -82,6 +82,11 @@ seekAddr($988ABF)
 	nop; nop; nop; nop; nop; nop; nop; nop
 seekAddr($988B36)
 	nop; nop; nop; nop; nop; nop; nop; nop
+//VRAM Setup (Journal - Save)
+seekAddr($989CD0)
+	nop; nop; nop; nop; nop; nop; nop; nop
+seekAddr($989D47)
+	nop; nop; nop; nop; nop; nop; nop; nop
 //Team Name Entry
 seekAddr($989107)
 	nop; nop; nop; nop; nop; nop; nop
