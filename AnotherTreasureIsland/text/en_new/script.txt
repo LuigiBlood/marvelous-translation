@@ -264,7 +264,8 @@ Let's get a running start and then
 [nl3]the door!
 [en2]
 
-[F2]You made a Ladder!
+[F2]Jack made a Ladder![np]
+[nl2]Let's use it to climb up!
 [en1]
 
 I think there's a keyhole.[np]
@@ -2079,7 +2080,7 @@ I went to the basement under this
 [scl]key locked up in a safe...[np]
 [scl]If you want to enter the cave,
 [scl]you need to find Mr. Smith...
-[scl]Otherwise, just give up![np]
+[scl]Otherwise, just give up, man![np]
 [scl]If you find him, come tell me right
 [scl]away. I'll give you something for
 [scl]your trouble.
@@ -3285,7 +3286,7 @@ Here's the reward I promised you.
 [en1]
 
 If you don't have a key~, just
-[nl2]give up already!
+[nl2]give up already, man!
 [en2]
 
 [nl2] It goes all the way to the top.
@@ -4214,7 +4215,7 @@ You guys turned out to be a
 So you did have it after all!
 [nl2]That Crystal Ball will lead us
 [nl3]straight to "Maverick's Treasure."[np]
-[scl]Now, "Maverick's Treasure." will
+[scl]Now the Legendary Treasure will
 [scl]finally be mine! Patchies!
 [scl]Place the ball over there.
 [en1]
@@ -4502,7 +4503,7 @@ I should be the one to do it... But
 [en2]
 
 It's so sad... The child is confused
-[nl2]and can't say see truth!
+[nl2]and can't see truth!
 [en2]
 
 Miss Sisko is a nice person, see?
@@ -5083,8 +5084,8 @@ Hey, it's me and Indio!
 [scl]...Just who are you kids?
 [en1]
 
-What in tarnation!? The "Blue
-[nl2]Crystal" was stolen by
+What in tarnation!? The {B}{l}{u}{e}
+[nl2]{C}{r}{y}{s}{t}{a}{l} was stolen by
 [nl3]bandits?![np]
 [scl]How do you know?! If that's true,
 [scl]we're in serious trouble![np]
@@ -5095,7 +5096,7 @@ What in tarnation!? The "Blue
 [scl]mind.
 [en2]
 
-Let's hurry!!
+Let's get a move on!!
 [en2]
 
 Watch this!!
@@ -5268,7 +5269,7 @@ I can't because... I can't swim!
 You don't have anything to dig
 [nl2]with?[np]
 [nl3]Okay, I'll give you my invention, a
-[scl]"hole digging machine"! ......[np]
+[scl]{h}{o}{l}{e} {d}{i}{g}{g}{i}{n}{g} {m}{a}{c}{h}{i}{n}{e}! ......[np]
 [scl]...Is what I'd like to say, but I
 [scl]only have the plans drawn up so
 [scl]far....[np]
@@ -5276,8 +5277,8 @@ You don't have anything to dig
 [scl]likes building things the most.
 [en2]
 
-I'd like to give you the "hole
-[nl2]digging machine" I designed, but I
+I'd like to give you the {h}{o}{l}{e}
+[nl2]{d}{i}{g}{g}{i}{n}{g} {m}{a}{c}{h}{i}{n}{e} I designed, but I
 [nl3]only have the plan for it.[np]
 [scl]You'll have to find the parts on
 [scl]your own.
@@ -6549,7 +6550,7 @@ Go home! Leave!
 [en2]
 
 [X$79] Pull his cheeks!  [BBtn] to cancel.
-[nl2]        [C$42][X$7E]
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][C$42][X$7E]
 [en1]
 
 [X$79]   Push his nose!  [BBtn] to cancel.
@@ -6557,7 +6558,7 @@ Go home! Leave!
 [en1]
 
 [X$79] Let's get naughty! [BBtn] to cancel.
-[nl2]        [C$42][X$7E]
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][C$42][X$7E]
 [en1]
 
 ...A zipper?
@@ -9337,8 +9338,8 @@ Benson, take care of these
 [nl2]children, please!!
 [en2]
 
-Ah? Hey bro!
-[nl2]Look at my boy!
+Ah? I'm a parent!
+[nl2]Look at my boys!
 [en1]
 
 Don't forget that Miss Gina said
@@ -10345,7 +10346,7 @@ It looks dicey out there, so watch
 [nl2]yourselves.
 [en2]
 
-[nl2]    Jeez! Embarrassed again!
+[nl2][ ][ ][ ][ ] Jeez! What a pickle!
 [en2]
 
 Did you find Mr. Smith?
@@ -10794,7 +10795,7 @@ Why is a safe here...?
 The safe is open...
 [en2]
 
-What on earth...!?
+What on earth is going on...!?
 [en2]
 
 The basement of this house is
@@ -11304,7 +11305,7 @@ Something was under the grave
 [nl2]stone.
 [en1]
 
-[F2]Got a Mysterious, {O}{l}{d} {P}{h}{o}{t}{o}{g}{r}{a}{p}{h}!
+[F2]Got a mysterious {O}{l}{d} {P}{h}{o}{t}{o}{g}{r}{a}{p}{h}!
 [en1]
 
 This sure is an old photo...
@@ -11483,8 +11484,8 @@ This is the only water in town.
 [en2]
 
 A long time ago I came up with a
-[nl2]design for a digging machine, but I
-[nl3]lost the blueprints...[np]
+[nl2]design for a {h}{o}{l}{e} {d}{i}{g}{g}{i}{n}{g} {m}{a}{c}{h}{i}{n}{e},
+[nl3]but I lost the blueprints...[np]
 [scl]So the parts for it are now just
 [scl]a pile of junk!
 [scl]Take it if you'd like.
@@ -13855,7 +13856,7 @@ There's no time!
 [scl]arises.
 [en1]
 
-[F2]You got a mysterious Old Rope![np]
+[F2]Jack got a mysterious Old Rope![np]
 [nl2]Can we use it to make something...?
 [en2]
 
@@ -13887,7 +13888,7 @@ There's no time!
 Phew~, we finished cleaning!
 [en2]
 
-Okay, now the hole is plugged!
+Okay, now the hole is patched!
 [en2]
 
 [SQMrk]What an ominous feeling!
@@ -13925,7 +13926,7 @@ The ship's rocking too much for us
 [nl2]ON-LY[Three] PE-OPLE. MAX-IMUM.
 [en2]
 
-[SP$0204]Ook!! Ook~!![np] TL: Oh, that lovely voice!
+[SP$0204]Ook!! Ook~!! TL: Oh, that lovely voice!
 [nl2]Where are you, my beloved?
 [en2]
 
@@ -14223,7 +14224,7 @@ Agh~! It's salty!!
 What was that for!?
 [en2]
 
-[SP$0126]--Whoa! The clocks are all gone!!!
+[SP$0126]Whoa! The clocks are all gone!!!
 [en2]
 
 Serves-a you right! You shall not
@@ -14233,7 +14234,7 @@ Serves-a you right! You shall not
 Oof-!! Max swallowed something!!
 [en2]
 
-[X$79][SDenied]I can't do it until my friends are
+[X$79][SDenied]I can't do it because my friends are
 [nl2]nearby. Whistle or press [RBtn].
 [en2]
 

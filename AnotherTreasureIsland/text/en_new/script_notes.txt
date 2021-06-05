@@ -969,6 +969,15 @@ really leaning into the old west terminology sherrif
 
 
 
+this  is the sherrif talking- needs westernized.
+sheriff
+sheriff
+
+
+
+
+
+sheriff
 
 
 
@@ -992,16 +1001,7 @@ really leaning into the old west terminology sherrif
 
 
 
-
-
-
-
-
-
-
-
-
-
+sheriff
 
 
 
@@ -1819,7 +1819,7 @@ robot?
 
 
 
-
+mother/father patchie
 
 
 
@@ -2827,7 +2827,7 @@ Wow, I saw some ship blazing this way... \I'll be snookered if it isn't RED Team
 re-worded to be more helpful and made it boots, not shoes
 
 
-
+2 lines only
 
 
 
@@ -2933,7 +2933,7 @@ I got a key from the fish's mouth!
 
 trying to emulate the verbal nuance in the original, but it sounds like mario, lol.
 
-I can't use it because my friends are nearby. Call them with the whistle or press the R button. (2 lines)
+I can't use it because my friends are nearby. Call them with the whistle or press the R button. (2 lines) Using the walkie-talkie when team is all close.
 two- lines only
 2 lines
 
