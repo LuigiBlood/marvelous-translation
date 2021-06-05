@@ -919,8 +919,9 @@ Eh? What? A doll... You say you
 [scl][ ][ ][ ][ ]I'm not telling![X$68]
 [en1]
 
-How can you not know?! How
-[nl2]unpleasant! ...Just go away.
+How can you not know?!
+[nl2]How unpleasant!
+[nl3]...Just go away.
 [en2]
 
 Fugofugo![np]
@@ -1988,8 +1989,9 @@ Great![SReward] I'll take that coin.[np]
 [scl]Alright, good luck, chubby!
 [en2]
 
-Hey, only the guy with the gloves
+Hey, only the guy with the {G}{l}{o}{v}{e}{s}
 [nl2]is allowed in the ring!
+[nl3]The rest of you, stay back.
 [en2]
 
 [SStop]Alright, get over here!
@@ -3277,7 +3279,7 @@ I have something for you, so get
 [nl2]over here!
 [en2]
 
-Here's the reward i promised you.
+Here's the reward I promised you.
 [nl2]It's just a leftover from lunch,
 [nl3]but take this snack!
 [en1]
@@ -3724,9 +3726,9 @@ RO-BO. STA-TUS. SAFE.
 DU-TY. COM-PLET-ED. --- FARE-WELL.
 [en1]
 
-I tried to get the {F}{i}{s}{h}{i}{n}{g} {H}{o}{o}{k}
-[nl2]back from Jim, but he challenged
-[nl3]me to a PK shootout.[np]
+I tried to get the {L}{a}{r}{g}{e} {F}{i}{s}{h}{i}{n}{g}
+[nl2]{H}{o}{o}{k} back from Jim, but he
+[nl3]challenged me to a PK shootout.[np]
 [scl]When I lost, he threw my {S}{o}{c}{c}{e}{r}
 [scl]{S}{h}{o}{e}{s} into the lake!
 [en2]
@@ -3747,9 +3749,9 @@ We were supposed to be in charge
 [scl]...*sigh*...
 [en2]
 
-Okay, if we combine the {F}{i}{s}{h}{i}{n}{g}
-[nl2]{H}{o}{o}{k} with the {F}{i}{s}{h}{i}{n}{g} {R}{o}{d}...
-[nl3]Alright! Now it's ready to use!
+Okay, if we add the {L}{a}{r}{g}{e} {F}{i}{s}{h}{i}{n}{g}
+[nl2]{H}{o}{o}{k} to the {F}{i}{s}{h}{i}{n}{g} {R}{o}{d}... Alright!
+[nl3]Now it's ready to use!
 [en1]
 
 [F2]Now it's a proper {F}{i}{s}{h}{i}{n}{g} {R}{o}{d}![np]
@@ -4911,7 +4913,7 @@ Using that item makes no sense,
 
 Did you open the 3 types of
 [nl2]treasure chest in the ship?[np]
-[nl3]The place to use the "Small Key"
+[nl3]The place to use the {S}{m}{a}{l}{l} {K}{e}{y}
 [scl]is west of the ship.
 [en1]
 
@@ -6900,8 +6902,8 @@ Blub, glub![np]
 [scl]   all by myself.
 [en2]
 
-Hurry and show the {F}{i}{s}{h}{i}{n}{g} {H}{o}{o}{k}
-[nl2]to our leader!
+Hurry and show the {L}{a}{r}{g}{e} {F}{i}{s}{h}{i}{n}{g}
+[nl2]{H}{o}{o}{k} to our leader!
 [en2]
 
 I see... Just as I thought!
@@ -6909,8 +6911,8 @@ I see... Just as I thought!
 [nl3]a clue!
 [en2]
 
-Hurry up and choose the {F}{i}{s}{h}{i}{n}{g}
-[nl2]{H}{o}{o}{k} from the[Space4][Item] panel.
+Hurry up and choose the {L}{a}{r}{g}{e}
+[nl2]{F}{i}{s}{h}{i}{n}{g} {H}{o}{o}{k} from the[Space4][Item] panel.
 [nl3]Use it with the[Space1][ABtn] button.
 [en2]
 
@@ -7313,7 +7315,7 @@ There he is!
 [en1]
 
 [X$6A][SDenied]
-[nl2]...Nuts. There's nothing in there!
+[nl2]...Nuts. There's nothing on there!
 [en2]
 
 [X$6A]Oouah! Ooouuh![np]
@@ -7433,7 +7435,15 @@ Day 1:[np]
 [scl]I worry that if discovered, the
 [scl]Crystal Ball may be abused for
 [scl]nefarious purposes....[np]
-[scl][SImprtnt]
+[scl][SImprtnt]Other strange things have been 
+[scl]happening on the island recently.
+[scl]I can't quite put a finger on it.[np]
+[scl]My dog, {S}{o}{c}{k}{s}, began acting
+[scl]strangely after having gone missing
+[scl]for a few hours this afternoon.[np]
+[scl]Something is definitely off around
+[scl]here and it has me feeling...
+[scl]anxious about staying.
 [en2]
 
 Have you been to the inner part
@@ -10784,7 +10794,7 @@ Why is a safe here...?
 The safe is open...
 [en2]
 
-What on Earth is going on here...!?
+What on earth...!?
 [en2]
 
 The basement of this house is
@@ -10974,7 +10984,7 @@ The most important thing about
 [scl]your whistle and gather up.
 [en2]
 
-Hot dang that is a dorky hat.
+Hot dang, is that a dorky hat.
 [nl2]Haha. Did you suck up to the
 [nl3]teacher to get it?[np]
 [scl]Camping is so stupid I can't stand
@@ -11595,7 +11605,7 @@ I already got bored of soccer.
 [scl]To play, just choose one of the
 [scl][Three] boxes.[np]
 [scl]You just might find one that's
-[scl]filled with {L}{u}{c}{k} {R}{o}{c}{k}{s}.
+[scl]filled to the brim with {L}{u}{c}{k} {R}{o}{c}{k}{s}.
 [scl]Wanna play?
 [en2]
 
@@ -13828,8 +13838,9 @@ There's no time!
 [nl3][CPad] to dash!
 [en1]
 
-[F2]You got {J}{u}{m}{p} {S}{h}{o}{e}{s}![np]
-[nl2]Press the [BBtn] button to jump.
+[F2]Jack got the {J}{u}{m}{p}{i}{n}{g} {B}{o}{o}{t}{s}![np]
+[nl2]When equipped, press[Space4][BBtn] to avoid
+[nl3]obstacles and pitfalls.
 [en1]
 
 [SP$0229]Time for camp!
@@ -13864,8 +13875,9 @@ There's no time!
 [nl2]even close! Just give up!
 [en2]
 
-[F2]You got a Small Key![np] You don't know
-[nl2]why, but it excites you... a little.
+[F2]Max got a {S}{m}{a}{l}{l} {K}{e}{y}![np]
+[nl2]You don't know why, but it excites
+[nl3]you... a little.
 [en1]
 
 [F2]You got the Jail Key![np]

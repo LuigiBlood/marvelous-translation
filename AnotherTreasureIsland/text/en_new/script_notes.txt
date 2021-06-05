@@ -1449,7 +1449,7 @@ revise
 
 
 
-revised heavily. the rest: Other strange things have started\[scl]happening on this island. I can't\[scl]quite put a finger on it.[np]\[scl]My dog "Socks" has begun acting\[scl]strangely after having gone missing\[scl]for a few hours this afternoon.[np]\[scl]Something is definitely off around\[scl]here and it has me feeling a bit...\[scl]anxious about staying.
+revised heavily. the rest:
 
 
 
@@ -2330,7 +2330,7 @@ context needed
 
 
 
-
+added "to the brim" to fix palette :p
 
 
 
@@ -2824,7 +2824,7 @@ Wow, I saw some ship blazing this way... \I'll be snookered if it isn't RED Team
 
 
 
-
+re-worded to be more helpful and made it boots, not shoes
 
 
 
@@ -2832,7 +2832,7 @@ Wow, I saw some ship blazing this way... \I'll be snookered if it isn't RED Team
 
 
 toning it down a bit
-2 lines.
+not 2 lines... Max gets this in the ship engine room
 
 
 
