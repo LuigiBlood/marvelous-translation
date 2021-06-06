@@ -888,9 +888,9 @@ space_check_sound:
 	plx
 	pla
 	rtl
-//Characters that shouldn't make a sound (spaces)
+//Characters that shouldn't make a sound (spaces and others)
 space_check_sound_table:
-	dw $1A, $E0, $E1, $E2, $E3, $EF, $F0
+	dw $1A, $E0, $E1, $E2, $E3, $E4, $EF, $F0
 space_check_sound_table_end:
 //Script IDs (*3) that shouldn't make a sound entirely
 script_check_sound_table:
@@ -973,6 +973,38 @@ seekAddr($9FC125)
 seekAddr($9FC130)
 	nop; nop; nop; nop
 pullvar pc
+
+//Fix Stuck Events
+pushvar pc
+seekAddr($038DB9)	//SA-1 / Town Manager and Lunch Box
+	jsl event_char_detection
+	nop
+	db $90	//BCC
+seekAddr($04F264)	//SNES / Mike and Lunch Box
+	jsl event_char_detection
+	nop; nop
+	sep #$20
+	db $90	//BCC
+pullvar pc
+
+event_char_detection:
+	phx
+	php
+	rep #$30
+	ldx $359A
+	lda $40A400,x
+	xba
+	cmp.w #$E4*2
+	beq +
+	plp
+	plx
+	clc
+	rtl
++;	plp
+	plx
+	sec
+	rtl
+
 
 //--List of Pixel Widths per Char
 width_list:
