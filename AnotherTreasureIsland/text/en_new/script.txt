@@ -898,7 +898,7 @@ Hey, I'd recognize that spicy lunch
 
 Hyaaaah!! What are you doing with
 [nl2]that dangerously spicy stuff?!?!?
-[nl3][np]
+[nl3][np][Event]
 [scl]Get it away from me before you
 [scl]ruin my beauty.
 [en1]
@@ -1074,7 +1074,7 @@ Don't just ogle me! You say there's
 Ommnom morf nom.
 [nl2]Oh man... *munch*
 [nl3]So good... *chew chew*[np]
-[scl]?!
+[scl][Event]?!
 [scl]
 [scl][np]
 [scl]What's this?!
