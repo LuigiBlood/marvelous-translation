@@ -500,8 +500,8 @@ Chiroro? Chir-chirpee.[np]
 [nl2] He's still eating?!?
 [en2]
 
-January 1st: 3 brave little boys
-[nl2]saved the village.[np]
+3 brave little boys saved the
+[nl2]village from the mutant plants.[np]
 [nl3]The boys are on a journey to
 [scl]save their teacher.[np]
 [scl]I hope they can see their teacher
@@ -723,10 +723,10 @@ I can feel the wind blowing
 
 Fugo. Fugofugogo.[np]
 [nl2]TL: I know, you want the thing on
-[nl3]my back, right?[np]
-[scl]You'll have to beat me first.[np]
-[scl]Will you take the challenge?[X$6A]
-[scl][ ][ ][ ][ ]I'll do it.[np]
+[nl3]   my back, right?[np]
+[scl]   You'll have to beat me first.[np]
+[scl]   Will you take the challenge?[X$6A]
+[scl][ ][ ][ ][ ]I'll do it.
 [scl][ ][ ][ ][ ]No, thanks.[X$68]
 [en1]
 
@@ -2385,8 +2385,8 @@ Besides the {B}{l}{u}{e} {T}{h}{i}{n}{g}{s} there
 [en2]
 
 Even if the ants want to attack, 
-[nl3]they can't-- thanks to the miracle
-[scl]remedy, the {A}{n}{t} {B}{u}{s}{t}{e}{r}![np]
+[nl2]they can't-- thanks to the miracle
+[nl3]remedy, the {A}{n}{t} {B}{u}{s}{t}{e}{r}![np]
 [scl]If I can complete it's production,
 [scl]the Ant Menace will be abated.[np]
 [scl]And so, as your punishment... You
@@ -2423,7 +2423,7 @@ I'm terribly sorry to hear that.[np]
 
 Well, aren't you brave little boys![np]
 [nl2]Well then, I can't let all three of
-[scl]you leave together, but you can
+[nl3]you leave together, but you can
 [scl]open the gate on the right there.
 [en1]
 
@@ -2446,7 +2446,8 @@ This small kingdom would be
 [en2]
 
 Listen carefully to Hassan's fair
-[nl2]judgement and repent of your sins.
+[nl2]judgement and make recompense
+[nl3]for your misdeeds.
 [en2]
 
 If I don't get home soon, my mom
@@ -2870,8 +2871,8 @@ Come a little closer!
 
 [SUnKwn]Gingham Quiz Time! You've got 3
 [nl2]seconds to answer the question![np]
-[nl2]You have 3 seconds.
-[nl3]You shrunk from the...[np]
+[nl3]You have 3 seconds.
+[scl]You shrunk from the...[np]
 [scl][ ][ ][ ][ ]Ball in the Forest
 [scl][ ][ ][ ][ ]Ball in the Castle
 [scl][ ][ ][ ][ ]Ball in the Cave[X$6E]
@@ -3082,13 +3083,13 @@ It isn't like this is an uninhabited
 [nl3]have to live in a tent out here...
 [en2]
 
-Thanks for all your help. I think
-[nl2]I'll write down these adventures in
-[nl3]a book.
+Thanks for all your help.
+[nl2]I think I'll write down your
+[nl3]adventures in a book.[np]
 [scl]If you see it, give it a read...!
 [scl]
 [scl][np]
-[scl]You're a good man!
+[scl]You're nice guys!
 [en2]
 
 This Crystal ball belongs to you...
@@ -7393,8 +7394,8 @@ The power cable seems to be
 [nl2]connected to this.
 [en2]
 
-[X$79]    Push a direction.
-[nl2]        [C$42][X$7E]
+[X$79][ ][ ][ ][ ] Push a direction.
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][C$42][X$7E]
 [en1]
 
 Let's get a closer look.
@@ -7414,10 +7415,9 @@ Okay, I'll stay here and examine
 [nl2]these notes.
 [en1]
 
-Day 1:[np]
-[nl2]Shortly after arrival, I found a
-[nl3]mysterious ball which seems to be
-[scl]made of crystal.[np]
+Shortly after arrival, I found a
+[nl2]mysterious ball which seems to be
+[nl3]made of crystal.[np]
 [scl]We brought it with us to the
 [scl]center of the island, where we
 [scl]found the enormous Baobab tree.[np]
@@ -7523,8 +7523,9 @@ Hey~, when this boat's a-rockin'
 [nl2][ ][ ][ ][C$42][ ][ ][ ][ ][ ][ ][ ][C$12][X$7E]
 [en1]
 
-[F2]You got the... *burp* {C}{a}{v}{e} {K}{e}{y}.[np]
-[nl2]It's a little acidic.
+[F2]Max got the {C}{a}{v}{e} {K}{e}{y}... *Burp* [np]
+[nl2]It's... covered in stomach acid.
+[nl3]Gross.
 [en1]
 
 Is this the key to the cave?
@@ -10303,7 +10304,7 @@ What's going on!?
 [scl]I can't believe this!
 [en1]
 
-I don't know why, but it seems you
+[Event]I don't know why, but it seems you
 [nl2]kids aren't giants anymore.[np]
 [nl3]Let's leave it at "Idiots! Slackers!
 [scl]Frauds! Deadbeats!"[np]
@@ -10361,8 +10362,8 @@ Ack! S-so spice-!! So spicey!!!!
 [nl2]W-water~!!
 [en2]
 
-Haven't you seen a creepy plant
-[nl2]somewhere else?
+Haven't we seen a creepy plant
+[nl2]like this somewhere else?
 [en2]
 
 It seems like this leads to the
@@ -13467,7 +13468,7 @@ Chirpy chirp![np]
 [nl3]   Good job.[np]
 [scl]   I wonder if this ball was to
 [scl]   blame for the plants taking on
-[scl]   human form and moving around.
+[scl]   human form and walking around.
 [en2]
 
 Chirpy chirp.[np]
@@ -14005,7 +14006,7 @@ We can take nutrients and live on
 [SStop][SP$011D]       Grrr bark! bark!
 [en2]
 
-[F2]We made a {M}{o}{u}{s}{e} {B}{r}{i}{d}{g}{e}!!
+[F2]We made a Mouse Bridge!!
 [nl2]Let's go across!
 [en2]
 

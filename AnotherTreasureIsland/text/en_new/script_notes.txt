@@ -567,7 +567,7 @@ revise (context)
 
 
 
-
+double-check this
 
 
 
@@ -2852,7 +2852,7 @@ only 2 lines. [np] is bugged so not used here.
 lets only apply special fonts if we know it's not 2-line text
 
 
-
+only 2 lines
 
 
 
@@ -2868,7 +2868,7 @@ plant confrontation
 
 
 
-
+two line text
 
 
 
