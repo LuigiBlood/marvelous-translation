@@ -605,7 +605,7 @@ I'm going to look around a little
 5: {F}{o}{r}{e}{s}{t} {C}{o}{a}{t}[np]
 [nl2]The coat of a forest creature
 [nl3]that hates the cold.[np]
-[scl]It is said to weaken  ants.
+[scl]It is said to weaken ants.
 [en2]
 
 What a giant keyhole~![np]
@@ -1020,9 +1020,9 @@ Pengi. Pegi. Pengu.[np]
 [scl]   for you!
 [en2]
 
-Try it again?
+Give it one more shot?
 [nl2][ ][ ][ ][ ]I'll do it.
-[nl3][ ][ ][ ][ ]I pass...[X$68]
+[nl3][ ][ ][ ][ ]I must respectfully decline.[X$68]
 [en1]
 
 Fugofugo. Fu-go.[np]
@@ -1930,15 +1930,14 @@ I'm excited, but I'm still nervous...[np]
 [nl3]this situation.
 [en2]
 
-That bird is all excited about
-[nl2]something.[np]
-[nl3]Solomon, what are you doing?!
-[scl]Hurry up and help!
+Yipe! What'd we do to upset him?!
+[nl2]Solomon, what are you doing?!
+[nl3]Hurry up and help!
 [en2]
 
-H...Help me!! Hassan, I'm powerless
-[nl2]to help you.[np]
-[nl3]If only Princess Polly were here...
+Heeee! Hee-hee-heeelp me~!!
+[nl2]Hassan! I don't know what to do!
+[scl]If only Princess {P}{o}{l}{l}{y} were here...
 [en2]
 
 Hey Hassan! Hey Solomon!
@@ -2127,9 +2126,9 @@ I won't tell outsiders anything
 It's too far to see what it is!
 [en2]
 
-Ohh, that looks so delicious! What?
-[nl3]You'll give it to me?
-[scl]That's amazin'! Thanks! Mmmm...
+Ohh, that looks so delicious![np]
+[nl2]Whaa-? You'll give it to me?
+[nl3]Oh, sorry. I'll get right to it...
 [en1]
 
 W-Water!!... Water!! Quick...!
@@ -2378,9 +2377,9 @@ I bet you were surprised when you
 [scl]heavy gown?
 [en2]
 
-Besides the {B}{l}{u}{e} {T}{h}{i}{n}{g}{s} there
-[nl2]are many gigantic bugs...[np]
-[nl3]But only they have formed an
+Besides the {B}{l}{u}{e} {T}{h}{i}{n}{g}{s} there are
+[nl2]many gigantic bugs...[np]
+[nl3]But only the ants have formed an
 [scl]army and attacked our kingdom.
 [en2]
 
@@ -2433,16 +2432,16 @@ The one who stays behind must
 [scl]That will open and close the gate.
 [en2]
 
-There are 5 things you need to
-[nl2]get. Read the blackboard for
-[nl3]all of the details.[np]
+There are 5 things you need to get.
+[nl2]Read the blackboard for all
+[nl3]of the details.[np]
 [scl]Make sure you remember them
 [scl]properly.
 [en2]
 
 This small kingdom would be
-[nl2]completely overwhelmed, if the
-[nl3]ants attacked tomorrow.
+[nl2]completely overwhelmed, if the ants
+[nl3]attacked tomorrow.
 [en2]
 
 Listen carefully to Hassan's fair
@@ -4862,7 +4861,7 @@ Is lunch ready yet? What is
 [en2]
 
 The King's hobby is gardening.
-[nl2]Supposedly, there is a magnificent
+[nl2]I've heard there is a magnificent
 [nl3]garden behind the castle...[np]
 [scl]But I've never actually seen it.
 [en2]
@@ -7483,7 +7482,7 @@ You might be able to crack the
 What kind of water is it?
 [en2]
 
-Salt water... Is it from the ocean?
+{S}{a}{l}{t} {w}{a}{t}{e}{r}... Is it from the ocean?
 [en2]
 
 Oh~, that made a great photo!
@@ -8480,7 +8479,7 @@ Okay, now everything is in order.
 [nl3]. . . . . . . . . . . ?!
 [en2]
 
-Hurry and show Pluck!
+Hurry, hurry, show Pluck!
 [en2]
 
 [nl2]   We've arrived at an island!
@@ -8743,7 +8742,8 @@ Look outside!
 Lock broken! Fix! Fix!
 [en2]
 
-It's not even winter...?
+Isn't it strange since it's not even
+[nl2]winter?
 [en2]
 
 Cold! Cold!
@@ -8766,7 +8766,7 @@ Do something~!!
 Something block path!
 [en2]
 
-Maybe this is blocking our path?
+Is this blocking the ship?
 [en2]
 
 Ooo ooo![np]
@@ -9350,9 +9350,9 @@ Don't forget that Miss Gina said
 Come closer and show it to me!
 [en2]
 
-...Anyhow, you've disgraced the
-[nl2]royal family! You kids must face
-[nl3]your punishment.
+...Anyhow.
+[nl2]You've shamed the royal family!
+[nl3]Now you must face punishment.
 [en2]
 
 It's a picture of Polly's dad, the
@@ -10353,8 +10353,8 @@ It looks dicey out there, so watch
 Did you find Mr. Smith?
 [en2]
 
-It's so dangerous outside, so I
-[nl2]can't get any work done!
+It's dangerous outside, so I can't
+[nl2]get any danged work done!
 [nl3]...Well, what do you want?
 [en2]
 
@@ -10366,7 +10366,7 @@ Haven't we seen a creepy plant
 [nl2]like this somewhere else?
 [en2]
 
-It seems like this leads to the
+It looks like this leads to the
 [nl2]cave...
 [en2]
 
@@ -10466,14 +10466,16 @@ Wait! Stop right there, travelers.[np]
 [scl]Someone, go and fetch them.
 [en1]
 
-How could Polly be kidnapped by
-[nl2]such dumb kids...[np]
-[nl3]Well, at least now she should know
-[scl]that the stories are lies.
-[scl]There're no such things as Giants...
+How could Polly be fooled by
+[nl2]children such as these...[np]
+[nl3]...I pray that she is now privy to
+[scl]the fact that the stories are in
+[scl]truth, JUST stories.[np]
+[scl]"Those things yonder are no
+[scl]giants, but windmills..."
 [en2]
 
-If you were just Giants, how did
+If you really are Giants, how did
 [nl2]you become tiny like us?
 [nl3]It's unbelievable.
 [en2]
@@ -10512,9 +10514,10 @@ Look at the creatures in the cell
 [en2]
 
 I've been searching for a way to
-[nl2]defeat the {B}{l}{u}{e} {T}{h}{i}{n}{g}{s} for a
-[nl3]long time.[np]
-[scl]I think I've finally found a solution.
+[nl2]defeat the {B}{l}{u}{e} {T}{h}{i}{n}{g}{s} for a long
+[nl3]time now.[np]
+[scl]I think I may have finally found a
+[scl]way to do something about it.
 [en2]
 
 Choose who you will leave behind.
@@ -10680,8 +10683,8 @@ I think I'll find a better job, for
 [nl2]the sake of my boys.
 [en2]
 
-Thanks to you, I've opened my
-[nl2]eyes.
+Thanks to you three, I see things
+[nl2]more clearly now.
 [en2]
 
 Who listens to rock anymore?
@@ -12269,11 +12272,11 @@ What, you kids again?
 [nl3]while Hassan is out.
 [en2]
 
-This is the entrance to the
-[nl2]castle's back garden.[np]
-[nl3]It's a secret place that no one
-[scl]except the King, and not even
-[scl]Polly, can enter.
+This is the entrance to the back
+[nl2]garden of the castle.[np]
+[nl3]No one except the King can enter.
+[scl]Not even the "little queenie".[np]
+[scl]It's a secret, so don't tell anyone.
 [en2]
 
 It's a {T}{a}{p}{e} {R}{e}{c}{o}{r}{d}{e}{r}.
@@ -13637,8 +13640,8 @@ It's ice!!
 [en2]
 
 Pegi pegi![np]
-[nl2]TL: Howdy! There are lots of
-[nl3]   icebergs out here, so be
+[nl2]TL: Hello! There are lots of ice-
+[nl3]   bergs drifting out here, so be
 [scl]   careful~.
 [en2]
 
@@ -13950,8 +13953,8 @@ The ship's rocking too much for us
 [nl2]...S-save me!!
 [en2]
 
-[SP$001E]King Gingham III, we've captured
-[nl2]the 3 miscreants!!
+[SP$001E]Highness, King Gingham III, the three
+[nl2]miscreants have been captured!!
 [en2]
 
 [SP$0204]Very well! Follow me downstairs!
