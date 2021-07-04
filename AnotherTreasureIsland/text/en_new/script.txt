@@ -87,8 +87,8 @@ It seems that this lever can be
 I wonder if I can move this...?
 [en2]
 
-The powerful water flow moved
-[nl2]the boulder!
+The powerful water flow moved the
+[nl2]boulder!
 [en2]
 
 Ooo-kiii![np]
@@ -592,7 +592,7 @@ I'm going to look around a little
 [nl2]more here.
 [en2]
 
-[F2]You found a {W}{o}{o}{d}{e}{n} {B}{o}{a}{r}{d}![np]
+[F2]We found a {B}{r}{o}{k}{e}{n} {W}{o}{o}{d}{e}{n} {B}{o}{a}{r}{d}![np]
 [nl2]Why would someone hide it in a
 [nl3]hole?
 [en1]
@@ -605,7 +605,7 @@ I'm going to look around a little
 5: {F}{o}{r}{e}{s}{t} {C}{o}{a}{t}[np]
 [nl2]The coat of a forest creature
 [nl3]that hates the cold.[np]
-[scl]It is said to weaken ants.
+[scl]It's said to weaken ants.
 [en2]
 
 What a giant keyhole~![np]
@@ -1488,7 +1488,7 @@ You want to know what I'm doing
 [scl]though...
 [en2]
 
-[F2]You found a {T}{a}{p}{e} {R}{e}{c}{o}{r}{d}{e}{r}![np]
+[F2]Jack got the {T}{a}{p}{e} {R}{e}{c}{o}{r}{d}{e}{r}![np]
 [nl2]It's an incredible device that can
 [nl3]record and play back sounds![np]
 [scl]Let's borrow it for a while.
@@ -14013,7 +14013,7 @@ We can take nutrients and live on
 [nl2]Let's go across!
 [en2]
 
-[F2]Got the Spider's {S}{i}{l}{v}{e}{r} {T}{h}{r}{e}{a}{d}!
+[F2]Got the Spider's Silver Thread!
 [nl2]No more mischief, spider brothers!
 [en2]
 
