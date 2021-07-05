@@ -2819,7 +2819,7 @@ You boys are free now. Enjoy some
 [nl3]thankful to you. Good work.
 [en2]
 
-[nl2]  This is a really lame picture.
+[nl2]    This drawing is ridiculous.
 [en2]
 
 Come a little closer!
@@ -3622,7 +3622,7 @@ Want to buy some caramel?[np]
 What? You've never heard of
 [nl2]"Great Mecha"?
 [nl3]You guys are so lame.[np]
-[nl3]This's #3, but there's also a #1
+[scl]This's #3, but there's also a #1
 [scl]and a #2.[np]
 [scl]I used to have those too, but
 [scl]someone stole them from me.[np]
@@ -3874,7 +3874,7 @@ Snap out of it, man!
 [scl]Drink this "Soldier Blue" to heal!
 [en1]
 
-Oh! I'm alive! 
+Alright! Now you're right as rain!
 [nl2]I hate to say it, but Polly has 
 [nl3]fallen into enemy hands.[np]
 [scl]Hurry back to the castle to
@@ -7819,14 +7819,14 @@ Agh, my body won't move.[np]
 [nl3]...I wonder how it works?
 [en1]
 
-This cannon has 10 times the
-[nl2]power of the regular Ant
-[nl3]Buster![np]
+The {B}{u}{s}{t}{e}{r} {C}{a}{n}{n}{o}{n} has 10 times
+[nl2]the power of the original {A}{n}{t}
+[nl3]{B}{u}{s}{t}{e}{r}![np]
 [scl]With it, you should be able to
 [scl]defeat the {A}{n}{t} {Q}{u}{e}{e}{n}.[np]
-[scl]When you face her, press the [ABtn]
-[scl]button to lock in the movement.
-[scl]Use it with [Item]![np]
+[scl]When you face her, press the[Space1][ABtn]
+[scl]button to lock on to your target.
+[scl]Use it with[Space3][Item]![np]
 [scl]My prayers go with you.
 [en1]
 
@@ -7849,8 +7849,8 @@ But... Now we can't move forward.
 [en2]
 
 It looks too heavy to pick up, and
-[nl2]if we push it inside we still can't
-[nl3]get in. What should we do...?
+[nl2]we can't push it from this side...
+[nl3]What should we do...?
 [en2]
 
 Yeah! Now we can keep going!
@@ -8040,7 +8040,7 @@ Piropii. Pirororoo-![np]
 So, did the kingdom really return
 [nl2]to its previous size that quickly?[np]
 [nl3]The premise seems to be a hard
-[scl]pill to swallow. . . . . . . . . . 
+[scl]pill to swallow. . . . . . . . . .
 [en2]
 
 We've returned to normal si~ze,
@@ -8236,7 +8236,8 @@ The king is also very pleased.
 [en2]
 
 Follow me, boys~[~].
-[nl2]The king awaits you out here~[~].
+[nl2]The king is waiting just through
+[nl3]here~[~].
 [en1]
 
 As my thanks for saving Polly, you
