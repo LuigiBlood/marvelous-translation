@@ -275,7 +275,7 @@ I think there's a keyhole.[np]
 [nl2] How 'bout we take a closer look.
 [en2]
 
-[nl2]*Woooooooooosh~!*
+[nl2]*ZzzzzzzzzzzZzzzz~!*
 [en2]
 
 Something's wrong. All 3 of us
@@ -742,15 +742,16 @@ It would terrible if you dropped
 [en2]
 
 Ooo-Ooo! Ooo.[np]
-[nl2]TL: You'll find the important
-[nl3]   person you're looking for![np]
-[scl]   I'm sure of it!
+[nl2]TL: You find teacher! I know!
+[nl3]   You find!
 [en2]
 
-...Find the green treasure chests.
-[nl2]Open them in sequence.[np]
-[nl3]The last one has the door key. In
-[scl]total, there are-----[np]
+...FIND THE GREEN TREA-SURE
+[nl2]CHESTS. O-PEN THEM IN SE-
+[nl3]QUENCE.[np]
+[scl]THE LAST ONE HAS THE DOOR KEY.
+[scl]IN TO-TAL, THERE ARE-----[np]
+[scl]
 [scl] [SReward]...Huh?...It cuts out partway
 [scl]through.
 [en2]
@@ -1031,17 +1032,17 @@ Fugofugo. Fu-go.[np]
 [scl]   We'll talk then.
 [en1]
 
-Search--... Blue treasure chest.
-[nl2]Open in--... Order.[np]
-[nl3]The last key opens-... door.
-[scl]In total, there ar-------...[np]
+SEARCH--... BLUE TREA-SURE CHEST.
+[nl2]O-PEN IN--... OR-DER.[np]
+[nl3]THE LAST KEY O-PEN-... DOOR.
+[scl]IN TO-TAL, THERE ARE-------...[np]
 [scl][SReward]Huh?... The message ends there.
 [en2]
 
-Search--... Red treasure chest.
-[nl2]Open in--... Order.[np]
-[nl3]The last key opens-... door. In
-[scl]total, there ar-------...[np]
+SEARCH--... RED TREA-SURE CHEST.
+[nl2]O-PEN IN--... OR-DER.[np]
+[nl3]THE LAST KEY O-PEN-... DOOR.
+[scl]IN TO-TAL, THERE ARE-------...[np]
 [scl][SReward]Huh?... The message ends there.
 [en2]
 
@@ -1935,9 +1936,9 @@ Yipe! What'd we do to upset him?!
 [nl3]Hurry up and help!
 [en2]
 
-Heeee! Hee-hee-heeelp me~!!
-[nl2]Hassan! I don't know what to do!
-[scl]If only Princess {P}{o}{l}{l}{y} were here...
+Heeee! Hee-hee-heeewwp me~!! One
+[nl2]doesn't know what to do, Hassan!
+[nl3]If only Princess {P}{o}{l}{l}{y} were here...
 [en2]
 
 Hey Hassan! Hey Solomon!
@@ -2432,11 +2433,12 @@ The one who stays behind must
 [scl]That will open and close the gate.
 [en2]
 
-There are 5 things you need to get.
-[nl2]Read the blackboard for all
-[nl3]of the details.[np]
-[scl]Make sure you remember them
-[scl]properly.
+There are 5 things you need to
+[nl2]get. Read the blackboard to learn
+[nl3]all the details.[np]
+[scl]Hand the ingredients to me once
+[scl]you've got them. Make sure you
+[scl]remember everything you need.
 [en2]
 
 This small kingdom would be
@@ -2472,7 +2474,7 @@ Princess Polly has retired to her
 
 Solomon is running errands in town.
 [nl2]He's probably at the artist,
-[nl3]Caesar O. Enai's house.
+[nl3]Cesar O. Enai's house.
 [en2]
 
 More and more people are coming
@@ -2518,7 +2520,7 @@ I've heard rumors that on the
 [scl]   turn off that electricity, ribbit!
 [en1]
 
-[F2]You received the {F}{r}{o}{g}{'}{s} {T}{a}{i}{l}!"[np]
+[F2]You received the {F}{r}{o}{g}{'}{s} {T}{a}{i}{l}![np]
 [nl2]He must have kept it since he was
 [nl3]a tadpole.
 [scl]It's still kind of electrified.
@@ -2644,7 +2646,7 @@ My? My, my![np]
 
 [SAwe]My! M~y, my, mymym~y.[np]
 [nl2]TL: This is it! Perfect! It's just
-[scl]   what I wanted! Thank you so
+[nl3]   what I wanted! Thank you so
 [scl]   very, much for this new house![np]
 [scl]   I'll give you my old one...
 [scl]   Sorry it's a bit used.
@@ -2804,7 +2806,7 @@ Oh! Look at that, {S}{i}{l}{v}{e}{r} {T}{h}{r}{e}{a}{d}!
 [nl3]Just a moment.
 [en1]
 
-There are [X$6B] items left.
+[X$6B] more to go.
 [en2]
 
 Great! Now I have everything I
@@ -2903,7 +2905,7 @@ Wowza! You got it right. If you
 [en1]
 
 [X$6A]
-[nl2]          Woosh~!
+[nl2]          Zzzzzzzz~!
 [en2]
 
 Toooo~ baaad~.
@@ -3289,7 +3291,7 @@ If you don't have a key~, just
 [nl2]give up already, man!
 [en2]
 
-[nl2] It goes all the way to the top.
+[nl2]It goes allll~ the way to the top.
 [en2]
 
 Heeeeyyyy~!
@@ -3343,17 +3345,17 @@ The King's birthday is coming up in
 [scl]Oh, what will I do now~?
 [en2]
 
-What are you doing? If we see you
-[nl2]do anything suspicious, the soldiers
-[nl3]will arrest you again.
+What are you doing, sillies? If they
+[nl2]see you bein' s'picious, the soldiers
+[nl3]will arrest you~[~].
 [en2]
 
 The gown isn't finished yet.
 [en2]
 
 Wowzers! Those are the painting
-[nl2]tools Caesar lost in the forest![np]
-[nl3]Let's take them back to Caesar
+[nl2]tools Cesar lost in the forest![np]
+[nl3]Let's take them back to Cesar
 [scl]right away.
 [en2]
 
@@ -3393,7 +3395,7 @@ Unless you have all 3 paints, we
 [scl][ ][ ][ ][ ]Max - Green[X$6E]
 [en1]
 
-Whose color is next?
+Whose color is next~[~]?
 [nl2][ ][ ][ ][ ]Dion - Red
 [nl3][ ][ ][ ][ ]Jack - Blue[X$68]
 [en1]
@@ -3429,12 +3431,12 @@ No, no, no~! Stop it right there![np]
 
 [F2]It's beautiful~!
 [nl2]Wonderful! Marvelous!
-[scl]That's the king's gown I remember!
+[nl3]That's the king's gown I remember!
 [en1]
 
-Good work. I'll go inform the king,
-[nl2]so come along afterward. I'm sure
-[nl3]he'll be very pleased.
+Good work, boys~[~]. I'll go tell the
+[nl2]king what you did~. I'm sure he'll
+[nl3]be very pleased~[~].
 [en1]
 
 You might even be better than
@@ -3512,9 +3514,9 @@ Mino, mino? Mi~no, mi~no.[np]
 [nl2]TL: You probably want my
 [nl3]   beautiful coat, don't~ you?[np]
 [scl]   Well, sucks to be you!![np]
-[scl]   I wouldn't even let you 
-[scl]   anywhere close to it with them
-[scl]   grubby little mitts of yours.
+[scl]   I wouldn't let you within arm's
+[scl]   reach to it with those grubby
+[scl]   little mitts of yours.
 [en2]
 
 Mino... Miminono! Mino~. [np]
@@ -3529,13 +3531,12 @@ Minonoo! Miiinnnooo![np]
 [en2]
 
 Mino, mino! Minono![np]
-[nl2]TL: Just take it away from me![np]
-[nl3]   I want this coat out of my
-[scl]   sight!
+[nl2]TL: Just take it! I want this coat
+[scl]   out of my sight!
 [en1]
 
 [F2]We got the {F}{o}{r}{e}{s}{t} {C}{o}{a}{t}![np]
-[nl3]I don't understand that bug's
+[nl2]I don't understand that bug's
 [nl3]sense of fashion.
 [en1]
 
@@ -3554,7 +3555,7 @@ STEP ASIDE, WEAKLINGS.
 [nl3]STEP ASIDE. STEP ASIDE.
 [en2]
 
-This is the royal painter, Caesar's
+This is the royal painter, Cesar's
 [nl2]house. Solomon is inside and they
 [nl3]seem to be having an argument.
 [en2]
@@ -3636,7 +3637,7 @@ It's a toy robot.
 [en2]
 
 Look at what you did!
-[nl2]You've ruined it! You'd better pay
+[nl2]You've ruined it! You're gonna pay
 [nl3]for this, you know!![np]
 [scl]Just kidding!
 [scl]That part falls off all the time.
@@ -3697,8 +3698,8 @@ MOVE. ME. TO. DIS-CO-VER.
 [nl2]IN-VIS-I-BLE. FLOOR.
 [en2]
 
-[X$79]YOU ARE FR-IEND OF SOU-SA.
-[nl2]         [C$42][X$7E]
+[X$79]USE. ME. TO. IN-VES-TI-GATE.
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][C$42][X$7E]
 [en1]
 
 T-THE FL-OOOOR ----
@@ -3907,7 +3908,7 @@ Hyaaa~! Take THIS~! And THAT~!
 [scl]but please help the others...
 [en2]
 
-[nl2] ...W-what should I do!?
+[nl2] ...W-what should we do!?
 [en2]
 
 I'm in your debt. What's that? 
@@ -4007,27 +4008,26 @@ If I give you all my honey, I'll be
 [nl3]more from me... Zero! Zilch! Nada!
 [en2]
 
-Princess, the {A}{n}{t} {B}{u}{s}{t}{e}{r} was
-[nl2]invented to repel the "Blue
-[nl3]Things".[np]
-[scl]I haven't done any tests to see if
+Princess, the {A}{n}{t} {B}{u}{s}{t}{e}{r} is only
+[nl2]designed to repel the {B}{l}{u}{e} {T}{h}{i}{n}{g}{s}.[np]
+[nl3]I haven't done any tests to see if
 [scl]it will kill them......
 [en1]
 
-Hassan, what are you saying?!
-[nl2]I don't want to just sit here and
-[nl3]waste my time waiting to die![np]
-[scl]If we don't act, they'll come again
-[scl]tonight and destroy our kingdom![np]
-[scl]Hurry up and just gimme that
+You think I care, Hassan?! I can't
+[nl2]just sit idly by waiting to die.[np]
+[nl3]If we don't act immediately, they'll
+[scl]come again tonight and destroy our
+[scl]kingdom![np]
+[scl]So, hurry up and just gimme that
 [scl]{B}{u}{s}{t}{e}{r} {C}{a}{n}{n}{o}{n}!
 [en1]
 
-I understand.
-[nl2]If you've made up your mind, I
-[nl3]won't try to stop you.[np]
-[scl]I'll stand watch over the castle
-[scl]and entrust you to Hassan's care.
+Understood. If you've made up your
+[nl2]mind, I won't try to stop you.[np]
+[nl3]Just leave it to me. Old Hassan
+[scl]will stand watch over the castle
+[scl]while you are away.
 [en1]
 
 Good answer! Alright, all[Three] of
@@ -4039,8 +4039,8 @@ Good answer! Alright, all[Three] of
 [scl]Let's see [team] Team's [TWork]!
 [en1]
 
-. . . What are you saying? . . . 
-[nl2] Come with me! Quickly please!
+. . . . . . Don't be silly . . . . . .
+[nl2]You're coming too!  Quickly please!
 [en1]
 
 We can't lift this heavy pot.
@@ -4113,9 +4113,9 @@ Jim is still missing...
 [scl]King Bull
 [en2]
 
-B-But... Oh, Princess! Wait!
-[nl2]Don't forget this Super "Buster
-[nl3]Cannon"!
+B-But... But, Princess! Please wait!
+[nl2]You forgot your Super {B}{u}{s}{t}{e}{r}
+[nl3]{C}{a}{n}{n}{o}{n}!
 [en1]
 
 It seems like something wild was
@@ -6399,7 +6399,7 @@ Keep this a secret...
 [en1]
 
 [X$79]   Press a direction to move!
-[nl2]          [C$42][X$7E]
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][C$42][X$7E]
 [en1]
 
 [X$79]        Mash it quick!
@@ -6680,7 +6680,7 @@ The answer is simple...
 [en2]
 
 [X$79] Press a direction! [BBtn] to cancel.
-[nl2]          [C$42][X$7E]
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][C$42][X$7E]
 [en1]
 
 S...S-Sike?![np]
@@ -6705,7 +6705,7 @@ Pii! pii![np]
 [en2]
 
 [X$79]  Move it.      [BBtn] to cancel.
-[nl2]          [C$42][X$7E]
+[nl2][ ][ ][ ][ ][ ][ ][ ][ ][C$42][X$7E]
 [en1]
 
 You found my weak spot![np]
@@ -7267,7 +7267,7 @@ Wow! You kids know your stuff...[np]
 [nl2]Alright, you can have it for free.
 [en1]
 
-Oh, [team] Team! You're safe!
+Oh,[Space1][team] Team! You're safe!
 [nl2]What? I'm the PE teacher, Arnold.
 [nl3]Don't you remember me?
 [en1]
@@ -7848,8 +7848,8 @@ But... Now we can't move forward.
 [nl2]        What do we do?!
 [en2]
 
-It looks too heavy to move, and if
-[nl2]we push it inside we still can't
+It looks too heavy to pick up, and
+[nl2]if we push it inside we still can't
 [nl3]get in. What should we do...?
 [en2]
 
@@ -7933,7 +7933,7 @@ You have to wait for an opening
 [nl3]for the embrace of death....
 [en2]
 
-Let's try out that thing Hassan
+Let's use that buster thing Hassan
 [nl2]gave us.
 [en2]
 
@@ -7941,8 +7941,8 @@ Be careful-! If you get hit, your
 [nl2]controls will be reversed-!
 [en2]
 
-Aim with [CPad]! Fire with [ABtn]!
-[nl2]    [C$42]       [C$12][X$7E]
+Use [CPad] to aim.[ ]Use[ABtn] to fire!
+[nl2][ ][ ][ ][C$42][ ][ ][ ][ ][ ][ ][ ][C$12][X$7E]
 [en1]
 
 Fiiiirrrre-!!!!
@@ -7954,7 +7954,7 @@ Right on-! Direct hit!
 Ah nuts... We've got to aim better!
 [en1]
 
-[X$79]Press [C$38] to charge up!![X$78]
+[X$79][C$38] Hold to charge up!![X$78]
 [en1]
 
 ...Yikes! It's coming for us!!
@@ -8037,28 +8037,28 @@ Piropii. Pirororoo-![np]
 [scl]Gosh~, what a dunce!
 [en1]
 
-So, did the country really return
-[nl2]to its previous size?
-[nl3]The premise is hard to swallow......
+So, did the kingdom really return
+[nl2]to its previous size that quickly?[np]
+[nl3]The premise seems to be a hard
+[scl]pill to swallow. . . . . . . . . . 
 [en2]
 
-This country returned to normal
-[nl2]size, right?
-[nl3]I'm going to go check it out.
+We've returned to normal si~ze,
+[nl2]right? I thi~nk I'll go take a look-
+[nl3]see, okay dears~[~]?
 [en1]
 
 ...Come over here, I have something
 [nl2]to tell you.
 [en2]
 
-Thanks to you guys, I saw
-[nl2]something cool! Here's a secret
-[nl3]prize.
+Thanks to you boys, this old man
+[nl2]got to see something marvelous!
+[nl3]Here's a {r}{e}{w}{a}{r}{d} for everyone.
 [en1]
 
-[F2]You received {L}{u}{c}{k} {R}{o}{c}{k}{s} from the
-[nl2]King! You got [Five][Zero] of 'em!!
-[nl3]W-wow!
+[F2]We got {L}{u}{c}{k} {R}{o}{c}{k}{s} from the King!
+[nl2]W-wow! He gave us[Space2][Five][Zero] of 'em!!
 [en1]
 
 Will you go see Polly before you
@@ -8099,14 +8099,14 @@ I have something to tell you, so
 [nl2]come closer!
 [en2]
 
-Thank you so much!!!!
+Thank you so much~[~]!!!!
 [nl2]Now the kingdom can become a
-[nl3]happy place again.[np]
-[scl]...Oh, leaving already?
-[scl]Did you talk to Polly?
-[scl]I haven't seen her lately...[np]
-[scl]You're welcome to return whenever
-[scl]you'd like.
+[nl3]ha~ppy place again~.[np]
+[scl]. . . . . . . Oh~, leaving already?
+[scl]Did you talk to Polly~?
+[scl]I haven't see~n her lately...[np]
+[scl]Well~, you're welcome to come back
+[scl]whenever~ you'd like~[~].
 [en2]
 
 It looks like a bug carrying a
@@ -8131,7 +8131,7 @@ Shaka. Shaka. Shakaka.[np]
 
 So these guys were the thieves.
 [nl2]...Oh! I think we can replace the
-[nl3]egg with this ball![np]
+[nl3]crystal ball with this egg![np]
 [scl]Watch their movements carefully
 [scl]and press [ABtn] to take the egg.[np]
 [scl]Press [BBtn] to cancel.
@@ -8144,7 +8144,8 @@ Crap-. They're moving too much~.
 [en1]
 
 [F2]You got the real {E}{a}{g}{l}{e} {E}{g}{g}![np]
-[nl2]Let's exchange it for the ball!
+[nl2]Let's exchange it for the crystal
+[nl3]ball!
 [en1]
 
 Polly has requested your presence
@@ -8234,16 +8235,16 @@ The king is also very pleased.
 [nl2]Go see him.
 [en2]
 
-Come with me. The king is waiting
-[nl2]for you behind the castle.
+Follow me, boys~[~].
+[nl2]The king awaits you out here~[~].
 [en1]
 
-As thanks for saving Polly, you
-[nl2]may enter my secret garden.
-[nl3]What do you think?[np]
-[scl]I tried to combine Eastern
-[scl]and Western sensabilities in the
-[scl]design of this rock garden.
+As my thanks for saving Polly, you
+[nl2]are allowed entry to my secret
+[nl3]garden. What do you think?[np]
+[scl]I tried to combine Eastern and
+[scl]Western sensibilities while designing
+[scl]the rock garden.
 [en2]
 
 ...Hmm?... ...This garden?... It's my
@@ -8252,11 +8253,10 @@ As thanks for saving Polly, you
 [scl]give you the jimmies?
 [en2]
 
-Caesar said you kids did a good
-[nl2]job.[np]
-[nl3]He also asked me to tell you not
-[scl]to forget his "special painting
-[scl]technique."
+Cesar said you kids did a re~ally
+[nl2]good job~[~].[np]
+[nl3]He said not to forget his {s}{p}{e}{c}{i}{a}{l}
+[scl]{p}{a}{i}{n}{t}{i}{n}{g} {t}{e}{c}{h}{n}{i}{q}{u}{e}, oka~y[~]?
 [en2]
 
 Could it be... Is it possible!?
@@ -8287,8 +8287,8 @@ You wish to consult with me?
 That ball was found in the forest
 [nl2]before the kingdom shrank.[np]
 [nl3]...Come to think of it...
-[scl]It wasn't all that big of a
-[scl]kingdom to begin with!
+[scl]It wasn't all that big of a kingdom
+[scl]to begin with!
 [en2]
 
 We could float it into the sky and
@@ -8297,11 +8297,11 @@ We could float it into the sky and
 [scl]Something that heavy won't float.
 [en2]
 
-I may not have a college degree,
+I may not have a college degree~,
 [nl2]but I don't think we'll be able to
-[nl3]move such a big thing ourselves.
-[scl]I wonder what that big, scary
-[scl]eagle is doing right about now...?
+[nl3]move such a big thing ourselves~[~].[np]
+[scl]I wonder what that big, scary~
+[scl]{e}{a}{g}{l}{e} is doing right about now...[~]?
 [en2]
 
 What if you lifted it with
@@ -8339,24 +8339,24 @@ Let's get close and give 'er a try.
 [nl2]Won't hurt to try.
 [en2]
 
-Are you ready?
-[nl2]I'm not sure if this will work, but
-[nl3]it's our best shot.[np]
-[scl]What'll you do?[X$6A]
-[scl][ ][ ][ ][ ]Let's try it.
+Are you ready~?
+[nl2]I'm not sure if it'll will wo~rk, but
+[nl3]it's our best shot, isn't it~[~]?[np]
+[scl]What'll you do[~]?[X$6A]
+[scl][ ][ ][ ][ ]Let's try~ it[~].
 [scl][ ][ ][ ][ ]What did it look like again?[X$68]
 [en1]
 
-[SStop]Let's start. Remember Caesar's
-[nl2]special technique?
-[nl3]Whose color do we paint first?[X$6A][np]
+[SStop]Let's start~[~]. Remember to use
+[nl2]Cesar's {s}{p}{e}{c}{i}{a}{l} {t}{e}{c}{h}{n}{i}{q}{u}{e}, okay~[~]?
+[nl3]Whose color will you paint first?[X$6A][np]
 [scl]
 [scl][ ][ ][ ][ ]Dion - Red
 [scl][ ][ ][ ][ ]Jack - Blue    
 [scl][ ][ ][ ][ ]Max - Green[X$6E]
 [en1]
 
-Whose color do we do next?
+Whose~ color do we do next~[~]?
 [nl2][ ][ ][ ][ ]Dion - Red
 [nl3][ ][ ][ ][ ]Jack - Blue[X$68]
 [en1]
@@ -8366,7 +8366,7 @@ Whose is next?
 [nl3][ ][ ][ ][ ]Max  - Green[X$68]
 [en1]
 
-Whose color is next?
+Whose co~lor is next[~]?
 [nl2][ ][ ][ ][ ]Jack - Blue
 [nl3][ ][ ][ ][ ]Max  - Green[X$68]
 [en1]
@@ -8377,24 +8377,23 @@ Whose color is next?
 [scl]look at the eggs to be sure.
 [en1]
 
-Perhaps you could read Caesar's
-[nl2]book "How to Paint." You'll find it
-[nl3]in the castle archives.
+You could take a gander~ at
+[nl2]Cesar's book, "How to Paint."
+[nl3]You'll find it in Hassan's library[~].
 [en2]
 
-[SAwe]What's wrong? Just calm down,
-[nl2]focus, and go look at the eggs.
-[nl3]Okay?
+[SAwe]What's wrong, dears~? Just calm
+[nl2]down, focus, and ma~ybe look at
+[nl3]an egg for inspiration, okay~[~]?
 [en1]
 
 [SMonkey2]Caww! Caaaw! Caw![np]
-[nl2]TL: I found it!!!
-[nl3]   My egg!!
+[nl2]TL: I found it!!! My egg!!
 [en1]
 
 [SMonkey2]Caw! Caw. Caw.[np]
 [nl2]TL: My poor 'widdle egg!
-[scl]   Let's go home~.
+[nl3]   Let's go home~.
 [en1]
 
 We did it! The eagle took the ball
@@ -8613,7 +8612,7 @@ All do together! Hurry! Hurry!
 
 [SMonkey2]Caaw. Kweh![np]
 [nl2]TL: Wow, that almost fooled me.
-[scl]   I'm taking my egg back!
+[nl3]   I'm taking my egg back!
 [en1]
 
 [SMonkey2]Caaw. Kweh~.[np]
@@ -8774,10 +8773,10 @@ Ooo ooo![np]
 [nl3]   Fast! Fast!
 [en2]
 
-We're searching this island for
-[nl2]some lost kids!
+We're searching the island a few
+[nl2]lost kids!
 [nl3]Do you know anything about them?[np]
-[scl]They were called [team] Team.
+[scl]They were called[team] Team.
 [scl]One of them even had a hat just
 [scl]like that...[np]
 [scl]...Hey?... You kids aren't...?
@@ -8838,8 +8837,8 @@ This whole thing must be Bull's
 [en2]
 
 So you want to go through here?
-[nl2]You're need gonna need the
-[nl3]colonel's express permission.
+[nl2]You're gonna need the colonel's
+[nl3]express {p}{e}{r}{m}{i}{s}{s}{i}{o}{n}.
 [en2]
 
 Hurry up and put [X$6B] {L}{u}{c}{k} {R}{o}{c}{k}{s}
@@ -8870,10 +8869,9 @@ We can handle things until the
 [nl2]          Team work!
 [en2]
 
-It seems that Pluck is on this
-[nl2]ship, isn't he? [np]
-[nl3]Tell him I'll visit him again
-[scl]sometime.           ...Until then!
+Oy, Pluck's on this 'ere ship, isn'e?[np]
+[nl3]Tell heem I'll visit heem afair lang!
+[scl]...Until 'en!
 [en1]
 
 Hurry. Push the lever!
@@ -8965,11 +8963,11 @@ Mino! Minoo![np]
 [nl2] ...Umm...  It might be broken?
 [en2]
 
-Look at the door behind you.[np]
-[nl2]That is the only way out of here.[np]
-[nl3]You can't go back now.[np]
-[scl]What will you do?[np]
-[scl]              -Captain Maverick
+LOOK AT THE DOOR BEHIND YOU.[np]
+[nl2]THAT IS THE ONLY WAY OUT.[np]
+[nl3]YOU CAN NO LONGER GO BACK.[np]
+[scl]WHAT WILL YOU DO NOW?[np]
+[scl]             -CAPTAIN MAVERICK
 [en1]
 
 [X$6A]Good luck you guys! 
@@ -9149,7 +9147,7 @@ There are 4 spiders in the forest
 [en1]
 
 Do you know about the town's
-[nl2]artist, Caesar?[np]
+[nl2]artist, Cesar?[np]
 [nl3]You should bring him the {P}{a}{i}{n}{t}{s}
 [scl]you got from the forest.[np]
 [scl]Do you remember what the King's
@@ -9211,7 +9209,7 @@ It's time to wrap this up.
 [nl3]away from the castle's garden.[np]
 [scl]Do you remember what the Eagle
 [scl]Egg looks like? Think back to what
-[scl]you learned at Caesar's house.[np]
+[scl]you learned at Cesar's house.[np]
 [scl]When you do, you'll remember the
 [scl]painting order.
 [en1]
@@ -9575,7 +9573,7 @@ You're the youngest!
 [en2]
 
 Ooo, kii, kii, kii![np]
-[nl2]TL: You're late! What's wrong?
+[nl2]TL: You late! Late! What wrong?
 [en2]
 
 What are these boards?
@@ -10134,8 +10132,8 @@ Pretty good quality for a freebie
 [nl2]bonus toy~.
 [en2]
 
-It looks like a screw, but what
-[nl2]will happen if we touch it?
+It looks like a winding key, but
+[nl2]what will happen if we touch it?
 [en1]
 
 It's broken!
@@ -10549,9 +10547,9 @@ The King is taking a little nap.
 This gate leads to the forest.
 [en2]
 
-This gate leads to the "Blue
-[nl2]Thing" colony. Those without the
-[nl3]King's permission may not pass.
+This gate leads to the {B}{l}{u}{e} {T}{h}{i}{n}{g}
+[nl2]colony. Those without the King's
+[nl3]permission may not pass.
 [en2]
 
 This gate leads outside.
@@ -10750,11 +10748,11 @@ He left his clothes on the floor.
 It's the king's signature gown.
 [en2]
 
-"Caesar's Painting Guide #1: How
-[nl2]to Make Black"
+"Cesar's Painting Guide #1: How
+[nl2]to Paint it Black"
 [en2]
 
-"Caesar's Painting Guide #2:
+"Cesar's Painting Guide #2:
 [nl2]Patterns"
 [en2]
 
@@ -10820,12 +10818,13 @@ Oh fiddly-diddly sticks! At this
 [nl3]head! What should I do~?
 [en2]
 
-The only thing left is to paint the
-[nl2]gown, but I'm stumped.
+We've only got the gown left to
+[nl2]paint, bu~t now progress is at a
+[nl3]standstill~[~].
 [en2]
 
 "King's Portrait"
-[nl2]By Caesar o Enai. Made for the
+[nl2]By Cesar o Enai. Made for the
 [nl3]50th birthday of King Gingham III.
 [en2]
 
@@ -10884,9 +10883,8 @@ Mino! Miiino!![np]
 [en2]
 
 Mino! Mino, Mino.[np]
-[nl2]TL: How could you have done
-[nl3]   this! This... This was my
-[scl]   favorite...
+[nl2]TL: How could you do this!? This...
+[nl3]   This was my favorite...
 [en2]
 
 Mino, mino, miino.[np]
@@ -10913,9 +10911,9 @@ What are you doing here?
 [nl3]again, stop acting so suspicious!
 [en2]
 
-What is going on?! I warned him
+What is going on?! I warned her
 [nl2]not to do anything brash...
-[nl3]Now look at the mess he's in!
+[nl3]Now look at the mess she's in!
 [en2]
 
 Princess Polly's assault team was
@@ -10932,9 +10930,9 @@ Our soldiers have become so lazy
 It's a bridge with a gear.
 [en2]
 
-Hey, hey, hey. What can I say to
-[nl2]the princess to have her forgive
-[nl3]me? ...That's good! Hey, hey~.
+Boo, hoo, hoo, hhooo~. Booo, hooo~.
+[nl2]I couldn't say anything to stop
+[nl3]her~[~]! Boo, hoo, hoo, hoooo~.
 [en2]
 
 [nl2]There's a letter here.
@@ -11295,8 +11293,8 @@ I'm so excited.
 [nl2]My heart is pounding.
 [en2]
 
-Haha, I got you good! These pop
-[nl2]when they're hit from above.
+Haha, I got you good!
+[nl2]These pop when they're smashed.
 [nl3]They don't hurt, so don't worry.
 [en2]
 
@@ -11631,7 +11629,7 @@ What do you want? I'm out of {L}{u}{c}{k}
 [en2]
 
 Oh, little travelers, I'm glad you're
-[nl2]here. The princess is insisting on
+[nl2]here. The princess has insisted on
 [nl3]leading a war party.[np]
 [scl]She wishes to march against the
 [scl]Blue Things. Can't you stop her?
@@ -13204,25 +13202,26 @@ Don't worry about me, look
 [en2]
 
 Wh-what a giant ant!
-[nl2]Our items won't make a dent!
+[nl2]Our normal items won't make a
+[nl3]dent!
 [en2]
 
 Thank you for saving us.
 [en2]
 
-Incredible. I've never seen such an
+Incredible. I've never seen such a
 [nl2]glorious battle.
-[nl3]I'm impressed...
+[nl3]I'm quite impressed...
 [en2]
 
-Anything's worth a try, I guess.
-[nl2]The fact that there was another
-[nl3]way...[np]
-[scl]I can't believe you kids thought of that.
+Anything's worth trying, I suppose.[np]
+[nl2]Where there's a will. . . . . . . . .[np]
+[nl3]But still, I can't believe you kids
+[scl]thought of that.
 [en2]
 
-Hurray!
-[nl2]I didn't think it would go so well.
+Hurrah~[~]!
+[nl2]I didn't think that would work~[~].
 [en2]
 
 This garden will get lonely...
@@ -13270,9 +13269,9 @@ Fugofugo, fugogo.[np]
 [scl][ ][ ][ ][ ]I'll come back.[X$68]
 [en1]
 
-Look!! You boys were telling the
-[nl2]truth!! Everything outside the
-[nl3]castle is returning to normal!
+Look~!! You boys were right~[~]!
+[nl2]Everything outside the castle has
+[nl3]returned to a normal size~[~]!
 [en2]
 
 ...Something's moving.
@@ -13320,14 +13319,14 @@ Did you already see the king?
 [nl3]reward for you.
 [en2]
 
-Thank you, [team] Team.
+Thank you,[team] Team.
 [nl2]         .....What?.....[np]
 [nl3]You want to know how I know your
 [scl]name?
 [en2]
 
-I lost the "Soldier Blue" inside the
-[nl2]"Blue Things'" nest.
+I lost the {S}{o}{l}{d}{i}{e}{r} {B}{l}{u}{e} inside the
+[nl2]{B}{l}{u}{e} {T}{h}{i}{n}{g}{'}{s} nest.
 [nl3]Remember me?
 [en2]
 
@@ -13347,11 +13346,11 @@ Thank you for saving me in the
 [en2]
 
 Thank you for saving me in the
-[nl2]{B}{l}{u}{e} {T}{h}{i}{n}{g}{s} nest.
+[nl2]{B}{l}{u}{e} {T}{h}{i}{n}{g}{'}{s} nest.
 [nl3]I'll never forget you.
 [en2]
 
-Thank you, [team] Team.
+Thank you,[team] Team.
 [nl2]If it weren't for you, I wouldn't
 [nl3]be standing here right now.
 [en2]
@@ -13362,17 +13361,17 @@ Good job coming back in one piece. [np]
 [scl]there, [team] Team.....
 [en2]
 
-Hurray![np]
-[nl2]I'm shocked that you boys
+Hurrah~[~]![np]
+[nl2]I'm simply ama~zed that you boys
 [nl3]managed to defeat the queen all
-[scl]alone!
+[scl]by yourselves~[~]!
 [en2]
 
-Thank you, travelers.
-[nl2]We're terribly sorry for treating
-[nl3]you like criminals.[np]
-[scl]In the confusion, we may have
-[scl]overreacted.
+Thank you, young travelers.
+[nl2]I humbly apologize for treating you
+[nl3]like criminals.[np]
+[scl]In the heat of the moment, I may
+[scl]have overreacted.
 [en2]
 
 Oh! You're back!
@@ -13380,10 +13379,10 @@ Oh! You're back!
 [nl3]I knew you kids could handle it!
 [en2]
 
-Oooh, the king's private garden...
-[nl2]I had no idea...[np]
+Oooh, the kings' private garden~...
+[nl2]I had no idea~[~]...[np]
 [nl3]...Well... It's...
-[scl]A nice garden, I guess.
+[scl]A nice garden, I guess~[~].
 [en2]
 
 ...Huh?
@@ -13410,11 +13409,11 @@ What will you do?
 [nl3]fit through the entrance.
 [en2]
 
-The king is sort of lazy. He tends
-[nl2]to always delegate his duties to
-[nl3]others...[np]
+The king is so lazy~[~]. He tends to
+[nl2]always delegate his du~ties to
+[nl3]others~[~]...[np]
 [scl]Ah-- but don't let him know I told
-[scl]you.
+[scl]you~[~].
 [en2]
 
 How can you move this giant ball?
@@ -13437,8 +13436,8 @@ So you have to paint an egg
 [nl2]pattern onto this ball...
 [en2]
 
-What are you waiting for?
-[nl2]Hurry up and find an egg.
+There's no time to waste~[~].
+[nl2]Hurry up and fi~nd an egg[~].
 [en2]
 
 Oh, the heroes are back.
@@ -13659,7 +13658,7 @@ Ooo-kii![np]
 It's a huge iceberg!!
 [en2]
 
-Wow, look at this huge ship.
+Wow, look at that giant ship.
 [nl2]It has a pretty old feel to it...[np]
 [nl3]What good does it do HERE,
 [scl]though?
@@ -13709,8 +13708,8 @@ We've captured some idiot
 [en2]
 
 You can't go past here.
-[nl2]Some kids and a teacher were
-[nl3]last seen near this location.
+[nl2]Some kids and a teacher were last
+[nl3]seen near this location.
 [en2]
 
 Chirpy chirp~.[np]
@@ -13744,10 +13743,10 @@ Ooo-kii-kii![np]
 [en2]
 
 [SMonkey2]Caw kweh![np]
-[nl2]TL: Wow, a clocked some ship   
+[nl2]TL: Wow, 'ah clocked some ship   
 [nl3]   blazing this wey...[np]
-[scl]   Ah'll be snooker'd if it isnae
-[scl]   [team]  team![np]
+[scl]   Ah'll be snooker'd if it is'nae
+[scl]  [team] team![np]
 [scl]   I've heard tell stories o` yer
 [scl]   adventures. 
 [scl]   They're pure gey impressive!
@@ -14039,8 +14038,8 @@ We can take nutrients and live on
 [SP$0204]Power to max! Ant Buster, on-line!!!
 [en2]
 
-[F2]Got the {S}{o}{l}{d}{i}{e}{r} {B}{l}{u}{e}![np]
-[nl2]It only works on soldiers. Why's that?
+[F2]Got the Soldier Blue! It only works on
+[nl2]soldiers. I wonder why?
 [en2]
 
 [SP$0204]Har-harr! We got the lil' swab!
@@ -14254,28 +14253,27 @@ Oof-!! Max swallowed something!!
 [nl2]Be careful!
 [en2]
 
-[SP$001E]I'm sure Princess Polly will defeat 
-[nl2]the Blue Beasts!!
+[SP$001E]Make way for Princess Polly, on her
+[nl2]way to defeat the Blue Beasts!!
 [en2]
 
-...Shh!!
-[nl2]This is a secret from my father!
-[nl3]Would you like to hear? Quickly!
+...Sshhhh!! It's a secret! I don't want
+[nl2]my father to hear. Now go, quickly!
 [en2]
 
-[SP$0126]My King, it's awful!
-[nl2]Princess Polly is...
+[SP$0126]The King! We should tell him!
+[nl2]Princess Polly...
 [en2]
 
 Stay back--!! It's a trap!!
 [en2]
 
-We salute Polly's heroes, [team]
-[nl2]Team!!
+Three cheers for Princess Polly's
+[nl2]heroes, [team] Team!!
 [en2]
 
-[F2]Got the 4th {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}!
-[nl2]...Now you've got all 4 balls!!
+[F2]We've got the 4th Crystal Ball!
+[nl2]. . . . . Now we have all 4 of them!!
 [en1]
 
 [SImprtnt]Someone came out...

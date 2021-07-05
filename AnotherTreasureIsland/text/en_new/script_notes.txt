@@ -145,6 +145,7 @@ Final Score
 
 
 
+winky
 
 
 
@@ -194,9 +195,8 @@ Final Score
 
 
 
-
-
-
+robot at the entrance to maverick's lair
+robot message near red door on maverick's ship-lair
 
 
 
@@ -372,7 +372,7 @@ revise
 
 
 if you pause or new page here, the animation will glitch
-no new page codes here please. the animation will glitch
+no new page codes here please. the animation will glitch - solomon
 
 
 
@@ -459,7 +459,7 @@ no new page codes here please. the animation will glitch
 
 
 
-
+Cesar, not Caesar
 
 
 
@@ -613,8 +613,8 @@ double-check this
 
 
 
-
-
+Cesar
+solomon
 
 
 samson
@@ -629,6 +629,8 @@ samson
 
 
 
+solomon
+Cesar
 
 
 
@@ -671,9 +673,7 @@ samson
 
 
 
-
-
-
+わたし を そうさ せよ - "Let me do that." "Use me to investigate." Robot at the invisible floor puzzle.
 
 
 
@@ -716,6 +716,7 @@ No need to fear, for I am here.
 
 
 
+when you come upon a fallen soldier
 
 
 
@@ -737,12 +738,11 @@ No need to fear, for I am here.
 
 
 
+Hassan
+Polly
+Hassan
 
-
-
-
-
-
+Polly
 
 
 
@@ -754,7 +754,7 @@ No need to fear, for I am here.
 
 
 Strange writing style is hard to translate.
-
+Hassan
 
 
 
@@ -1559,10 +1559,12 @@ Direction to move in! Stick together.
 
 
 
+2 lines only
 
 
 
 
+palette issues if you move the icon
 
 
 
@@ -1577,8 +1579,11 @@ Direction to move in! Stick together.
 
 
 
+Hassan
 
 
+king gingham
+reformatted to avoid palette issues
 
 
 
@@ -1586,6 +1591,7 @@ Direction to move in! Stick together.
 
 
 
+solomon
 
 
 
@@ -1612,13 +1618,17 @@ Direction to move in! Stick together.
 
 
 
+solomon
+King Gingham
 
+Solomon
 
 
 
 
 
 
+solomon
 
 
 
@@ -1626,24 +1636,14 @@ Direction to move in! Stick together.
 
 
 
+solomon
+solomon
 
 
+solomon
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+solomon
 
 
 
@@ -1725,6 +1725,7 @@ winky speak
 winky speak
 iceberg
 winky speak
+ch5 sailor near the ship
 
 
 
@@ -1744,6 +1745,7 @@ winky speak
 
 
 
+Hey, Pluck's on this ship, isn't he? Tell him I'll visit him before long. ...Until then!
 
 
 
@@ -1758,9 +1760,7 @@ winky speak
 
 
 
-
-
-robot?
+robot speaking as captain maverick
 
 robot?
 
@@ -1875,7 +1875,7 @@ mother/father patchie
 
 
 
-
+winky
 
 
 
@@ -2171,6 +2171,10 @@ added don quixote reference because I felt like it.
 
 
 
+solomon
+
+
+Cesar
 
 
 
@@ -2186,15 +2190,11 @@ added don quixote reference because I felt like it.
 
 
 
+King Gingham -- commenting on the princess going to fight the blue things on her own
 
 
 
-
-
-
-
-
-
+solomon - clearly distrought
 
 
 
@@ -2694,6 +2694,17 @@ added a reference to polly's nickname.
 
 
 
+solomon- after the bird picks up the egg
+
+
+
+
+
+
+
+
+
+solomon
 
 
 
@@ -2712,27 +2723,16 @@ added a reference to polly's nickname.
 
 
 
+solomon
+King Gingham
+
+solomon
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+solomon
 
 
 
@@ -2784,6 +2784,7 @@ winky speak
 
 
 
+ch5 sailor (coast guard dude?)
 
 
 
@@ -2793,8 +2794,7 @@ winky speak
 
 
 
-
-
+guarding maverick's lair
 
 
 
@@ -2877,7 +2877,7 @@ Cant use the special font on 2-line text
 
 
 only2 lines, so no highlights allowed
-not sure if 2 lines
+definitely 2 lines
 
 
 
@@ -2937,12 +2937,12 @@ I can't use it because my friends are nearby. Call them with the whistle or pres
 two- lines only
 2 lines
 
+2-lines of text - soldiers announcing princess polly
+polly - 2 lines of text only
+2 line text- reaction to Polly's note
 
-
-
-
-
-
+2 lines only
+2 lines only
 
 
 uses a different tileset
