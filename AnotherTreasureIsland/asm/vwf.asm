@@ -980,6 +980,11 @@ seekAddr($038DB9)	//SA-1 / Town Manager and Lunch Box
 	jsl event_char_detection
 	nop
 	db $90	//BCC
+//seekAddr($039424)
+	//jsl event_char_detection
+	//nop; nop
+	//sep #$20
+	//db $90	//BCC
 seekAddr($04F264)	//SNES / Mike and Lunch Box
 	jsl event_char_detection
 	nop; nop
@@ -990,6 +995,50 @@ seekAddr($04F2AA)	//SNES / Mike and Forgotten Doll Choice
 	nop; nop
 	sep #$20
 	db $90	//BCC
+//seekAddr($06E9AC)
+	//jsl event_char_detection
+	//nop; nop
+	//sep #$20
+	//db $90	//BCC
+//seekAddr($06E9C4)
+	//jsl event_char_detection
+	//nop; nop
+	//sep #$20
+	//db $90	//BCC
+//seekAddr($07EB49)
+	//jsl event_char_detection
+	//nop; nop
+	//sep #$20
+	//db $90	//BCC
+//seekAddr($07ED2C)
+	//jsl event_char_detection
+	//nop; nop
+	//sep #$20
+	//db $90	//BCC
+//seekAddr($07EF2B)
+	//jsl event_char_detection
+	//nop; nop
+	//sep #$20
+	//db $90	//BCC
+//seekAddr($13F938)
+	//jsl event_char_detection
+	//nop; nop
+	//sep #$20
+	//db $90	//BCC
+//seekFile($27AE68)
+	//jsl event_char_detection
+	//nop; nop
+	//db $90	//BCC
+//seekFile($27AE87)
+	//jsl event_char_detection
+	//nop; nop
+	//sep #$20
+	//db $90	//BCC
+//seekFile($2CDB7C)
+	//jsl event_char_detection
+	//nop; nop
+	//sep #$20
+	//db $90	//BCC
 pullvar pc
 
 event_char_detection:
