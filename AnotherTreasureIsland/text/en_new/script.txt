@@ -908,7 +908,7 @@ Eh? What? A doll... You say you
 [nl2]want to give it to me?[np]
 [nl3]W-why would you think I wanted
 [scl]this...[np]
-[scl]    ...Y-you'll really give it to me?[np]
+[scl][Event]    ...Y-you'll really give it to me?[np]
 [scl]O-oh... I-It's a joke, right?
 [scl]H-hahahahaha~![np]
 [scl]          ... [np]

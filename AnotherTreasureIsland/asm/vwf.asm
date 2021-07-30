@@ -974,13 +974,18 @@ seekAddr($9FC130)
 	nop; nop; nop; nop
 pullvar pc
 
-//Fix Stuck Events
+//Fix Stuck Events (Breakpoint $8CE327)
 pushvar pc
 seekAddr($038DB9)	//SA-1 / Town Manager and Lunch Box
 	jsl event_char_detection
 	nop
 	db $90	//BCC
 seekAddr($04F264)	//SNES / Mike and Lunch Box
+	jsl event_char_detection
+	nop; nop
+	sep #$20
+	db $90	//BCC
+seekAddr($04F2AA)	//SNES / Mike and Forgotten Doll Choice
 	jsl event_char_detection
 	nop; nop
 	sep #$20
