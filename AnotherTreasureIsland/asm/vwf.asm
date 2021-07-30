@@ -975,8 +975,10 @@ seekAddr($9FC130)
 pullvar pc
 
 //Fix Stuck Events (Breakpoint $8CE327)
+//-- Breakpoint $8CE304 - Event Set Script ID?
+//-- Breakpoint $8CE32D - Event Check
 pushvar pc
-seekAddr($038DB9)	//SA-1 / Town Manager and Lunch Box
+seekAddr($038DB9)	//SA-1 / Town Manager and Lunch Box (Script ID: 203)
 	jsl event_char_detection
 	nop
 	db $90	//BCC
@@ -985,12 +987,12 @@ seekAddr($038DB9)	//SA-1 / Town Manager and Lunch Box
 	//nop; nop
 	//sep #$20
 	//db $90	//BCC
-seekAddr($04F264)	//SNES / Mike and Lunch Box
+seekAddr($04F264)	//SNES / Mike and Lunch Box (Script ID: 174)
 	jsl event_char_detection
 	nop; nop
 	sep #$20
 	db $90	//BCC
-seekAddr($04F2AA)	//SNES / Mike and Forgotten Doll Choice
+seekAddr($04F2AA)	//SNES / Mike and Forgotten Doll Choice (Script ID: 175)
 	jsl event_char_detection
 	nop; nop
 	sep #$20
