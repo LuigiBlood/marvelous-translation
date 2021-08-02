@@ -984,6 +984,10 @@ seekAddr($038DB9)	//SA-1 / Town Manager and Lunch Box (Script ID: 203)
 	db $90	//BCC
 //seekAddr($039424)
 	//jsl event_char_detection
+	//nop
+	//db $90	//BCC
+//seekAddr($04E6BA)
+	//jsl event_char_detection
 	//nop; nop
 	//sep #$20
 	//db $90	//BCC
@@ -1021,22 +1025,22 @@ seekAddr($04F2AA)	//SNES / Mike and Forgotten Doll Choice (Script ID: 175)
 	//jsl event_char_detection
 	//nop; nop
 	//sep #$20
-	//db $90	//BCC
+	//db $90	//BCC?
 //seekAddr($13F938)
 	//jsl event_char_detection
 	//nop; nop
 	//sep #$20
 	//db $90	//BCC
-//seekFile($27AE68)
+//seekAddr($8FAE68)		//This one is weird
 	//jsl event_char_detection
 	//nop; nop
 	//db $90	//BCC
-//seekFile($27AE87)
+//seekAddr($8FAE87)
 	//jsl event_char_detection
 	//nop; nop
 	//sep #$20
-	//db $90	//BCC
-//seekFile($2CDB7C)
+	//db $B0	//BCS
+//seekAddr($99DB7C)
 	//jsl event_char_detection
 	//nop; nop
 	//sep #$20
