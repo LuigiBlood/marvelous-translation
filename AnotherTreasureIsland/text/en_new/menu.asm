@@ -224,7 +224,7 @@ db $43, $89, $8A, $23
 //t
 db $F0, $F0, $F0, $F0
 //Name
-name_ch4()
+name_ch5()
 //From Ship
 menu_start()
 db $FD, $BB, $FD, $BC, $FD, $BD
