@@ -12144,10 +12144,10 @@ I'm a teacher in this town.
 [nl3]Where are you boys from?[np]
 [scl]If you don't hurry back, your
 [scl]teacher will be worried![np]
-[scl]Teachers are always concerned for
+[scl][Event]Teachers are always concerned for
 [scl]their children, so be good and go
 [scl]back soon![np]
-[scl]But it's strange, when I see you
+[scl][Event]But it's strange, when I see you
 [scl]kids, I feel like this isn't the first
 [scl]time we've met.
 [en1]

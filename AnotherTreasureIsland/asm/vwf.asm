@@ -8,6 +8,9 @@ arch snes.cpu
 //40DBE0 - Script Pointers
 //3024 - SNES CPU telling SA-1 to do something
 //3026 - SA-1 response to SNES CPU
+
+//359A - Text Virtual Tileset Offset
+//35AA - Pointer to Pointer to Script
 //CODE_8CE969 - Inventory
 
 //Virtual Tileset:
@@ -982,11 +985,11 @@ seekAddr($038DB9)	//SA-1 / Town Manager and Lunch Box (Script ID: 203)
 	jsl event_char_detection
 	nop
 	db $90	//BCC
-//seekAddr($039424)
+//seekAddr($039424)	//???? / Lunch Box to Husband (Script ID: 398)
 	//jsl event_char_detection
 	//nop
 	//db $90	//BCC
-//seekAddr($04E6BA)
+//seekAddr($04E6BA)	//???? / (Script ID: ?)
 	//jsl event_char_detection
 	//nop; nop
 	//sep #$20
@@ -1031,15 +1034,22 @@ seekAddr($04F2AA)	//SNES / Mike and Forgotten Doll Choice (Script ID: 175)
 	//nop; nop
 	//sep #$20
 	//db $90	//BCC
-//seekAddr($8FAE68)		//This one is weird
-	//jsl event_char_detection
-	//nop; nop
-	//db $90	//BCC
-//seekAddr($8FAE87)
-	//jsl event_char_detection
-	//nop; nop
-	//sep #$20
-	//db $B0	//BCS
+seekAddr($8FAE68)		//SNES / When Ms. Sisko talks to the kids after getting the Crystal Ball (Script ID: 2444)
+						//1CA4 (Script ID: 2444)
+						//The moment when she talks about being worried about your teacher
+	jsl event_char_detection
+	nop; nop
+	db $90	//BCC
+seekAddr($8FAE70)	//This part prevents an accidental trigger (when it's above 0x200), we can remove it
+	nop; nop; nop
+	nop; nop
+
+seekAddr($8FAE87)		//SNES / When Ms. Sisko talks to the kids after getting the Crystal Ball (Script ID: 2444)
+						//The moment when she wonders if she has seen you before
+	jsl event_char_detection
+	nop; nop
+	sep #$20
+	db $90	//BCC
 //seekAddr($99DB7C)
 	//jsl event_char_detection
 	//nop; nop
