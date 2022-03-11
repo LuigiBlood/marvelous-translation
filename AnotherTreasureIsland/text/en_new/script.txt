@@ -7425,7 +7425,7 @@ Shortly after arrival, I found a
 [scl]plant and animal life in the area.[np]
 [scl]I rested the Crystal Ball upon one
 [scl]of the roots of the Baobab, and
-[scl]it began to glow brightly.[np] 
+[scl]it began to glow brightly.[np]
 [scl]Since the incident, the Baobab
 [scl]seems to be producing an excess
 [scl]of oil.[np]
