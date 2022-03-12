@@ -181,7 +181,7 @@ pal_ch3_mgmtofficesign_bg:
 	insert "../gfx/en_new/tmp/mgmt_office_sign_bg.pal"
 seekFile($2C9EE0)
 pal_ch3_mgmtofficesign_spr:
-	//insert "../gfx/en_new/tmp/mgmt_office_sign_spr.pal"
+	insert "../gfx/en_new/tmp/mgmt_office_sign_spr.pal"
 
 //Free Space (1)
 seekFile($21B400)
@@ -260,7 +260,7 @@ gfx_title_sub:			//DB - $1DA5ED
 	insert "../gfx/en_new/lz/lz_subtitle_gfx.bin.lz"
 
 gfx_mgmt_office_spr:	//E0
-	//insert "../gfx/en_new/lz/E0.bin.lz"
+	insert "../gfx/en_new/lz/E0.bin.lz"
 
 gfx_ch5_colonel_note1:	//F8 - $1FE99C
 	insert "../gfx/en/lz/lz_colonel_note_gfx1.bin.lz"

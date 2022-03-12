@@ -21,3 +21,4 @@
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/62.bin" "./gfx/en_new/lz/62.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/63.bin" "./gfx/en_new/lz/63.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/64.bin" "./gfx/en_new/lz/64.bin.lz" 0 19 0
+".\tools\lc\recomp.exe" "./gfx/en_new/tmp/E0.bin" "./gfx/en_new/lz/E0.bin.lz" 0 19 0

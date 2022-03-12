@@ -42,4 +42,6 @@ ptr_replace(0xD9, gfx_kick_smash_minigame)
 ptr_replace(0xDA, gfx_title_nintendo)
 ptr_replace(0xDB, gfx_title_sub)
 
+ptr_replace(0xE0, gfx_mgmt_office_spr)
+
 ptr_replace(0xF8, gfx_ch5_colonel_note1)

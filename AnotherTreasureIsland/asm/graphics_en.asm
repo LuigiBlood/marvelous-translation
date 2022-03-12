@@ -94,3 +94,9 @@ origin 0x0000; insert "../gfx/en_new/tmp/camp_moves.gfx"
 output "../gfx/en_new/tmp/64.bin", create
 insert "../gfx/jp/64.bin"
 origin 0x0000; insert "../gfx/en_new/tmp/ship_note_tiles.gfx"
+
+//E0 - Graphics - Office Sign (Sprite)
+output "../gfx/en_new/tmp/E0.bin", create
+insert "../gfx/jp/E0.bin"
+origin 0x1800; insert "../gfx/en_new/tmp/mgmt_office_sign_spr.gfx",0x00,0xC0
+origin 0x1A00; insert "../gfx/en_new/tmp/mgmt_office_sign_spr.gfx",0xC0,0xC0
