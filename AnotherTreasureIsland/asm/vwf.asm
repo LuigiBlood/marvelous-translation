@@ -1034,9 +1034,8 @@ seekAddr($04F2AA)	//SNES / Mike and Forgotten Doll Choice (Script ID: 175)
 	//nop; nop
 	//sep #$20
 	//db $90	//BCC
-seekAddr($8FAE68)		//SNES / When Ms. Sisko talks to the kids after getting the Crystal Ball (Script ID: 2444)
-						//1CA4 (Script ID: 2444)
-						//The moment when she talks about being worried about your teacher
+seekAddr($8FAE68)		//SNES / When Ms. Sisko talks to the kids after getting the Crystal Ball [1CA4] (Script ID: 2444)
+						//The moment when she talks about being concerned about your teacher
 	jsl event_char_detection
 	nop; nop
 	db $90	//BCC
