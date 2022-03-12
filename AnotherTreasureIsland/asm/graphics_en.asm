@@ -32,8 +32,7 @@ origin 0x1800; insert "../gfx/en_new/tmp/patchies_stuck_note.map"
 
 //4D - Tilemap - Camp Tips, Chores List, Benson's Grave, The Monster Poster...
 output "../gfx/en_new/tmp/4D.bin", create
-//insert "../gfx/jp/4D.bin"
-insert "../gfx/en/lz_chorelistmisc_map.bin"
+insert "../gfx/jp/4D.bin"
 origin 0x0400; insert "../gfx/en_new/tmp/benson_grave_note.map"
 origin 0x0800; insert "../gfx/en_new/tmp/camp_tips.map"
 origin 0x1400; insert "../gfx/en_new/tmp/the_monster_bg.map"
