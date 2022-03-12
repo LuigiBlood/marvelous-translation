@@ -8,10 +8,12 @@
 ".\tools\lc\recomp.exe" "./gfx/en_new/img/intro.map" "./gfx/en_new/lz/3C.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/3D.bin" "./gfx/en_new/lz/3D.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/48.bin" "./gfx/en_new/lz/48.bin.lz" 0 19 0
+".\tools\lc\recomp.exe" "./gfx/en_new/tmp/4A.bin" "./gfx/en_new/lz/4A.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/4B.bin" "./gfx/en_new/lz/4B.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/4D.bin" "./gfx/en_new/lz/4D.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/4E.bin" "./gfx/en_new/lz/4E.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/53.bin" "./gfx/en_new/lz/53.bin.lz" 0 19 0
+".\tools\lc\recomp.exe" "./gfx/en_new/tmp/56.bin" "./gfx/en_new/lz/56.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/5A.bin" "./gfx/en_new/lz/5A.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/5E.bin" "./gfx/en_new/lz/5E.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/5F.bin" "./gfx/en_new/lz/5F.bin.lz" 0 19 0

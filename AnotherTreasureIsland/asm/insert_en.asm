@@ -178,7 +178,7 @@ pal_ch2_bensongrave:
 	insert "../gfx/en_new/tmp/benson_grave_note.pal"
 seekFile($2C8B60)
 pal_ch3_mgmtofficesign_bg:
-	//insert "../gfx/en_new/tmp/mgmt_office_sign_bg.pal"
+	insert "../gfx/en_new/tmp/mgmt_office_sign_bg.pal"
 seekFile($2C9EE0)
 pal_ch3_mgmtofficesign_spr:
 	//insert "../gfx/en_new/tmp/mgmt_office_sign_spr.pal"
@@ -215,7 +215,7 @@ map_ch1_gina_ransom:	//48 - $12A9D0
 	insert "../gfx/en_new/lz/48.bin.lz"
 
 map_ch3_sign:			//4A - $12BDA4
-	insert "../gfx/en/lz/lz_officesign_map.bin.lz"
+	insert "../gfx/en_new/lz/4A.bin.lz"
 map_ch1_patchiesnote:	//4B - $12C7C8
 	insert "../gfx/en_new/lz/4B.bin.lz"
 
@@ -229,7 +229,7 @@ gfx_ch1_gina_ransom:	//53 - $132FC4
 	insert "../gfx/en_new/lz/53.bin.lz"
 
 gfx_ch3_sign:			//56 - $136BFE
-	insert "../gfx/en/lz/lz_officesign_gfx.bin.lz"
+	insert "../gfx/en_new/lz/56.bin.lz"
 
 gfx_ch1_patches_stuck:	//5A - $13C578
 	insert "../gfx/en_new/lz/5A.bin.lz"
@@ -309,6 +309,30 @@ map_chore_list_3chk_1:
 	insert "../gfx/en_new/tmp/chore_list.map",0x0650,0x20
 map_chore_list_3chk_2:
 	insert "../gfx/en_new/tmp/chore_list.map",0x0690,0x20
+
+//Management Office Sign
+tbl_mgmt_office_maps:
+	dw tbl_mgmt_office_map00, tbl_mgmt_office_map01
+
+tbl_mgmt_office_map00:	//From 7EE000
+	dw ($E002 + 12*2)
+	dw $BAA2>>1; db $80, $01, $18; dl (map_mgmt_office_full_1); dw $0C; dw ($E002 + 12*1)
+	dw $BAE2>>1; db $80, $01, $18; dl (map_mgmt_office_full_2); dw $0C; dw ($E002 + 12*2)
+
+tbl_mgmt_office_map01:	//From 7EE000
+	dw ($E002 + 12*2)
+	dw $BAA2>>1; db $80, $01, $18; dl (map_mgmt_office_empty_1); dw $0C; dw ($E002 + 12*1)
+	dw $BAE2>>1; db $80, $01, $18; dl (map_mgmt_office_empty_2); dw $0C; dw ($E002 + 12*2)
+
+map_mgmt_office_empty_1:
+	insert "../gfx/en_new/tmp/mgmt_office_sign_bg.map",0x02A2,0x0C
+map_mgmt_office_empty_2:
+	insert "../gfx/en_new/tmp/mgmt_office_sign_bg.map",0x02E2,0x0C
+
+map_mgmt_office_full_1:
+	insert "../gfx/en_new/tmp/mgmt_office_sign_bg.map",0x06A2,0x0C
+map_mgmt_office_full_2:
+	insert "../gfx/en_new/tmp/mgmt_office_sign_bg.map",0x06E2,0x0C
 
 
 size_check(free_space1, 0x20B9D)

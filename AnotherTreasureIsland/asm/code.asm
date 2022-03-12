@@ -114,5 +114,33 @@ asm_chore_list_check:
 
 //Management Office Tilemap Full ($97B6DD)
 //Same as Chore List
-//00 = Full Sign
-//01 = Broken Sign
+seekAddr($97B6DD)
+asm_mgmt_office_remap:
+	txa
+	lsr
+	sec
+	sbc.w #$00A4
+	//Value:
+	//00 = Full Sign
+	//01 = Broken Sign
+	asl
+	tay
+
+	phb
+	sep #$20
+	lda.b #(tbl_mgmt_office_maps >> 16)
+	pha
+	plb
+	rep #$20
+	//Get DMA Table Addr
+	lda tbl_mgmt_office_maps,y
+	sta $04
+	//Get DMA Table End Addr (Size)
+	lda ($04)
+	and.w #$0FFF
+	dec
+	ldx $04
+	ldy.w #$E000
+	mvn $7E=(tbl_mgmt_office_maps >> 16)
+	plb
+	rts

@@ -25,6 +25,11 @@ output "../gfx/en_new/tmp/48.bin", create
 insert "../gfx/jp/48.bin"
 origin 0x1800; insert "../gfx/en_new/tmp/gina_ransom_letter.map"
 
+//4A - Tilemap - Office Sign (BG)
+output "../gfx/en_new/tmp/4A.bin", create
+insert "../gfx/jp/4A.bin"
+origin 0x0800; insert "../gfx/en_new/tmp/mgmt_office_sign_bg.map",0x0000,0x0400
+
 //4B - Tilemap - Patchies' Note...
 output "../gfx/en_new/tmp/4B.bin", create
 insert "../gfx/jp/4B.bin"
@@ -49,6 +54,11 @@ output "../gfx/en_new/tmp/53.bin", create
 //insert "../gfx/jp/53.bin"
 insert "../gfx/en/lz_gina_ransom_gfx.bin"
 origin 0x0000; insert "../gfx/en_new/tmp/gina_ransom_letter.gfx"
+
+//56 - Graphics - Office Sign
+output "../gfx/en_new/tmp/56.bin", create
+insert "../gfx/jp/56.bin"
+origin 0x1000; insert "../gfx/en_new/tmp/mgmt_office_sign_bg.gfx"
 
 //5A - Graphics - Patchies' Note & Island Map
 output "../gfx/en_new/tmp/5A.bin", create
