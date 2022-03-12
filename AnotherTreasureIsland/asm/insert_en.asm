@@ -76,10 +76,10 @@ map_ch1_ship_note_2:
 
 //-Chapter 2
 seekFile($2BB55F)
-map_ch2_chorelist_1:
+map_ch2_chorelist_1:	//Offset (>> 3)
 	insert "../gfx/en/chorelist_map1_edit.bin"
 seekFile($2D2060)
-map_ch2_chorelist_2:
+map_ch2_chorelist_2:	//Map Data
 	insert "../gfx/en/chorelist_map2_edit.bin"
 
 
@@ -179,6 +179,18 @@ pal_ch1_ginaransomletter:
 seekFile($2CAFE0)
 pal_ch1_camptips:
 	insert "../gfx/en_new/tmp/camp_tips.pal"
+seekFile($2CB5E0)
+pal_ch2_chorelist:
+	insert "../gfx/en_new/tmp/chore_list.pal"
+seekFile($2C8820)
+pal_ch2_bensongrave:
+	//insert "../gfx/en_new/tmp/benson_grave_note.pal"
+seekFile($2C8B60)
+pal_ch3_mgmtofficesign_bg:
+	//insert "../gfx/en_new/tmp/mgmt_office_sign_bg.pal"
+seekFile($2C9EE0)
+pal_ch3_mgmtofficesign_spr:
+	//insert "../gfx/en_new/tmp/mgmt_office_sign_spr.pal"
 
 //Free Space (1)
 seekFile($21B400)
@@ -239,7 +251,7 @@ gfx_ch2_monster:		//60 - $145F3B
 	insert "../gfx/en_new/lz/60.bin.lz"
 
 gfx_ch2_chorelist:		//62 - $1490F9
-	insert "../gfx/en/lz/lz_chorelist_gfx.bin.lz"
+	insert "../gfx/en_new/lz/62.bin.lz"
 gfx_ch1_controls:		//63 - $14A478
 	insert "../gfx/en_new/lz/63.bin.lz"
 gfx_ch1_ship_notes:		//64 - $14B628
@@ -256,8 +268,56 @@ gfx_title_nintendo:		//DA - $1D948F
 gfx_title_sub:			//DB - $1DA5ED
 	insert "../gfx/en_new/lz/lz_subtitle_gfx.bin.lz"
 
+gfx_mgmt_office_spr:	//E0
+	//insert "../gfx/en_new/lz/E0.bin.lz"
+
 gfx_ch5_colonel_note1:	//F8 - $1FE99C
 	insert "../gfx/en/lz/lz_colonel_note_gfx1.bin.lz"
+
+//Chore List Checks Tables
+tbl_chore_list_maps:
+	dw tbl_chore_list_map00, tbl_chore_list_map01, tbl_chore_list_map02, tbl_chore_list_map01, tbl_chore_list_map04
+
+tbl_chore_list_map00:	//From 7EE000
+	dw ($E002 + 12*2)
+	dw $BCD0>>1; db $80, $01, $18; dl (map_chore_list_1chk_1); dw $20; dw ($E002 + 12*1)
+	dw $BD10>>1; db $80, $01, $18; dl (map_chore_list_1chk_2); dw $20; dw ($E002 + 12*2)
+
+tbl_chore_list_map01:	//From 7EE000
+	dw ($E002 + 12*2)
+	dw $BD90>>1; db $80, $01, $18; dl (map_chore_list_2chk_1); dw $20; dw ($E002 + 12*1)
+	dw $BDD0>>1; db $80, $01, $18; dl (map_chore_list_2chk_2); dw $20; dw ($E002 + 12*2)
+
+tbl_chore_list_map02:	//From 7EE000
+	dw ($E002 + 12*4)
+	dw $BD90>>1; db $80, $01, $18; dl (map_chore_list_2chk_1); dw $20; dw ($E002 + 12*1)
+	dw $BDD0>>1; db $80, $01, $18; dl (map_chore_list_2chk_2); dw $20; dw ($E002 + 12*2)
+
+	dw $BE50>>1; db $80, $01, $18; dl (map_chore_list_3chk_1); dw $20; dw ($E002 + 12*3)
+	dw $BE90>>1; db $80, $01, $18; dl (map_chore_list_3chk_2); dw $20; dw ($E002 + 12*4)
+
+tbl_chore_list_map04:	//From 7EE000
+	dw ($E002 + 12*4)
+	dw $BCD0>>1; db $80, $01, $18; dl (map_chore_list_1chk_1); dw $20; dw ($E002 + 12*1)
+	dw $BD10>>1; db $80, $01, $18; dl (map_chore_list_1chk_2); dw $20; dw ($E002 + 12*2)
+
+	dw $BD90>>1; db $80, $01, $18; dl (map_chore_list_2chk_1); dw $20; dw ($E002 + 12*3)
+	dw $BDD0>>1; db $80, $01, $18; dl (map_chore_list_2chk_2); dw $20; dw ($E002 + 12*4)
+
+map_chore_list_1chk_1:
+	insert "../gfx/en_new/tmp/chore_list.map",0x04D0,0x20
+map_chore_list_1chk_2:
+	insert "../gfx/en_new/tmp/chore_list.map",0x0510,0x20
+
+map_chore_list_2chk_1:
+	insert "../gfx/en_new/tmp/chore_list.map",0x0590,0x20
+map_chore_list_2chk_2:
+	insert "../gfx/en_new/tmp/chore_list.map",0x05D0,0x20
+
+map_chore_list_3chk_1:
+	insert "../gfx/en_new/tmp/chore_list.map",0x0650,0x20
+map_chore_list_3chk_2:
+	insert "../gfx/en_new/tmp/chore_list.map",0x0690,0x20
 
 
 size_check(free_space1, 0x20B9D)

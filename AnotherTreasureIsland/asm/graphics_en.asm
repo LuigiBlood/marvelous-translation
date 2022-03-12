@@ -36,6 +36,7 @@ output "../gfx/en_new/tmp/4D.bin", create
 insert "../gfx/en/lz_chorelistmisc_map.bin"
 origin 0x0800; insert "../gfx/en_new/tmp/camp_tips.map"
 origin 0x1400; insert "../gfx/en_new/tmp/the_monster_bg.map"
+origin 0x1C00; insert "../gfx/en_new/tmp/chore_list.map",0x0000,0x0400
 
 //4E - Tilemap - Controls, and ???
 output "../gfx/en_new/tmp/4E.bin", create
@@ -63,6 +64,11 @@ origin 0x0000; insert "../gfx/en_new/tmp/camp_tips.gfx"
 output "../gfx/en_new/tmp/60.bin", create
 insert "../gfx/jp/60.bin"
 origin 0x1000; insert "../gfx/en_new/tmp/the_monster_bg.gfx"
+
+//62 - Graphics - Chore List & Monkey
+output "../gfx/en_new/tmp/62.bin", create
+insert "../gfx/jp/62.bin"
+origin 0x0000; insert "../gfx/en_new/tmp/chore_list.gfx"
 
 //63 - Graphics - Camp Moves
 output "../gfx/en_new/tmp/63.bin", create

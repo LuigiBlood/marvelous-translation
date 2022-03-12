@@ -15,5 +15,6 @@
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/5A.bin" "./gfx/en_new/lz/5A.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/5F.bin" "./gfx/en_new/lz/5F.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/60.bin" "./gfx/en_new/lz/60.bin.lz" 0 19 0
+".\tools\lc\recomp.exe" "./gfx/en_new/tmp/62.bin" "./gfx/en_new/lz/62.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/63.bin" "./gfx/en_new/lz/63.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/64.bin" "./gfx/en_new/lz/64.bin.lz" 0 19 0

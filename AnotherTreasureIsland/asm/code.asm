@@ -57,3 +57,62 @@ seekFile($2C10A3)
 	jsr $9157
 	jmp $90E6
 +;	jmp $90C1
+
+//Chore List Tilemap Edit Check ($2BB5F5 / $97B5F5)
+//7EE000 - 16-bit VRAM Upload Pointer / End Address (uses this to figure out when it ends)
+//Repeats:
+//0x00 - VRAM Word Address
+//0x02 - VRAM Address Increment Mode
+//0x03 - DMA Parameters
+//0x04 - VRAM Write Address for DMA (0x18)
+//0x05 - Full Address for DMA
+//0x08 - Size (bytes)
+//0x0A - Address to next VRAM upload batch
+//0x0C - Data
+
+//Little Endian:
+//Header 12 bytes
+//4E5E 81 01 18 0EE07E 1400 22E0 <Data, 14 bytes>
+//VRAM Addr Mode: After accessing high byte, and increment by 32 word address (64 bytes)
+//DMA Param: Transfer 2 bytes (16 bit) for VRAM
+//Top Left, Bottom Left, Top Right, Bottom Right
+
+//Is only called when a chore is done.
+seekAddr($97B5F5)
+asm_chore_list_check:
+	txa
+	lsr
+	sec
+	sbc.w #$00FF
+	//Value:
+	//00 = X1  2  3
+	//01 =  1 X2  3
+	//02 =  1 X2 X3
+	//03 =  1 X2  3
+	//04 = X1 X2  3
+	asl
+	tay
+
+	phb
+	sep #$20
+	lda.b #(tbl_chore_list_maps >> 16)
+	pha
+	plb
+	rep #$20
+	//Get DMA Table Addr
+	lda tbl_chore_list_maps,y
+	sta $04
+	//Get DMA Table End Addr (Size)
+	lda ($04)
+	and.w #$0FFF
+	dec
+	ldx $04
+	ldy.w #$E000
+	mvn $7E=(tbl_chore_list_maps >> 16)
+	plb
+	rts
+
+//Management Office Tilemap Full ($97B6DD)
+//Same as Chore List
+//00 = Full Sign
+//01 = Broken Sign
