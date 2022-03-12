@@ -74,15 +74,6 @@ map_ch1_ship_note_2:
 	dw $1E7E, $1E57, $1E6F, $1E00, $1E7F, $1E10
 
 
-//-Chapter 2
-seekFile($2BB55F)
-map_ch2_chorelist_1:	//Offset (>> 3)
-	insert "../gfx/en/chorelist_map1_edit.bin"
-seekFile($2D2060)
-map_ch2_chorelist_2:	//Map Data
-	insert "../gfx/en/chorelist_map2_edit.bin"
-
-
 //--Large Messages
 //Monkey Screech, "HEY!", "That's Enough / Cut it OUT!"
 seekFile($2CE000)
@@ -184,7 +175,7 @@ pal_ch2_chorelist:
 	insert "../gfx/en_new/tmp/chore_list.pal"
 seekFile($2C8820)
 pal_ch2_bensongrave:
-	//insert "../gfx/en_new/tmp/benson_grave_note.pal"
+	insert "../gfx/en_new/tmp/benson_grave_note.pal"
 seekFile($2C8B60)
 pal_ch3_mgmtofficesign_bg:
 	//insert "../gfx/en_new/tmp/mgmt_office_sign_bg.pal"
@@ -244,7 +235,7 @@ gfx_ch1_patches_stuck:	//5A - $13C578
 	insert "../gfx/en_new/lz/5A.bin.lz"
 
 gfx_ch2_bensongrave:	//5E - $142CE4
-	insert "../gfx/en/lz/lz_bensongrave_gfx.bin.lz"
+	insert "../gfx/en_new/lz/5E.bin.lz"
 gfx_ch1_camptips:		//5F - $1447AE
 	insert "../gfx/en_new/lz/5F.bin.lz"
 gfx_ch2_monster:		//60 - $145F3B

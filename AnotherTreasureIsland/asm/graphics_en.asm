@@ -34,6 +34,7 @@ origin 0x1800; insert "../gfx/en_new/tmp/patchies_stuck_note.map"
 output "../gfx/en_new/tmp/4D.bin", create
 //insert "../gfx/jp/4D.bin"
 insert "../gfx/en/lz_chorelistmisc_map.bin"
+origin 0x0400; insert "../gfx/en_new/tmp/benson_grave_note.map"
 origin 0x0800; insert "../gfx/en_new/tmp/camp_tips.map"
 origin 0x1400; insert "../gfx/en_new/tmp/the_monster_bg.map"
 origin 0x1C00; insert "../gfx/en_new/tmp/chore_list.map",0x0000,0x0400
@@ -54,6 +55,11 @@ origin 0x0000; insert "../gfx/en_new/tmp/gina_ransom_letter.gfx"
 output "../gfx/en_new/tmp/5A.bin", create
 insert "../gfx/jp/5A.bin"
 origin 0x0000; insert "../gfx/en_new/tmp/patchies_stuck_note.gfx"
+
+//5F - Graphics - Benson's Grave Note
+output "../gfx/en_new/tmp/5E.bin", create
+insert "../gfx/jp/5E.bin"
+origin 0x1000; insert "../gfx/en_new/tmp/benson_grave_note.gfx"
 
 //5F - Graphics - Camp Tips & Mouse
 output "../gfx/en_new/tmp/5F.bin", create

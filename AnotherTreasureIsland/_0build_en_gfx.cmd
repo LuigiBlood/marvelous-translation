@@ -24,6 +24,10 @@ echo - chore_list.png
 ".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\chore_list.png" -d ".\gfx\en_new\tmp\chore_list.pal" -S
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\chore_list.png" -p ".\gfx\en_new\tmp\chore_list.pal" -d ".\gfx\en_new\tmp\chore_list.gfx" -T 128
 ".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\chore_list.png" -p ".\gfx\en_new\tmp\chore_list.pal" -t ".\gfx\en_new\tmp\chore_list.gfx" -d ".\gfx\en_new\tmp\chore_list.map" -T 512 -P 7
+echo - benson_grave_note.png
+".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\benson_grave_note.png" -d ".\gfx\en_new\tmp\benson_grave_note.pal" -S
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\benson_grave_note.png" -p ".\gfx\en_new\tmp\benson_grave_note.pal" -d ".\gfx\en_new\tmp\benson_grave_note.gfx" -T 128
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\benson_grave_note.png" -p ".\gfx\en_new\tmp\benson_grave_note.pal" -t ".\gfx\en_new\tmp\benson_grave_note.gfx" -d ".\gfx\en_new\tmp\benson_grave_note.map" -T 512 -P 7
 echo Building English Graphics Files...
 ".\tools\bass\bass" ".\asm\graphics_en.asm"
 echo Done.
