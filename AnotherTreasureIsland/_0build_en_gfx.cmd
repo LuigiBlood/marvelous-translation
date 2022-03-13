@@ -37,6 +37,8 @@ echo - mgmt_office_sign_bg.png
 echo - mgmt_office_sign_spr.png
 ".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\mgmt_office_sign_spr.png" -d ".\gfx\en_new\tmp\mgmt_office_sign_spr.pal" -S
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\mgmt_office_sign_spr.png" -p ".\gfx\en_new\tmp\mgmt_office_sign_spr.pal" -d ".\gfx\en_new\tmp\mgmt_office_sign_spr.gfx" -S -T 12
+echo - searchmenu.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\searchmenu.png" -p ".\gfx\en_new\img\searchmenu.pal" -d ".\gfx\en_new\tmp\searchmenu.gfx" -S -T 48 -W 16 -H 16
 echo Building English Graphics Files...
 ".\tools\bass\bass" ".\asm\graphics_en.asm"
 echo Done.

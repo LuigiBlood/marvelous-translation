@@ -18,7 +18,7 @@ seekFile($270000)
 
 //--Search Menu Icons
 seekFile($2B6000)
-	insert "../gfx/en_new/menu_gfx.bin"
+	insert "../gfx/en_new/tmp/searchmenu.gfx"
 
 //--Misc HUD
 seekFile($268000)
