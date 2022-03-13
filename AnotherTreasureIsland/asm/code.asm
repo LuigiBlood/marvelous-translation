@@ -144,3 +144,47 @@ asm_mgmt_office_remap:
 	mvn $7E=(tbl_mgmt_office_maps >> 16)
 	plb
 	rts
+
+//Ship Notes - Numbers ($97B9F6)
+//Same as Chore List
+seekAddr($97B9F6)	//Which note
+asm_shipnote_remap:
+	txa
+	lsr
+	sec
+	sbc.w #$0104
+	//Value:
+	//0 = 8+8-3=?
+	//1 = Sike!
+	//2 = 12358
+	//3 = Upside Down 1436
+	//4 = 7654321 (IS THIS UNUSED?)
+_asm_shipnote_remap_do:
+	asl
+	tay
+
+	phb
+	sep #$20
+	lda.b #(tbl_ship_notes_maps >> 16)
+	pha
+	plb
+	rep #$20
+	//Get DMA Table Addr
+	lda tbl_ship_notes_maps,y
+	sta $04
+	//Get DMA Table End Addr (Size)
+	lda ($04)
+	and.w #$0FFF
+	dec
+	ldx $04
+	ldy.w #$E000
+	mvn $7E=(tbl_ship_notes_maps >> 16)
+	plb
+	rts
+
+//Ship Notes - Letters ($97BB02)
+//Same as Chore List
+seekAddr($97BB02)
+	//No Values, just one
+	lda.w #$0005
+	jml _asm_shipnote_remap_do

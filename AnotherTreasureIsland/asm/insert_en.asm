@@ -49,31 +49,6 @@ seekFile($2C1F12)	//Change place to entry number (Save & Exit, see code.asm)
 	sta $7F00AC
 
 
-seekFile($2BB96A)
-map_ch1_ship_note_13:
-	dw $01AC, $01AD, $01AC, $01AE, $01AF, $01B4, $01B1
-	dw $01B2, $01B3, $01B2, $01B1, $01B5, $01B6, $01B7
-seekFile($2BBAC6)
-map_ch1_ship_note_1:
-	dw $01CF, $01D0, $01D1, $01B1, $01B7, $01B1
-	dw $01D2, $01D3, $01CE, $01DB, $01DC, $01B1
-	dw $01D4, $01D5, $01D9, $01DA, $01B7, $01B1
-	dw $01D6, $01D7, $01D8, $01CE, $01DB, $01DC
-	dw $01B7, $01B1, $01B7, $01B1, $01B7, $01B1
-seekFile($2D0E70)
-map_ch1_ship_note_2:
-	dw $1E00, $1E46, $1E10, $1E56, $1E4C, $1E6C
-	dw $1E5C, $1E7C, $1E6F, $1E6E, $1E7F, $1E7E
-	dw $1E6F, $1E00, $1E7F, $1E10, $1E4E, $1E4F
-	dw $1E5E, $1E5F, $1E6A, $1E6B, $1E7A, $1E7B
-	dw $1E4B, $1E4C, $1E5B, $1E5C, $1E4D, $1E00
-	dw $1E5D, $1E10, $1E6F, $1E6D, $1E7F, $1E7D
-	dw $1E4F, $1E6B, $1E5F, $1E7B, $1E6E, $1E6A
-	dw $1E7E, $1E7A, $1E46, $1E6E, $1E56, $1E7E
-	dw $1E47, $1E6F, $1E57, $1E7F, $1E6E, $1E47
-	dw $1E7E, $1E57, $1E6F, $1E00, $1E7F, $1E10
-
-
 //--Large Messages
 //Monkey Screech, "HEY!", "That's Enough / Cut it OUT!"
 seekFile($2CE000)
@@ -170,6 +145,9 @@ pal_ch1_ginaransomletter:
 seekFile($2CAFE0)
 pal_ch1_camptips:
 	insert "../gfx/en_new/tmp/camp_tips.pal"
+seekFile($2CB100)
+pal_ch1_shipnote:
+	insert "../gfx/en_new/tmp/ship_note.pal"
 seekFile($2CB5E0)
 pal_ch2_chorelist:
 	insert "../gfx/en_new/tmp/chore_list.pal"
@@ -334,6 +312,41 @@ map_mgmt_office_full_1:
 map_mgmt_office_full_2:
 	insert "../gfx/en_new/tmp/mgmt_office_sign_bg.map",0x06E2,0x0C
 
+//Ship Notes
+tbl_ship_notes_maps:
+	dw tbl_ship_notes_map00, tbl_ship_notes_map01, tbl_ship_notes_map02, tbl_ship_notes_map03, tbl_ship_notes_map04, tbl_ship_notes_map05
+
+tbl_ship_notes_map00:
+	dw ($E002 + 12*1)
+	dw $B400>>1; db $80, $01, $18; dl (map_ship_notes_0); dw $0400; dw ($E002 + 12*1)
+tbl_ship_notes_map01:
+	dw ($E002 + 12*1)
+	dw $B400>>1; db $80, $01, $18; dl (map_ship_notes_1); dw $0400; dw ($E002 + 12*1)
+tbl_ship_notes_map02:
+	dw ($E002 + 12*1)
+	dw $B400>>1; db $80, $01, $18; dl (map_ship_notes_2); dw $0400; dw ($E002 + 12*1)
+tbl_ship_notes_map03:
+	dw ($E002 + 12*1)
+	dw $B400>>1; db $80, $01, $18; dl (map_ship_notes_3); dw $0400; dw ($E002 + 12*1)
+tbl_ship_notes_map04:
+	dw ($E002 + 12*1)
+	dw $B400>>1; db $80, $01, $18; dl (map_ship_notes_4); dw $0400; dw ($E002 + 12*1)
+tbl_ship_notes_map05:
+	dw ($E002 + 12*1)
+	dw $B400>>1; db $80, $01, $18; dl (map_ship_notes_5); dw $0400; dw ($E002 + 12*1)
+
+map_ship_notes_0:
+	insert "../gfx/en_new/tmp/ship_note.map",0x0000,0x0400
+map_ship_notes_1:
+	insert "../gfx/en_new/tmp/ship_note.map",0x0400,0x0400
+map_ship_notes_2:
+	insert "../gfx/en_new/tmp/ship_note.map",0x0800,0x0400
+map_ship_notes_3:
+	insert "../gfx/en_new/tmp/ship_note.map",0x0C00,0x0400
+map_ship_notes_4:
+	insert "../gfx/en_new/tmp/ship_note.map",0x1000,0x0400
+map_ship_notes_5:
+	insert "../gfx/en_new/tmp/ship_note.map",0x1400,0x0400
 
 size_check(free_space1, 0x20B9D)
 

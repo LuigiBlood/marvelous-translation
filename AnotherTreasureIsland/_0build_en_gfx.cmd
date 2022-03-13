@@ -7,8 +7,10 @@ echo - camp_tips.png
 ".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\camp_tips.png" -d ".\gfx\en_new\tmp\camp_tips.pal" -S
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\camp_tips.png" -p ".\gfx\en_new\tmp\camp_tips.pal" -d ".\gfx\en_new\tmp\camp_tips.gfx" -T 128
 ".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\camp_tips.png" -p ".\gfx\en_new\tmp\camp_tips.pal" -t ".\gfx\en_new\tmp\camp_tips.gfx" -d ".\gfx\en_new\tmp\camp_tips.map" -T 512 -P 7
-echo - ship_note_tiles.png
-".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\ship_note_tiles.png" -p ".\gfx\en_new\img\ship_note.pal" -d ".\gfx\en_new\tmp\ship_note_tiles.gfx" -D -T 128
+echo - ship_note.png
+".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\ship_note.png" -d ".\gfx\en_new\tmp\ship_note.pal" -S
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\ship_note.png" -p ".\gfx\en_new\tmp\ship_note.pal" -d ".\gfx\en_new\tmp\ship_note.gfx" -T 128
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\ship_note.png" -p ".\gfx\en_new\tmp\ship_note.pal" -t ".\gfx\en_new\tmp\ship_note.gfx" -d ".\gfx\en_new\tmp\ship_note.map" -T 512 -P 7
 echo - gina_ransom_letter.png
 ".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\gina_ransom_letter.png" -d ".\gfx\en_new\tmp\gina_ransom_letter.pal" -S
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\gina_ransom_letter.png" -p ".\gfx\en_new\tmp\gina_ransom_letter.pal" -d ".\gfx\en_new\tmp\gina_ransom_letter.gfx" -T 128
