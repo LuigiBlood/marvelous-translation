@@ -1004,13 +1004,13 @@ seekAddr($04F2AA)	//SNES / Mike and Forgotten Doll Choice (Script ID: 175)
 	nop; nop
 	sep #$20
 	db $90	//BCC
-seekAddr($06E9AC)	//SNES / Boxing Man, after giving the coin (181B / Script ID: 2057)
+seekAddr($06E9AC)	//SNES / Boxing Man, after giving the coin (0x181B / Script ID: 2057)
 					//When Laughing
 	jsl event_char_detection
 	nop; nop
 	sep #$20
 	db $90	//BCC
-seekAddr($06E9C4)	//SNES / Boxing Man, after giving the coin (181B / Script ID: 2057)
+seekAddr($06E9C4)	//SNES / Boxing Man, after giving the coin (0x181B / Script ID: 2057)
 					//After Laughing
 	jsl event_char_detection
 	nop; nop
@@ -1031,11 +1031,11 @@ seekAddr($06E9C4)	//SNES / Boxing Man, after giving the coin (181B / Script ID: 
 	//nop; nop
 	//sep #$20
 	//db $90	//BCC?
-//seekAddr($13F938)
-	//jsl event_char_detection
-	//nop; nop
-	//sep #$20
-	//db $90	//BCC
+seekAddr($13F938)	//SNES / When the baby calms down after giving the doll (0x498 / Script ID: 392)
+	jsl event_char_detection
+	nop; nop
+	sep #$20
+	db $90	//BCC
 seekAddr($8FAE68)		//SNES / When Ms. Sisko talks to the kids after getting the Crystal Ball [1CA4] (Script ID: 2444)
 						//The moment when she talks about being concerned about your teacher
 	jsl event_char_detection

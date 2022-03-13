@@ -2037,7 +2037,7 @@ Eh! What was that? I can't hear
 
 [X$6A]
 [nl2]   Oh, the baby stopped crying!
-[nl3][np]
+[nl3][np][Event]
 [scl][X$6A]Why~ thank you!
 [scl]She stopped crying when she saw
 [scl]her do~ll.[np]
