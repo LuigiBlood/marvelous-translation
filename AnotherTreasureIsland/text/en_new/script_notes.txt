@@ -197,14 +197,14 @@ winky
 
 robot at the entrance to maverick's lair
 robot message near red door on maverick's ship-lair
+heavy fix. 
 
 
 
 
 
 
-
-
+used for all numbered blue keys
 
 
 
@@ -225,6 +225,7 @@ robot message near red door on maverick's ship-lair
 
 
 revise
+Used for all numbered red keys
 
 
 
@@ -233,8 +234,7 @@ revise
 
 
 
-
-
+used for all numbered green keys
 
 
 
@@ -1221,7 +1221,7 @@ same as previous text.
 
 
 
-
+polly... end of chapter 5
 
 
 
@@ -1739,10 +1739,10 @@ ch5 sailor near the ship
 
 
 
+winky "Hurry and Save Miss Gina!"
 
 
-
-
+winky
 
 
 Hey, Pluck's on this ship, isn't he? Tell him I'll visit him before long. ...Until then!
@@ -1937,7 +1937,7 @@ winky
 
 
 
-
+part 1- part2 is 199
 
 
 

@@ -1046,9 +1046,11 @@ SEARCH--... RED TREA-SURE CHEST.
 [scl][SReward]Huh?... The message ends there.
 [en2]
 
-......It's not luck or chance,
-[nl2]but this place does seem to be
-[nl3]going south a bit......
+.........I don't mean something's wrong
+[nl2]with the robot.[np]
+[nl3]Once I saw him, I began to have
+[scl]an ominous feeling. I feel like I'm
+[scl]more worn down than before.........
 [en2]
 
 Fugofugo. Fu-go.[np]
@@ -1089,8 +1091,7 @@ Oh, there's a doll!
 What a strange looking plant...
 [en2]
 
-[F2]The {B}{l}{u}{e} {K}{e}{y} you had turned into
-[nl2]another {B}{l}{u}{e} {K}{e}{y}[X$6B]![np]
+[F2]The {B}{l}{u}{e}[Space6]{K}{e}{y} is now {B}{l}{u}{e}[Space6]{K}{e}{y}[X$6B]![np]
 [nl3]I wonder what it opens?
 [en1]
 
@@ -1166,9 +1167,8 @@ Wh-wh-whoa~~~~~!!!
 [scl]noise a dog makes.
 [en2]
 
-[F2]Your {R}{e}{d} {K}{e}{y} turned into another 
-[nl2]{R}{e}{d} {K}{e}{y}[X$6B].[np]
-[nl3]I wonder what it opens?
+[F2]The {R}{e}{d}[Space6]{K}{e}{y} is now {R}{e}{d}[Space6]{K}{e}{y}[X$6B]![np]
+[nl2]I wonder what it opens?
 [en1]
 
 ...Hmm? You want to know my
@@ -1222,9 +1222,8 @@ If you can beat Bob, you might
 [scl]You can't dream big without money.
 [en2]
 
-[F2]Your {G}{r}{e}{e}{n} {K}{e}{y} became another
-[nl2]{G}{r}{e}{e}{n} {K}{e}{y}[X$6B].[np]
-[nl3]I wonder what it opens!
+[F2]The[Space8]{G}{r}{e}{e}{n}[Space6]{K}{e}{y}[Space8]is[Space8]now[Space8]{G}{r}{e}{e}{n}[Space6]{K}{e}{y}[X$6B]![np]
+[nl2]I wonder what it opens!
 [en1]
 
 Huh..? The {R}{e}{d} {K}{e}{y} should open a
@@ -3568,9 +3567,9 @@ I could never face the departed
 [en2]
 
 Even with the {A}{n}{t} {B}{u}{s}{t}{e}{r}, they
-[nl2]came on us in swarms,
+[nl2]came on us in swarms, quickly
 [nl3]overwhelming our defenses.[np]
-[scl]We never really stood a snowball's
+[scl]Truly, we never stood a snowball's
 [scl]chance in hades.
 [en2]
 
@@ -3871,7 +3870,7 @@ Snap out of it, man!
 [scl]This drug only works on soldiers,
 [scl]and it will revive them, even if 
 [scl]they are severely wounded.[np]
-[scl]Drink this "Soldier Blue" to heal!
+[scl]Drink this {S}{o}{l}{d}{i}{e}{r} {B}{l}{u}{e} to heal!
 [en1]
 
 Alright! Now you're right as rain!
@@ -6347,7 +6346,7 @@ Let's try a dash with [BBtn].
 How can we get it, I wonder...?
 [en2]
 
-Then show it to me ASAP.
+Then show it to {P}{l}{u}{c}{k} ASAP.
 [nl2]Prepare for departure... Hurry up!
 [en2]
 
@@ -7267,7 +7266,7 @@ Wow! You kids know your stuff...[np]
 [nl2]Alright, you can have it for free.
 [en1]
 
-Oh,[Space1][team] Team! You're safe!
+Oh,[Space4][team] Team! You're safe!
 [nl2]What? I'm the PE teacher, Arnold.
 [nl3]Don't you remember me?
 [en1]
@@ -7425,7 +7424,7 @@ Shortly after arrival, I found a
 [scl]plant and animal life in the area.[np]
 [scl]I rested the Crystal Ball upon one
 [scl]of the roots of the Baobab, and
-[scl]it began to glow brightly.[np]
+[scl]it began to glow brightly.[np] 
 [scl]Since the incident, the Baobab
 [scl]seems to be producing an excess
 [scl]of oil.[np]
@@ -8846,7 +8845,7 @@ Hurry up and put [X$6B] {L}{u}{c}{k} {R}{o}{c}{k}{s}
 [nl2]in the furnace below!!
 [en2]
 
-Hurry and save Miss Gina!
+Hurry! Save Teacher!
 [en2]
 
 Push the lever!
@@ -8856,11 +8855,10 @@ Push the lever!
 We can handle things until we
 [nl2]reach the island.[np]
 [nl3]Why don'cha go outside and get
-[scl]some fresh air, [team] Team?
+[scl]some fresh air,[team] Team?
 [en2]
 
-We can handle things until the
-[nl2]next island!
+On way to next island!
 [en2]
 
 [team] Team!
@@ -8926,10 +8924,10 @@ Ah, here's the Colonel's permission
 [nl3]Allowed."[np]
 [scl]So this is interesting... I think it's
 [scl]actually saying the person holding
-[scl]the note is allowed.. *wink*[np]
+[scl]this note is allowed... *wink*[np]
 [scl]Are you kids really going to be
 [scl]okay on your own?
-[scl]...I see. Well, how's this.
+[scl]...I see. Well, how's this?
 [en1]
 
 How about that?
@@ -9646,7 +9644,7 @@ The plant that attacked me was
 [nl2][ ][ ][ ][ ] Huh? There's a hole.
 [en2]
 
-[nl2][ ][ ][ ][ ][ ][ ][ ] It's a sign!
+[nl2][ ][ ][ ][ ][ ][ ][ ]It's a sign!
 [en2]
 
 A treasure chest!!
@@ -10847,7 +10845,7 @@ Buzz, buzz.[np]
 [nl3]   Ca, ca, ca, carry~.
 [en2]
 
-Hey, there's some "Soldier Blue"
+Hey, there's some {S}{o}{l}{d}{i}{e}{r} {B}{l}{u}{e}
 [nl2]over there!
 [en2]
 
