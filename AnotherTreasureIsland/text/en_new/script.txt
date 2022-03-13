@@ -10318,7 +10318,7 @@ I'm Referee Jackie!
 
 Who wants to challenge me?
 [nl2]Please go easy on me!
-[nl3]Bwahahahaha!
+[nl3][Event]Bwahahahaha![Event]
 [en2]
 
 [X$6A]The referee was a woman!

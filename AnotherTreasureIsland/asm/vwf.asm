@@ -1004,16 +1004,18 @@ seekAddr($04F2AA)	//SNES / Mike and Forgotten Doll Choice (Script ID: 175)
 	nop; nop
 	sep #$20
 	db $90	//BCC
-//seekAddr($06E9AC)
-	//jsl event_char_detection
-	//nop; nop
-	//sep #$20
-	//db $90	//BCC
-//seekAddr($06E9C4)
-	//jsl event_char_detection
-	//nop; nop
-	//sep #$20
-	//db $90	//BCC
+seekAddr($06E9AC)	//SNES / Boxing Man, after giving the coin (181B / Script ID: 2057)
+					//When Laughing
+	jsl event_char_detection
+	nop; nop
+	sep #$20
+	db $90	//BCC
+seekAddr($06E9C4)	//SNES / Boxing Man, after giving the coin (181B / Script ID: 2057)
+					//After Laughing
+	jsl event_char_detection
+	nop; nop
+	sep #$20
+	db $90	//BCC
 //seekAddr($07EB49)
 	//jsl event_char_detection
 	//nop; nop
