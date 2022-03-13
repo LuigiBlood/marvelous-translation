@@ -2096,7 +2096,7 @@ It's too far to tell what it is!
 [scl]I really love my darlin's cooking...[np]
 [scl]Her cookin' is the best in the
 [scl]WHOLE. WIDE. WORLD![np]
-[scl]By the way, have you been able
+[scl][Event]By the way, have you been able
 [scl]to find the key yet?
 [scl][np]
 [scl][SImprtnt]What's that?... A plant that turns

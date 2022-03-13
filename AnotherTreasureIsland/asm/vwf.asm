@@ -985,15 +985,19 @@ seekAddr($038DB9)	//SA-1 / Town Manager and Lunch Box (Script ID: 203)
 	jsl event_char_detection
 	nop
 	db $90	//BCC
-//seekAddr($039424)	//???? / Lunch Box to Husband (Script ID: 398)
+seekAddr($039424)	//SA-1 / Lunch Box to Husband (0x4AA / Script ID: 398)
+					//This one is odd... It never triggers, and performs the same thing as the next one
+					//Disable it to avoid conflicts
+	rtl 
 	//jsl event_char_detection
 	//nop
 	//db $90	//BCC
-//seekAddr($04E6BA)	//???? / (Script ID: ?)
-	//jsl event_char_detection
-	//nop; nop
-	//sep #$20
-	//db $90	//BCC
+seekAddr($04E6BA)	//SNES / Lunch Box to Husband (0x4AA / Script ID: 398)
+					//Stop the Eating animation when he asks if you have the key
+	jsl event_char_detection
+	nop; nop
+	sep #$20
+	db $90	//BCC
 seekAddr($04F264)	//SNES / Mike and Lunch Box (Script ID: 174)
 	jsl event_char_detection
 	nop; nop
@@ -1031,7 +1035,7 @@ seekAddr($06E9C4)	//SNES / Boxing Man, after giving the coin (0x181B / Script ID
 	//nop; nop
 	//sep #$20
 	//db $90	//BCC?
-seekAddr($13F938)	//SNES / When the baby calms down after giving the doll (0x498 / Script ID: 392)
+seekAddr($13F938)		//SNES / When the baby calms down after giving the doll (0x498 / Script ID: 392)
 	jsl event_char_detection
 	nop; nop
 	sep #$20
