@@ -48,6 +48,11 @@ output "../gfx/en_new/tmp/4E.bin", create
 insert "../gfx/jp/4E.bin"
 origin 0x1000; insert "../gfx/en_new/tmp/camp_moves.map"
 
+//50 - Tilemap - Colonel's Permission (BG)
+output "../gfx/en_new/tmp/50.bin", create
+insert "../gfx/jp/50.bin"
+origin 0x0400; insert "../gfx/en_new/tmp/colonelpermission_bg.map"
+
 //--Search Mode - Graphics
 //53 - Graphics - Gina Ransom Letter & Ant Buster
 output "../gfx/en_new/tmp/53.bin", create
@@ -95,8 +100,27 @@ output "../gfx/en_new/tmp/64.bin", create
 insert "../gfx/jp/64.bin"
 origin 0x0000; insert "../gfx/en_new/tmp/ship_note.gfx",0x0000,0x1000
 
+//69 - Graphics - Colonel's Permission (BG) & Dungeon Map
+output "../gfx/en_new/tmp/69.bin", create
+insert "../gfx/jp/69.bin"
+origin 0x0000; insert "../gfx/en_new/tmp/colonelpermission_bg.gfx"
+
 //E0 - Graphics - Office Sign (Sprite)
 output "../gfx/en_new/tmp/E0.bin", create
 insert "../gfx/jp/E0.bin"
 origin 0x1800; insert "../gfx/en_new/tmp/mgmt_office_sign_spr.gfx",0x00,0xC0
 origin 0x1A00; insert "../gfx/en_new/tmp/mgmt_office_sign_spr.gfx",0xC0,0xC0
+
+//F8 - Graphics - Colonel's Permission (SPR)
+output "../gfx/en_new/tmp/F8.bin", create
+insert "../gfx/jp/F8.bin"
+origin 0x0800; insert "../gfx/en_new/tmp/colonelpermission_spr.gfx",0x0000,0x40
+origin 0x0840; insert "../gfx/en_new/tmp/colonelpermission_spr.gfx",0x0080,0x40
+origin 0x0880; insert "../gfx/en_new/tmp/colonelpermission_spr.gfx",0x0100,0x40
+origin 0x0980; insert "../gfx/en_new/tmp/colonelpermission_spr.gfx",0x0040,0x40
+origin 0x09C0; insert "../gfx/en_new/tmp/colonelpermission_spr.gfx",0x00C0,0x40
+origin 0x0A00; insert "../gfx/en_new/tmp/colonelpermission_spr.gfx",0x0200,0x40
+origin 0x0A40; insert "../gfx/en_new/tmp/colonelpermission_spr.gfx",0x0280,0x40
+origin 0x0A80; insert "../gfx/en_new/tmp/colonelpermission_spr.gfx",0x0300,0x40
+origin 0x0B80; insert "../gfx/en_new/tmp/colonelpermission_spr.gfx",0x0240,0x40
+origin 0x0BC0; insert "../gfx/en_new/tmp/colonelpermission_spr.gfx",0x02C0,0x40

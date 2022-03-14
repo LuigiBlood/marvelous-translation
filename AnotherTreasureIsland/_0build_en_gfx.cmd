@@ -37,6 +37,12 @@ echo - mgmt_office_sign_bg.png
 echo - mgmt_office_sign_spr.png
 ".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\mgmt_office_sign_spr.png" -d ".\gfx\en_new\tmp\mgmt_office_sign_spr.pal" -S
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\mgmt_office_sign_spr.png" -p ".\gfx\en_new\tmp\mgmt_office_sign_spr.pal" -d ".\gfx\en_new\tmp\mgmt_office_sign_spr.gfx" -S -T 12
+echo - colonelpermission_bg.png
+".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\colonelpermission_bg.png" -d ".\gfx\en_new\tmp\colonelpermission_bg.pal" -S
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\colonelpermission_bg.png" -p ".\gfx\en_new\tmp\colonelpermission_bg.pal" -d ".\gfx\en_new\tmp\colonelpermission_bg.gfx" -T 128
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\colonelpermission_bg.png" -p ".\gfx\en_new\tmp\colonelpermission_bg.pal" -t ".\gfx\en_new\tmp\colonelpermission_bg.gfx" -d ".\gfx\en_new\tmp\colonelpermission_bg.map" -T 512 -P 7
+echo - colonelpermission_spr.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\colonelpermission_spr.png" -p ".\gfx\en_new\img\colonelpermission_spr.pal" -d ".\gfx\en_new\tmp\colonelpermission_spr.gfx" -S -D -W 16 -H 16
 echo - searchmenu.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\searchmenu.png" -p ".\gfx\en_new\img\searchmenu.pal" -d ".\gfx\en_new\tmp\searchmenu.gfx" -S -T 48 -W 16 -H 16
 echo Building English Graphics Files...

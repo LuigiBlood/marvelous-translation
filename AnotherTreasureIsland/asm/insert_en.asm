@@ -166,6 +166,9 @@ pal_ch3_mgmtofficesign_bg:
 seekFile($2C9EE0)
 pal_ch3_mgmtofficesign_spr:
 	insert "../gfx/en_new/tmp/mgmt_office_sign_spr.pal"
+seekFile($2CC620)
+pal_ch5_colonel_note_bg:
+	insert "../gfx/en_new/tmp/colonelpermission_bg.pal"
 
 //Free Space (1)
 seekFile($21B400)
@@ -208,6 +211,9 @@ map_ch1_misc:			//4D - $12DEB0
 map_ch1_misc2:			//4E - $12E9BA
 	insert "../gfx/en_new/lz/4E.bin.lz"
 
+map_ch5_colonel_note:	//50
+	insert "../gfx/en_new/lz/50.bin.lz"
+
 //Search Mode - Graphics (51 to ??)
 gfx_ch1_gina_ransom:	//53 - $132FC4
 	insert "../gfx/en_new/lz/53.bin.lz"
@@ -233,7 +239,7 @@ gfx_ch1_ship_notes:		//64 - $14B628
 	insert "../gfx/en_new/lz/64.bin.lz"
 
 gfx_ch5_colonel_note2:	//69 - $151D31
-	insert "../gfx/en/lz/lz_colonel_note_gfx2.bin.lz"
+	insert "../gfx/en_new/lz/69.bin.lz"
 
 //Sprites (B9 to F8)
 gfx_kick_smash_minigame://D9 - $1D860C
@@ -247,7 +253,7 @@ gfx_mgmt_office_spr:	//E0
 	insert "../gfx/en_new/lz/E0.bin.lz"
 
 gfx_ch5_colonel_note1:	//F8 - $1FE99C
-	insert "../gfx/en/lz/lz_colonel_note_gfx1.bin.lz"
+	insert "../gfx/en_new/lz/F8.bin.lz"
 
 //Chore List Checks Tables
 tbl_chore_list_maps:

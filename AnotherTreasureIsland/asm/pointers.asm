@@ -22,6 +22,8 @@ ptr_replace(0x4B, map_ch1_patchiesnote)
 ptr_replace(0x4D, map_ch1_misc)
 ptr_replace(0x4E, map_ch1_misc2)
 
+ptr_replace(0x50, map_ch5_colonel_note)
+
 ptr_replace(0x53, gfx_ch1_gina_ransom)
 
 ptr_replace(0x56, gfx_ch3_sign)
