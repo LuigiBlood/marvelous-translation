@@ -1966,7 +1966,7 @@ Princess! I'm so glad to see you
 I'm sorry to make you all worry,
 [nl2]but I'm just fine! I've even brought
 [nl3]these 3 giants with me.[np]
-[scl]I think they might be able to
+[scl][Event]I think they might be able to
 [scl]defeat the {B}{l}{u}{e} {T}{h}{i}{n}{g}{s}![np]
 [scl]Even though they are just kids.......[np]
 [scl]My kingdom is through that cave, 
@@ -1974,7 +1974,7 @@ I'm sorry to make you all worry,
 [en1]
 
 I won't be done in so easily!![np]
-[nl2]You may have stepped on me,
+[nl2][Event]You may have stepped on me,
 [nl3]but now it's my turn!!
 [en1]
 
