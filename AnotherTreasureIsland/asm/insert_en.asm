@@ -61,13 +61,13 @@ seekFile($2FC8D7)
 	dw $09, $28, $2A, $32	//Jack
 
 //Turning Cross Puzzle
-seekFile($2FCCA4)
+seekAddr($9FCCA4)
 	lda.w #$000E		// O
-seekFile($2FCCAA)
+seekAddr($9FCCAA)
 	lda.w #$000A		// K
-seekFile($2FCCB0)
+seekAddr($9FCCB0)
 	lda.w #$0046		// ?
-seekFile($2FCC4E)
+seekAddr($9FCC4E)
 	lda.w #$0048		// /
 
 //Watering Robot Path
@@ -77,6 +77,12 @@ seekAddr($9FCB46)
 	lda.w #$000A		// K
 seekAddr($9FCB4C)
 	lda.w #$0046		// ?
+
+//Buster Cannon Charge
+seekAddr($9FD32A)
+	lda.w #$000E		// O
+seekAddr($9FD330)
+	lda.w #$000A		// K
 
 //003182 - Luck Rock Amount (can be up to 9999)
 //Fix Luck Rock Amount
