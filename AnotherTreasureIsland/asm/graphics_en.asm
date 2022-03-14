@@ -56,8 +56,7 @@ origin 0x0400; insert "../gfx/en_new/tmp/colonelpermission_bg.map"
 //--Search Mode - Graphics
 //53 - Graphics - Gina Ransom Letter & Ant Buster
 output "../gfx/en_new/tmp/53.bin", create
-//insert "../gfx/jp/53.bin"
-insert "../gfx/en/lz_gina_ransom_gfx.bin"
+insert "../gfx/jp/53.bin"
 origin 0x0000; insert "../gfx/en_new/tmp/gina_ransom_letter.gfx"
 
 //56 - Graphics - Office Sign
