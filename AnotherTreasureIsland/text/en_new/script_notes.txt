@@ -378,7 +378,7 @@ no new page codes here please. the animation will glitch - solomon
 
 
 Event after Polly says she brought 3 giants
-Event - Polly becomes angry after the first sentence
+Event1 - Polly moves glasses at the end of the first sentence\Event2 - Polly becomes angry after the first sentence
 
 
 

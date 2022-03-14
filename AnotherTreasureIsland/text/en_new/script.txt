@@ -1973,8 +1973,8 @@ I'm sorry to make you all worry,
 [scl]so come with us, okay?
 [en1]
 
-I won't be done in so easily!![np]
-[nl2][Event]You may have stepped on me,
+I won't be done in so easily!![Event][np]
+[nl2][Event2]You may have stepped on me,
 [nl3]but now it's my turn!!
 [en1]
 

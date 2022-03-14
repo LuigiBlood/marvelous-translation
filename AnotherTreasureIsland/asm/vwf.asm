@@ -1022,7 +1022,7 @@ seekAddr($06E9C4)	//SNES / Ch.3 - Boxing Man, after giving the coin (0x181B / Sc
 	db $90	//BCC
 seekAddr($07EB49)	//SNES / Ch.4 - When Polly tickles the bird at the start (0x474 - Script ID: 380)
 					//63 - When she becomes angry at the second sentence
-	jsl event_char_detection
+	jsl event2_char_detection
 	nop; nop
 	sep #$20
 	db $90	//BCC
@@ -1034,7 +1034,8 @@ seekAddr($07ED2C)	//SNES / Ch.4 - After the bird is gone, when Polly says not to
 	db $90	//BCC
 seekAddr($07EF2B)	//SNES / Ch.4 - When Polly tickles the bird at the start (0x474 - Script ID: 380)
 					//62 - After she says "Not so easily!", this code is weird
-	jsl event_char_detection
+					//She moves her glasses, has to be continuously called, must have [Event][np]
+	jsl eventnp_char_detection
 	nop; nop
 	sep #$20
 	db $B0	//BCS
@@ -1073,6 +1074,44 @@ event_char_detection:
 	lda $40A400,x
 	xba
 	cmp.w #$E4*2
+	beq +
+	plp
+	plx
+	clc
+	rtl
++;	plp
+	plx
+	sec
+	rtl
+
+eventnp_char_detection:
+	phx
+	php
+	rep #$30
+	ldx $359A
+	dex
+	dex
+	lda $40A400,x
+	xba
+	cmp.w #$E4*2
+	beq +
+	plp
+	plx
+	clc
+	rtl
++;	plp
+	plx
+	sec
+	rtl
+
+event2_char_detection:
+	phx
+	php
+	rep #$30
+	ldx $359A
+	lda $40A400,x
+	xba
+	cmp.w #$E5*2
 	beq +
 	plp
 	plx
