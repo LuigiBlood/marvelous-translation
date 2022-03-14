@@ -2643,7 +2643,7 @@ My? My, my![np]
 [nl3]   It looks great!
 [en1]
 
-[SAwe]My! M~y, my, mymym~y.[np]
+[SP$031D]My! M~y, my, mymym~y.[np]
 [nl2]TL: This is it! Perfect! It's just
 [nl3]   what I wanted! Thank you so
 [scl]   very, much for this new house![np]
