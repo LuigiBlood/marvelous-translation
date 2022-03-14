@@ -15,6 +15,10 @@ echo - gina_ransom_letter.png
 ".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\gina_ransom_letter.png" -d ".\gfx\en_new\tmp\gina_ransom_letter.pal" -S
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\gina_ransom_letter.png" -p ".\gfx\en_new\tmp\gina_ransom_letter.pal" -d ".\gfx\en_new\tmp\gina_ransom_letter.gfx" -T 128
 ".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\gina_ransom_letter.png" -p ".\gfx\en_new\tmp\gina_ransom_letter.pal" -t ".\gfx\en_new\tmp\gina_ransom_letter.gfx" -d ".\gfx\en_new\tmp\gina_ransom_letter.map" -T 512 -P 7
+echo - antbuster.png
+".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\antbuster.png" -d ".\gfx\en_new\tmp\antbuster.pal" -S
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\antbuster.png" -p ".\gfx\en_new\tmp\antbuster.pal" -d ".\gfx\en_new\tmp\antbuster.gfx" -T 128
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\antbuster.png" -p ".\gfx\en_new\tmp\antbuster.pal" -t ".\gfx\en_new\tmp\antbuster.gfx" -d ".\gfx\en_new\tmp\antbuster.map" -T 512 -P 7
 echo - patchies_stuck_note.png
 ".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\patchies_stuck_note.png" -d ".\gfx\en_new\tmp\patchies_stuck_note.pal" -S
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\patchies_stuck_note.png" -p ".\gfx\en_new\tmp\patchies_stuck_note.pal" -d ".\gfx\en_new\tmp\patchies_stuck_note.gfx" -T 128

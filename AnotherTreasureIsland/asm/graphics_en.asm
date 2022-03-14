@@ -20,10 +20,11 @@ insert "../gfx/jp/3D.bin"
 origin 0x0000; insert "../gfx/en_new/img/intro.pal"
 
 //--Search Mode - Tilemaps
-//48 - Tilemap - Gina Ransom Letter...
+//48 - Tilemap - Gina Ransom Letter & Ant Buster
 output "../gfx/en_new/tmp/48.bin", create
 insert "../gfx/jp/48.bin"
 origin 0x1800; insert "../gfx/en_new/tmp/gina_ransom_letter.map"
+origin 0x1C00; insert "../gfx/en_new/tmp/antbuster.map"
 
 //4A - Tilemap - Office Sign (BG)
 output "../gfx/en_new/tmp/4A.bin", create
@@ -58,6 +59,7 @@ origin 0x0400; insert "../gfx/en_new/tmp/colonelpermission_bg.map"
 output "../gfx/en_new/tmp/53.bin", create
 insert "../gfx/jp/53.bin"
 origin 0x0000; insert "../gfx/en_new/tmp/gina_ransom_letter.gfx"
+origin 0x1000; insert "../gfx/en_new/tmp/antbuster.gfx"
 
 //56 - Graphics - Office Sign
 output "../gfx/en_new/tmp/56.bin", create

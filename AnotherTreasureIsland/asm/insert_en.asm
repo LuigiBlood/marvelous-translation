@@ -166,6 +166,9 @@ pal_ch3_mgmtofficesign_bg:
 seekFile($2C9EE0)
 pal_ch3_mgmtofficesign_spr:
 	insert "../gfx/en_new/tmp/mgmt_office_sign_spr.pal"
+seekFile($2CC380)
+pal_ch4_antbuster:
+	insert "../gfx/en_new/tmp/antbuster.pal"
 seekFile($2CC620)
 pal_ch5_colonel_note_bg:
 	insert "../gfx/en_new/tmp/colonelpermission_bg.pal"
