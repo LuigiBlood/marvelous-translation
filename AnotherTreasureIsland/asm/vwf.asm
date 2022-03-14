@@ -1059,7 +1059,9 @@ seekAddr($8FAE87)	//SNES / Ch.2 - When Ms. Sisko talks to the kids after getting
 	nop; nop
 	sep #$20
 	db $90	//BCC
-//seekAddr($99DB7C)
+//seekAddr($99DB7C)	//SNES / Ch.4 - After the Boss, when Polly thanks you (0x1260 / Script ID: 1568)
+					//???? THIS IS USELESS CODE, WTF, there wouldn't be a single change in the results
+					//No change needed
 	//jsl event_char_detection
 	//nop; nop
 	//sep #$20
