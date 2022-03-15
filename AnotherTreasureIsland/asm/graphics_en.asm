@@ -19,6 +19,17 @@ output "../gfx/en_new/tmp/3D.bin", create
 insert "../gfx/jp/3D.bin"
 origin 0x0000; insert "../gfx/en_new/img/intro.pal"
 
+//--Credits
+//3E - Graphics - Credits
+output "../gfx/en_new/tmp/3E.bin", create
+insert "../gfx/jp/3E.bin"
+origin 0x0000; insert "../gfx/en_new/tmp/credits.gfx"
+
+//3F - Tilemap - Credits
+output "../gfx/en_new/tmp/3F.bin", create
+insert "../gfx/jp/3F.bin"
+origin 0x0000; insert "../gfx/en_new/tmp/credits.map"
+
 //--Search Mode - Tilemaps
 //48 - Tilemap - Gina Ransom Letter & Ant Buster
 output "../gfx/en_new/tmp/48.bin", create

@@ -49,6 +49,10 @@ echo - colonelpermission_spr.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\colonelpermission_spr.png" -p ".\gfx\en_new\img\colonelpermission_spr.pal" -d ".\gfx\en_new\tmp\colonelpermission_spr.gfx" -S -D -W 16 -H 16
 echo - searchmenu.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\searchmenu.png" -p ".\gfx\en_new\img\searchmenu.pal" -d ".\gfx\en_new\tmp\searchmenu.gfx" -S -T 48 -W 16 -H 16
+echo - credits.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\credits.png" -p ".\gfx\en_new\img\credits.pal" -o ".\gfx\en_new\tmp\credits_4bpp.png" -B 4 -T 128 -W 16 -H 16
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\tmp\credits_4bpp.png" -p ".\gfx\en_new\img\credits.pal" -d ".\gfx\en_new\tmp\credits.gfx" -B 2 -D -T 128 -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\credits.png" -p ".\gfx\en_new\img\credits.pal" -t ".\gfx\en_new\tmp\credits.gfx" -d ".\gfx\en_new\tmp\credits.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
 echo Building English Graphics Files...
 ".\tools\bass\bass" ".\asm\graphics_en.asm"
 echo Done.

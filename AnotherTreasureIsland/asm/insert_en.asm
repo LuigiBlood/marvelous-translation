@@ -196,9 +196,9 @@ map_intro:				//3C - $1257F6
 pal_intro:				//3D - $125ADD
 	insert "../gfx/en_new/lz/3D.bin.lz"
 gfx_credits:			//3E - $125BB6
-	insert "../gfx/en/lz/lz_credits_gfx.bin.lz"
+	insert "../gfx/en_new/lz/3E.bin.lz"
 map_credits:			//3F - $12735C
-	insert "../gfx/en/lz/lz_credits_map.bin.lz"
+	insert "../gfx/en_new/lz/3F.bin.lz"
 
 //Search Mode - Tilemaps (48 to 50)
 map_ch1_gina_ransom:	//48 - $12A9D0
