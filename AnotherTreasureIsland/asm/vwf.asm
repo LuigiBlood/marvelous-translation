@@ -893,7 +893,7 @@ space_check_sound:
 	rtl
 //Characters that shouldn't make a sound (spaces and others)
 space_check_sound_table:
-	dw $1A, $E0, $E1, $E2, $E3, $E4, $EF, $F0
+	dw $1A, $E0, $E1, $E2, $E3, $E4, $E5, $EF, $F0
 space_check_sound_table_end:
 //Script IDs (*3) that shouldn't make a sound entirely
 script_check_sound_table:
