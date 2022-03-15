@@ -49,6 +49,8 @@ echo - colonelpermission_spr.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\colonelpermission_spr.png" -p ".\gfx\en_new\img\colonelpermission_spr.pal" -d ".\gfx\en_new\tmp\colonelpermission_spr.gfx" -S -D -W 16 -H 16
 echo - searchmenu.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\searchmenu.png" -p ".\gfx\en_new\img\searchmenu.pal" -d ".\gfx\en_new\tmp\searchmenu.gfx" -S -T 48 -W 16 -H 16
+echo - title.png
+".\tools\conv\superfamiconv.exe" -i ".\gfx\en_new\img\title.png" -p ".\gfx\en_new\tmp\title.pal" -t ".\gfx\en_new\tmp\title.gfx" -m ".\gfx\en_new\tmp\title.map" -B 4 -P 7 -T 512
 echo - credits.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\credits.png" -p ".\gfx\en_new\img\credits.pal" -o ".\gfx\en_new\tmp\credits_4bpp.png" -B 4 -T 128 -W 16 -H 16
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\tmp\credits_4bpp.png" -p ".\gfx\en_new\img\credits.pal" -d ".\gfx\en_new\tmp\credits.gfx" -B 2 -D -T 128 -W 16 -H 16

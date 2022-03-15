@@ -1,6 +1,16 @@
 //Graphics Generation
 
-//--Intro
+//--Intro & Title
+//35 - Graphics - Title Logo
+output "../gfx/en_new/tmp/35.bin", create
+fill 0x2000,$00
+origin 0x0000; insert "../gfx/en_new/tmp/title.gfx"
+
+//38 - Tilemap - Title Logo
+output "../gfx/en_new/tmp/38.bin", create
+fill 0x400,$00
+origin 0x0000; insert "../gfx/en_new/tmp/title.map"
+
 //39,3A,3B - Graphics - Intro Text
 output "../gfx/en_new/tmp/39.bin", create
 fill 0x1000,$00
@@ -18,6 +28,7 @@ origin 0x0000; insert "../gfx/en_new/img/intro.gfx",0x2000,0x2000
 output "../gfx/en_new/tmp/3D.bin", create
 insert "../gfx/jp/3D.bin"
 origin 0x0000; insert "../gfx/en_new/img/intro.pal"
+origin 0x00E0; insert "../gfx/en_new/tmp/title.pal"
 
 //--Credits
 //3E - Graphics - Credits

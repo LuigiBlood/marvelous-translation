@@ -181,10 +181,10 @@ map_teamname:			//18 - $0E286B
 	insert "../gfx/en_new/lz/lz_teamname_map.bin.lz"
 
 gfx_title:				//35 - $121964
-	insert "../gfx/en/lz/lz_title_gfx.bin.lz"
+	insert "../gfx/en_new/lz/35.bin.lz"
 
 map_title:				//38 - $123726
-	insert "../gfx/en/lz/lz_title_map.bin.lz"
+	insert "../gfx/en_new/lz/38.bin.lz"
 gfx_intro1:				//39 - $123951
 	insert "../gfx/en_new/lz/39.bin.lz"
 gfx_intro2:				//3A - $1246DE
