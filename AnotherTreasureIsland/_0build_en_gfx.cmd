@@ -51,6 +51,11 @@ echo - searchmenu.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\searchmenu.png" -p ".\gfx\en_new\img\searchmenu.pal" -d ".\gfx\en_new\tmp\searchmenu.gfx" -S -T 48 -W 16 -H 16
 echo - title.png
 ".\tools\conv\superfamiconv.exe" -i ".\gfx\en_new\img\title.png" -p ".\gfx\en_new\tmp\title.pal" -t ".\gfx\en_new\tmp\title.gfx" -m ".\gfx\en_new\tmp\title.map" -B 4 -P 7 -T 512
+echo - intro.png
+".\tools\conv\superfamiconv.exe" palette -i ".\gfx\en_new\img\intro.png" -d ".\gfx\en_new\tmp\intro.pal" -W 16 -H 16
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\intro.png" -p ".\gfx\en_new\tmp\intro.pal" -o ".\gfx\en_new\tmp\intro_4bpp.png" -B 4 -W 16 -H 16
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\tmp\intro_4bpp.png" -p ".\gfx\en_new\tmp\intro.pal" -d ".\gfx\en_new\tmp\intro.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\intro.png" -p ".\gfx\en_new\tmp\intro.pal" -t ".\gfx\en_new\tmp\intro.gfx" -d ".\gfx\en_new\tmp\intro.map" -B 2 -W 16 -H 16 --split-width 32 --split-height 64
 echo - credits.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\credits.png" -p ".\gfx\en_new\img\credits.pal" -o ".\gfx\en_new\tmp\credits_4bpp.png" -B 4 -T 128 -W 16 -H 16
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\tmp\credits_4bpp.png" -p ".\gfx\en_new\img\credits.pal" -d ".\gfx\en_new\tmp\credits.gfx" -B 2 -D -T 128 -W 16 -H 16

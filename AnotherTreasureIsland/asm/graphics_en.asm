@@ -28,20 +28,26 @@ priority(0, 0x400)
 //39,3A,3B - Graphics - Intro Text
 output "../gfx/en_new/tmp/39.bin", create
 fill 0x1000,$00
-origin 0x0000; insert "../gfx/en_new/img/intro.gfx",0x0000,0x1000
+origin 0x0000; insert "../gfx/en_new/tmp/intro.gfx",0x0000,0x1000
 
 output "../gfx/en_new/tmp/3A.bin", create
 fill 0x1000,$00
-origin 0x0000; insert "../gfx/en_new/img/intro.gfx",0x1000,0x1000
+origin 0x0000; insert "../gfx/en_new/tmp/intro.gfx",0x1000,0x1000
 
 output "../gfx/en_new/tmp/3B.bin", create
 fill 0x2000,$00
-origin 0x0000; insert "../gfx/en_new/img/intro.gfx",0x2000,0x2000
+origin 0x0000; insert "../gfx/en_new/tmp/intro.gfx",0x2000,0x2000
+
+//3C - Tilemap - Intro
+output "../gfx/en_new/tmp/3C.bin", create
+insert "../gfx/jp/3C.bin"
+origin 0x0000; insert "../gfx/en_new/tmp/intro.map"
+priority(0, 0x1000)
 
 //3D - Palette - Intro
 output "../gfx/en_new/tmp/3D.bin", create
 insert "../gfx/jp/3D.bin"
-origin 0x0000; insert "../gfx/en_new/img/intro.pal"
+origin 0x0000; insert "../gfx/en_new/tmp/intro.pal"
 origin 0x00E0; insert "../gfx/en_new/tmp/title.pal"
 
 //--Credits
