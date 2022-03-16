@@ -41,7 +41,9 @@ origin 0x0000; insert "../gfx/en_new/tmp/intro.gfx",0x2000,0x2000
 //3C - Tilemap - Intro
 output "../gfx/en_new/tmp/3C.bin", create
 insert "../gfx/jp/3C.bin"
+fill 0x1000,$00
 origin 0x0000; insert "../gfx/en_new/tmp/intro.map"
+origin 0x0C40; insert "../gfx/en_new/tmp/intro.map",0x0020,0x03C0
 priority(0, 0x1000)
 
 //3D - Palette - Intro
