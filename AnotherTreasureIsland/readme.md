@@ -11,8 +11,10 @@ tashi
 ## You can build this by using:
 - bass (ARM9 fork): https://github.com/ARM9/bass
   - Must be in `./tools/bass`.
+  - Tested with bass v18
 - Lunar Compress: http://fusoya.eludevisibility.org/lc/index.html
   - Must be in `./tools/lc`.
+  - Tested with Lunar Compress 1.90
 - SuperFamiconv: https://github.com/Optiroc/SuperFamiconv
   - Must be in `./tools/conv`.
 - Put the original ROM as `./roms/Marvelous_JP.sfc`
