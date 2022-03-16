@@ -1,5 +1,18 @@
 //Graphics Generation
 
+macro priority(variable start, variable size) {
+	//Set Priority Bit
+	variable x = start
+	x = x + 1
+	variable y = 0
+	y = start + size
+	while x < y {
+		origin x
+		db (read(x) | 0x20)
+		x = x + 2
+	}
+}
+
 //--Intro & Title
 //35 - Graphics - Title Logo
 output "../gfx/en_new/tmp/35.bin", create
@@ -10,6 +23,7 @@ origin 0x0000; insert "../gfx/en_new/tmp/title.gfx"
 output "../gfx/en_new/tmp/38.bin", create
 fill 0x400,$00
 origin 0x0000; insert "../gfx/en_new/tmp/title.map"
+priority(0, 0x400)
 
 //39,3A,3B - Graphics - Intro Text
 output "../gfx/en_new/tmp/39.bin", create
