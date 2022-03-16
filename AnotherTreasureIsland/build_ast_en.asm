@@ -1,5 +1,5 @@
 //Build Marvelous ~Another Treasure Island~ English
-arch snes.cpu
+architecture snes.cpu
 
 include "./asm/macros.asm"
 

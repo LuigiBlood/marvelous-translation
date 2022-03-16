@@ -38,13 +38,13 @@ arch snes.cpu
 //32*8=256 pixels wide per line for Item Name in Pause Menu
 
 //D = 3500, DB = 00
-define charcurrent($9C)	//(Global) Current Char Tile
-define scriptid($AA)	//(Global) Script ID * 3
-define charshift($EE)	//(Global) Shift
-define charsize($F0)	//(Global) Width of 8x16
-define charnext($F2)	//(Global) Next Char
-define itemkeep($F4)	//(Global) Keep Item
-define charmode($F6)	//(Global) Rendering Mode: Variable Width (00), Fixed Width (FF)
+define charcurrent = $9C	//(Global) Current Char Tile
+define scriptid = $AA		//(Global) Script ID * 3
+define charshift = $EE		//(Global) Shift
+define charsize = $F0		//(Global) Width of 8x16
+define charnext = $F2		//(Global) Next Char
+define itemkeep = $F4		//(Global) Keep Item
+define charmode = $F6		//(Global) Rendering Mode: Variable Width (00), Fixed Width (FF)
 
 //Experimental Border Flickering Fix (when selecting an item)
 //Actually sets color palette for faces
@@ -844,12 +844,12 @@ next_vwf:
 	rtl
 
 //--Check for Spaces / Script ID for sounds
-pushvar pc
+enqueue pc
 seekAddr($9FBCF4)
 	jsl space_check_sound
 seekAddr($9FDF37)
 	jsl space_check_sound
-pullvar pc
+dequeue pc
 
 space_check_sound:
 	pha
@@ -920,12 +920,12 @@ itemselect_check2:
 +;	rtl
 
 //Turning Cross Puzzle Fixes
-pushvar pc
+enqueue pc
 seekFile($2FCC11)
 	jsl fix_special_turning_puzzle1; nop
 seekFile($2FCC5F)
 	jsl fix_special_turning_puzzle2
-pullvar pc
+dequeue pc
 
 fix_special_turning_puzzle1:
 	jsl mode_fixed_width	//Fixed Width Mode
@@ -942,10 +942,10 @@ fix_special_turning_puzzle2:	//Variable Width Mode for "OK?"
 	rtl
 
 //Watering Robot Path Fixes
-pushvar pc
+enqueue pc
 seekAddr($9FCB1D)
 	jsl fix_waterrobotpath1; nop; nop
-pullvar pc
+dequeue pc
 
 fix_waterrobotpath1:
 	jsl reset_vwf_zero
@@ -955,7 +955,7 @@ fix_waterrobotpath1:
 	rtl
 
 //Half Char for Luck Rock Amount Fixes
-pushvar pc
+enqueue pc
 seekAddr($9FC072)
 	nop; nop; nop; nop; nop
 seekAddr($9FC07D)
@@ -975,12 +975,12 @@ seekAddr($9FC125)
 	nop; nop; nop; nop; nop
 seekAddr($9FC130)
 	nop; nop; nop; nop
-pullvar pc
+dequeue pc
 
 //Fix Stuck Events (Breakpoint $8CE327)
 //-- Breakpoint $8CE304 - Event Set Script ID?
 //-- Breakpoint $8CE32D - Event Check
-pushvar pc
+enqueue pc
 seekAddr($038DB9)	//SA-1 / Ch.3 - Town Manager and Lunch Box (Script ID: 203)
 	jsl event_char_detection
 	nop
@@ -1066,7 +1066,7 @@ seekAddr($8FAE87)	//SNES / Ch.2 - When Ms. Sisko talks to the kids after getting
 	//nop; nop
 	//sep #$20
 	//db $90	//BCC
-pullvar pc
+dequeue pc
 
 event_char_detection:
 	phx

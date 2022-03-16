@@ -2,14 +2,14 @@
 seekAddr($BF8000)
 
 //Increase Introduction Scrolling Speed
-pushvar pc
+enqueue pc
 seekAddr($9FFA69)
 	//lda $76; cmp.w #$0004
 	jsl pal_intro_scrolling; nop
 seekAddr($9FFA70)
 	//stz $76
 	nop; nop
-pullvar pc
+dequeue pc
 
 pal_intro_scrolling:
 	lda $76
