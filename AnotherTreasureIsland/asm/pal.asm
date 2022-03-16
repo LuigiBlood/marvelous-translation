@@ -27,7 +27,7 @@ pal_intro_scrolling:
 	stz $76
 +;	rtl
 
-//King Bull Dance Sync ($05AF38 / $05AF77 / $05AFE0)
+//King Bull Dance Sync (Ch.1) ($05AF38 / $05AF77 / $05AFE0)
 //Intro
 seekAddr($05AE58)
 	//db $10, $10, $10, $10, $08, $08, $08, $08, $08, $08, $14, $14, $14, $14, $14, $14, $14
@@ -43,8 +43,9 @@ seekAddr($05AEA1)
 	//db $14, $14, $14, $14, $14, $14
 	db 16, 16, 16, 16, 16, 16
 
-//Indio Kidnapping Dance Sync
-//Jean & Ken Dance Sync
+//Indio Kidnapping Dance Sync (Ch.2)
+//Jean & Ken Swap Dance Sync (Ch.3)
+//Jean & Ken Rock Dance Sync (Ch.3)
 //Team Victory Dance
 //Jack - Building Stairs (Ch.1)
 //Jack - Building Mr. Diggy (Ch.2)
