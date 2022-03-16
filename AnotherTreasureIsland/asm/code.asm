@@ -78,7 +78,12 @@ seekFile($2C10A3)
 //Top Left, Bottom Left, Top Right, Bottom Right
 
 //Is only called when a chore is done.
+seekAddr($A88000)
+
+enqueue pc
 seekAddr($97B5F5)
+	jml asm_chore_list_check
+dequeue pc
 asm_chore_list_check:
 	txa
 	lsr
@@ -90,7 +95,11 @@ asm_chore_list_check:
 	//02 =  1 X2 X3
 	//03 =  1 X2  3
 	//04 = X1 X2  3
-	asl
+	cmp.w #$0005
+	bcc +
+
+	jml $97B5FB
++;	asl
 	tay
 
 	phb
@@ -110,11 +119,15 @@ asm_chore_list_check:
 	ldy.w #$E000
 	mvn $7E=(tbl_chore_list_maps >> 16)
 	plb
+	jml $97B6CC
 	rts
 
 //Management Office Tilemap Full ($97B6DD)
 //Same as Chore List
+enqueue pc
 seekAddr($97B6DD)
+	jml asm_mgmt_office_remap
+dequeue pc
 asm_mgmt_office_remap:
 	txa
 	lsr
@@ -122,8 +135,10 @@ asm_mgmt_office_remap:
 	sbc.w #$00A4
 	//Value:
 	//00 = Full Sign
-	//01 = Broken Sign
-	asl
+	//01 = 231 Sign (do not touch)
+	beq +
+	jml $97B6E3
++;	asl
 	tay
 
 	phb
@@ -143,11 +158,15 @@ asm_mgmt_office_remap:
 	ldy.w #$E000
 	mvn $7E=(tbl_mgmt_office_maps >> 16)
 	plb
+	jml $97B781
 	rts
 
 //Ship Notes - Numbers ($97B9F6)
 //Same as Chore List
+enqueue pc
 seekAddr($97B9F6)	//Which note
+	jml asm_shipnote_remap
+dequeue pc
 asm_shipnote_remap:
 	txa
 	lsr
@@ -158,7 +177,10 @@ asm_shipnote_remap:
 	//1 = Sike!
 	//2 = 12358
 	//3 = Upside Down 1436
-	//4 = 7654321 (IS THIS UNUSED?)
+	//4 = 7654321 (UNUSED? We won't do anything to it just in case)
+	cmp.w #$0004
+	bcc _asm_shipnote_remap_do
+	jml $97B9FC
 _asm_shipnote_remap_do:
 	asl
 	tay
@@ -180,11 +202,14 @@ _asm_shipnote_remap_do:
 	ldy.w #$E000
 	mvn $7E=(tbl_ship_notes_maps >> 16)
 	plb
+	jml $97BAC5
 	rts
 
 //Ship Notes - Letters ($97BB02)
 //Same as Chore List
+enqueue pc
 seekAddr($97BB02)
 	//No Values, just one
 	lda.w #$0005
 	jml _asm_shipnote_remap_do
+dequeue pc
