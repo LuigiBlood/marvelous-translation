@@ -73,7 +73,7 @@ seekFile($2C1F12)	//Change place to entry number (Save & Exit, see code.asm)
 //--Large Messages
 //Monkey Screech, "HEY!", "That's Enough / Cut it OUT!"
 seekFile($2CE000)
-	insert "../gfx/en_new/font_large.bin"
+	insert "../gfx/en_new/tmp/font_large.bin"
 
 //Leader Names
 seekFile($2FC8D7)

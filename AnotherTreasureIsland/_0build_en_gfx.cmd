@@ -64,6 +64,10 @@ echo - copyright.png
 ".\tools\conv\superfamiconv.exe" -i ".\gfx\en_new\img\copyright.png" -p ".\gfx\en_new\tmp\copyright.pal" -t ".\gfx\en_new\tmp\copyright.gfx" -S -T 6 -W 16 -H 16
 echo - subtitle.png
 ".\tools\conv\superfamiconv.exe" -i ".\gfx\en_new\img\subtitle.png" -p ".\gfx\en_new\tmp\subtitle.pal" -t ".\gfx\en_new\tmp\subtitle.gfx" -S -T 10 -W 16 -H 16
+echo - large_shreek.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\large_shreek.png" -p ".\gfx\en_new\img\large_font.pal" -d ".\gfx\en_new\tmp\large_shreek.gfx" -B 2 -D
+echo - large_cutitout.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\large_cutitout.png" -p ".\gfx\en_new\img\large_font.pal" -d ".\gfx\en_new\tmp\large_cutitout.gfx" -B 2 -D
 echo Building English Graphics Files...
 ".\tools\bass\bass" ".\asm\graphics_en.asm"
 echo Done.
