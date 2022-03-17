@@ -51,6 +51,10 @@ output "../gfx/en_new/tmp/3D.bin", create
 insert "../gfx/jp/3D.bin"
 origin 0x0000; insert "../gfx/en_new/tmp/intro.pal"
 origin 0x00E0; insert "../gfx/en_new/tmp/title.pal"
+//New
+origin 0x0120; insert "../gfx/en_new/tmp/subtitle.pal"
+origin 0x0140; fill 0x20,0xFF
+origin 0x0160; insert "../gfx/en_new/tmp/copyright.pal"
 
 //--Credits
 //3E - Graphics - Credits
@@ -149,6 +153,16 @@ origin 0x0000; insert "../gfx/en_new/tmp/ship_note.gfx",0x0000,0x1000
 output "../gfx/en_new/tmp/69.bin", create
 insert "../gfx/jp/69.bin"
 origin 0x0000; insert "../gfx/en_new/tmp/colonelpermission_bg.gfx"
+
+//DA - Graphics - Nintendo Copyright and More
+output "../gfx/en_new/tmp/DA.bin", create
+insert "../gfx/jp/DA.bin"
+origin 0x1800; insert "../gfx/en_new/tmp/copyright.gfx"
+
+//DB - Graphics - Subtitle
+output "../gfx/en_new/tmp/DB.bin", create
+insert "../gfx/jp/DB.bin"
+origin 0x0000; insert "../gfx/en_new/tmp/subtitle.gfx"
 
 //E0 - Graphics - Office Sign (Sprite)
 output "../gfx/en_new/tmp/E0.bin", create

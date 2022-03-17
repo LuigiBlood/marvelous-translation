@@ -12,7 +12,28 @@ seekFile($2AC000)
 seekFile($270000)
 	insert "../text/en_new/kanji.bin"
 
-//--Intro
+//--Title Sprite OAM Data
+seekAddr($9FFF25)
+	//--Copyright
+	db $50,$C0,$80,$26
+	db $60,$C0,$82,$26
+	db $70,$C0,$84,$26
+	db $80,$C0,$86,$26
+	db $90,$C0,$88,$26
+	db $A0,$C0,$8A,$26
+
+	//--Subtitle
+	db $2F,$68,$C0,$22
+	db $3F,$68,$C2,$22
+	db $4F,$68,$C4,$22
+	db $5F,$68,$C6,$22
+	db $6F,$68,$C8,$22
+	db $7F,$68,$CA,$22
+	db $8F,$68,$CC,$22
+	db $9F,$68,$CE,$22
+	db $AF,$68,$E0,$22
+	db $BF,$68,$E2,$22
+	db $AF,$78,$E4,$22
 
 //-Menu
 
@@ -248,9 +269,9 @@ gfx_ch5_colonel_note2:	//69 - $151D31
 gfx_kick_smash_minigame://D9 - $1D860C
     insert "../gfx/en_new/lz/D9.bin.lz"
 gfx_title_nintendo:		//DA - $1D948F
-	insert "../gfx/en_new/lz/lz_nintendo_gfx.bin.lz"
+	insert "../gfx/en_new/lz/DA.bin.lz"
 gfx_title_sub:			//DB - $1DA5ED
-	insert "../gfx/en_new/lz/lz_subtitle_gfx.bin.lz"
+	insert "../gfx/en_new/lz/DB.bin.lz"
 
 gfx_mgmt_office_spr:	//E0
 	insert "../gfx/en_new/lz/E0.bin.lz"

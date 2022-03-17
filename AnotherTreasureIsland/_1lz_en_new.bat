@@ -1,6 +1,4 @@
 ".\tools\lc\recomp.exe" "./gfx/en_new/lz_teamname_map.bin" "./gfx/en_new/lz/lz_teamname_map.bin.lz" 0 19 0
-".\tools\lc\recomp.exe" "./gfx/en_new/lz_subtitle_gfx.bin" "./gfx/en_new/lz/lz_subtitle_gfx.bin.lz" 0 19 0
-".\tools\lc\recomp.exe" "./gfx/en_new/lz_nintendo_gfx.bin" "./gfx/en_new/lz/lz_nintendo_gfx.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/D9.bin" "./gfx/en_new/lz/D9.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/35.bin" "./gfx/en_new/lz/35.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/38.bin" "./gfx/en_new/lz/38.bin.lz" 0 19 0
@@ -27,5 +25,7 @@
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/63.bin" "./gfx/en_new/lz/63.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/64.bin" "./gfx/en_new/lz/64.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/69.bin" "./gfx/en_new/lz/69.bin.lz" 0 19 0
+".\tools\lc\recomp.exe" "./gfx/en_new/tmp/DA.bin" "./gfx/en_new/lz/DA.bin.lz" 0 19 0
+".\tools\lc\recomp.exe" "./gfx/en_new/tmp/DB.bin" "./gfx/en_new/lz/DB.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/E0.bin" "./gfx/en_new/lz/E0.bin.lz" 0 19 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/F8.bin" "./gfx/en_new/lz/F8.bin.lz" 0 19 0
