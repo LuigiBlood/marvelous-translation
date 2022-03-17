@@ -47,5 +47,12 @@ seekAddr($05AEA1)
 //Jean & Ken Swap Dance Sync (Ch.3)
 //Jean & Ken Rock Dance Sync (Ch.3)
 //Team Victory Dance
+seekAddr($12B18A)	//Turn Around
+	//lda.b #$05
+	lda.b #$04
+seekAddr($12B1A5)	//Victory Fist
+	//lda.b #$10
+	lda.b #$0F
+
 //Jack - Building Stairs (Ch.1)
 //Jack - Building Mr. Diggy (Ch.2)
