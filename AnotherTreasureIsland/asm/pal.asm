@@ -44,6 +44,17 @@ seekAddr($05AEA1)
 	db 16, 16, 16, 16, 16, 16
 
 //Indio Kidnapping Dance Sync (Ch.2)
+//($09B968 - Turn Around - 1)
+seekAddr($09B968)
+	lda.b #$25
+//($09BD76 - Laugh Jingle)
+seekAddr($09BD76)
+	lda $6f58,x
+	inc
+	cmp.b #$0D
+	sta $6f58,x
+	db $90	//BCC
+
 //Jean & Ken Swap Dance Sync (Ch.3)
 //Jean & Ken Rock Dance Sync (Ch.3)
 //Team Victory Dance
