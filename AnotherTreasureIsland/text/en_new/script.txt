@@ -670,8 +670,9 @@ If you dawdle, you'll be late for
 [en2]
 
 [team] Team's Final Score:
-[nl2]Collected: [X$6B][Leader]
-[nl3]Helped people: [X$6C][One2]%  Meaning...
+[nl2]Collected:[Space5]         [X$6B][Leader]
+[nl3]Helped people:[Space3][Space8][Space8]    [X$6C]%[One2]
+That means...                 
 [en1]
 
 Hassan isn't really a soldier,[np]

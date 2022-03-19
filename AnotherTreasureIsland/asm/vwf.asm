@@ -174,6 +174,8 @@ seekFile($2FBCD5)	//Space Fix
 //VWF Hack - Small Text
 seekFile($2FDDD2)
 	jsr reset_vwf_r2
+seekFile($2FE698)	//Final
+	jsr reset_vwf_r2
 //-Regular Chars
 seekFile($2FDF48)	//Left Half of Char
 	jsr setup_vwf_rs
