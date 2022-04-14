@@ -140,8 +140,10 @@ seekAddr($8DF169)
 	clc
 	adc.w #$3004
 	sta $7F0124
-	nop; nop; nop; nop; nop
-	nop; nop; nop; nop; nop
+
+	jsl asm_set_chapter_tilemap
+	//nop; nop; nop; nop
+	nop; nop; nop; nop; nop; nop
 	nop
 
 //Expand File 0x3B to 0x2000 bytes

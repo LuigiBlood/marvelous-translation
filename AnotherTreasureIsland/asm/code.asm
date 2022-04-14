@@ -213,3 +213,99 @@ seekAddr($97BB02)
 	lda.w #$0005
 	jml _asm_shipnote_remap_do
 dequeue pc
+
+//Chapter Screen ($8DF1EC - SNES CPU)
+asm_set_chapter_tilemap:
+	ldx.b #0
+	lda.w #$30E0
+-;	sta $7F0198,x
+	inc; inc; inx; inx
+	cpx.b #16
+	bne -
+	rtl
+
+//$2F - do +2 when changing Gameplay mode?
+//$E6 - Current Char (*2)
+//$FE - Timing (From 0xC0)
+//$3100 - Chapter ID (*2)
+//JSL $00FC35 (Play SFX, use 0x2C)
+
+//Notes:
+//$33C8 - VRAM Address (Word)
+//$33CA - Full Address to DMA From
+//$33CD - Size (bytes)
+enqueue pc
+seekAddr($8DF1E0)
+	lda.b #$FF
+seekAddr($8DF1EC)
+	jsl asm_chapter_screen_loop
+	rts
+dequeue pc
+asm_chapter_screen_loop:
+	ldx $3100
+	lda $E6
+	cmp ani_chapter_frames,x
+	beq +
+	lda $FE
+	cmp.b #(0xFF-0x30)
+	bcs +
+	and.b #$07
+	bne +
+	//VRAM DMA Setup
+	rep #$20
+	lda.w #$0E00/2
+	sta $33C8
+	lda ani_chapter_addr,x
+	adc $e5
+	sta $33CA
+	lda ani_chapter_bank,x
+	sta $33CC
+	lda.w #$0200
+	sta $33CD
+	//Play SFX
+	sep #$20
+	lda.b #$2C
+	jsl $00fC35
+
+	inc $E6
+	inc $E6
++;	dec $FE
+	bne +
+	inc $2F
+	inc $2F
++;	clc; rtl
+
+enqueue pc
+seekFile($3F0000)
+
+	insert gfx_chapter1_ani,"../text/en_new/chapter1.bin"
+	insert gfx_chapter2_ani,"../text/en_new/chapter2.bin"
+	insert gfx_chapter3_ani,"../text/en_new/chapter3.bin"
+	insert gfx_chapter4_ani,"../text/en_new/chapter4.bin"
+	insert gfx_chapter5_ani,"../text/en_new/chapter5.bin"
+
+constant gfx_chapter1_ani_frames = gfx_chapter1_ani.size / 0x200
+constant gfx_chapter2_ani_frames = gfx_chapter2_ani.size / 0x200
+constant gfx_chapter3_ani_frames = gfx_chapter3_ani.size / 0x200
+constant gfx_chapter4_ani_frames = gfx_chapter4_ani.size / 0x200
+constant gfx_chapter5_ani_frames = gfx_chapter5_ani.size / 0x200
+
+ani_chapter_frames:
+	dw gfx_chapter1_ani_frames*2
+	dw gfx_chapter2_ani_frames*2
+	dw gfx_chapter3_ani_frames*2
+	dw gfx_chapter4_ani_frames*2
+	dw gfx_chapter5_ani_frames*2
+ani_chapter_addr:
+	dw gfx_chapter1_ani
+	dw gfx_chapter2_ani
+	dw gfx_chapter3_ani
+	dw gfx_chapter4_ani
+	dw gfx_chapter5_ani
+ani_chapter_bank:
+	dw gfx_chapter1_ani>>16
+	dw gfx_chapter2_ani>>16
+	dw gfx_chapter3_ani>>16
+	dw gfx_chapter4_ani>>16
+	dw gfx_chapter5_ani>>16
+dequeue pc
