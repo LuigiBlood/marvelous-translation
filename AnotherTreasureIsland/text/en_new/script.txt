@@ -7766,7 +7766,7 @@ You only have [X$6B][LuckRock].
 You have [X$6B][LuckRock]!
 [en1]
 
-You have[X$6B][LuckRock]. Put them in?
+[X$6B][LuckRock] Put them in?
 [nl2][ ][ ][ ][ ]Put 'em in!
 [nl3][ ][ ][ ][ ]Let's not after all![X$68]
 [en1]
@@ -14147,7 +14147,7 @@ This's the girl tent! One at a time!
 [en2]
 
 [X$6A][SChing]        Another Luck Rock!
-[nl2]     Now we've got[X$6B] of 'em!
+[nl2]     We've got[X$6B] of 'em!
 [en2]
 
 No, no, no! This is the lady's tent!
