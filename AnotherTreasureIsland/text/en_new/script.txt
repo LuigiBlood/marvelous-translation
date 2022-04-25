@@ -353,12 +353,13 @@ Fugo, fufugo, fugogo.[np]
 
 Fugo! Fugo, fugogo.[np]
 [nl2]TL: Okay, listen up, the rules are
-[nl3]simple.[np]
-[scl]Run around the track [Two] times.[np]
-[scl]Whoever finishes first wins.[np]
-[scl]Since I'm such a nice guy, you can
-[scl]have a head start.[np]
-[scl]Start when you're ready.
+[nl3]   simple:[np]
+[scl]   Run around the track [Two]
+[scl]   times. Whoever finishes first
+[scl]   is the winner.[np]
+[scl]   Since I'm such a nice guy, you
+[scl]   can have a head start.
+[scl]   Start when you're ready.
 [en1]
 
 Something's not right. We'll need to
@@ -408,7 +409,7 @@ Dear [team] Team,
 
 Bow-wow-wow-wo-wow![np]
 [nl2]TL: Who's there?! I'll eat you![np]
-[nl3]I'll eat anything in my way!
+[nl3]   I'll eat anything in my way!
 [en2]
 
 Then you need to find that crystal
@@ -418,9 +419,9 @@ Then you need to find that crystal
 
 Chirpoo? Chirp.[np]
 [nl2]TL: What's wrong? That will never
-[nl3]work.[np]
-[scl]The three of you need to line up
-[scl]more closely to it.
+[nl3]   work.[np]
+[scl]   The three of you need to line
+[scl]   up more closely to it.
 [en2]
 
 If I stay here, another dog might
@@ -477,8 +478,8 @@ It was all in good fun, right?[np]
 [en2]
 
 Ooo, Ooo Eeek~![np]
-[nl2]TL: SOS at northwest tree. Help
-[nl3]them!
+[nl2]TL: SOS at northwest tree.
+[nl3]   Help them!
 [en2]
 
 I'm sure she's still in the cave!
@@ -491,7 +492,7 @@ I'll bet they can get some good oil
 
 Chiroro? Chir-chirpee.[np]
 [nl2]TL: What's wrong? Your timing is
-[nl3]off. Give it another try.
+[nl3]   off. Give it another try.
 [en1]
 
 [nl2] Gum or candy....
@@ -537,7 +538,7 @@ I... Regret... NOTHING.
 
 ...Chirp. Chi-chirp.[np]
 [nl2]TL: I know you're excited, but
-[nl3]we're not done yet.
+[nl3]   we're not done yet.
 [en1]
 
 You have to hurry and pick it up...
@@ -615,12 +616,12 @@ What a giant keyhole~![np]
 
 Chirpoo, chirp-chirp.[np]
 [nl2]TL: We can't go any further.[np]
-[nl3]The elder was really strict about
-[scl]that.[np]
-[scl]Now you guys will have to come
-[scl]up with something.[np]
-[scl]Don't worry, I'm sure it will be
-[scl]okay.
+[nl3]   The elder was really strict
+[scl]   about that.[np]
+[scl]   Now you guys will have to
+[scl]   come up with something.[np]
+[scl]   Don't worry, I'm sure it will be
+[scl]   okay.
 [en1]
 
 This should be a piece of cake!!
@@ -672,7 +673,7 @@ If you dawdle, you'll be late for
 [team] Team's Final Score:
 [nl2]Collected:[Space5]         [X$6B][Leader]
 [nl3]Helped people:[Space3][Space8][Space8]    [X$6C]%[One2]
-That means...                 
+That means...
 [en1]
 
 Hassan isn't really a soldier,[np]
@@ -683,7 +684,7 @@ Hassan isn't really a soldier,[np]
 
 [SMonkey1]Uho-ho![np]
 [nl2]TL: Want to challenge me?
-[nl3]It'll cost you [num] {L}{u}{c}{k} {R}{o}{c}{k}.[X$6A][np]
+[nl3]   It'll cost you [num] {L}{u}{c}{k} {R}{o}{c}{k}.[X$6A][np]
 [scl][ ][ ][ ][ ]Let's go!
 [scl][ ][ ][ ][ ]No way. Ookiki![X$68]
 [en1]
@@ -1164,8 +1165,9 @@ Wh-wh-whoa~~~~~!!!
 
 ...Huh? You want to know my
 [nl2]number?[np]
-[nl3]Alright, my number sounds like the
-[scl]noise a dog makes.
+[nl3]Alright, my number rhymes with a
+[scl]word a you might use to describe
+[scl]having good time. Did you get it?
 [en2]
 
 [F2]The {R}{e}{d}[Space6]{K}{e}{y} is now {R}{e}{d}[Space6]{K}{e}{y}[X$6B]![np]
@@ -1175,7 +1177,8 @@ Wh-wh-whoa~~~~~!!!
 ...Hmm? You want to know my
 [nl2]number?[np]
 [nl3]Alright, when you say my number,
-[scl]you make a kissing face.
+[scl]you might pucker your lips.
+[scl]I know I do...
 [en2]
 
 I'm not going to shout, so come
@@ -1333,9 +1336,10 @@ What?... This {B}{l}{u}{e} {K}{e}{y} won't open
 [nl3]I wonder what's wrong.
 [en1]
 
-...Hm? You want to know my
-[nl2]number?[np]
-[nl3]My number is shaped like a yacht.[np]
+...Hm?
+[nl2]You want to know my number?[np]
+[nl3]Okay, my number is shaped like
+[scl]the sails on a yacht.[np]
 [scl]Can you guess it?
 [en2]
 
@@ -1345,9 +1349,11 @@ What?... This {B}{l}{u}{e} {K}{e}{y} won't open
 [scl]roman numeral, it would be a "V".
 [en2]
 
-You wanna know my number?[np]
-[nl2]It sounds kinda like "socks."
-[nl3]
+...Oh?
+[nl2]You wanna know my number?[np]
+[nl3]It rhymes with the sounds made 
+[scl]by a grandfather clock when the
+[scl]second hand moves. What's it do?
 [en2]
 
 Don't give up! Try again! We need
@@ -1379,24 +1385,29 @@ Er, no, I mean, I, uh, not... is it
 
 ...Whassat?
 [nl2]You wanna know my number?[np]
-[nl3]It sounds like a sizzlin' steak...[np]
-[scl]Man, I'm starving!
+[nl3]I think of this number when I
+[scl]cook fried chicken for dinner.
+[scl]...Why?[np]
+[scl]The name for a female chicken
+[scl]rhymes with this number.[np]
+[scl]All this talk of food is making me
+[scl]hungry. 
 [en2]
 
-What ho?
+...What ho!
 [nl2]You want to know my number?[np]
-[nl3]It's the number of players on a
-[scl]soccer team.
+[nl3]It's the total players each soccer
+[scl]team can have out on the field.
+[scl]...Football, if you're not American.
 [en2]
 
-...Hrrm?
+...Hrrrrm?
 [nl2]You want to know my number?[np]
-[nl3]It sounds like what soldiers say
-[scl]when marching...[np]
-[scl]It's two syllables.
+[nl3]I'll give you a math problem.
+[scl]What's 36 divided by 3?
 [en2]
 
-Hm?
+...What is it?
 [nl2]You want to know my number?[np]
 [nl3]If it's on a Friday, it's really bad
 [scl]luck!
@@ -1406,13 +1417,13 @@ Hm?
 [nl2]room?[np]
 [nl3]Sorry, I'm not in charge of that...
 [scl]You'll have to talk to soldier 
-[scl]#[X$6B] about that.
+[scl]number[X$6B] about that.
 [en2]
 
 I am none other than soldier
-[nl2]#[Six]. Oh, you want in the
+[nl2]number [Six]. Oh, you want in the
 [nl3]archives room?[np]
-[scl]You need to talk to soldier [num][Four]
+[scl]You need to talk to soldier [One][Four]
 [scl]about that.[np]
 [scl]Hahaha! Just kidding. 
 [scl]Oh, you want to turn off the
@@ -1436,7 +1447,8 @@ As I promised, you may enter.
 
 [SChing]Uhohoo~![np]
 [nl2]TL: Thank you, come again~![np]
-[nl3]I'll help myself to [num] {L}{u}{c}{k} {R}{o}{c}{k}~!
+[nl3]   I'll help myself to[num] 
+[scl]   {L}{u}{c}{k} {R}{o}{c}{k}~!
 [en1]
 
 There are pots down there...[np]
@@ -1466,7 +1478,7 @@ Let's get close and take a better
 
 Pegi-pengi-pegu.[np]
 [nl2]TL: It's not so bad being a
-[nl3]human's pet!
+[nl3]   human's pet!
 [en2]
 
 There's something in the pot under
@@ -1562,7 +1574,7 @@ You're tall enough to peep inside.
 
 Fugo. Fufofugo.[np]
 [nl2]TL: I'll give you all these yellow
-[nl3]rocks, too.
+[nl3]   rocks, too.
 [en1]
 
 It looks like a map of this island.[np]
@@ -1917,8 +1929,8 @@ I'm a thief who steals the hearts
 [nl2]of women, a heart thief!
 [en1]
 
-I'm excited, but I'm still nervous...[np]
-[nl2]My heart is on fire!
+My heart is beating out of my
+[nl2]chest, I'm so excited!
 [en2]
 
 [SMonkey2]Kweh! kweh!![np]
@@ -3107,18 +3119,18 @@ This Crystal ball belongs to you...
 
 Fugugo? Fuungo, fugogo![np]
 [nl2]TL: ...I know. You're here for this
-[nl3]thing on my back.[np]
-[scl]If you think you can take it, give
-[scl]it your best shot![np]
-[scl]I'm not a pushover like my
-[scl]brothers, so get ready!
+[nl3]   thing on my back.[np]
+[scl]   If you think you can take it,
+[scl]   give it your best shot![np]
+[scl]   I'm not a pushover like my
+[scl]   brothers, so get ready!
 [en2]
 
 Fugo, fugo......... Fuuungo.[np]
 [nl2]TL: Of all the humans in the world,
-[scl]I evaluate your skills...[np]
+[scl]   I evaluate your skills as...[np]
 [scl]
-[scl]...As UNRIVALED.
+[scl]   ...UNRIVALED.
 [scl]
 [en2]
 
@@ -4321,7 +4333,7 @@ What are you doing?!
 
 My, myy.[np]
 [nl2]TL: Now that I've got a home, all
-[nl3]I need... Is a wife.
+[nl3]   I need... Is a wife.
 [en2]
 
 Wha?!!!!!!!! Who is this
@@ -6118,8 +6130,8 @@ When you're in trouble, try
 
 Squeak, squeak![np]
 [nl2]TL: I'm a prankster mouse. If you
-[nl3]hear a scream, it's probably
-[scl]thanks to me.
+[nl3]   hear a scream, it's probably
+[scl]   thanks to me.
 [en2]
 
 [X$6A]This seems to be a path for mice.
@@ -7000,11 +7012,11 @@ To continue in the underground
 [scl]don't miss it~!
 [en1]
 
-The foolish monkey's boss is a
-[nl2]gorilla.[np]
-[nl3]I bet he'd be happy if you
-[scl]recorded a girl gorilla's voice...
-[scl]And played it back for him!
+Those mean monkeys take orders
+[nl2]from a gorilla.[np]
+[nl3]I bet that gorilla'd be happy if
+[scl]you'd record a female gorilla's
+[scl]voice and play it back for him!
 [en1]
 
 Thank you come again~!
@@ -8027,14 +8039,16 @@ Oookii! Oookii![np]
 Oookii! Oookikikikii!![np]
 [nl2]TL: They've come for the keys!
 [nl3][np]
-[scl] Winky, Pluck, I'm counting on you!!
+[scl]   Winky and Pluck... 
+[scl]   Everyone's counting on you!!
 [scl]
 [en1]
 
 Piropii. Pirororoo-![np]
-[nl2]TL: What are you doing?! Hurry,
-[nl3]you need to get out of here, too. [np]
-[scl]Gosh~, what a dunce!
+[nl2]TL: What are you doing?!
+[nl3]   Hurry, you need to get out of
+[scl]   here, too. [np]
+[scl]   Gosh~, what a dunce!
 [en1]
 
 So, did the kingdom really return
@@ -9964,8 +9978,9 @@ Shall we set up this penguin?
 
 Fugofugo. Fugofugo.[np]
 [nl2]TL: Can you run?
-[nl3]I'll let [num] sprinter through here.[np]
-[scl]What'll it be?[X$6A]
+[nl3]   I'll let [num] sprinter through
+   here.[np]
+[scl]   What'll it be?[X$6A]
 [scl][ ][ ][ ][ ]Let me in there.
 [scl][ ][ ][ ][ ]I'll come back.[X$68]
 [en1]
@@ -9978,8 +9993,8 @@ Fugo. Fugogo.[np]
 
 Fugofugo. Fugogo.[np]
 [nl2]TL: Can you jump?
-[nl3]I'll let [num] jumper in.[np]
-[scl]How about it?[X$6A]
+[nl3]   I'll let [num] jumper in.[np]
+[scl]   How about it?[X$6A]
 [scl][ ][ ][ ][ ]Let me through.
 [scl][ ][ ][ ][ ]I'll come back.[X$68]
 [en1]
@@ -12491,7 +12506,7 @@ It seems a {L}{u}{c}{k} {R}{o}{c}{k} is hidden in
 [en2]
 
 ...Chirp! Chirpy-chii.[np]
-[nl2]TL: Och na, ye fun me! 
+[nl2]TL: Och na, ye fuun me! 
 [nl3]   A dinnae ken anythin'!
 [scl]   ...Ehh...Ehh.[np]
 [scl]   A dinnae ken aboot th'
@@ -13139,7 +13154,7 @@ Hey, it's a monkey!
 
 Shaka, shaka, shakaka.[np]
 [nl2]TL: We're army ants. We won't
-[nl3]go down without a fight.
+[nl3]   go down without a fight.
 [en2]
 
 What could it be~...?
