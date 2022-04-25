@@ -1391,7 +1391,7 @@ Er, no, I mean, I, uh, not... is it
 [scl]The name for a female chicken
 [scl]rhymes with this number.[np]
 [scl]All this talk of food is making me
-[scl]hungry. 
+[scl]hungry.
 [en2]
 
 ...What ho!
@@ -1423,7 +1423,7 @@ Er, no, I mean, I, uh, not... is it
 I am none other than soldier
 [nl2]number [Six]. Oh, you want in the
 [nl3]archives room?[np]
-[scl]You need to talk to soldier [One][Four]
+[scl]You need to talk to soldier[One][Four]
 [scl]about that.[np]
 [scl]Hahaha! Just kidding. 
 [scl]Oh, you want to turn off the
@@ -1447,8 +1447,8 @@ As I promised, you may enter.
 
 [SChing]Uhohoo~![np]
 [nl2]TL: Thank you, come again~![np]
-[nl3]   I'll help myself to[num] 
-[scl]   {L}{u}{c}{k} {R}{o}{c}{k}~!
+[nl3]   I'll help myself to[num] of your
+[scl]   {L}{u}{c}{k} {R}{o}{c}{k}{s}~!
 [en1]
 
 There are pots down there...[np]
@@ -1497,8 +1497,8 @@ You want to know what I'm doing
 [scl]right? Did you see the giant bees
 [scl]out there?[np]
 [scl]I'm waiting for them to spill some
-[scl]honey. They don't spill very much,
-[scl]though...
+[scl]honey. They don't usually spill very
+[scl]much, though...
 [en2]
 
 [F2]Jack got the {T}{a}{p}{e} {R}{e}{c}{o}{r}{d}{e}{r}![np]
@@ -1596,7 +1596,7 @@ Crikey, if I had been a little to
 [nl2]     Where does this lead?
 [en2]
 
-[SChing]You received [Two][Zero][LuckRock].
+[SChing]You received[Two][Zero][LuckRock].
 [nl2]It's a miracle!
 [en1]
 
@@ -1722,7 +1722,9 @@ Huh?... What's this?
 [SMonkey1]Ooki! Ookii![np]
 [nl2]TL: Dang it! Did you think we'd run
 [nl3]   off after we lost?[np]
+[scl]
 [scl]   Well, you're right!
+[scl]
 [en1]
 
 ...What on earth is in this?
@@ -6081,13 +6083,13 @@ Hurry! It'll get away!!
 [en1]
 
 [F2]Max got {S}{w}{i}{m}{m}{i}{n}{g} {G}{o}{g}{g}{l}{e}{s}![np]
-[nl2]You can use them with [BBtn] to see
-[nl3]underwater.[np]
+[nl2]While swimming, you can use them
+[nl3]with[BBtn] to see underwater.[np]
 [scl][X$6A]Ugh, it's just another piece of
 [scl]junk.[np]
 [scl]I thought that was gonna be the
 [scl]big one...[np]
-[scl]To use the goggles, open the menu
+[scl]To use the {G}{o}{g}{g}{l}{e}{s}, open the menu
 [scl]with START and equip them.[np]
 [scl]Got it?
 [en1]
@@ -7636,7 +7638,7 @@ I lost my goggles...
 Do you know when you want to
 [nl2]look at things that are far
 [nl3]away, you only need to search?[np]
-[scl]You only need to press [ABtn] and
+[scl]You only need to press[Space1][ABtn] and
 [scl]then move the [CrDn] over whatever[np]
 [scl]you want to check and press[ABtn].
 [en2]
@@ -10979,7 +10981,7 @@ Like my Great Mecha #3?
 
 Next is[team] Team!
 [nl2]Up first for[team] team, we
-[nl3]have the ever-energetic, {D}{e}{o}{n}!
+[nl3]have the ever-energetic, {D}{i}{o}{n}!
 [en1]
 
 Now, I'll pick the team leader.
@@ -14146,8 +14148,8 @@ This's the girl tent! One at a time!
 [nl2]Let's dry them out...
 [en2]
 
-[X$6A][SChing]        Another Luck Rock!
-[nl2]     We've got[X$6B] of 'em!
+[X$6A][SChing]Another Luck Rock!
+[nl2]We've got[X$6B] of 'em!
 [en2]
 
 No, no, no! This is the lady's tent!
