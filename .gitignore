@@ -1,3 +1,8 @@
 *.lz
 *.sfc
-AnotherTreasureIsland\putt_cache.db
+*.sym
+putt_cache.db
+Marvelous_EN_LB.srm
+Marvelous_jp.srm
+items.bin
+script.bin
