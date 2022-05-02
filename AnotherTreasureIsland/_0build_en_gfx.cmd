@@ -68,6 +68,8 @@ echo - large_shreek.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\large_shreek.png" -p ".\gfx\en_new\img\large_font.pal" -d ".\gfx\en_new\tmp\large_shreek.gfx" -B 2 -D
 echo - large_cutitout.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\large_cutitout.png" -p ".\gfx\en_new\img\large_font.pal" -d ".\gfx\en_new\tmp\large_cutitout.gfx" -B 2 -D
+echo - title_search.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\title_search.png" -p ".\gfx\en_new\img\title_search.pal" -d ".\gfx\en_new\tmp\title_search.gfx" -B 2 -D -W 16 -H 16
 echo Building English Graphics Files...
 ".\tools\bass\bass" ".\asm\graphics_en.asm"
 echo Done.

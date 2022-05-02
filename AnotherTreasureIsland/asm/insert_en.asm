@@ -44,6 +44,8 @@ seekFile($2B6000)
 //--Misc HUD
 seekFile($268000)
 	insert "../text/en_new/icons.bin"	//TransPutt Integration
+seekFile($26A400)	//Marvelous - Search Mode Logo
+	insert "../gfx/en_new/tmp/title_search.gfx"
 
 //--Journal Menu Tilemap Hacks
 seekFile($2C09B0)	//SELECTでゲーム画面た & Move & Select Text Hack
