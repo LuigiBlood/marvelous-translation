@@ -224,9 +224,9 @@ used for all numbered blue keys
 
 
 
-revise
+Soldier ONE\Rhymes with "FUN"\original hint told you the number sounds like the noise a dog makes, but in english (WAN)
 Used for all numbered red keys
-
+Soldier TWO
 
 
 
@@ -236,7 +236,7 @@ Used for all numbered red keys
 
 used for all numbered green keys
 
-
+Soldier THREE\This translates!!!
 
 
 
@@ -251,18 +251,18 @@ used for all numbered green keys
 original script calls them cheeky, but it's not really a word most americans use or are familiar with. Could say impudent, but I like the thought of king bull calling them stinky.
 
 
+Soldier FOUR
+Soldier FIVE
+Soldier SIX\Original Japanese tells the reader that the number sounds like the english word "Socks"
 
+Soldier SEVEN\Essentially translates correctly. The hint originally said the number sounds like the english word for heaven.
 
-revise\[nl2]If you say "comfort" in Japanese,\[nl3]it sounds like this number.[np]\[scl]I hope you know Japanese...
-
-
-
-
-
-... this may need to be changed. I cant remember the number.
-
-
-
+Soldier EIGHT
+Soldier NINE
+Soldier TEN\The japanese text refers to the sound made by a sizzling steak. This makes the speaker realize he hasn't had steak recently.
+Soldier ELEVEN
+Soldier TWELVE\Easy answer, but the original clue really doesnt translate well to english.
+Soldier THIRTEEN\Talking about friday the 13th.
 
 
 
@@ -368,7 +368,7 @@ last one tonight
 
 
 
-revise
+ワクワク(wakuwaku) is onomonopia excitement\ドキドキ(dokidoki) is onomonopia for a sound made by a beating heart
 
 
 if you pause or new page here, the animation will glitch
@@ -1366,7 +1366,7 @@ it actually calls it a "ball"
 
 
 
-revise
+much happier with this
 
 
 
@@ -2846,7 +2846,7 @@ not 2 lines... Max gets this in the ship engine room
 
 
 
-only 2 lines for this
+only 2 lines available for this
 
 only 2 lines. [np] is bugged so not used here.
 lets only apply special fonts if we know it's not 2-line text

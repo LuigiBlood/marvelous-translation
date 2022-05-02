@@ -1,2 +1,8 @@
 *.lz
 *.sfc
+*.sym
+putt_cache.db
+Marvelous_EN_LB.srm
+Marvelous_jp.srm
+items.bin
+script.bin
