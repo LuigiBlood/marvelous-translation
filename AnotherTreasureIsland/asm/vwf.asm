@@ -455,6 +455,8 @@ reset_vwf:
 	pha
 	cmp #($6B-$62)	//Amount
 	beq _reset_vwf_skip
+	cmp #($6C-$62)	//Amount
+	beq _reset_vwf_skip
 	cmp #($6D-$62)	//Icon
 	beq _reset_vwf_skip
 	cmp #($71-$62)	//Item Icon?
