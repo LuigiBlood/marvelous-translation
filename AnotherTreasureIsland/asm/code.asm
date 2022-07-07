@@ -275,8 +275,108 @@ asm_chapter_screen_loop:
 	inc $2F
 +;	clc; rtl
 
+//Game Over Screen ($1497BC - SNES CPU) (MX flags set)
+//$1496F6 - SNES CPU - Set Tile Map
+//Notes:
+//$33C8 - VRAM Address (Word)
+//$33CA - Full Address to DMA From
+//$33CD - Size (bytes)
+//$FE - Amount of frames left before next screen (from 0x00)
+//$E6 - Current Char (*2)
+//$2F - do +1 when changing Gameplay mode?
+//$2A - Frame Counter
+//JSL $00FC35 (Play SFX, use 0x2C)
+//From 7F2190 and 7F21BC
 enqueue pc
-seekFile($3F0000)
+seekAddr($149731)
+	jml asm_gameover_screen_setup
+seekAddr($1497BC)
+	jsl asm_gameover_screen_loop
+	rts
+dequeue pc
+asm_gameover_screen_setup:
+	phx
+	phy
+//"...Swooned..."
+	ldx.w #0
+	ldy.w #8
+	lda.w #$3000
+-;	sta $7F2190,x
+	inc
+	inc
+	bit.w #$0010
+	beq +
+	clc
+	adc.w #$0010
++;	inx
+	inx
+	dey
+	bne -
+//"Let's try this again!"
+	ldx.w #0
+	ldy.w #16
+
+-;	sta $7F21D0,x
+	inc
+	inc
+	bit.w #$0010
+	beq +
+	clc
+	adc.w #$0010
++;	inx
+	inx
+	dey
+	bne -
+
+	ply
+	plx
+//original code
+	plb
+	plb
+	lda.w #$7000
+	jml $149736
+
+asm_gameover_screen_loop:
+	lda $E6
+	cmp.b #(gfx_swooned_ani_frames*2)
+	beq asm_gameover_screen_end
+	lda $2A
+	and.b #$07
+	bne +
+	lda.b #$40
+	sta $FE
+
+	//VRAM DMA Setup
+	rep #$20
+	lda.w #$C000/2
+	sta $33C8
+	clc
+	lda $E6
+	adc $E6
+	adc $E6
+	xba
+	adc.w #gfx_swooned_ani
+	sta $33CA
+	lda.w #(gfx_swooned_ani >> 16)
+	sta $33CC
+	lda.w #$0600
+	sta $33CD
+	//Play SFX
+	sep #$20
+	lda.b #$2C
+	jsl $00FC35
+
+	inc $E6
+	inc $E6
++;	clc; rtl
+asm_gameover_screen_end:
+	dec $FE
+	bne +
+	inc $2F
++;	clc; rtl
+
+enqueue pc
+seekFile($380000)
 
 	insert gfx_chapter1_ani,"../text/en_new/chapter1.bin"
 	insert gfx_chapter2_ani,"../text/en_new/chapter2.bin"
@@ -308,4 +408,8 @@ ani_chapter_bank:
 	dw gfx_chapter3_ani>>16
 	dw gfx_chapter4_ani>>16
 	dw gfx_chapter5_ani>>16
+
+seekFile($390000)
+	insert gfx_swooned_ani,"../text/en_new/swooned.bin"
+constant gfx_swooned_ani_frames = gfx_swooned_ani.size / 0x600
 dequeue pc
