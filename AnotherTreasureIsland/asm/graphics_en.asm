@@ -144,6 +144,8 @@ origin 0x0000; insert "../gfx/en_new/tmp/credits.gfx"
 output "../gfx/en_new/tmp/3F.bin", create
 insert "../gfx/jp/3F.bin"
 origin 0x0000; insert "../gfx/en_new/tmp/credits.map"
+origin 0x0C00; //Final Score Tilemap
+origin 0x0E80; //Final Screen, THE END Tilemap
 
 //--Search Mode - Tilemaps
 //48 - Tilemap - Gina Ransom Letter & Ant Buster
