@@ -477,6 +477,28 @@ seekAddr($14D356)
 
 dequeue pc
 
+copy_final_score_stuff:
+	//MX unset
+
+	//Copy Buffer
+	ldx $9a
+-;	lda $40a400,x
+	sta $40a600,x
+	dex; dex
+	bpl -
+
+	//Point text renderer to copied buffer
+	ldx.w #$0200
+	stx $9a
+	stz $9c
+
+	//Empty main buffer
+	lda.w #0
+	dex; dex;
+-;	sta $40A400,x
+	dex; dex;
+	bpl -
+	rtl
 
 enqueue pc
 seekFile($380000)
@@ -515,22 +537,4 @@ ani_chapter_bank:
 seekFile($390000)
 	insert gfx_swooned_ani,"../text/en_new/swooned.bin"
 constant gfx_swooned_ani_frames = gfx_swooned_ani.size / 0x600
-
-copy_final_score_stuff:
-	//MX unset
-	ldx $9a
--;	lda $40a400,x
-	sta $40a600,x
-	dex; dex
-	bpl -
-	ldx.w #$0200
-	stx $9a
-	stz $9c
-
-	lda.w #0
-	dex; dex;
--;	sta $40A400,x
-	dex; dex;
-	bpl -
-	rtl
 dequeue pc
