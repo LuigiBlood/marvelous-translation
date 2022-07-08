@@ -1,7 +1,7 @@
 //Code ASM Hacks
 
 //Relocate Script to 0x300000 / $F0:0000
-seekFile($7C82)
+seekAddr($00FC82)	//PC 0x7C82
 asm_relocate_script:
 	lda.w #text_script			//Address
 	sta $40DBE0
@@ -9,12 +9,12 @@ asm_relocate_script:
 	lda.w #(text_script >> 16)	//Bank
 
 //ASM Hack to disable paging on the Team naming screen
-seekFile($2C0FB1)
+seekAddr($988FB1)	//PC 0x2C0FB1
 asm_disable_paging:
 	lda.b #0
 
 //Fix for Save & Quit Journal Menu ($2C1EE2)
-seekFile($2C1ED2)
+seekAddr($989ED2)	//PC 0x2C1ED2
 asm_menu_fix:
 	lda $9AAD,x
 	sta $7F009A,x
@@ -50,7 +50,7 @@ asm_menu_fix:
 //$7614 - Current Team Name Char
 //$9890E6 - Delete Current Char
 //$989157 - Go Back one char
-seekFile($2C10A3)
+seekAddr($9890A3)	//PC 0x2C10A3
 	lda $F3
 	bit.b #$80
 	beq +

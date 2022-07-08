@@ -49,24 +49,24 @@ define charmode = $F6		//(Global) Rendering Mode: Variable Width (00), Fixed Wid
 
 //Experimental Border Flickering Fix (when selecting an item)
 //Actually sets color palette for faces
-//seekFile($001F5D)
+//seekAddr($009F5D)
 //	lda.b #$00
 
 //009F3C - Inventory Palette
 //Very Hacky Fixes
-seekFile($001F39)
+seekAddr($009F39)	//PC 0x1F39
 	jsr itemselect_check
 	db $D0	//bne
 //009FEB - Normal Palette
-seekFile($001FE6)
+seekAddr($009FE6)	//PC 0x1FE6
 	nop
 	jsl itemselect_check2
 
 //Avoid Rerendering Item Names all the time in Item Select mode
-seekFile($2FB690)	//9FB690
+seekAddr($9FB690)	//PC 0x2FB690
 	jsr item_name_render_init
 	nop
-seekFile($2FCE9F)	//9fce9f
+seekAddr($9FCE9F)	//PC 0x2fce9f
 	jsr item_name_render_stop
 
 //VWF Hack - Make only one half for regular and kanji chars
@@ -126,17 +126,17 @@ seekAddr($9FBB27)
 	nop; nop
 
 //VWF Hack - Search Mode
-seekFile($2BFD2C)	//SNES CPU - Text
+seekAddr($97FD2C)	//SNES CPU - Text
 	jsr reset_vwf_r1
 	nop
 	nop
 	nop
-seekFile($2FB64E)	//SA-1 - Items
+seekAddr($9FB64E)	//SA-1 - Items
 	jsr reset_vwf_r2
-seekFile($2FB6C9)	//SA-1 - Text
+seekAddr($9FB6C9)	//SA-1 - Text
 	jsr reset_vwf_r2
 //-Regular Chars
-seekFile($2FBD0C)	//Left Half of Char
+seekAddr($9FBD0C)	//Left Half of Char
 	jsr setup_vwf_r
 seekAddr($9FBD31)	//Auto calculate right half
 	ldx $9A
@@ -144,12 +144,12 @@ seekAddr($9FBD31)	//Auto calculate right half
 	xba
 	inc
 	nop; nop; nop
-seekFile($2FBD3C)	//Right Half of Char
+seekAddr($9FBD3C)	//Right Half of Char
 	jsr setup_vwf_r
-seekFile($2FBD58)
+seekAddr($9FBD58)
 	jsl next_vwf
 //-Kanji Chars
-seekFile($2FBD7B)	//Left Half of Char
+seekAddr($9FBD7B)	//Left Half of Char
 	jsr setup_vwf_rsk
 seekAddr($9FBDA4)	//Auto calculate right half
 	ldx $9A
@@ -157,28 +157,28 @@ seekAddr($9FBDA4)	//Auto calculate right half
 	xba
 	inc
 	nop; nop; nop
-seekFile($2FBDAF)	//Right Half of Char
+seekAddr($9FBDAF)	//Right Half of Char
 	jsr setup_vwf_rsk
-seekFile($2FBDCF)
+seekAddr($9FBDCF)
 	jsl next_vwf
 
-seekFile($2FC03F)
+seekAddr($9FC03F)
 	db $90
 	//bcc $81B864		//Fix
-seekFile($2FC02A)
+seekAddr($9FC02A)
 	db $B0
 	//bcs $81B879		//Fix
-seekFile($2FBCD5)	//Space Fix
+seekAddr($9FBCD5)	//Space Fix
 	nop
 	nop
 
 //VWF Hack - Small Text
-seekFile($2FDDD2)
+seekAddr($9FDDD2)
 	jsr reset_vwf_r2
-seekFile($2FE698)	//Final
+seekAddr($9FE698)	//Final
 	jsr reset_vwf_r2
 //-Regular Chars
-seekFile($2FDF48)	//Left Half of Char
+seekAddr($9FDF48)	//Left Half of Char
 	jsr setup_vwf_rs
 seekAddr($9FDF6D)	//Auto calculate right half
 	ldx $9A
@@ -186,12 +186,12 @@ seekAddr($9FDF6D)	//Auto calculate right half
 	xba
 	inc
 	nop; nop; nop
-seekFile($2FDF78)	//Right Half of Char
+seekAddr($9FDF78)	//Right Half of Char
 	jsr setup_vwf_rs
-seekFile($2FDF94)
+seekAddr($9FDF94)
 	jsl next_vwf
 //-Kanji Chars
-seekFile($2FDFB7)	//Left Half of Char
+seekAddr($9FDFB7)	//Left Half of Char
 	jsr setup_vwf_rsk
 seekAddr($9FDFE0)	//Auto calculate right half
 	ldx $9A
@@ -199,49 +199,49 @@ seekAddr($9FDFE0)	//Auto calculate right half
 	xba
 	inc
 	nop; nop; nop
-seekFile($2FDFEB)	//Right Half of Char
+seekAddr($9FDFEB)	//Right Half of Char
 	jsr setup_vwf_rsk
-seekFile($2FE017)
+seekAddr($9FE017)
 	jsl next_vwf
 
-seekFile($2FDF28)	//Space Fix
+seekAddr($9FDF28)	//Space Fix
 	nop
 	nop
 
 //VWF Hack - Team / Leader Name (Search Mode)
-seekFile($2FBDF2)
+seekAddr($9FBDF2)
 	jsr setup_vwf_team
 
-seekFile($2FBE25)
+seekAddr($9FBE25)
 	jsr setup_vwf_team3
-seekFile($2FBE39)
+seekAddr($9FBE39)
 	jsr next_vwf_team
 	nop
 
-seekFile($2FBE7C)
+seekAddr($9FBE7C)
 	jsr setup_vwf_team3
-seekFile($2FBE90)
+seekAddr($9FBE90)
 	jsr next_vwf_team
 	nop
 
 //VWF Hack - Team / Leader Name (Small Text)
-seekFile($2FE069)
+seekAddr($9FE069)
 	jsr setup_vwf_team
 
-seekFile($2FE09C)
+seekAddr($9FE09C)
 	jsr setup_vwf_team3
-seekFile($2FE0B0)
+seekAddr($9FE0B0)
 	jsr next_vwf_team
 	nop
 
-seekFile($2FE0F3)
+seekAddr($9FE0F3)
 	jsr setup_vwf_team3
-seekFile($2FE107)
+seekAddr($9FE107)
 	jsr next_vwf_team
 	nop
 
 
-seekFile($2BFD70)
+seekAddr($97FD70)
 reset_vwf_r1:
 	phd
 	pea $3500
@@ -251,7 +251,7 @@ reset_vwf_r1:
 	jsl $9FB689
 	rts
 
-seekFile($2FFFA0)
+seekAddr($9FFFA0)
 reset_vwf_r2:
 	jsl reset_vwf
 	rts
@@ -313,9 +313,9 @@ item_name_render_stop:
 bound_check($300000)
 
 //VWF Hack - Item Name in Pause Menu
-seekFile($2FBA48)
+seekAddr($9FBA48)
 	jsr reset_vwf_ri
-seekFile($0072B3)	//Left Half of Char
+seekAddr($00F2B3)	//Left Half of Char
 	jsr setup_vwf_ri1
 seekAddr($00F2DB)	//Auto calculate right half
 	ldx $9A
@@ -323,11 +323,11 @@ seekAddr($00F2DB)	//Auto calculate right half
 	xba
 	inc
 	nop; nop; nop
-seekFile($0072E6)	//Right Half of Char
+seekAddr($00F2E6)	//Right Half of Char
 	jsr setup_vwf_ri2
-seekFile($007307)	
+seekAddr($00F307)	
 	jsl next_vwf
-seekFile($0072A1)
+seekAddr($00F2A1)
 	cmp.w #$002E
 	db $90
 
@@ -361,7 +361,7 @@ itemselect_check:
 	rts
 
 
-seekFile($2FBF97)
+seekAddr($9FBF97)
 //--Search Mode VWF Rendering
 render_vwf_search:
 	ldy.w #$0000
@@ -389,7 +389,7 @@ render_vwf_search:
 	rts
 bound_check($2FBFDB)
 
-seekFile($2FE02E)
+seekAddr($9FE02E)
 //--Small Text VWF Rendering
 render_vwf_small:
 	ldy.w #$0000
@@ -417,7 +417,7 @@ render_vwf_small:
 	rts
 bound_check($2FE068)
 
-seekFile($0073A0)
+seekAddr($00F3A0)
 //--Inventory VWF Rendering
 render_vwf_inventory:
 	lda.w #$0007
@@ -441,7 +441,7 @@ render_vwf_inventory:
 bound_check($0073BA)
 
 
-seekFile((text_script_end & $3FFFFF))
+seekAddr(text_script_end)
 //vwf routine here, A = gfx src, X = gfx dst, Y = vertical pixel
 //16-bit A / Index
 
@@ -926,9 +926,9 @@ itemselect_check2:
 
 //Turning Cross Puzzle Fixes
 enqueue pc
-seekFile($2FCC11)
+seekAddr($9FCC11)
 	jsl fix_special_turning_puzzle1; nop
-seekFile($2FCC5F)
+seekAddr($9FCC5F)
 	jsl fix_special_turning_puzzle2
 dequeue pc
 
