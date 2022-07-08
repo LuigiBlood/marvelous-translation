@@ -1,19 +1,25 @@
 //Code ASM Hacks
+setLoROMBase()
 
 //Relocate Script to 0x300000 / $F0:0000
+enqueue pc
 seekAddr($00FC82)	//PC 0x7C82
 asm_relocate_script:
 	lda.w #text_script			//Address
 	sta $40DBE0
 	sta $08
 	lda.w #(text_script >> 16)	//Bank
+dequeue pc
 
 //ASM Hack to disable paging on the Team naming screen
+enqueue pc
 seekAddr($988FB1)	//PC 0x2C0FB1
 asm_disable_paging:
 	lda.b #0
+dequeue pc
 
 //Fix for Save & Quit Journal Menu ($2C1EE2)
+enqueue pc
 seekAddr($989ED2)	//PC 0x2C1ED2
 asm_menu_fix:
 	lda $9AAD,x
@@ -32,6 +38,7 @@ asm_menu_fix:
 	clc
 	adc.w #$30A0
 	sta $7F009A
+dequeue pc
 
 //Easier Team Naming Controls
 //B = Backspace
@@ -50,6 +57,7 @@ asm_menu_fix:
 //$7614 - Current Team Name Char
 //$9890E6 - Delete Current Char
 //$989157 - Go Back one char
+enqueue pc
 seekAddr($9890A3)	//PC 0x2C10A3
 	lda $F3
 	bit.b #$80
@@ -57,6 +65,7 @@ seekAddr($9890A3)	//PC 0x2C10A3
 	jsr $9157
 	jmp $90E6
 +;	jmp $90C1
+dequeue pc
 
 //Chore List Tilemap Edit Check ($2BB5F5 / $97B5F5)
 //7EE000 - 16-bit VRAM Upload Pointer / End Address (uses this to figure out when it ends)
@@ -78,7 +87,6 @@ seekAddr($9890A3)	//PC 0x2C10A3
 //Top Left, Bottom Left, Top Right, Bottom Right
 
 //Is only called when a chore is done.
-seekAddr($A88000)
 
 enqueue pc
 seekAddr($97B5F5)
@@ -275,6 +283,31 @@ asm_chapter_screen_loop:
 	inc $2F
 +;	clc; rtl
 
+constant gfx_chapter1_ani_frames = gfx_chapter1_ani.size / 0x200
+constant gfx_chapter2_ani_frames = gfx_chapter2_ani.size / 0x200
+constant gfx_chapter3_ani_frames = gfx_chapter3_ani.size / 0x200
+constant gfx_chapter4_ani_frames = gfx_chapter4_ani.size / 0x200
+constant gfx_chapter5_ani_frames = gfx_chapter5_ani.size / 0x200
+
+ani_chapter_frames:
+	dw gfx_chapter1_ani_frames*2
+	dw gfx_chapter2_ani_frames*2
+	dw gfx_chapter3_ani_frames*2
+	dw gfx_chapter4_ani_frames*2
+	dw gfx_chapter5_ani_frames*2
+ani_chapter_addr:
+	dw gfx_chapter1_ani
+	dw gfx_chapter2_ani
+	dw gfx_chapter3_ani
+	dw gfx_chapter4_ani
+	dw gfx_chapter5_ani
+ani_chapter_bank:
+	dw gfx_chapter1_ani>>16
+	dw gfx_chapter2_ani>>16
+	dw gfx_chapter3_ani>>16
+	dw gfx_chapter4_ani>>16
+	dw gfx_chapter5_ani>>16
+
 //Game Over Screen ($1497BC - SNES CPU) (MX flags set)
 //$1496F6 - SNES CPU - Set Tile Map
 //Notes:
@@ -375,6 +408,8 @@ asm_gameover_screen_end:
 	inc $2F
 +;	clc; rtl
 
+constant gfx_swooned_ani_frames = gfx_swooned_ani.size / 0x600
+
 //Final Score Screen
 //$14D198 (SNES CPU) -	Set up next
 //$14D2D0 (SNES CPU) -	Sends CMD 0x40 (renders the text in full)
@@ -474,7 +509,6 @@ seekAddr($14D356)
 	sta $fe
 	sep #$30
 	rtl
-
 dequeue pc
 
 copy_final_score_stuff:
@@ -499,42 +533,3 @@ copy_final_score_stuff:
 	dex; dex;
 	bpl -
 	rtl
-
-enqueue pc
-seekFile($380000)
-
-	insert gfx_chapter1_ani,"../text/en_new/chapter1.bin"
-	insert gfx_chapter2_ani,"../text/en_new/chapter2.bin"
-	insert gfx_chapter3_ani,"../text/en_new/chapter3.bin"
-	insert gfx_chapter4_ani,"../text/en_new/chapter4.bin"
-	insert gfx_chapter5_ani,"../text/en_new/chapter5.bin"
-
-constant gfx_chapter1_ani_frames = gfx_chapter1_ani.size / 0x200
-constant gfx_chapter2_ani_frames = gfx_chapter2_ani.size / 0x200
-constant gfx_chapter3_ani_frames = gfx_chapter3_ani.size / 0x200
-constant gfx_chapter4_ani_frames = gfx_chapter4_ani.size / 0x200
-constant gfx_chapter5_ani_frames = gfx_chapter5_ani.size / 0x200
-
-ani_chapter_frames:
-	dw gfx_chapter1_ani_frames*2
-	dw gfx_chapter2_ani_frames*2
-	dw gfx_chapter3_ani_frames*2
-	dw gfx_chapter4_ani_frames*2
-	dw gfx_chapter5_ani_frames*2
-ani_chapter_addr:
-	dw gfx_chapter1_ani
-	dw gfx_chapter2_ani
-	dw gfx_chapter3_ani
-	dw gfx_chapter4_ani
-	dw gfx_chapter5_ani
-ani_chapter_bank:
-	dw gfx_chapter1_ani>>16
-	dw gfx_chapter2_ani>>16
-	dw gfx_chapter3_ani>>16
-	dw gfx_chapter4_ani>>16
-	dw gfx_chapter5_ani>>16
-
-seekFile($390000)
-	insert gfx_swooned_ani,"../text/en_new/swooned.bin"
-constant gfx_swooned_ani_frames = gfx_swooned_ani.size / 0x600
-dequeue pc

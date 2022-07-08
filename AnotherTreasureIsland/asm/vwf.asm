@@ -1,5 +1,5 @@
 //VWF Hack by LuigiBlood
-arch snes.cpu
+setLoROMBase()
 
 //Doc:
 //409000 - Text Rendering Buffer
@@ -54,6 +54,7 @@ define charmode = $F6		//(Global) Rendering Mode: Variable Width (00), Fixed Wid
 
 //009F3C - Inventory Palette
 //Very Hacky Fixes
+enqueue pc
 seekAddr($009F39)	//PC 0x1F39
 	jsr itemselect_check
 	db $D0	//bne
@@ -61,16 +62,20 @@ seekAddr($009F39)	//PC 0x1F39
 seekAddr($009FE6)	//PC 0x1FE6
 	nop
 	jsl itemselect_check2
+dequeue pc
 
 //Avoid Rerendering Item Names all the time in Item Select mode
+enqueue pc
 seekAddr($9FB690)	//PC 0x2FB690
 	jsr item_name_render_init
 	nop
 seekAddr($9FCE9F)	//PC 0x2fce9f
 	jsr item_name_render_stop
+dequeue pc
 
 //VWF Hack - Make only one half for regular and kanji chars
 //VRAM Setup
+enqueue pc
 seekAddr($98A025)
 	ldx $9A
 	lda $40A400,x
@@ -124,8 +129,10 @@ seekAddr($9FBB1E)
 	nop; nop; nop; nop
 seekAddr($9FBB27)
 	nop; nop
+dequeue pc
 
 //VWF Hack - Search Mode
+enqueue pc
 seekAddr($97FD2C)	//SNES CPU - Text
 	jsr reset_vwf_r1
 	nop
@@ -171,8 +178,10 @@ seekAddr($9FC02A)
 seekAddr($9FBCD5)	//Space Fix
 	nop
 	nop
+dequeue pc
 
 //VWF Hack - Small Text
+enqueue pc
 seekAddr($9FDDD2)
 	jsr reset_vwf_r2
 seekAddr($9FE698)	//Final
@@ -207,8 +216,10 @@ seekAddr($9FE017)
 seekAddr($9FDF28)	//Space Fix
 	nop
 	nop
+dequeue pc
 
 //VWF Hack - Team / Leader Name (Search Mode)
+enqueue pc
 seekAddr($9FBDF2)
 	jsr setup_vwf_team
 
@@ -223,8 +234,10 @@ seekAddr($9FBE7C)
 seekAddr($9FBE90)
 	jsr next_vwf_team
 	nop
+dequeue pc
 
 //VWF Hack - Team / Leader Name (Small Text)
+enqueue pc
 seekAddr($9FE069)
 	jsr setup_vwf_team
 
@@ -309,10 +322,11 @@ item_name_render_stop:
 	jmp $BFDC
 +;	pla
 	rts
-
 bound_check($300000)
+dequeue pc
 
 //VWF Hack - Item Name in Pause Menu
+enqueue pc
 seekAddr($9FBA48)
 	jsr reset_vwf_ri
 seekAddr($00F2B3)	//Left Half of Char
@@ -359,8 +373,9 @@ itemselect_check:
 +;	rts
 +;	lda.b #$00
 	rts
+dequeue pc
 
-
+enqueue pc
 seekAddr($9FBF97)
 //--Search Mode VWF Rendering
 render_vwf_search:
@@ -388,7 +403,9 @@ render_vwf_search:
 	bpl -
 	rts
 bound_check($2FBFDB)
+dequeue pc
 
+enqueue pc
 seekAddr($9FE02E)
 //--Small Text VWF Rendering
 render_vwf_small:
@@ -416,7 +433,9 @@ render_vwf_small:
 	bpl -
 	rts
 bound_check($2FE068)
+dequeue pc
 
+enqueue pc
 seekAddr($00F3A0)
 //--Inventory VWF Rendering
 render_vwf_inventory:
@@ -439,9 +458,8 @@ render_vwf_inventory:
 	bpl -
 	rts
 bound_check($0073BA)
+dequeue pc
 
-
-seekAddr(text_script_end)
 //vwf routine here, A = gfx src, X = gfx dst, Y = vertical pixel
 //16-bit A / Index
 
@@ -1131,5 +1149,6 @@ event2_char_detection:
 
 
 //--List of Pixel Widths per Char
+setHiROMBase()
 width_list:
 	insert "../text/en_new/width.tbl"

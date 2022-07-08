@@ -1,5 +1,5 @@
 //Pointer changes
-
+enqueue pc
 ptr_replace(0x18, map_teamname)
 
 ptr_replace(0x35, gfx_title)
@@ -47,3 +47,4 @@ ptr_replace(0xDB, gfx_title_sub)
 ptr_replace(0xE0, gfx_mgmt_office_spr)
 
 ptr_replace(0xF8, gfx_ch5_colonel_note1)
+dequeue pc
