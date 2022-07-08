@@ -18,6 +18,7 @@ arch snes.cpu
 //01E0-01E1 - Space
 //0200-06FF - Kanji Font
 //6B - Amount
+//6C - Amount
 //6D XX - Special
 //   18 - Inventory - Item Select
 //   1A - Team Name
