@@ -399,14 +399,14 @@ text_script:
 	db $FF
 
 text_script_end:
-seekFile($340000)
+skipBank()
 	insert gfx_chapter1_ani,"../text/en_new/chapter1.bin"
 	insert gfx_chapter2_ani,"../text/en_new/chapter2.bin"
 	insert gfx_chapter3_ani,"../text/en_new/chapter3.bin"
 	insert gfx_chapter4_ani,"../text/en_new/chapter4.bin"
 	insert gfx_chapter5_ani,"../text/en_new/chapter5.bin"
-seekFile($350000)
+skipBank()
 	insert gfx_swooned_ani,"../text/en_new/swooned.bin"
 
-seekFile($360000)
+skipBank()
 insert_free_space:

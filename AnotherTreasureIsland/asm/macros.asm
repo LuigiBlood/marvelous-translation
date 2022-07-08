@@ -38,6 +38,17 @@ macro setLoROMBase() {
   base (((origin() & $200000) << 2) | ((origin() & $1F8000) << 1) | $8000 | (origin() & $7FFF))
 }
 
+//Skip Bank
+macro skipBank() {
+  if pc() < 0xC00000 {	//LoROM Area
+    origin (origin() + (0x8000 - (origin() & 0xFFFF)))
+	setLoROMBase()
+  } else {				//HiROM Area
+	origin (origin() + (0x10000 - (origin() & 0xFFFF)))
+	setHiROMBase()
+  }
+}
+
 //Get Bank, High, Low Address
 macro DB_BANK(n) {
 	db (({n} >> 16) & $FF)
