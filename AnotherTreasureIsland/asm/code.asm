@@ -375,6 +375,107 @@ asm_gameover_screen_end:
 	inc $2F
 +;	clc; rtl
 
+//Final Score Screen
+//$14D198 (SNES CPU) -	Set up next
+//$14D2D0 (SNES CPU) -	Sends CMD 0x40 (renders the text in full)
+//						Uploads Tilemap to VRAM
+//$14D356 (SNES CPU) - Upload Tile Text
+//$9FE66E (SA-1 CPU) - CMD 0x40
+//Use CMD 0x3A to render text char by char
+//Or call $9FDDA1 for this (same thing as above), then do 40AE02 = FFFF, 33BC = 0000
+//$33BC - VRAM Address (Word)
+//$33BE - Full Address to DMA From (This gives the $409000 address)
+//$33C2 - Size (bytes)
+
+//$33C8 - VRAM Address (Word)
+//$33CA - Full Address to DMA From
+//$33CD - Size (bytes)
+enqueue pc
+seekAddr($14D2D4)
+	nop; nop;
+	nop; nop; nop; nop;
+seekAddr($14D356)
+	dec $fe
+	beq ++
+	lda $2142
+	cmp.b #$15
+	bne +
+	stz $2142
++;	rtl
+	//Update Char
++;	lda.b #$08
+	sta $fe
+
+	//Check for sound
+	rep #$30
+
+	ldx $359A		//Get current char
+	lda $40A400,x
+	xba
+	cmp.w #$0700	//If special char (>= 0x700) then make a sound by default
+	bcs +			//Else compare with table
+
+	ldx.w #(space_check_sound_table_end-space_check_sound_table-2)
+	lsr
+
+-;	cmp space_check_sound_table,x
+	beq ++
+	dex
+	dex
+	bpl -
+
++;	sep #$30
+	lda.b #$15		//Play SFX
+	sta $2142
+
++;	sep #$30
+
+	//Render Char
+	lda.b #$3A
+	jsl $7EDCEB
+
+	//Cancel DMA just to make sure
+	rep #$30
+	lda.w #0
+	sta $33BC
+	dec
+	sta $40AE02
+
+	//Set up proper DMA
+	lda.w #$8000/2
+	sta $33C8
+	lda.w #$9000
+	sta $33CA
+	lda.w #$0040
+	sta $33CC
+	lda.w #$1600
+	sta $33CD
+
+	//Check if finished
+	ldx $359A
+	lda $40A400,x
+	cmp.w #$326D	//Delay
+	beq ++
+	and.w #$00FF
+	cmp.w #$0075	//Delay
+	beq ++
+	cmp.w #$0076	//Delay
+	beq ++
+	cmp.w #$0077	//End
+	bne +
+	inc $2F
+	lda.w #$0080
+	sta $fe
++;	sep #$30
+	rtl
++;	lda.w #$0040
+	sta $fe
+	sep #$30
+	rtl
+
+dequeue pc
+
+
 enqueue pc
 seekFile($380000)
 
