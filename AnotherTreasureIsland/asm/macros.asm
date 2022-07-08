@@ -19,13 +19,7 @@ macro seekAddr(n) {
 //Seek File Offset (SA-1 HiROM Base)
 macro seekFile(n) {
   origin {n}
-  base (({n} & $3FFFFF) | 0xC00000)
-}
-
-//Seek File Offset (SA-1 LoROM Base)
-macro seekFileLo(n) {
-  origin {n}
-  base ((({n} & $200000) << 2) | (({n} & $1F8000) << 1) | ({n} & $7FFF))
+  setHiROMBase()
 }
 
 //Convert Base from LoROM to HiROM area
@@ -71,12 +65,14 @@ macro ptr_replace(id, n) {
 	DB_LO({n})
 }
 
+//Based on origin
 macro bound_check(n) {
 	if origin() > {n} {
 		error "ERROR, OVERWRITING ANOTHER FILE"
 	}
 }
 
+//Based on SNES address
 macro size_check(b, n) {
 	if pc() > ({b} + {n}) {
 		error "ERROR, OVERSIZED"
