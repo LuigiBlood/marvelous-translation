@@ -778,7 +778,7 @@ setup_vwf:
 	tay
 	lsr
 	tax
-	lda width_list,x	//Get Char Width
+	lda vwf_width_table,x	//Get Char Width
 	and.w #$00FF
 	tax
 	tya
@@ -1146,9 +1146,3 @@ event2_char_detection:
 	plx
 	sec
 	rtl
-
-
-//--List of Pixel Widths per Char
-setHiROMBase()
-width_list:
-	insert "../text/en_new/width.tbl"

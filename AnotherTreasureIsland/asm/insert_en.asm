@@ -409,4 +409,6 @@ skipBank()
 	insert gfx_swooned_ani,"../text/en_new/swooned.bin"
 
 skipBank()
+	//--List of Pixel Widths per Char - for VWF
+	insert vwf_width_table,"../text/en_new/width.tbl"
 insert_free_space:
