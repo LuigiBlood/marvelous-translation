@@ -10,7 +10,8 @@ seekFile(0)
 insert "./roms/Marvelous_JP.sfc"
 
 include "./asm/insert_en.asm"
-include "./asm/vwf.asm"
+include "./asm/txt_vwf.asm"
+include "./asm/txt_code.asm"
 include "./asm/txt_halfchar.asm"
 include "./asm/txt_events.asm"
 include "./asm/code.asm"
