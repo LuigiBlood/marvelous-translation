@@ -51,7 +51,6 @@ include "txt_vwf_search.asm"
 include "txt_vwf_small.asm"
 include "txt_vwf_pause.asm"
 include "txt_vwf_fix.asm"
-include "txt_sound.asm"
 
 //Reset every time new text is loaded
 enqueue pc

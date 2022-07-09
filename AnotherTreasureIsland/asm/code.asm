@@ -444,24 +444,8 @@ seekAddr($14D356)
 	sta $fe
 
 	//Check for sound
-	rep #$30
-
-	ldx $359A		//Get current char
-	lda $40A400,x
-	xba
-	cmp.w #$0700	//If special char (>= 0x700) then make a sound by default
-	bcs +			//Else compare with table
-
-	ldx.w #(space_check_sound_table_end-space_check_sound_table-2)
-	lsr
-
--;	cmp space_check_sound_table,x
-	beq ++
-	dex
-	dex
-	bpl -
-
-+;	sep #$30
+	jsl space_check_sound
+	bcc +
 	lda.b #$15		//Play SFX
 	sta $2142
 

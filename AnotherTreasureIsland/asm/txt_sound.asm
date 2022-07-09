@@ -1,12 +1,21 @@
+setLoROMBase()
+
 //--Check for Spaces / Script ID for sounds
 enqueue pc
 seekAddr($9FBCF4)
-	jsl space_check_sound
+	jsl space_check_sound_hack
 seekAddr($9FDF37)
-	jsl space_check_sound
+	jsl space_check_sound_hack
 dequeue pc
 
+space_check_sound_hack:
+	jsl space_check_sound
+	bcc +
+	jsl $00FC1A
++;	rtl
+
 space_check_sound:
+	//If Carry set = Sound, if unset = No Sound
 	pha
 	phx
 	php
@@ -23,7 +32,7 @@ space_check_sound:
 	bpl -
 
 	//Check if the char being rendered is a space
-	ldx $9A
+	ldx $359A
 	lda $40A400,x
 	ldx.w #(space_check_sound_table_end-space_check_sound_table-2)
 	xba
@@ -39,12 +48,13 @@ space_check_sound:
 	plp
 	plx
 	pla
-	jsl $00FC1A
+	sec
 	rtl
 	//Don't make a sound
 +;	plp
 	plx
 	pla
+	clc
 	rtl
 //Characters that shouldn't make a sound (spaces and others)
 space_check_sound_table:
