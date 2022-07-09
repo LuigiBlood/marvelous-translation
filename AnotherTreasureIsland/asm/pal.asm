@@ -1,5 +1,5 @@
 //PAL Conversion
-seekAddr($BF8000)
+setLoROMBase()
 
 //Increase Introduction Scrolling Speed
 enqueue pc
@@ -29,6 +29,7 @@ pal_intro_scrolling:
 
 //King Bull Dance Sync (Ch.1) ($05AF38 / $05AF77 / $05AFE0)
 //Intro
+enqueue pc
 seekAddr($05AE58)
 	//db $10, $10, $10, $10, $08, $08, $08, $08, $08, $08, $14, $14, $14, $14, $14, $14, $14
 	db 13, 13, 13, 13, 6, 6, 6, 6, 6, 6, 16, 16, 16, 16, 16, 16, 16
@@ -42,9 +43,11 @@ seekAddr($05AE82)
 seekAddr($05AEA1)
 	//db $14, $14, $14, $14, $14, $14
 	db 16, 16, 16, 16, 16, 16
+dequeue pc
 
 //Indio Kidnapping Dance Sync (Ch.2)
 //($09B968 - Turn Around - 1)
+enqueue pc
 seekAddr($09B968)
 	lda.b #$25
 //($09BD76 - Laugh Jingle)
@@ -54,21 +57,25 @@ seekAddr($09BD76)
 	cmp.b #$0D
 	sta $6f58,x
 	db $90	//BCC
+dequeue pc
 
 //Jean & Ken Swap Dance Sync (Ch.3)
 //Jean & Ken Rock Dance Sync (Ch.3)
 //Team Victory Dance
+enqueue pc
 seekAddr($12B18A)	//Turn Around
 	//lda.b #$05
 	lda.b #$04
 seekAddr($12B1A5)	//Victory Fist
 	//lda.b #$10
 	lda.b #$0F
+dequeue pc
 
 //Jack - Building Stairs (Ch.1)
 //$129188 - Moving Around
 //$1292E2 - Fumes Loop
 //$12949C - Final?
+enqueue pc
 seekAddr($12906E)	//0x58 bytes
 	//db $06, $14, $0E, $14, $0B, $14, $07, $14
 	//db $06, $0F
@@ -98,4 +105,6 @@ seekAddr($12906E)	//0x58 bytes
 seekAddr($129200)	//Timing for moving
 	//lda.b #$60
 	lda.b #$30
+dequeue pc
+
 //Jack - Building Mr. Diggy (Ch.2)
