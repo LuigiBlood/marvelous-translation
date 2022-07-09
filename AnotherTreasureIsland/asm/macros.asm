@@ -1,5 +1,4 @@
 //Macros
-arch snes.cpu
 
 //Seek SA-1 Address
 //Assumes the following
