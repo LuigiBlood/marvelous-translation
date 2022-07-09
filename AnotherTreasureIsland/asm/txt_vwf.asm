@@ -53,6 +53,17 @@ include "txt_vwf_pause.asm"
 include "txt_vwf_fix.asm"
 include "txt_sound.asm"
 
+//Reset every time new text is loaded
+enqueue pc
+seekAddr($9FBA4B)
+	jsl vwf_reset_pause
+dequeue pc
+
+vwf_reset_pause:
+	sta $40A400
+	jsl vwf_reset
+	rtl
+
 //--Set Fixed Width Mode
 vwf_mode_fixed_width:
 	stz {charmode}

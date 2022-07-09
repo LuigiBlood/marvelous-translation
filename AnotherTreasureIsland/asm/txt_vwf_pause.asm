@@ -1,15 +1,5 @@
 //VWF Hack - Item Name in Pause Menu
 enqueue pc
-seekAddr($9FBA4B)
-	jsl vwf_reset_pause
-dequeue pc
-
-vwf_reset_pause:
-	sta $40A400
-	jsl vwf_reset
-	rtl
-
-enqueue pc
 seekAddr($00F2A1)
 	cmp.w #$002E
 	db $90
