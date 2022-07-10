@@ -1,9 +1,11 @@
 //VWF Hack - Item Name in Pause Menu
 enqueue pc
-seekAddr($00F2A1)
+seekAddr($00F2A1)	//...what is this for, again?
 	cmp.w #$002E
-	db $90
+	db $90	//bcc
+dequeue pc
 
+enqueue pc
 //-Regular Chars
 seekAddr($00F2A9)	//Left Half of Char
 	jsl vwf_setup_l
@@ -23,7 +25,6 @@ seekAddr($00F345)	//Right Half of Char
 	nop; nop; nop; nop; nop; nop; nop
 seekAddr($00F37A)
 	jsl vwf_next
-
 dequeue pc
 
 enqueue pc
