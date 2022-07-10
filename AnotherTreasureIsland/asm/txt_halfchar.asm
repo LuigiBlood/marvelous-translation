@@ -1,7 +1,7 @@
 setLoROMBase()
-
 //VWF Hack - Make only one half for regular and kanji chars
-//VRAM Setup
+
+//VRAM Font Upload Hack (Fixed Width only)
 enqueue pc
 seekAddr($98A025)
 	ldx $9A
@@ -13,6 +13,10 @@ seekAddr($989FC7)
 	xba
 	inc
 	nop; nop; nop; nop; nop; nop; nop; nop; nop; nop
+dequeue pc
+
+//Do not use 4 bytes when filling the Virtual Tileset
+enqueue pc
 //VRAM Setup (Journal)
 seekAddr($988ABF)
 	nop; nop; nop; nop; nop; nop; nop; nop
@@ -28,6 +32,10 @@ seekAddr($989107)
 	nop; nop; nop; nop; nop; nop; nop
 seekAddr($989110)
 	nop; nop
+dequeue pc
+
+//Do not use 4 bytes when filling the Virtual Tileset
+enqueue pc
 //00-01
 seekAddr($9FBA71)
 	nop; nop; nop; nop; nop

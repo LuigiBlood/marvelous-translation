@@ -50,7 +50,7 @@ define charmode = $F6		//(Global) Rendering Mode: Variable Width (00), Fixed Wid
 include "txt_vwf_search.asm"
 include "txt_vwf_small.asm"
 include "txt_vwf_pause.asm"
-include "txt_vwf_wram.asm"
+//include "txt_vwf_wram.asm"	//DO NOT USE IT.
 include "txt_vwf_fix.asm"
 
 //Reset every time new text is loaded
