@@ -9,6 +9,8 @@ dequeue pc
 enqueue pc
 seekAddr($9FDDD2)
 	jsl vwf_check_search
+seekAddr($9FE53F)
+	jsl vwf_check_search
 seekAddr($9FE698)	//Final Screen
 	jsl vwf_check_search
 dequeue pc
