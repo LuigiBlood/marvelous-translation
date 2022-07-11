@@ -10980,7 +10980,7 @@ Like my Great Mecha #3?
 [en2]
 
 Next is [team] Team![np]
-[nl2]Up first for[team] team is the
+[nl2]Up first for [team] team is the
 [nl3]small, but ever-energetic, {D}{i}{o}{n}!
 [en1]
 
@@ -13763,7 +13763,7 @@ Ooo-kii-kii![np]
 [nl2]TL: Wow, 'ah clocked some ship
 [nl3]   blazing this wey...[np]
 [scl]   Ah'll be snooker'd if it is'nae
-[scl]  [team] team![np]
+[scl]   [team] team![np]
 [scl]   I've heard tell stories o` yer
 [scl]   adventures.
 [scl]   They're pure gey impressive!
