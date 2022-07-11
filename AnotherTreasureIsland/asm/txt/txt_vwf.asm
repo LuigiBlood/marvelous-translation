@@ -83,27 +83,35 @@ vwf_reset:
 //--Check Command, and if we should do padding or reset
 vwf_check_char:
 	//A = Command
-	cmp #($6B-$62)	//Amount
+	cmp.w #($6B-$62)	//Amount
 	beq _reset_vwf_skip
-	cmp #($6C-$62)	//Amount
+	cmp.w #($6C-$62)	//Amount
 	beq _reset_vwf_skip
-	cmp #($6D-$62)	//Icon
+	cmp.w #($6D-$62)	//Icon and others
+	beq _reset_vwf_special
+	cmp.w #($71-$62)	//Item Icon?
 	beq _reset_vwf_skip
-	cmp #($71-$62)	//Item Icon?
-	beq _reset_vwf_skip
-	cmp #($73-$62)	//Scroll
+	cmp.w #($73-$62)	//Scroll
 	beq _reset_vwf_zero
-	cmp #($74-$62)	//Line 1
+	cmp.w #($74-$62)	//Line 1
 	beq _reset_vwf_zero
-	cmp #($75-$62)	//Line 2
+	cmp.w #($75-$62)	//Line 2
 	beq _reset_vwf_zero
-	cmp #($76-$62)	//Line 3
+	cmp.w #($76-$62)	//Line 3
 	beq _reset_vwf_zero
-	cmp #($77-$62)	//End 1
+	cmp.w #($77-$62)	//End 1
 	beq _reset_vwf_zero
-	cmp #($7F-$62)	//End 2
+	cmp.w #($7F-$62)	//End 2
 	beq _reset_vwf_zero
-	rtl
+-;	rtl
+_reset_vwf_special:
+	lda $40A401,x	//Do not reset anything if it's a name
+	cmp.w #$1A
+	beq -
+	cmp.w #$34
+	beq -
+	cmp.w #$56
+	beq -
 _reset_vwf_skip:
 	//Space padding for Icons that require *even* tile offset to work properly.
 	lda {charcurrent}
