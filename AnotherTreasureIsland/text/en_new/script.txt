@@ -156,7 +156,7 @@ Come on~.[np]
 [scl]teacher before pressing [ABtn].
 [en2]
 
-Alright,[team] Team, now to
+Alright, [team] Team, now to
 [nl2]inform you of your duties.
 [nl3]Listen up.[np]
 [scl]You need to find[C$2A] pieces of
@@ -671,9 +671,9 @@ If you dawdle, you'll be late for
 [en2]
 
 [team] Team's Final Score:
-[nl2]Collected:[Space5]         [X$6B][Leader]
-[nl3]Helped people:[Space3][Space8][Space8]    [X$6C]%[One2]
-That means...
+[nl2]Collected:[X$6B][Leader]
+[nl3]Helped people:[X$6C]%[Space4]
+[One2]That means...
 [en1]
 
 Hassan isn't really a soldier,[np]
@@ -4997,7 +4997,7 @@ Thank you, my father loved this
 [nl3]crow, I'm sure he'll remember me.
 [en1]
 
-I was a fool to ask[team] Team
+I was a fool to ask [team] Team
 [nl2]to do anything. From now on, I'm
 [nl3]calling you Sissy Team.
 [en2]
@@ -5851,7 +5851,7 @@ Isn't it a great house?!
 There's plenty of life yet to enjoy!
 [en2]
 
-[nl2]   Hey![C$56] Wait for me!
+[nl2]   Hey! [C$56] Wait for me!
 [en2]
 
 Meow~, meow~.[np]
@@ -7281,7 +7281,7 @@ Wow! You kids know your stuff...[np]
 [nl2]Alright, you can have it for free.
 [en1]
 
-Oh,[Space4][team] Team! You're safe!
+Oh, [team] Team! You're safe!
 [nl2]What? I'm the PE teacher, Arnold.
 [nl3]Don't you remember me?
 [en1]
@@ -8793,7 +8793,7 @@ Ooo ooo![np]
 We're searching the island a few
 [nl2]lost kids!
 [nl3]Do you know anything about them?[np]
-[scl]They were called[team] Team.
+[scl]They were called [team] Team.
 [scl]One of them even had a hat just
 [scl]like that...[np]
 [scl]...Hey?... You kids aren't...?
@@ -8872,7 +8872,7 @@ Push the lever!
 We can handle things until we
 [nl2]reach the island.[np]
 [nl3]Why don'cha go outside and get
-[scl]some fresh air,[team] Team?
+[scl]some fresh air, [team] Team?
 [en2]
 
 On way to next island!
@@ -10979,7 +10979,7 @@ Like my Great Mecha #3?
 [scl]touchy now, ya hear?
 [en2]
 
-Next is[team] Team![np]
+Next is [team] Team![np]
 [nl2]Up first for[team] team is the
 [nl3]small, but ever-energetic, {D}{i}{o}{n}!
 [en1]
@@ -11018,7 +11018,7 @@ Eh? Well if it isn't [team] Team.
 [nl3]Come closer and I'll tell you.
 [en2]
 
-Hey,[team] Team, can't you do
+Hey, [team] Team, can't you do
 [nl2]anything about Jim? Somebody
 [nl3]needs to put him in his place.
 [en2]
@@ -11064,7 +11064,7 @@ Hehehe... Feelin' good!
 Ah, crap~. What should I do...?
 [en2]
 
-Go[team] Team go![np]
+Go [team] Team go![np]
 [nl2]For the beauty of your teacher[~]!
 [nl3]Fight, fight, [team] Team!
 [en2]
@@ -11125,11 +11125,11 @@ What's the matter? I wonder if
 [nl2]is a promise. Wait here.
 [en1]
 
-Hey,[team] Team, I heard
+Hey, [team] Team, I heard
 [nl2]you're collecting the {F}{i}{r}{e}{w}{o}{o}{d}.
 [en2]
 
-Hey![team] Team! Great timing.
+Hey! [team] Team! Great timing.
 [nl2]We were putting water in this
 [nl3]pot, but we put in too much.[np]
 [scl]Now we can't move it~!
@@ -11145,7 +11145,7 @@ There's a trick to catching fish.
 [nl2]...Want me to tell you?
 [en2]
 
-[nl2]Hey![team] Team!
+[nl2]Hey! [team] Team!
 [nl3]               [np]
 [scl]It was getting late, so I came
 [scl]looking for you[~]. What are you
@@ -13336,7 +13336,7 @@ Did you already see the king?
 [nl3]reward for you.
 [en2]
 
-Thank you,[team] Team.
+Thank you, [team] Team.
 [nl2]         .....What?.....[np]
 [nl3]You want to know how I know your
 [scl]name?
@@ -13367,12 +13367,12 @@ Thank you for saving me in the
 [nl3]I'll never forget you.
 [en2]
 
-Thank you,[team] Team.
+Thank you, [team] Team.
 [nl2]If it weren't for you, I wouldn't
 [nl3]be standing here right now.
 [en2]
 
-Good job coming back in one piece. [np]
+Good job coming back in one piece.[np]
 [nl2]I shudder to think what would've
 [nl3]happened to me if you hadn't been
 [scl]there, [team] Team.....
@@ -13915,7 +13915,7 @@ Okay, now the hole is patched!
 [nl2]My skin is crawling!!!
 [en2]
 
-.[Space4].[Space4].[Space4]![Space4].[Space4].[Space4].[team]... Team...?
+.[Space4].[Space4].[Space4]![Space4].[Space4].[Space4]. [team]... Team...?
 [nl2]It's you, [team] Team!!
 [en2]
 
@@ -14178,7 +14178,7 @@ What, what? What's that sound?!
 [nl2]It smells... a bit fishy.
 [en2]
 
-Sorry,[team] Team. I can't let
+Sorry, [team] Team. I can't let
 [nl2]you in because we're full.
 [en2]
 
