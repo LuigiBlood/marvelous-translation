@@ -106,11 +106,12 @@ vwf_check_char:
 -;	rtl
 _reset_vwf_special:
 	lda $40A401,x	//Do not reset anything if it's a name
-	cmp.w #$1A
+	and.w #$00FF
+	cmp.w #$001A
 	beq -
-	cmp.w #$34
+	cmp.w #$0034
 	beq -
-	cmp.w #$56
+	cmp.w #$0056
 	beq -
 _reset_vwf_skip:
 	//Space padding for Icons that require *even* tile offset to work properly.
