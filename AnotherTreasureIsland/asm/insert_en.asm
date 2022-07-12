@@ -48,7 +48,7 @@ seekFile($26A400)	//Marvelous - Search Mode Logo
 	insert "../gfx/en_new/tmp/title_search.gfx"
 
 //--Journal Menu Tilemap Hacks
-seekFile($2C09B0)	//SELECTでゲーム画面た & Move & Select Text Hack
+seekFile($2C0A2B)	//SELECTでゲーム画面た & Move & Select Text Hack
 map_journal1:
 	insert "../gfx/en_new/journal1_map.bin"
 seekFile($2C1189)	//"Save"
