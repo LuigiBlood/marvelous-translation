@@ -40,6 +40,10 @@ setLoROMBase()
 //32*8=256 pixels wide per line for Item Name in Pause Menu
 
 //D = 3500, DB = 00
+define charrender = $409000	//(Global) Text Rendering Buffer
+define charbuffer = $40A400	//(Global) Text Virtual Tileset Buffer
+define charoffset_w = $359A	//(Global) Current Char Offset in Virtual Tileset
+define charoffset = {charoffset_w}&0xFF
 define charcurrent = $9C	//(Global) Current Char Tile
 define scriptid = $AA		//(Global) Script ID * 3
 define charshift = $EE		//(Global) Shift
@@ -60,7 +64,7 @@ seekAddr($9FBA4B)
 dequeue pc
 
 vwf_reset_pause:
-	sta $40A400
+	sta {charbuffer}
 	jsl vwf_reset
 	rtl
 
@@ -105,7 +109,7 @@ vwf_check_char:
 	beq _reset_vwf_zero
 -;	rtl
 _reset_vwf_special:
-	lda $40A401,x	//Do not reset anything if it's a name
+	lda {charbuffer}+1,x	//Do not reset anything if it's a name
 	and.w #$00FF
 	cmp.w #$001A
 	beq -
@@ -159,22 +163,22 @@ render_vwf_main:
 	and $0D
 	sta $08-2,s
 
-	lda $409000,x
+	lda {charrender},x
 	and $0C
 	xba
-	lda $409001,x
+	lda {charrender}+0x01,x
 	and $0C
 	xba
 
 	rep #$20
 
 	ora $07-2,s
-	sta $409000,x
+	sta {charrender},x
 	bra ++
 
 +;	plx
 	lda $07-2,s
-	sta $409000,x
+	sta {charrender},x
 
 +;	plx
 	sep #$20
@@ -185,16 +189,16 @@ render_vwf_main:
 	and $0C
 	sta $0A-4,s
 
-	lda $409010,x
+	lda {charrender}+0x10,x
 	and $0D
 	xba
-	lda $409011,x
+	lda {charrender}+0x11,x
 	and $0D
 	xba
 	rep #$20
 
 	ora $09-4,s
-	sta $409010,x
+	sta {charrender}+0x10,x
 
 	rts
 

@@ -95,8 +95,8 @@ event_char_detection:
 	phx
 	php
 	rep #$30
-	ldx $359A		//Get Current Char
-	lda $40A400,x
+	ldx {charoffset_w}		//Get Current Char
+	lda {charbuffer},x
 	xba
 	cmp.w #$E4*2
 	beq +
@@ -113,10 +113,10 @@ eventnp_char_detection:
 	phx
 	php
 	rep #$30
-	ldx $359A		//Get Previous Char
+	ldx {charoffset_w}		//Get Previous Char
 	dex
 	dex
-	lda $40A400,x
+	lda {charbuffer},x
 	xba
 	cmp.w #$E4*2
 	beq +
@@ -133,8 +133,8 @@ event2_char_detection:
 	phx
 	php
 	rep #$30
-	ldx $359A		//Get Current Char
-	lda $40A400,x
+	ldx {charoffset_w}		//Get Current Char
+	lda {charbuffer},x
 	xba
 	cmp.w #$E5*2
 	beq +

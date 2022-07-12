@@ -473,8 +473,8 @@ seekAddr($14D356)
 	sta $33CD
 
 	//Check if finished
-	ldx $359A
-	lda $40A400,x
+	ldx {charoffset_w}
+	lda {charbuffer},x
 	cmp.w #$326D	//Delay
 	beq ++
 	and.w #$00FF
@@ -500,8 +500,8 @@ copy_final_score_stuff:
 
 	//Copy Buffer
 	ldx $9a
--;	lda $40a400,x
-	sta $40a600,x
+-;	lda {charbuffer},x
+	sta {charbuffer}+0x200,x
 	dex; dex
 	bpl -
 
@@ -513,7 +513,7 @@ copy_final_score_stuff:
 	//Empty main buffer
 	lda.w #0
 	dex; dex;
--;	sta $40A400,x
+-;	sta {charbuffer},x
 	dex; dex;
 	bpl -
 	rtl

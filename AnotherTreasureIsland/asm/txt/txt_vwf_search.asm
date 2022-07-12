@@ -58,12 +58,12 @@ seekAddr($9FBDCF)
 dequeue pc
 
 vwf_setup_l:
-	lda $40A400,x
+	lda {charbuffer},x
 	xba
 	jsl vwf_setup
 	rtl
 vwf_setup_r:
-	lda $40A400,x
+	lda {charbuffer},x
 	xba
 	inc
 	jsl vwf_setup

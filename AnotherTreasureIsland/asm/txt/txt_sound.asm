@@ -32,8 +32,8 @@ space_check_sound:
 	bpl -
 
 	//Check if the char being rendered is a space
-	ldx $359A
-	lda $40A400,x
+	ldx {charoffset_w}
+	lda {charbuffer},x
 	ldx.w #(space_check_sound_table_end-space_check_sound_table-2)
 	xba
 	lsr
