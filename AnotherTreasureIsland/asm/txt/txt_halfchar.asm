@@ -4,8 +4,8 @@ setLoROMBase()
 //VRAM Font Upload Hack (Fixed Width only)
 enqueue pc
 seekAddr($98A025)
-	ldx $9A
-	lda $40A400,x
+	ldx {charoffset}
+	lda {charbuffer},x
 	xba
 	inc
 	nop; nop; nop
