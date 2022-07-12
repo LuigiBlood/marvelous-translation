@@ -499,7 +499,7 @@ copy_final_score_stuff:
 	//MX unset
 
 	//Copy Buffer
-	ldx $9a
+	ldx {charoffset}
 -;	lda {charbuffer},x
 	sta {charbuffer}+0x200,x
 	dex; dex
@@ -507,8 +507,8 @@ copy_final_score_stuff:
 
 	//Point text renderer to copied buffer
 	ldx.w #$0200
-	stx $9a
-	stz $9c
+	stx {charoffset}
+	stz {charcurrent}
 
 	//Empty main buffer
 	lda.w #0

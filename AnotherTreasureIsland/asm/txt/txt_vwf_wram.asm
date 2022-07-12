@@ -5,7 +5,7 @@ seekAddr($989F8F)	//Left Half of Char
 	jsl vwf_setup_l
 	nop
 seekAddr($989FC1)	//Right Half of Char
-	ldx $9A
+	ldx {charoffset}
 	jsl vwf_setup_r
 	nop; nop; nop; nop; nop
 	nop; nop; nop; nop; nop; nop; nop
@@ -13,7 +13,7 @@ seekAddr($989FF2)
 	jsl vwf_next
 //-Kanji Chars
 seekAddr($98A025)	//Right Half of Char
-	ldx $9A
+	ldx {charoffset}
 	jsl vwf_setup_r
 	nop; nop; nop; nop; nop
 seekAddr($98A053)

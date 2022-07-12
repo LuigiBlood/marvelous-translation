@@ -43,7 +43,7 @@ setLoROMBase()
 define charrender = $409000	//(Global) Text Rendering Buffer
 define charbuffer = $40A400	//(Global) Text Virtual Tileset Buffer
 define charoffset_w = $359A	//(Global) Current Char Offset in Virtual Tileset
-define charoffset = {charoffset_w}&0xFF
+define charoffset = $9A
 define charcurrent = $9C	//(Global) Current Char Tile
 define scriptid = $AA		//(Global) Script ID * 3
 define charshift = $EE		//(Global) Shift
@@ -376,6 +376,6 @@ vwf_next:
 	pla
 	
 	inc {charcurrent}
-	inc $9A
+	inc {charoffset}
 	
 	rtl

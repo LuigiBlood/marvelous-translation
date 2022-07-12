@@ -11,15 +11,15 @@ seekAddr($00F2A9)	//Left Half of Char
 	jsl vwf_setup_l
 	nop
 seekAddr($00F2DB)	//Right Half of Char
-	ldx $9A
+	ldx {charoffset}
 	jsl vwf_setup_r
 	nop; nop; nop; nop; nop
 seekAddr($00F305)	
 	jsl vwf_next
-	inc $9a
+	inc {charoffset}
 //-Kanji Chars
 seekAddr($00F345)	//Right Half of Char
-	ldx $9A
+	ldx {charoffset}
 	jsl vwf_setup_r
 	nop; nop; nop; nop; nop
 	nop; nop; nop; nop; nop; nop; nop

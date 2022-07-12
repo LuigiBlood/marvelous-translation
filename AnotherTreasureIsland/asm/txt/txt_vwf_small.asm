@@ -20,14 +20,14 @@ enqueue pc
 seekAddr($9FDF1B)	//Left Half of Char
 	jsl vwf_setup_s_l
 seekAddr($9FDF6D)	//Right Half of Char
-	ldx $9A
+	ldx {charoffset}
 	jsl vwf_setup_r
 	nop; nop; nop; nop; nop
 seekAddr($9FDF94)
 	jsl vwf_next
 //-Kanji Chars
 seekAddr($9FDFE0)	//Right Half of Char
-	ldx $9A
+	ldx {charoffset}
 	jsl vwf_setup_r
 	nop; nop; nop; nop; nop
 seekAddr($9FE00B)

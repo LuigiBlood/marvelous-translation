@@ -43,14 +43,14 @@ seekAddr($9FBD00)	//Left Half of Char
 	jsl vwf_setup_l
 	nop; nop; nop
 seekAddr($9FBD31)	//Right Half of Char
-	ldx $9A
+	ldx {charoffset}
 	jsl vwf_setup_r
 	nop; nop; nop; nop; nop
 seekAddr($9FBD58)
 	jsl vwf_next
 //-Kanji Chars
 seekAddr($9FBDA4)	//Right Half of Char
-	ldx $9A
+	ldx {charoffset}
 	jsl vwf_setup_r
 	nop; nop; nop; nop; nop
 seekAddr($9FBDCF)
@@ -104,7 +104,7 @@ setup_vwf_team3:
 	rtl
 next_vwf_team:
 	jsl vwf_next
-	dec $9A
+	dec {charoffset}
 	lda {charcurrent}
 	rtl
 
