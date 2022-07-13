@@ -36,8 +36,6 @@ asm_menu_fix:
 	lda $75E8
 	asl
 	clc
-	adc.w #$30A0
-	sta $7F009A
 dequeue pc
 
 //Easier Team Naming Controls

@@ -58,17 +58,21 @@ seekFile($2C18C8)	//#に記録していいですか？
 					//"Wanna save to entry #?"
 map_journal3:
 	insert "../gfx/en_new/journal3_map.bin"
-seekFile($2C19BB)	//Change place to entry number
+seekAddr($9899B8)	//Change place to entry number
+	adc.w #$30A0
 	sta $7F00B2
-seekFile($2C1E1E)	//Change place to entry number (Save & Exit)
+seekAddr($989E1B)	//Change place to entry number (Save & Exit)
+	adc.w #$30A0
 	sta $7F00B2
 seekFile($2C1AAF)	//#に記録しました。
 					//Journal entry # has been saved.
 map_journal4:
 	insert "../gfx/en_new/journal4_map.bin"
-seekFile($2C1B1E)	//Change place to entry number
+seekAddr($989B1B)	//Change place to entry number
+	adc.w #$30A0
 	sta $7F00AC
-seekFile($2C1F12)	//Change place to entry number (Save & Exit, see code.asm)
+seekAddr($989F0F)	//Change place to entry number (Save & Exit, see code.asm)
+	adc.w #$30A0
 	sta $7F00AC
 
 
