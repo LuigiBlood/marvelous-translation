@@ -1,0 +1,33 @@
+$30F0 - JOY1 Hold
+$30F2 - JOY1 Press
+$30F4 - JOY1 Previous
+$30F6 - JOY2 Hold
+$30F8 - JOY2 Press
+$30FA - JOY2 Previous
+AXlr0000 BYsSUDLR
+
+
+$9F8000 = AA (if 00, enable Debug with Joypad 2, L = Freeze, R = Next Frame)
+Debug Mode
+
+Joypad 2 Controls:
+L = Freeze Frame
+R = Frame Advance
+
+You can select the chapter in the file select.
+You can press X to enable fast running and through walls.
+You can skip the first monkey cutscene by pressing Start.
+
+thanks bluesun:
+SNES $009970 - checked constantly (enable 2P L/R pause/frame-advance)
+SNES $00bd38 - init save for Slot 1
+SNES $00bd8f - checked in certain conditions on boot and on loading save menu (insert Marvelous file into slot 1 if blank/corrupt?)
+SNES $00ebd3 - checked in pause menu (Disable X to close menu)
+SA-1 $088bd4 - checked when in-game (enable X for fast walk-through-walls)
+SA-1 $088d46 - checked when in water (enable X for swimming through walls)
+SNES $0a811d - checked in search screen / talking (?) (Do not perform waits to leave more cycles to SA-1?)
+SNES $148bbf - checked while in-game on outside maps (Disable X Menu Button)
+SNES $14942c - checked while in-game on inside maps  (Disable X Menu Button)
+SNES $14d103 - press button A on Controller 2 to skip parts of the credits
+SNES $97e962 - checked in monkey cutscene (enable start to skip)
+SNES $988cdd - checked on load game menu (enable Left/Right to change chapters)
