@@ -1,0 +1,1 @@
+".\tools\bsnes-plus\bsnes-performance" ".\roms\Marvelous_FR_LB.sfc"

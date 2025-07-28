@@ -1,0 +1,261 @@
+
+Red Crystal
+[en2]
+
+Blue Crystal
+[en2]
+
+Yellow Crystal
+[en2]
+
+Green Crystal
+[en2]
+
+
+[en2]
+
+
+[en2]
+
+
+[en2]
+
+
+[en2]
+
+
+[en2]
+
+Acidic Key
+[en2]
+
+Gate Key
+[en2]
+
+Jump Boots
+[en2]
+
+Big Hammer
+[en2]
+
+Punch Gloves
+[en2]
+
+Marlowe Magnet
+[en2]
+
+Walkie-Talkie
+[en2]
+
+Recovered Broken Board
+[en2]
+
+Holey Aged Cheese
+[en2]
+
+Salty Spray
+[en2]
+
+Long Old Rope
+[en2]
+
+Complex Remote Control
+[en2]
+
+A Real Eagle's Egg
+[en2]
+
+Selfish Pocket Polly
+[en2]
+
+A Large Fishing Hook
+[en2]
+
+A Fishing Rod
+[en2]
+
+Secret Village Coin
+[en2]
+
+Dash Shoes
+[en2]
+
+Mitt and Ball
+[en2]
+
+Borrowed Tape Recorder
+[en2]
+
+Mysterious Photo
+[en2]
+
+Forgotten Doll
+[en2]
+
+Mr. Diggy (The Digger)
+[en2]
+
+Sour Cage Key
+[en2]
+
+Soldier Blue (Medicine)
+[en2]
+
+Tomato
+[en2]
+
+Spicy Lunch of Love
+[en2]
+
+Bottle (Not A Weapon)
+[en2]
+
+(Not) Napoleon's Pot
+[en2]
+
+Fake Shogun's Pot
+[en2]
+
+Shady Chef's Hat
+[en2]
+
+Used Forest Shell
+[en2]
+
+Rolypoly's Shell
+[en2]
+
+Electrified Frog's Tail
+[en2]
+
+Decent Dog House
+[en2]
+
+Fashionable Forest Coat
+[en2]
+
+Tense Bee's Golden Drop
+[en2]
+
+Spider's Silver Thread
+[en2]
+
+Red Paint with Brush
+[en2]
+
+Green Paint with Brush
+[en2]
+
+Blue Paint with Brush
+[en2]
+
+A Small Key
+[en2]
+
+Mysterious Crystal Ball
+[en2]
+
+Red Key
+[en2]
+
+Green Key
+[en2]
+
+Blue Key
+[en2]
+
+You have 0 Firewood.
+[en2]
+
+Sisko's Pretty Flowers
+[en2]
+
+Dog Bone
+[en2]
+
+Creepy Mansion Key
+[en2]
+
+Slippery Frog
+[en2]
+
+Benson's Lucky Dynamite
+[en2]
+
+[ ]{0} Luck Rocks
+[en2]
+
+Soccer Shoes
+[en2]
+
+Swimming Goggles
+[en2]
+
+Digging Machine Blueprints
+[en2]
+
+Miss Gina's Scarf
+[en2]
+
+Stinky Fish Key
+[en2]
+
+Salty Saltwater Bottle
+[en2]
+
+Buster Cannon
+[en2]
+
+Colonel's Permission Slip
+[en2]
+
+Red Key 1
+[en2]
+
+Red Key 2
+[en2]
+
+Red Key 3
+[en2]
+
+Red Key 4
+[en2]
+
+Green Key 1
+[en2]
+
+Green Key 2
+[en2]
+
+Green Key 3
+[en2]
+
+Green Key 4
+[en2]
+
+Blue Key 1
+[en2]
+
+Blue Key 2
+[en2]
+
+Blue Key 3
+[en2]
+
+Blue Key 4
+[en2]
+
+
+[en2]
+
+
+[en2]
+
+
+[en2]
+
+
+[en2]
+
+
+[en2]
