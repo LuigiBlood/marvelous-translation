@@ -1,0 +1,8 @@
+{"name":"fr_script",
+"fontPath":"..\\..\\text\\fr\\font.bin",
+"kanjiPath":"..\\..\\text\\fr\\kanji.bin",
+"iconsPath":"..\\..\\text\\fr\\icons.bin",
+"widthPath":"..\\..\\text\\fr\\width.tbl",
+"tablePath":"..\\..\\text\\fr\\table.tbl",
+"scriptPath":"..\\..\\text\\fr\\script.txt",
+"notesPath":"..\\..\\text\\fr\\script_notes.txt"}

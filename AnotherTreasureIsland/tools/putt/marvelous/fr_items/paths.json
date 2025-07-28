@@ -1,0 +1,8 @@
+{"name":"fr_items",
+"fontPath":"..\\..\\text\\fr\\font.bin",
+"kanjiPath":"..\\..\\text\\fr\\kanji.bin",
+"iconsPath":"..\\..\\text\\fr\\icons.bin",
+"widthPath":"..\\..\\text\\fr\\width.tbl",
+"tablePath":"..\\..\\text\\fr\\table.tbl",
+"scriptPath":"..\\..\\text\\fr\\items.txt",
+"notesPath":"..\\..\\text\\fr\\items_notes.txt"}
