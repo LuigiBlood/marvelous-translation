@@ -1,0 +1,26 @@
+$14CE43 - Start Credits?
+$14CF60 - Init Credits single section based on table
+
+0x7B 0xFFD8 - Chest
+0x68 Blue Door
+
+0xD table
+ (0x1A)
+
+$14CEAA - 8-bit  - Game Section to show off
+$14CEB7 - 8-bit  - Vertical Placement of Credits Text (80, 60) (if CC = nothing on screen)
+$14CEC4 - 16-bit - Y Window Position (if 00 = nothing on screen)
+$14CEDE - 16-bit - X Position of Background
+$14CEF8 - 16-bit - Y Position of Background
+$14CF12 - 16-bit - Sprite Base?
+$14CF2C - 16-bit - ???
+$14CF46 - 16-bit - Credits Tilemap Pointer
+
+db $46,$48,$11,$23,$17,$3c,$5b,$29,$20,$34,$2a,$66,$44
+db $80,$60,$80,$60,$80,$60,$80,$60,$80,$60,$80,$60,$80
+dw $0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098,$0048
+dw $00f0,$fff0,$ffe8,$fff0,$fff0,$00fc,$0000,$fff0,$00f0,$fff0,$0100,$fff0,$ffec
+dw $0100,$0130,$00f0,$0024,$fffc,$0030,$0000,$ffa0,$00f8,$00a0,$0100,$0030,$0000
+dw $0008,$0010,$0402,$0408,$0466,$0050,$0068,$04ae,$0092,$04ea,$00c4,$050a,$0420
+dw $d900,$d880,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900
+dw $3000,$3100,$3200,$3300,$3400,$3500,$3600,$3700,$3800,$3900,$3a00,$3b00,$3e80
