@@ -204,7 +204,7 @@ Let's move closer to take a look.
 W...water...!
 [en2]
 
-[X$79][ChirpHoot]Use [CPad] and [RBtn][C$1C] [Big?][X$71]
+[X$79][ChirpHoot]Utilisez [CPad] et [RBtn][C$1C] [Big?][X$71]
 [en1]
 
 [X$79]Please set the robot's path.[CPad]

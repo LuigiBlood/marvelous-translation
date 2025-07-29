@@ -4,16 +4,17 @@ tashi & DackR
 
 Marvelous - Another Treasure Island v2.0 Translation Patch Staff:
 
-Project Leader & Hacking:
-LuigiBlood
+LuigiBlood - Project Leader & Hacking
 
-English Script Writer:
-DackR & tashi
+DackR - English Script Editing, Graphics
+bluesun - Japanese to English Retranslation
 
-Font Design:
-/dev/urandom
+Lestat - French Graphics
+pinktagada - English to French Translation
+
+/dev/urandom - Font Design
 
 Special Thanks:
+FuSoYa - For dealing with the compression
 terminator2k2
 NukeOTron
-FuSoYa

@@ -1,17 +1,14 @@
 
-Red Crystal
+Cristal Vert
 [en2]
 
-Blue Crystal
+Cristal Bleu
 [en2]
 
-Yellow Crystal
+Cristal Jaune
 [en2]
 
-Green Crystal
-[en2]
-
-
+Cristal Vert
 [en2]
 
 
@@ -26,223 +23,226 @@ Green Crystal
 
 [en2]
 
-Acidic Key
+
 [en2]
 
-Gate Key
+Clé acidulée
 [en2]
 
-Jump Boots
+Clé du portail
 [en2]
 
-Big Hammer
+Bottes de Saut
 [en2]
 
-Punch Gloves
+Marteau Géant
 [en2]
 
-Marlowe Magnet
+Gants de Boxe
+[en2]
+
+Aimant du Dr. Marlowe
 [en2]
 
 Walkie-Talkie
 [en2]
 
-Recovered Broken Board
+Planche cachée
 [en2]
 
-Holey Aged Cheese
+Vieux gruyère
 [en2]
 
-Salty Spray
+Pulvérisateur
 [en2]
 
-Long Old Rope
+Vieille corde mystèrieuse
 [en2]
 
-Complex Remote Control
+Télécommande complexe
 [en2]
 
-A Real Eagle's Egg
+Un vrai Œuf d'aigle
 [en2]
 
-Selfish Pocket Polly
+L'égoïste Polly de poche
 [en2]
 
-A Large Fishing Hook
+Grand Hameçon
 [en2]
 
-A Fishing Rod
+Canne à pêche
 [en2]
 
-Secret Village Coin
+Pièce secrète
 [en2]
 
-Dash Shoes
+Chaussures de Course
 [en2]
 
-Mitt and Ball
+Gant et Balle
 [en2]
 
-Borrowed Tape Recorder
+Magnétophone
 [en2]
 
-Mysterious Photo
+Photo mystère
 [en2]
 
-Forgotten Doll
+Poupée oubliée
 [en2]
 
-Mr. Diggy (The Digger)
+M. Taupe
 [en2]
 
-Sour Cage Key
+Clé de cage acide
 [en2]
 
-Soldier Blue (Medicine)
+Bleu militaire
 [en2]
 
-Tomato
+Tomate
 [en2]
 
-Spicy Lunch of Love
+Panier repas épicé de maman
 [en2]
 
-Bottle (Not A Weapon)
+Bouteille vide
 [en2]
 
-(Not) Napoleon's Pot
+(Faux) Vase Napoléon
 [en2]
 
-Fake Shogun's Pot
+(Faux) Vase Shogun
 [en2]
 
-Shady Chef's Hat
+Toque suspecte
 [en2]
 
-Used Forest Shell
+Coquille forestière
 [en2]
 
-Rolypoly's Shell
+Carapace de cloporte
 [en2]
 
-Electrified Frog's Tail
+Queue de grenouille électrifiée
 [en2]
 
-Decent Dog House
+Niche décente
 [en2]
 
-Fashionable Forest Coat
+Manteau forestier de bon goût
 [en2]
 
-Tense Bee's Golden Drop
+Timide goutte dorée
 [en2]
 
-Spider's Silver Thread
+Fil d'argent de l'ainé
 [en2]
 
-Red Paint with Brush
+Peinture rouge
 [en2]
 
-Green Paint with Brush
+Peinture verte
 [en2]
 
-Blue Paint with Brush
+Peinture bleue
 [en2]
 
-A Small Key
+Petite clé
 [en2]
 
-Mysterious Crystal Ball
+Boule de cristal mystèrieuse
 [en2]
 
-Red Key
+Clé rouge
 [en2]
 
-Green Key
+Clé verte
 [en2]
 
-Blue Key
+Clé bleue
 [en2]
 
-You have 0 Firewood.
+Tu n'as plus de bois.
 [en2]
 
-Sisko's Pretty Flowers
+Jolies fleurs de Sisko
 [en2]
 
-Dog Bone
+Os pour chien
 [en2]
 
-Creepy Mansion Key
+Clé du manoir
 [en2]
 
-Slippery Frog
+Grenouille récalcitrante
 [en2]
 
-Benson's Lucky Dynamite
+TNT de Benson
 [en2]
 
-[ ]{0} Luck Rocks
+[ ]{0} Gemme(s) chanceuse(s)
 [en2]
 
-Soccer Shoes
+Chaussures de foot
 [en2]
 
-Swimming Goggles
+Lunettes de piscine
 [en2]
 
-Digging Machine Blueprints
+Plans de la machine à creuser
 [en2]
 
-Miss Gina's Scarf
+Foulard de Mlle Gina
 [en2]
 
-Stinky Fish Key
+Clé poissoneuse
 [en2]
 
-Salty Saltwater Bottle
+Eau salée
 [en2]
 
-Buster Cannon
+Giga canon
 [en2]
 
-Colonel's Permission Slip
+Passe du colonel
 [en2]
 
-Red Key 1
+Clé rouge 1
 [en2]
 
-Red Key 2
+Clé rouge 2
 [en2]
 
-Red Key 3
+Clé rouge 3
 [en2]
 
-Red Key 4
+Clé rouge 4
 [en2]
 
-Green Key 1
+Clé verte 1
 [en2]
 
-Green Key 2
+Clé verte 2
 [en2]
 
-Green Key 3
+Clé verte 3
 [en2]
 
-Green Key 4
+Clé verte 4
 [en2]
 
-Blue Key 1
+Clé bleue 1
 [en2]
 
-Blue Key 2
+Clé bleue 2
 [en2]
 
-Blue Key 3
+Clé bleue 3
 [en2]
 
-Blue Key 4
+Clé bleue 4
 [en2]
 
 
