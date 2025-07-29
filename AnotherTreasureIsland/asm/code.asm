@@ -515,3 +515,58 @@ copy_final_score_stuff:
 	dex; dex;
 	bpl -
 	rtl
+
+
+//Talkie-Walkie Menu
+enqueue pc
+seekAddr($9EF442)
+	//mX (72 bytes)
+	fill 72,$EA
+seekAddr($9EF442)
+	jsl call_menu_change
+dequeue pc
+
+call_menu_change:
+	phy
+	ldy.b #0
+	lda map_call_menu_addr+0
+	pha
+	lda map_call_menu_base+0
+-;	sta (1,s),y
+	iny; iny; inc
+	cmp map_call_menu_end+0
+	bne -
+	pla
+
+	ldy.b #0
+	lda map_call_menu_addr+2
+	pha
+	lda map_call_menu_base+2
+-;	sta (1,s),y
+	iny; iny; inc
+	cmp map_call_menu_end+2
+	bne -
+	pla
+
+	ldy.b #0
+	lda map_call_menu_addr+4
+	pha
+	lda map_call_menu_base+4
+-;	sta (1,s),y
+	iny; iny; inc
+	cmp map_call_menu_end+4
+	bne -
+	pla
+
+	ldy.b #0
+	lda map_call_menu_addr+6
+	pha
+	lda map_call_menu_base+6
+-;	sta (1,s),y
+	iny; iny; inc
+	cmp map_call_menu_end+6
+	bne -
+	pla
+	ply
+
+	rtl

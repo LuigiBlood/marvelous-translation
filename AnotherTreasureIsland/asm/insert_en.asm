@@ -392,6 +392,16 @@ map_ship_notes_4:
 map_ship_notes_5:
 	insert "../gfx/en_new/tmp/ship_note.map",0x1400,0x0400
 
+map_call_menu_base:
+	dw $2240, $2250	//<Icon>Call
+	dw $2245, $2255	//Quit
+map_call_menu_end:
+	dw $2245, $2255
+	dw $2248, $2258
+map_call_menu_addr:
+	dw $0b88, $0bc8	//Call
+	dw $0c1a, $0c5a	//Quit
+
 size_check(free_space1, 0x20B9D)
 
 //Free Space (2) & Script
