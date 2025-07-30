@@ -70,10 +70,16 @@ map_journal4:
 	insert "../gfx/fr/journal4_map.bin"
 seekAddr($989B1B)	//Change place to entry number
 	adc.w #$30A0
-	sta $7F00AC
+	sta $7F00AC-8
 seekAddr($989F0F)	//Change place to entry number (Save & Exit, see code.asm)
 	adc.w #$30A0
-	sta $7F00AC
+	sta $7F00AC-8
+
+seekFile($2C18EA)
+map_journal_yesno:
+	dw $30C0,$30C2,$308E,$2160,$30C4,$30C6,$30C8,$2160,$2160,$2160
+seekAddr($9899E0)	//Selection Sprites
+	db $79,$88,$98,$A8
 
 
 //--Large Messages

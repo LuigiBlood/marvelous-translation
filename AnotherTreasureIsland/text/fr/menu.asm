@@ -25,6 +25,11 @@ macro menu_restart() {
 	db $FD, $F8, $FD, $F9, $FD, $FA, $FD, $FB, $FD, $FC, $FD, $B4, $FD, $B5, $FD, $B6, $FD, $B7
 }
 
+macro menu_start_fr() {
+	//A partir d (5)
+	db $FD, $B0, $FD, $B1, $FD, $B2, $FD, $B3, $FD, $B4
+}
+
 macro menu_save() {
 	//Save&Quit
 	db $FD, $C0, $FD, $C1, $FD, $C2, $FD, $C3, $FD, $C4, $FD, $C5, $FD, $C6, $FD, $C7
@@ -67,8 +72,8 @@ db $5D, $5E, $5F, $5C
 //"No" (already in english)
 db $0D, $36
 
-//"Yes" (already in english)
-db $18, $2C, $3A
+//"Yes" (already in english) "Oui"
+db $0E, $3C, $30
 
 db $15, $0B, $12
 db $01, $3A, $0C, $40, $4E, $2C, $00, $3D
@@ -163,13 +168,13 @@ db $F0, $F0, $F0, $F0
 //Name
 name_ch1()
 //From Tent
-menu_start()
-db $FD, $B8, $FD, $B9, $FD, $BA
+menu_start_fr()
+db $FD, $B5, $FD, $B6, $FD, $B7, $FD, $B8, $FD, $B9, $FD, $BA
 db $F0, $F0, $F0, $F0, $F0
 //From Ship
-menu_start()
-db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0, $F0
+menu_start_fr()
+db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
+db $F0, $F0, $F0, $F0, $F0, $F0
 //Save&Qui
 menu_save()
 db $FB
@@ -182,13 +187,13 @@ db $F0, $F0, $F0, $F0
 //Name
 name_ch2()
 //From Ship
-menu_start()
-db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0, $F0
-//From Mansion
-menu_start()
+menu_start_fr()
 db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
-db $F0, $F0, $F0
+db $F0, $F0, $F0, $F0, $F0, $F0
+//From Mansion
+menu_start_fr()
+db $FC, $18, $FC, $19, $FC, $1A, $FC, $1B, $FC, $1C
+db $F0, $F0, $F0, $F0, $F0, $F0
 //Save&Qui
 menu_save()
 db $FB
@@ -201,13 +206,13 @@ db $F0, $F0, $F0, $F0
 //Name
 name_ch3()
 //From Ship
-menu_start()
-db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0, $F0
+menu_start_fr()
+db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
+db $F0, $F0, $F0, $F0, $F0, $F0
 //From Stable
-menu_start()
-db $FC, $18, $FC, $19, $FC, $1A, $FC, $1B
-db $F0, $F0, $F0, $F0
+menu_start_fr()
+db $FC, $20, $FC, $21, $FC, $22, $FC, $23, $FC, $24, $FC, $25
+db $F0, $F0, $F0, $F0, $F0
 //Save&Qui
 menu_save()
 db $FB
@@ -220,13 +225,13 @@ db $F0, $F0, $F0, $F0
 //Name
 name_ch4()
 //From Ship
-menu_start()
-db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0, $F0
-//From Inn
-menu_start()
-db $FD, $BE, $FD, $BF
+menu_start_fr()
+db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
 db $F0, $F0, $F0, $F0, $F0, $F0
+//From Inn
+menu_start_fr()
+db $FC, $28, $FC, $29, $FC, $2A, $FC, $2B, $FC, $2C, $FC, $2D, $FC, $2E
+db $F0, $F0, $F0, $F0
 //Save&Qui
 menu_save()
 db $FB
@@ -239,13 +244,13 @@ db $F0, $F0, $F0, $F0
 //Name
 name_ch5()
 //From Ship
-menu_start()
-db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0, $F0
+menu_start_fr()
+db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
+db $F0, $F0, $F0, $F0, $F0, $F0
 //From Ship
-menu_start()
-db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0, $F0
+menu_start_fr()
+db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
+db $F0, $F0, $F0, $F0, $F0, $F0
 //Save&Qui
 menu_save()
 db $FB
@@ -270,13 +275,13 @@ db $F0, $F0, $F0, $F0
 //Name
 name_ch1()
 //From Tent
-menu_restart()
-db $FD, $B8, $FD, $B9, $FD, $BA
-db $F0, $F0, $F0, $F0
+menu_start_fr()
+db $FD, $B5, $FD, $B6, $FD, $B7, $FD, $B8, $FD, $B9, $FD, $BA
+db $F0, $F0, $F0, $F0, $F0
 //From Ship
-menu_restart()
-db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0
+menu_start_fr()
+db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
+db $F0, $F0, $F0, $F0, $F0, $F0
 //Save&Qui
 menu_save()
 db $FB
@@ -289,13 +294,13 @@ db $F0, $F0, $F0, $F0
 //Name
 name_ch2()
 //From Ship
-menu_restart()
-db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0
-//From Mansion
-menu_restart()
+menu_start_fr()
 db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
-db $F0, $F0
+db $F0, $F0, $F0, $F0, $F0, $F0
+//From Mansion
+menu_start_fr()
+db $FC, $18, $FC, $19, $FC, $1A, $FC, $1B, $FC, $1C
+db $F0, $F0, $F0, $F0, $F0, $F0
 //Save&Qui
 menu_save()
 db $FB
@@ -308,13 +313,13 @@ db $F0, $F0, $F0, $F0
 //Name
 name_ch3()
 //From Ship
-menu_restart()
-db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0
+menu_start_fr()
+db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
+db $F0, $F0, $F0, $F0, $F0, $F0
 //From Stable
-menu_restart()
-db $FC, $18, $FC, $19, $FC, $1A, $FC, $1B
-db $F0, $F0, $F0
+menu_start_fr()
+db $FC, $20, $FC, $21, $FC, $22, $FC, $23, $FC, $24, $FC, $25
+db $F0, $F0, $F0, $F0, $F0
 //Save&Qui
 menu_save()
 db $FB
@@ -327,13 +332,13 @@ db $F0, $F0, $F0, $F0
 //Name
 name_ch4()
 //From Ship
-menu_restart()
-db $FD, $BB, $FD, $BC, $FD, $BD
-db $F0, $F0, $F0, $F0
+menu_start_fr()
+db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
+db $F0, $F0, $F0, $F0, $F0, $F0
 //From Inn
-menu_restart()
-db $FD, $BE, $FD, $BF
-db $F0, $F0, $F0, $F0, $F0
+menu_start_fr()
+db $FC, $28, $FC, $29, $FC, $2A, $FC, $2B, $FC, $2C, $FC, $2D, $FC, $2E
+db $F0, $F0, $F0, $F0
 //Save&Qui
 menu_save()
 db $FB
@@ -346,12 +351,12 @@ db $F0, $F0, $F0, $F0
 //Name
 name_ch5()
 //From Blue Door
-menu_restart()
-db $FC, $20, $FC, $21, $FC, $22, $FC, $23, $FC, $24
+menu_start_fr()
+db $FC, $30, $FC, $31, $FC, $32, $FC, $33, $FC, $34, $FC, $35, $FC, $36, $FC, $37, $FC, $38
 db $F0, $F0
 //From Blue Door
-menu_restart()
-db $FC, $20, $FC, $21, $FC, $22, $FC, $23, $FC, $24
+menu_start_fr()
+db $FC, $30, $FC, $31, $FC, $32, $FC, $33, $FC, $34, $FC, $35, $FC, $36, $FC, $37, $FC, $38
 db $F0, $F0
 //Save&Qui
 menu_save()
