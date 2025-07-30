@@ -1,4 +1,13 @@
-﻿function recalcScriptPointers()
+﻿function IsOriginalROM()
+	local hash = emu.getRomInfo().fileSha1Hash
+
+	if hash == "46FE42F195D43B71BA0608356EB7C2B65BFF70AC" then
+		return true
+	end
+	return false
+end
+
+function RecalcScriptPointers()
 	--$F00000
 	--Special Bytecode:
 	--F4 xx
@@ -10,6 +19,11 @@
 	--FA (End Text 1)
 	--FB (End Text 2)
 	--FF (END CALC)
+	
+	if IsOriginalROM() == true then
+		emu.log("Original ROM, don't change script ptrs")
+		return
+	end
 	
 	ptr = 0xF00000
 	ptrWrite = 0x40DBE0
@@ -39,7 +53,7 @@
 	emu.log("Redone Script Pointers $40DBE0")
 end
 
-function printScriptID()
+function PrintScriptID()
 	bgColor = 0x302060FF
     fgColor = 0x30FF4040
     
@@ -56,6 +70,6 @@ emu.selectDrawSurface(emu.drawSurface.scriptHud, 2)
 --Debug Mode
 emu.write(0x2F8000, 0x00, emu.memType.snesPrgRom)
 
-emu.addEventCallback(printScriptID, emu.eventType.endFrame);
-emu.addEventCallback(recalcScriptPointers, emu.eventType.stateLoaded)
-recalcScriptPointers()
+emu.addEventCallback(PrintScriptID, emu.eventType.endFrame);
+emu.addEventCallback(RecalcScriptPointers, emu.eventType.stateLoaded)
+RecalcScriptPointers()
