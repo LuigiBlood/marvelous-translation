@@ -1,0 +1,59 @@
+﻿function recalcScriptPointers()
+	--$F00000
+	--Special Bytecode:
+	--F4 xx
+	--F5 xxxx
+	--FC xx
+	--FD xx
+	--FE xx
+	--FE 6D xx
+	--FA (End Text 1)
+	--FB (End Text 2)
+	--FF (END CALC)
+	
+	ptr = 0xF00000
+	ptrWrite = 0x40DBE0
+	emu.write32(ptrWrite, ptr, emu.memType.snesMemory)
+	ptrWrite = ptrWrite + 3
+	repeat
+		bytecode = emu.read(ptr, emu.memType.snesMemory, false)
+		if bytecode == 0xFA or bytecode == 0xFB then
+			--write next pointer
+			ptr = ptr + 1
+			emu.write32(ptrWrite, ptr, emu.memType.snesMemory)
+			ptrWrite = ptrWrite + 3
+		elseif bytecode == 0xF4 or bytecode == 0xFC or bytecode == 0xFD then
+			ptr = ptr + 2
+		elseif bytecode == 0xFE then
+			if emu.read(ptr + 1, emu.memType.snesMemory, false) == 0x6D then
+				ptr = ptr + 3
+			else
+				ptr = ptr + 2
+			end
+		elseif bytecode == 0xF5 then
+			ptr = ptr + 3
+		else
+			ptr = ptr + 1
+		end
+	until bytecode == 0xFF
+	emu.log("Redone Script Pointers $40DBE0")
+end
+
+function printScriptID()
+	bgColor = 0x30FF6020
+    fgColor = 0x304040FF
+    
+    id = emu.read16(0x5AA, emu.memType.sa1InternalRam, false) / 3
+    if id > 0 then
+		emu.drawRectangle(8, 12, 128, 15, bgColor, true, 1)
+		emu.drawRectangle(8, 12, 128, 15, fgColor, false, 1)
+		emu.drawString(12, 16, "Script ID: " .. math.floor(id), 0xFFFFFF, 0xFF000000)
+	end
+end
+
+--Debug Mode
+emu.write(0x2F8000, 0x00, emu.memType.snesPrgRom)
+
+emu.addEventCallback(printScriptID, emu.eventType.endFrame);
+emu.addEventCallback(recalcScriptPointers, emu.eventType.stateLoaded)
+recalcScriptPointers()
