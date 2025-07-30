@@ -40,16 +40,18 @@
 end
 
 function printScriptID()
-	bgColor = 0x30FF6020
-    fgColor = 0x304040FF
+	bgColor = 0x302060FF
+    fgColor = 0x30FF4040
     
     id = emu.read16(0x5AA, emu.memType.sa1InternalRam, false) / 3
     if id > 0 then
-		emu.drawRectangle(8, 12, 128, 15, bgColor, true, 1)
-		emu.drawRectangle(8, 12, 128, 15, fgColor, false, 1)
-		emu.drawString(12, 16, "Script ID: " .. math.floor(id), 0xFFFFFF, 0xFF000000)
+		emu.drawRectangle(8, 15, 128, 15, bgColor, true, 1)
+		emu.drawRectangle(8, 15, 128, 15, fgColor, false, 1)
+		emu.drawString(12, 19, "Script ID: " .. math.floor(id), 0xFFFFFF, 0xFF000000)
 	end
 end
+
+emu.selectDrawSurface(emu.drawSurface.scriptHud, 2)
 
 --Debug Mode
 emu.write(0x2F8000, 0x00, emu.memType.snesPrgRom)
