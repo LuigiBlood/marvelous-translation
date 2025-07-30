@@ -56,7 +56,7 @@ Vieux gruyère
 Pulvérisateur
 [en2]
 
-Vieille corde mystèrieuse
+Vieille corde
 [en2]
 
 Télécommande complexe
@@ -68,7 +68,7 @@ Un vrai Œuf d'aigle
 L'égoïste Polly de poche
 [en2]
 
-Grand Hameçon
+Grand hameçon
 [en2]
 
 Canne à pêche
@@ -110,10 +110,10 @@ Panier repas épicé de maman
 Bouteille vide
 [en2]
 
-(Faux) Vase Napoléon
+Vase Napoléon suspect
 [en2]
 
-(Faux) Vase Shogun
+Vase Shogun suspect
 [en2]
 
 Toque suspecte
@@ -152,7 +152,7 @@ Peinture bleue
 Petite clé
 [en2]
 
-Boule de cristal mystèrieuse
+Boule de cristal
 [en2]
 
 Clé rouge

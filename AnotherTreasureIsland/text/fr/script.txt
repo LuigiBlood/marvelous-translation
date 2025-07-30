@@ -150,10 +150,9 @@ Oookii-kii-kiikiikii~.[np]
 [nl3]   Me? No.
 [en2]
 
-Come on~.[np]
-[nl2]Use the [Search] panel option,
-[nl3]then move the [CrDn] pointer to the
-[scl]teacher before pressing [ABtn].
+Alors... Utilise le panneau[Search],
+[nl2]puis déplace le curseur[CrDn]
+[nl3]sur le professeur et presse[ABtn].
 [en2]
 
 Alright, [team] Team, now to
@@ -4300,10 +4299,10 @@ Let's get some speed and BOOM!
 [nl2]Smash it!
 [en1]
 
-What's this...?
-[nl2]"Sorry! You're stuck here forever,
-[nl3]nerds! -Patchies"[np]
-[scl]Sarcastic AND rude!... Humpfh!...
+Bon sang...
+[nl2]"DÉSOLÉ ! Vous serez coincés ici
+[nl3] à jamais, têtes d'ampoule ! "[np]
+[scl]Sarcastique et grossier ! Pff...
 [en2]
 
 It says "Sisko's House."
