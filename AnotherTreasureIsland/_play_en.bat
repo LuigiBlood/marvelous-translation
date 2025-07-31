@@ -1,1 +1,1 @@
-".\tools\bsnes-plus\bsnes-performance" ".\roms\Marvelous_EN_LB.sfc"
+".\tools\mesen\mesen" ".\roms\Marvelous_EN_LB.sfc" ".\lua\MarvelousTextDebug.lua"
