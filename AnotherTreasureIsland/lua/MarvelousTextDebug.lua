@@ -19,13 +19,9 @@ function RecalcScriptPointers()
 	--FA (End Text 1)
 	--FB (End Text 2)
 	--FF (END CALC)
-	
-	if IsOriginalROM() == true then
-		emu.log("Original ROM, don't change script ptrs")
-		return
-	end
-	
-	ptr = 0xF00000
+
+	ptr = emu.read16(0x00FC83, emu.memType.snesMemory, false) | (emu.read16(0x00FC8C, emu.memType.snesMemory, false) << 16)
+	emu.log("Text Data Script @ $" .. string.format("%06X", ptr))
 	ptrWrite = 0x40DBE0
 	emu.write32(ptrWrite, ptr, emu.memType.snesMemory)
 	ptrWrite = ptrWrite + 3
@@ -50,7 +46,7 @@ function RecalcScriptPointers()
 			ptr = ptr + 1
 		end
 	until bytecode == 0xFF
-	emu.log("Redone Script Pointers $40DBE0")
+	emu.log("Script Pointers Redone @ $40DBE0-$" .. string.format("%06X", ptrWrite))
 end
 
 function PrintScriptID()
