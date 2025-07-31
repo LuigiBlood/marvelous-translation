@@ -7,15 +7,16 @@ Currently being translated in English & French.
 
 ## Staff
 - LuigiBlood - Project Leader & Code Hacking
+- /dev/urandom - Font Design
 
-- tashi - Original English Text
-- DackR - English Text Editing, Graphics
+English Version:
+- tashi - Original Japanese to English Text Translation
+- DackR - English Text Editing & Graphics
 - bluesun - Japanese to English Retranslation
 
+French Version (based from the works of the English Version):
 - Lestat - French Graphics
 - pinktagada - English to French Text Translation
-
-- /dev/urandom - Font Design
 
 Special Thanks:
 - FuSoYa - For dealing with the compression
@@ -25,22 +26,23 @@ Special Thanks:
 ## Debugging
 A Lua script for Mesen has been provided , which tells on screen which text ID is being managed, as well as recalculating the text pointers as they are generated at boot by the game. The recalculation works in a way that allows us to use save states across several versions of the ROM, making it a lot easier to do quick debugging of changes.
 
-The `_play_*.bat` files included expect `Mesen.exe` at `./tools/Mesen`.
+The `_play_*.bat` files included expect `./tools/Mesen/Mesen.exe`.
 
 ## Building
 ### Requirements
 - bass (ARM9 fork): https://github.com/ARM9/bass
-  - Must be in `./tools/bass`.
+  - Must be in `./tools/bass/`.
   - Tested with bass v18
 - Lunar Compress: http://fusoya.eludevisibility.org/lc/index.html
-  - Must be in `./tools/lc`.
+  - Must be in `./tools/lc/`.
   - Tested with Lunar Compress 1.90
 - SuperFamiconv: https://github.com/Optiroc/SuperFamiconv
-  - Must be in `./tools/conv`.
-- TransPutt and PuttScript
-  - Must be in `./tools/putt`.
+  - Must be in `./tools/conv/`.
+- TransPutt: https://github.com/LuigiBlood/TransPutt
+- PuttScript: https://github.com/LuigiBlood/PuttScript
+  - Both must be in `./tools/putt/`.
   - Must contain `marvelous` folder
-- Put the original ROM as `./roms/Marvelous_JP.sfc`
+- Put the original ROM as `./roms/Marvelous_JP.sfc` (SHA-1: `46FE42F195D43B71BA0608356EB7C2B65BFF70AC`)
 
 ### Command Order
 For several reasons, I have opted to seperate the build process in several steps, as changes don't always need to pass through every step.  
