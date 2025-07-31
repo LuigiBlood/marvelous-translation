@@ -47,6 +47,7 @@ function RecalcScriptPointers()
 		end
 	until bytecode == 0xFF
 	emu.log("Script Pointers Redone @ $40DBE0-$" .. string.format("%06X", ptrWrite))
+	emu.displayMessage("[Script]", "Script Pointers Redone @ $40DBE0-$" .. string.format("%06X", ptrWrite))
 end
 
 function PrintScriptID()
