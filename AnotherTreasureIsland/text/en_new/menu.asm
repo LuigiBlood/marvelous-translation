@@ -80,7 +80,12 @@ db $7D, $FD, $13, $2B, $4A
 //Ch.
 db $77
 db $F0, $1F, $20, $21, $22, $23, $43
-db $F0, $70, $71, $50, $51, $52, $0B, $11
+
+//Main Menu Stuff
+db $F0				//MUST BE EMPTY
+db $70, $71			//Start
+db $50, $51, $52	//Team
+db $0B, $11			//L R
 
 //Must be empty - For Team names and save counts
 db $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
