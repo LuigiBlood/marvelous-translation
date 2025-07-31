@@ -176,6 +176,13 @@ seekAddr($9FD7D7)
 seekAddr($9FD73A)
 	//ldx.w #$00E2
 
+//Game Over Save & Quit Text VRAM Upload
+seekAddr($149886)
+	lda.w #$6700
+seekAddr($149897)
+	lda.w #$1000
+
+
 //Palette Changes
 seekFile($2CAF40)
 pal_ch1_patchiesnote:

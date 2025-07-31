@@ -36,6 +36,17 @@ macro menu_save() {
 	db $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 }
 
+macro menu_save_fr1() {
+	//Sauvegarder &
+	db $FC, $40, $FC, $41, $FC, $42, $FC, $43, $FC, $44, $FC, $45, $FC, $46, $FC, $47
+}
+
+macro menu_save_fr2() {
+	//Quitter
+	db $FC, $48, $FC, $49, $FC, $4A, $FC, $4B, $FC, $4C, $FC, $4D, $FC, $4E, $FC, $4F
+	db $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
+}
+
 //-----Main Menu & Save Select VRAM-----
 
 db $FD, $90, $FD, $91, $FD, $92, $FD, $93
@@ -273,6 +284,7 @@ db $F0, $F0, $F0, $F0, $F0, $F0, $F0, $F0
 db $FB
 
 //--Chapter 1 (Game Over)
+menu_save_fr1()
 //Ch. 1
 db $43, $89, $8A, $1F
 //t
@@ -288,10 +300,11 @@ menu_start_fr()
 db $FC, $10, $FC, $11, $FC, $12, $FC, $13, $FC, $14
 db $F0, $F0, $F0, $F0, $F0, $F0
 //Save&Qui
-menu_save()
+menu_save_fr2()
 db $FB
 
 //--Chapter 2 (Game Over)
+menu_save_fr1()
 //Ch. 2
 db $43, $89, $8A, $20
 //t
@@ -307,10 +320,11 @@ menu_start_fr()
 db $FC, $18, $FC, $19, $FC, $1A, $FC, $1B, $FC, $1C
 db $F0, $F0, $F0, $F0, $F0, $F0
 //Save&Qui
-menu_save()
+menu_save_fr2()
 db $FB
 
 //--Chapter 3 (Game Over)
+menu_save_fr1()
 //Ch. 3
 db $43, $89, $8A, $21
 //t
@@ -326,10 +340,11 @@ menu_start_fr()
 db $FC, $20, $FC, $21, $FC, $22, $FC, $23, $FC, $24, $FC, $25
 db $F0, $F0, $F0, $F0, $F0
 //Save&Qui
-menu_save()
+menu_save_fr2()
 db $FB
 
 //--Chapter 4 (Game Over)
+menu_save_fr1()
 //Ch. 4
 db $43, $89, $8A, $22
 //t
@@ -345,10 +360,11 @@ menu_start_fr()
 db $FC, $28, $FC, $29, $FC, $2A, $FC, $2B, $FC, $2C, $FC, $2D, $FC, $2E
 db $F0, $F0, $F0, $F0
 //Save&Qui
-menu_save()
+menu_save_fr2()
 db $FB
 
 //--Chapter 5 (Game Over)
+menu_save_fr1()
 //Ch. 5
 db $43, $89, $8A, $23
 //t
@@ -364,5 +380,5 @@ menu_start_fr()
 db $FC, $30, $FC, $31, $FC, $32, $FC, $33, $FC, $34, $FC, $35, $FC, $36, $FC, $37, $FC, $38
 db $F0, $F0
 //Save&Qui
-menu_save()
+menu_save_fr2()
 db $FB
