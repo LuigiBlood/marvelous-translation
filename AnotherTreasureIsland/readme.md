@@ -1,27 +1,29 @@
 # Marvelous \~Another Treasure Island\~ Translation
 
-Original Translation Project by tashi and DackR.
-This project is aimed to improve the translation as well as making it easier to edit, it uses the original files from the project.
+This is a translation project of Marvelous \~Mōhitotsu no Takarajima\~ (マーヴェラス ～もうひとつの宝島～).
+Original Translation Project by tashi and DackR. This project is aimed to massively improve the translation as well as making it easier to edit, it used the original files from the project as a base.
 
 Currently being translated in English & French.
 
 ## Staff
-- LuigiBlood - Project Leader & Code Hacking
+- LuigiBlood - Project Leader, Code Hacking, Graphics, Text Editing
 - /dev/urandom - Font Design
 
 English Version:
 - tashi - Original Japanese to English Text Translation
-- DackR - English Text Editing & Graphics
-- bluesun - Japanese to English Retranslation
+- DackR - English Text Editing, Graphics
+- bluesun - English Retranslation, 
 
 French Version (based from the works of the English Version):
-- Lestat - French Graphics
-- pinktagada - English to French Text Translation
+- pinktagada - French Text Translation
+- Lestat - French Graphics, Translation
 
 Special Thanks:
 - FuSoYa - For dealing with the compression
-- terminator2k2
+- terminator2k2 - For giving us some save files
 - NukeOTron
+
+Original Translation Project by: tashi & DackR
 
 ## Debugging
 A Lua script for Mesen has been provided , which tells on screen which text ID is being managed, as well as recalculating the text pointers as they are generated at boot by the game. The recalculation works in a way that allows us to use save states across several versions of the ROM, making it a lot easier to do quick debugging of changes.

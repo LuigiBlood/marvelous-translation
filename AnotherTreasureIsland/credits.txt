@@ -1,20 +1,19 @@
-Original English Translation Patch Staff:
-tashi & DackR
-
-
 Marvelous - Another Treasure Island v2.0 Translation Patch Staff:
+- LuigiBlood - Project Leader, Code Hacking, Graphics, Text Editing
+- /dev/urandom - Font Design
 
-LuigiBlood - Project Leader & Hacking
+English Version:
+- tashi - Original Japanese to English Text Translation
+- DackR - English Text Editing, Graphics
+- bluesun - English Retranslation, 
 
-DackR - English Script Editing, Graphics
-bluesun - Japanese to English Retranslation
-
-Lestat - French Graphics
-pinktagada - English to French Translation
-
-/dev/urandom - Font Design
+French Version (based from the works of the English Version):
+- pinktagada - French Text Translation
+- Lestat - French Graphics, Translation
 
 Special Thanks:
-FuSoYa - For dealing with the compression
-terminator2k2
-NukeOTron
+- FuSoYa - For dealing with the compression
+- terminator2k2 - For giving us some save files
+- NukeOTron
+
+Original Translation Project by: tashi & DackR
