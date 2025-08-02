@@ -1,5 +1,5 @@
 Marvelous - Another Treasure Island v2.0 Translation Patch Staff:
-- LuigiBlood - Project Leader, Code Hacking, Graphics, Text Editing
+- LuigiBlood - Project Leader, Code Hacking, Graphics, Text Editing (English & French)
 - /dev/urandom - Font Design
 
 English Version:

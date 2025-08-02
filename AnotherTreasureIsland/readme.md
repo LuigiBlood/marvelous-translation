@@ -3,10 +3,12 @@
 This is a translation project of Marvelous \~Mōhitotsu no Takarajima\~ (マーヴェラス ～もうひとつの宝島～).
 Original Translation Project by tashi and DackR. This project is aimed to massively improve the translation as well as making it easier to edit, it used the original files from the project as a base.
 
-Currently being translated in English & French.
+Currently being translated in English & French.  
+![English v2.0 Title Screen](./doc/eng_title.png)
+![French v2.0 Title Screen](./doc/fra_title.png)
 
 ## Staff
-- LuigiBlood - Project Leader, Code Hacking, Graphics, Text Editing
+- LuigiBlood - Project Leader, Code Hacking, Graphics, Text Editing (English & French)
 - /dev/urandom - Font Design
 
 English Version:
