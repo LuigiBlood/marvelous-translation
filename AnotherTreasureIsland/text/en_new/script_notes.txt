@@ -30,7 +30,7 @@ more freaks are fanatics every day.
 Chapter 5 Letter
 
 edited slightly
-
+Ch1: Start Text 9 (Duties)
 fixed formatting
 
 
@@ -1246,8 +1246,8 @@ polly... end of chapter 5
 
 
 
-
-
+Introduction: Text 1
+Introduction: Text 2
 
 
 
@@ -1513,7 +1513,7 @@ Direction to move in! Stick together.
 
 
 
-
+Ch1: Start Text 8 (Remember to Save)
 
 
 
@@ -1569,16 +1569,16 @@ palette issues if you move the icon
 
 
 
-
-
-
-
-
-
-
-
-
-
+Introduction: Text 3
+Introduction: Text 5
+Introduction: Text 6
+Introduction: Text 7
+Introduction: Text 8
+Introduction: Text 9
+Introduction: Text 11
+Introduction: Text 12
+Introduction: Text 12
+Introduction: Text 13
 Hassan
 
 
@@ -1597,7 +1597,7 @@ solomon
 
 
 
-
+Introduction: Text 4
 
 
 
@@ -1989,7 +1989,7 @@ pretty sure the baby's a girl, but you dont know that until you give the doll.
 
 
 
-
+Ch1: Start Text 5
 
 
 
@@ -2200,9 +2200,9 @@ solomon - clearly distrought
 
 
 
-original text doesnt mention his size, just jazzing it up
-
-
+Ch1: Start Text 2 (Introducing the Team and Dion)\original text doesnt mention his size, just jazzing it up
+Ch1: Start Text 6 (Giving the Hat)
+Ch1: Start Text 7 (After giving the Hat)
 
 
 
@@ -2644,14 +2644,14 @@ added a reference to polly's nickname.
 
 
 
+Ch1: Start Text 3 (Introducing Max)
 
 
 
 
 
 
-
-
+Ch1: Start Text 4 (Introducing Jack)
 
 
 
@@ -2936,7 +2936,7 @@ trying to emulate the verbal nuance in the original, but it sounds like mario, l
 I can't use it because my friends are nearby. Call them with the whistle or press the R button. (2 lines) Using the walkie-talkie when team is all close.
 two- lines only
 2 lines
-
+Ch1: Start Text 1
 2-lines of text - soldiers announcing princess polly
 polly - 2 lines of text only
 2 line text- reaction to Polly's note
@@ -2949,7 +2949,7 @@ uses a different tileset
 
 uses a different tileset
 uses a different tileset
-another tileset
+Introduction: Text 10 (Another tileset)
 another tileset
 
 another tileset
