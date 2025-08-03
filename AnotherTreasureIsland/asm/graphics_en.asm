@@ -227,7 +227,7 @@ origin 0x0000; insert "../gfx/en_new/tmp/camp_moves.gfx"
 //64 - Graphics - Ship Notes
 output "../gfx/en_new/tmp/64.bin", create
 insert "../gfx/jp/64.bin"
-origin 0x0000; insert "../gfx/en_new/tmp/ship_note.gfx",0x0000,0x1000
+origin 0x0000; insert "../gfx/en_new/tmp/ship_note_nums.gfx",0x0000,0x1000
 
 //69 - Graphics - Colonel's Permission (BG) & Dungeon Map
 output "../gfx/en_new/tmp/69.bin", create

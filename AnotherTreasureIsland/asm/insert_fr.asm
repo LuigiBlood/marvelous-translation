@@ -195,7 +195,7 @@ pal_ch1_camptips:
 	insert "../gfx/fr/tmp/camp_tips.pal"
 seekFile($2CB100)
 pal_ch1_shipnote:
-	insert "../gfx/fr/tmp/ship_note.pal"
+	insert "../gfx/fr/tmp/ship_note_nums.pal"
 seekFile($2CB5E0)
 pal_ch2_chorelist:
 	insert "../gfx/fr/tmp/chore_list.pal"
@@ -393,17 +393,17 @@ tbl_ship_notes_map05:
 	dw $B400>>1; db $80, $01, $18; dl (map_ship_notes_5); dw $0400; dw ($E002 + 12*1)
 
 map_ship_notes_0:
-	insert "../gfx/fr/tmp/ship_note.map",0x0000,0x0400
+	insert "../gfx/fr/tmp/ship_note_nums.map",0x0000,0x0400
 map_ship_notes_1:
-	insert "../gfx/fr/tmp/ship_note.map",0x0400,0x0400
+	insert "../gfx/fr/tmp/ship_note_nums.map",0x0400,0x0400
 map_ship_notes_2:
-	insert "../gfx/fr/tmp/ship_note.map",0x0800,0x0400
+	insert "../gfx/fr/tmp/ship_note_nums.map",0x0800,0x0400
 map_ship_notes_3:
-	insert "../gfx/fr/tmp/ship_note.map",0x0C00,0x0400
+	insert "../gfx/fr/tmp/ship_note_nums.map",0x0C00,0x0400
 map_ship_notes_4:
-	insert "../gfx/fr/tmp/ship_note.map",0x1000,0x0400
+	insert "../gfx/fr/tmp/ship_note_nums.map",0x1000,0x0400
 map_ship_notes_5:
-	insert "../gfx/fr/tmp/ship_note.map",0x1400,0x0400
+	insert "../gfx/fr/tmp/ship_note_solve.map",0x0000,0x0400
 
 map_call_menu_base:
 	dw $2240, $2250	//<Icon>Call
@@ -432,6 +432,7 @@ skipBank()
 	insert gfx_chapter3_ani,"../text/fr/chapter3.bin"
 	insert gfx_chapter4_ani,"../text/fr/chapter4.bin"
 	insert gfx_chapter5_ani,"../text/fr/chapter5.bin"
+	insert gfx_ship_notes_solve,"../gfx/fr/tmp/ship_note_solve.gfx"
 skipBank()
 	insert gfx_swooned_ani,"../text/fr/swooned.bin"
 

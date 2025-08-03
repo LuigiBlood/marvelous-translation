@@ -570,3 +570,29 @@ call_menu_change:
 	ply
 
 	rtl
+
+//Hack: Hijack Tileset to allow more text (Ship Note for 0x0054)
+enqueue pc
+seekAddr($9F9959)
+	//lda #$6000 - 3
+	//sta $33C8  - 3
+	jsl asm_shipnote_replace_tileset
+	nop; nop
+dequeue pc
+asm_shipnote_replace_tileset:
+	php
+	rep #$30
+	pha
+	lda $9F358C
+	cmp.w #$0054
+	bne +
+	//repoint DMA info
+	lda.w #gfx_ship_notes_solve
+	sta $9F33CA
+	lda.w #(gfx_ship_notes_solve>>8)
+	sta $9F33CB
++;	pla
+	plp
+	lda #$6000
+	sta $9F33C8
+	rtl

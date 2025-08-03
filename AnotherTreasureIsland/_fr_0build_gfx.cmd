@@ -7,10 +7,13 @@ echo - camp_tips.png
 ".\tools\conv\superfamiconv.exe" palette -i ".\gfx\fr\img\camp_tips.png" -d ".\gfx\fr\tmp\camp_tips.pal" -S
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\camp_tips.png" -p ".\gfx\fr\tmp\camp_tips.pal" -d ".\gfx\fr\tmp\camp_tips.gfx" -T 128
 ".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\camp_tips.png" -p ".\gfx\fr\tmp\camp_tips.pal" -t ".\gfx\fr\tmp\camp_tips.gfx" -d ".\gfx\fr\tmp\camp_tips.map" -T 512 -P 7
-echo - ship_note.png
-".\tools\conv\superfamiconv.exe" palette -i ".\gfx\fr\img\ship_note.png" -d ".\gfx\fr\tmp\ship_note.pal" -S
-".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\ship_note.png" -p ".\gfx\fr\tmp\ship_note.pal" -d ".\gfx\fr\tmp\ship_note.gfx" -T 128
-".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\ship_note.png" -p ".\gfx\fr\tmp\ship_note.pal" -t ".\gfx\fr\tmp\ship_note.gfx" -d ".\gfx\fr\tmp\ship_note.map" -T 512 -P 7
+echo - ship_note_num.png
+".\tools\conv\superfamiconv.exe" palette -i ".\gfx\fr\img\ship_note_nums.png" -d ".\gfx\fr\tmp\ship_note_nums.pal" -S
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\ship_note_nums.png" -p ".\gfx\fr\tmp\ship_note_nums.pal" -d ".\gfx\fr\tmp\ship_note_nums.gfx" -T 128
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\ship_note_nums.png" -p ".\gfx\fr\tmp\ship_note_nums.pal" -t ".\gfx\fr\tmp\ship_note_nums.gfx" -d ".\gfx\fr\tmp\ship_note_nums.map" -T 512 -P 7
+echo - ship_note_solve.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\ship_note_solve.png" -p ".\gfx\fr\tmp\ship_note_nums.pal" -d ".\gfx\fr\tmp\ship_note_solve.gfx" -T 128
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\ship_note_solve.png" -p ".\gfx\fr\tmp\ship_note_nums.pal" -t ".\gfx\fr\tmp\ship_note_solve.gfx" -d ".\gfx\fr\tmp\ship_note_solve.map" -T 512 -P 7
 echo - gina_ransom_letter.png
 ".\tools\conv\superfamiconv.exe" palette -i ".\gfx\fr\img\gina_ransom_letter.png" -d ".\gfx\fr\tmp\gina_ransom_letter.pal" -S
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\gina_ransom_letter.png" -p ".\gfx\fr\tmp\gina_ransom_letter.pal" -d ".\gfx\fr\tmp\gina_ransom_letter.gfx" -T 128
