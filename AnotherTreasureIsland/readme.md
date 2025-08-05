@@ -65,6 +65,4 @@ You can replace `**` with either `en` (English) or `fr` (French).
   - Compresses graphics with Lunar Compress.
   - If you have made graphical changes, do this step.
 - `_**_2build.bat`
-  - Build the ROM.
-- `_**_2build_pal.bat`
-  - Build the ROM with PAL conversion code.
+  - Build the ROM + ROM with (lazy) PAL conversion code
