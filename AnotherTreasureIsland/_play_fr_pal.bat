@@ -1,0 +1,1 @@
+".\tools\mesen\mesen" ".\roms\Marvelous_FR_LB_PAL.sfc" ".\lua\MarvelousTextDebug.lua"
