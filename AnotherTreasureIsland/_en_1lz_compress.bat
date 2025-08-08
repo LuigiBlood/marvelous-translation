@@ -29,3 +29,4 @@
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/DB.bin" "./gfx/en_new/lz/DB.bin.lz" 0 1019 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/E0.bin" "./gfx/en_new/lz/E0.bin.lz" 0 1019 0
 ".\tools\lc\recomp.exe" "./gfx/en_new/tmp/F8.bin" "./gfx/en_new/lz/F8.bin.lz" 0 1019 0
+IF "%~1" == "" (timeout /t 10)

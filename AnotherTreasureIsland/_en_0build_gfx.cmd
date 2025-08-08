@@ -76,4 +76,4 @@ echo - title_search.png
 echo Building English Graphics Files...
 ".\tools\bass\bass" ".\asm\graphics_en.asm"
 echo Done.
-pause
+IF "%~1" == "" (timeout /t 10)

@@ -6,4 +6,4 @@ echo Building English Items...
 ".\tools\putt\puttscript.exe" -e ".\text\en_new\items_table.tbl" ".\text\en_new\items.txt" ".\text\en_new\items.bin"
 echo.
 echo Done.
-pause
+IF "%~1" == "" (timeout /t 10)
