@@ -61,6 +61,8 @@ fixed it.
 
 
 
+This is miss Sisko speaking. Old translation:\I believe children are able to\[nl2]sense virtue in people.[np]\[nl3]So it was my dream to become a\[scl]teacher--[np]\[scl]In order to teach children to have\[scl]kind hearts.
+Don't worry, I haven't changed at\[nl2]all... Look, aren't I pretty?
 
 
 
@@ -71,6 +73,27 @@ fixed it.
 
 
 
+わがまま is a whimsical way to say she's a bit spoiled, a tad selfish.\I chose bossy due to the context of what she said previously
+Made some adjustments to the tone to better match the original. The original text is actually praising jim, calling his actions "truly logical".
+
+fixing this up a bit
+
+specific reference to the platform was missing
+Literally, Polly says:\"If I stay here, another big dog might come along... As a thank you, I'll go with you. Let's see... The chubbiest one will do."\I've embellished it a bit and added the concern about being eaten, and tried to make it more humorous referring to the chubbiest one as a burly butterball.
+Literally: Ugh! Are you trying to make a lady feel embarrassed? Come closer, or I can't go with you!\I've embellished a bit, adding a reference to the dog while trying to enhance the comedic tone and in keeping her bossy persona.
+Restored the literal translation because It fits better
+literal restoration
+
+
+fixed formatting
+nuance is nuance
+closer to a literal translation
+
+
+It doesn't look much like Bull, does it?
+At the base of the northwest tree, SOS, please help.\this is winky speaking in broken english
+gender isn't referenced in the original message
+Literally: With this, we should be able to get good oil again.
 
 
 
@@ -78,32 +101,9 @@ fixed it.
 
 
 
+fragrance/smell same-same
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+I have no regrets in my youth!
 
 
 
