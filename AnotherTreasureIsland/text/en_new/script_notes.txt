@@ -76,12 +76,12 @@ Don't worry, I haven't changed at\[nl2]all... Look, aren't I pretty?
 わがまま is a whimsical way to say she's a bit spoiled, a tad selfish.\I chose bossy due to the context of what she said previously
 Made some adjustments to the tone to better match the original. The original text is actually praising jim, calling his actions "truly logical".
 
-fixing this up a bit
-
+fixing this up a bit to be more accurate to the original
+it didnt say crystal ball, but meh. less wordy is nice sometimes
 specific reference to the platform was missing
 Literally, Polly says:\"If I stay here, another big dog might come along... As a thank you, I'll go with you. Let's see... The chubbiest one will do."\I've embellished it a bit and added the concern about being eaten, and tried to make it more humorous referring to the chubbiest one as a burly butterball.
 Literally: Ugh! Are you trying to make a lady feel embarrassed? Come closer, or I can't go with you!\I've embellished a bit, adding a reference to the dog while trying to enhance the comedic tone and in keeping her bossy persona.
-Restored the literal translation because It fits better
+essentially restored the literal translation because It fits better
 literal restoration
 
 
@@ -781,7 +781,9 @@ Hassan
 
 
 
+Even though you're just a kid, you're taller than me and so cheeky!
 
+[nl2] That's why I won't let you go any further!!
 
 
 
@@ -898,7 +900,12 @@ Hassan
 
 
 
-
+Boo! Totally wrong!
+ Man, you really are super dumb.
+Think harder, got it? 
+The eldest brother is to the left of the youngest, the youngest is to the right of the second brother, 
+and the second brother is to the left of the eldest brother. 
+Got it? Now point to them in order, starting with the eldest brother! 
 
 
 
@@ -1501,6 +1508,12 @@ Direction to move in! Stick together.
 
 
 
+winky in the ship
+
+linguistic quirks abound
+
+re translated.\the original text has an assertive feminine vibe
+miss gina speaking in the intro - retranslated
 
 
 
@@ -1513,18 +1526,12 @@ Direction to move in! Stick together.
 
 
 
-Ch1: Start Text 8 (Remember to Save)
 
 
 
 
 
-
-
-
-
-
-
+Getting old is the last thing I want...
 
 
 
@@ -1801,7 +1808,7 @@ robot?
 
 
 
-
+Don’t you dare wrap this up without me-!
 
 
 
@@ -2953,13 +2960,6 @@ Introduction: Text 10 (Another tileset)
 another tileset
 
 another tileset
-
-
-
-
-
-
-
 
 
 
