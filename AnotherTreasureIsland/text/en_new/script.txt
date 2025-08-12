@@ -952,7 +952,7 @@ Fugo. Fugo-go?[np]
 [nl2]TL: ...I'll bet you want this thing
 [nl3][ ][ ][ ]on my back? I'll give it to you
 [scl][ ][ ][ ]if you can beat me.[np]
-[scl]   Wha'cha gonna do?[X$6A]
+[scl][ ][ ][ ]Wha'cha gonna do?[X$6A]
 [scl][ ][ ][ ][ ]I'll do it.
 [scl][ ][ ][ ][ ]No, thanks.[X$68]
 [en1]
