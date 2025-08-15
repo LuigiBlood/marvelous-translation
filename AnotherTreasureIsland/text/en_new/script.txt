@@ -11390,13 +11390,13 @@ Hrrrmm... That woman's child was
 [nl2]kidnapped by Indio's daughter, or
 [nl3]so it rightly seems...[np]
 [scl]The girl lives out East of Death
-[scl]Lake o'er yonder...[np]
+[scl]Lake, o'er yonder...[np]
 [scl]But e'en just the name gives me
 [scl]the tootin' willies, so I'm a'ferd I
 [scl]won't be goin' en' time soon...[np]
 [scl]Will ya' go in my stead?[np]
 [scl]I rightly doubt Indio's daughter
-[scl]means the child ny' harm, but just
+[scl]means the child 'ny harm, but just
 [scl]ta' be on the safe side...[np]
 [scl]Tha entrance ta' Death Lake is
 [scl]guarded by ma' dog, but don't ya'
