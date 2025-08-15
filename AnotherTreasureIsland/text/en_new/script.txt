@@ -2425,19 +2425,15 @@ A formulation so formidable that
 [scl]Though termed a punishment for
 [scl]the King's benefit, think of it as
 [scl]more of doing me a favour.[np] 
-[scl]This is my humble plea.
-
- Should you
-[scl]succeed, His Majesty will surely
+[scl]This is my humble plea.[np]
+[scl]Should you succeed in creating the
+[scl]{A}{n}{t}{ }{B}{u}{s}{t}{e}{r}, His Majesty will surely
 [scl]reassess your worth.[np]
 [scl]What say you? Will it be done?[X$6A]
 [scl][ ][ ][ ][ ]Sure thing.
 [scl][ ][ ][ ][ ]No way![X$68]
 [en1]
-
-This is my humble plea.
-
-[np]
+This is my humble plea.[np]
 [nl2]Should you succeed in creating the 
 [nl3]{A}{n}{t}{ }{B}{u}{s}{t}{e}{r}, His Majesty will surely
 [scl]reassess your worth.[np]
