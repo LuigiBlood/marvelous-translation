@@ -2282,7 +2282,7 @@ You know what’s up, don’t you? If you want to save that pretty teacher,
 hand over the goods quietly.
 
 Don’t even try saying you don’t know!
-
+Voilà
 We know you stole it from the cave before we could!!
 
 Now, let’s have a little look, shall we?
@@ -2967,44 +2967,6 @@ I got a key from the fish's mouth!
 
 2-line text
 2-line text
-
-
-
-
-
-
-
-
-
-trying to emulate the verbal nuance in the original, but it sounds like mario, lol.
-
-I can't use it because my friends are nearby. Call them with the whistle or press the R button. (2 lines) Using the walkie-talkie when team is all close.
-two- lines only
-2 lines
-Ch1: Start Text 1
-2-lines of text - soldiers announcing princess polly
-polly - 2 lines of text only
-2 line text- reaction to Polly's note
-
-2 lines only
-2 lines only
-
-
-uses a different tileset
-
-uses a different tileset
-uses a different tileset
-Introduction: Text 10 (Another tileset)
-another tileset
-
-another tileset
-
-
-
-
-
-
-
 
 
 

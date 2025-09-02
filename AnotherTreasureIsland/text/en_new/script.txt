@@ -2433,6 +2433,7 @@ A formulation so formidable that
 [scl][ ][ ][ ][ ]Sure thing.
 [scl][ ][ ][ ][ ]No way![X$68]
 [en1]
+
 This is my humble plea.[np]
 [nl2]Should you succeed in creating the 
 [nl3]{A}{n}{t}{ }{B}{u}{s}{t}{e}{r}, His Majesty will surely
@@ -2448,7 +2449,7 @@ I'm terribly sorry to hear that.[np]
 [scl]...Yet, such a fate is not my desire.
 [en1]
 
-Well, aren't you brave little boys![np]
+Well, aren't you brave little lads![np]
 [nl2]Well then, I can't let all three of
 [nl3]you leave together, but you can
 [scl]open the gate on the right there.
@@ -10331,7 +10332,7 @@ What's with these monkeys...?
 [en2]
 
 Still freshly forged, hearts yet in
-[nl2]a haze- what a pairing! 
+[nl2]a haze- what a pairing!
 [en2]
 
 A giant bird is attacking some
