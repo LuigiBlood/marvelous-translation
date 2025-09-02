@@ -445,13 +445,9 @@ Get over here, or I'm staying put!
 [en1]
 
 Wait, wait... If all three of you
-[nl2]aren't gathered in this room, 
-
-we
+[nl2]aren't gathered in this room, we
 [nl3]can't stop the ship.[np]
-[scl]
-
-Bring the others to this room
+[scl]Bring the others to this room
 [scl]as well.
 [en2]
 
@@ -990,7 +986,7 @@ Oooooohh...
 [en2]
 
 Fuuugo fugo![np]
-[nl2][TL] N...not bad... Here, take it.
+[nl2][TL] N-not bad... Here, take it.
 [en1]
 
 [F2]Got {G}{r}{e}{e}{n}{ }{P}{a}{i}{n}{t}{s} from the spider![np]
@@ -1010,7 +1006,7 @@ Fugo! Fugofugo.[np]
 
 Fugo fugo![np]
 [nl2][TL] Good attitude! Let's play
-[nl3][ ][ ][ ]"Jumping Yellow Rock Game."[np]
+[nl3][ ][ ][ ]{J}{u}{m}{p}{i}{n}{g}{ }{Y}{e}{l}{l}{o}{w}{ }{R}{o}{c}{k}{ }{G}{a}{m}{e}.[np]
 [scl][ ][ ][ ]I'll throw yellow rocks for you,
 [scl][ ][ ][ ]so try to catch [Two][Zero] in
 [scl][ ][ ][ ][Six][Zero] seconds, okay?
@@ -1330,13 +1326,13 @@ Whoa, that's so many tomatoes! I
 [scl]by taking my treasure![np]
 [scl]Until you bring it back, I'll be
 [scl]keeping an eye on your smokin' hot
-[scl]teacher.[np]
+[scl]teacher for ya.[np]
 [scl]If you ever want to see her
 [scl]again, come to the valley past the
 [scl]lake.[np]
 [scl]Don't forget my {C}{r}{y}{s}{t}{a}{l}{ }{B}{a}{l}{l}.[np]
 [scl]Signed:
-[scl]The Greatest Pirate Under the Sky
+[scl]The Greatest Pirate Under the Sky,
 [scl]King Bull
 [en1]
 
@@ -1521,8 +1517,8 @@ You want to know what I'm doing
 
 Hey, don't go looking at other
 [nl2]people's hard-earned honey![np]
-[nl3]...Well, I guess you can just take a
-[scl]look.
+[nl3]...Well, I guess if it's only a
+[scl]look...
 [en2]
 
 You say you made them drop that
@@ -1573,7 +1569,7 @@ Hello. Who is this?[np]
 [nl3]Who is that? Is this a prank call?!
 [en2]
 
-You're too short to peep.
+You're too short to peep inside.
 [en2]
 
 You're tall enough to peep inside.
