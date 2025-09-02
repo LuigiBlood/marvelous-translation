@@ -49,7 +49,7 @@ The `_play_*.bat` files included expect `./tools/Mesen/Mesen.exe`.
 - Put the original ROM as `./roms/Marvelous_JP.sfc` (SHA-1: `46FE42F195D43B71BA0608356EB7C2B65BFF70AC`)
 
 ### Command Order
-For several reasons, I have opted to seperate the build process in several steps, as changes don't always need to pass through every step.  
+For several reasons, I have opted to separate the build process in several steps, as changes don't always need to pass through every step.  
 You can replace `**` with either `en` (English) or `fr` (French).
 
 - `_jp_extract.bat` 
