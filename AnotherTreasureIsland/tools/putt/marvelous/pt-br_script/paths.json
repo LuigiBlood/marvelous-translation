@@ -1,0 +1,8 @@
+{"name":"pt-br_script",
+"fontPath":"..\\..\\text\\pt-br\\font.bin",
+"kanjiPath":"..\\..\\text\\pt-br\\kanji.bin",
+"iconsPath":"..\\..\\text\\pt-br\\icons.bin",
+"widthPath":"..\\..\\text\\pt-br\\width.tbl",
+"tablePath":"..\\..\\text\\pt-br\\table.tbl",
+"scriptPath":"..\\..\\text\\pt-br\\script.txt",
+"notesPath":"..\\..\\text\\pt-br\\script_notes.txt"}

@@ -1,0 +1,8 @@
+{"name":"pt-br_items",
+"fontPath":"..\\..\\text\\pt-br\\font.bin",
+"kanjiPath":"..\\..\\text\\pt-br\\kanji.bin",
+"iconsPath":"..\\..\\text\\pt-br\\icons.bin",
+"widthPath":"..\\..\\text\\pt-br\\width.tbl",
+"tablePath":"..\\..\\text\\pt-br\\table.tbl",
+"scriptPath":"..\\..\\text\\pt-br\\items.txt",
+"notesPath":"..\\..\\text\\pt-br\\items_notes.txt"}
