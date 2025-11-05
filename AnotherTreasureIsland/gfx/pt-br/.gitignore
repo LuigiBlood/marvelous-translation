@@ -1,2 +1,4 @@
-/lz
-/tmp
+/lz/*
+/tmp/*
+!/lz/FOR_LZ_COMPRESSED_FILES
+!/tmp/temp
