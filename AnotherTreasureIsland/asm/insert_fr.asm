@@ -433,6 +433,7 @@ skipBank()
 	insert gfx_chapter4_ani,"../text/fr/chapter4.bin"
 	insert gfx_chapter5_ani,"../text/fr/chapter5.bin"
 	insert gfx_ship_notes_solve,"../gfx/fr/tmp/ship_note_solve.gfx"
+	insert gfx_jp_mgmt_office,"../gfx/jp/56.bin",0x1000
 skipBank()
 	insert gfx_swooned_ani,"../text/fr/swooned.bin"
 
