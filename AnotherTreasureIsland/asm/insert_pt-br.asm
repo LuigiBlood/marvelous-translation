@@ -70,14 +70,14 @@ map_journal4:
 	insert "../gfx/pt-br/journal4_map.bin"
 seekAddr($989B1B)	//Change place to entry number
 	adc.w #$30A0
-	sta $7F00AC-8
+	sta $7F00AC
 seekAddr($989F0F)	//Change place to entry number (Save & Exit, see code.asm)
 	adc.w #$30A0
-	sta $7F00AC-8
+	sta $7F00AC
 
 seekFile($2C18EA)
 map_journal_yesno:
-	dw $30C0,$30C2,$308E,$2160,$30C4,$30C6,$30C8,$2160,$2160,$2160
+	dw $30C0,$30C2,$3108,$2160,$30C4,$30C6,$30C8,$2160,$2160,$2160
 seekAddr($9899E0)	//Selection Sprites
 	db $79,$88,$98,$A8
 
@@ -175,13 +175,6 @@ seekAddr($9FD7D7)
 //Position
 seekAddr($9FD73A)
 	//ldx.w #$00E2
-
-//Game Over Save & Quit Text VRAM Upload
-seekAddr($149886)
-	lda.w #$6700
-seekAddr($149897)
-	lda.w #$1000
-
 
 //Palette Changes
 seekFile($2CAF40)
@@ -407,13 +400,13 @@ map_ship_notes_5:
 
 map_call_menu_base:
 	dw $2240, $2250	//<Icon>Call
-	dw $2248, $2258	//Quit
+	dw $2245, $2255	//Quit
 map_call_menu_end:
+	dw $2245, $2255
 	dw $2248, $2258
-	dw $224E, $225E
 map_call_menu_addr:
 	dw $0b88, $0bc8	//Call
-	dw $0c18, $0c58	//Quit
+	dw $0c1a, $0c5a	//Quit
 
 size_check(free_space1, 0x20B9D)
 

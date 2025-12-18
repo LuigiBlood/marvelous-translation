@@ -64,15 +64,15 @@ db $7A
 //New Game
 db $5D, $5E, $5F, $5C
 
-//"No" (already in english)
-db $0D, $36
+//"No" (already in english) "Não"
+db $0D, $AF
 
-//"Yes" (already in english)
-db $18, $2C, $3A
+//"Yes" (already in english) "Sim"
+db $12, $30, $34
 
 db $15, $0B, $12
 db $01, $3A, $0C, $40, $4E, $2C, $00, $3D
-db $12, $13, $00, $11, $F4, $03, $19, $49, $2A
+db $12, $13, $00, $11, $36, $19, $49, $2A
 db $FD, $21, $FD, $2B, $46
 //S.C. (Save Counter) 2
 db $7B
