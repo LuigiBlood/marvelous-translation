@@ -51,7 +51,7 @@ Rotating Cross Puzzle
 
 
 
-
+TODO
 
 
 
@@ -143,7 +143,7 @@ Final Score\[Leader] is used for Luck Rock graphics\[One2] is an equivalent to [
 
 
 
-
+[TODO] (Hard to really translate the joke from the japanese script...)
 
 winky
 
@@ -2952,6 +2952,7 @@ Introduction: Text 10 (Another tileset)
 another tileset
 
 another tileset
+
 
 
 
