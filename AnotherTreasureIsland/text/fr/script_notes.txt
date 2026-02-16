@@ -51,7 +51,7 @@ Rotating Cross Puzzle
 
 
 
-TODO
+[TODO] vérifier le contexte de ça
 
 
 
@@ -143,7 +143,7 @@ Final Score\[Leader] is used for Luck Rock graphics\[One2] is an equivalent to [
 
 
 
-[TODO] (Hard to really translate the joke from the japanese script...)
+[TODO] dur de traduire la blague d'origine...
 
 winky
 
@@ -224,9 +224,9 @@ used for all numbered blue keys
 
 
 
-Soldier ONE\Rhymes with "FUN"\original hint told you the number sounds like the noise a dog makes, but in english (WAN)
+Soldier ONE\"Hein" (Un)
 Used for all numbered red keys
-Soldier TWO
+Soldier TWO\(Deux)
 
 
 
@@ -287,6 +287,7 @@ only jack can get this
 
 
 
+[TODO] vérifier la politesse
 
 
 
@@ -344,8 +345,7 @@ only jack can get this
 
 
 
-
-
+[TODO] La traduction est probablement pas bonne
 
 
 
@@ -365,7 +365,7 @@ last one tonight
 
 
 
-
+[TODO] A vérifier qui parle en premier et en second
 
 
 ワクワク(wakuwaku) is onomonopia excitement\ドキドキ(dokidoki) is onomonopia for a sound made by a beating heart
@@ -385,7 +385,7 @@ Event1 - Polly moves glasses at the end of the first sentence\Event2 - Polly bec
 
 
 
-
+[TODO] C'est quoi le contexte de ça?
 
 
 

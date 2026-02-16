@@ -878,7 +878,7 @@ Pegi. Pegi-pengi.
 [en1]
 
 Pengi-pegi ![np]
-[nl2][Translate]Bon sang, avec ces manchots 
+[nl2][Translate]Bon sang, avec ces pingouins
 [nl3][ ][ ]qui ne cessent de roucouler,
 [scl][ ][ ]je n'en peux plus d'eux ![np]
 [scl]Pengi-pegi~ ![np]
@@ -1110,1028 +1110,1046 @@ Fugofugo. Fu-go.[np]
 [scl][ ][ ]t'approcher de lui.
 [en1]
 
-Ah!!
-[nl2]He waited for me to go first!
-[nl3]Cheater![np]
-[scl][SMonkey1]Uho! Ooo~! Ooo![np]
-[scl]TL: I don't understand humans at
-[scl]   all! Nope! Ooo-ooh!
+Ah !
+[nl2]Il voulait que je parte en premier !
+[nl3]Tricheur ![np]
+[scl][SMonkey1]Uho ! Ooo~ ! Ooo ![np]
+[scl][Translate]Je ne comprendrai jamais
+[scl][ ][ ]les humains ! Jamais ! Ooo-ooh !
 [en1]
 
-Don't just ogle me! You say there's
-[nl2]a zipper...?[np]
-[nl3]That's absurd! Come at me!!!
+Mais arrête de me mater !
+[nl2]Quoi ?! Une fermeture éclair... ?[np]
+[nl3]C'est absurde !
+[scl]Viens me l'dire en face !
 [en2]
 
-Ommnom morf nom.
-[nl2]Oh man... *munch*
-[nl3]So good... *chew chew*[np]
+Miam scrounch miam.
+[nl2]Oh lala...  *miam*
+[nl3]C'est bon... *scrounch*[np]
 [scl][Event]?!
 [scl]
 [scl][np]
-[scl]What's this?!
-[scl]So Spice! So Spice!
-[scl]Water! Water!
+[scl]Qu'est-ce que c'est ?!
+[scl]Ça pique ! Ça brûle !
+[scl]De l'eau ! De l'eau !
 [en1]
 
-Oh, there's a doll!
+Oh, une poupée !
 [en2]
 
-What a strange looking plant...
+Quelle drôle de plante...
 [en2]
 
-[F2]The {B}{l}{u}{e}[Space6]{K}{e}{y} is now {B}{l}{u}{e}[Space6]{K}{e}{y}[X$6B]![np]
-[nl3]I wonder what it opens?
+[F2]La clé bleue s'est changée en
+[nl2]{c}{l}{é}{ }{b}{l}{e}{u}{e} [X$6B] ![np]
+[nl3]Je me demande ce qu'elle ouvre.
 [en1]
 
-Something weird just rolled over
-[nl2]here... It's about to attack![np]
-[nl3]What's a plant's weak spot, again?
+De drôles de trucs ont roulé
+[nl2]jusqu'ici... C'est dangereux ![np]
+[nl3]C'est quoi le point faible
+[scl]d'une plante ?
 [en2]
 
-This shabby clock is missing the
-[nl2]minute hand.
+Il manque l'aiguille des minutes sur
+[nl2]cette vieille horloge.
 [en2]
 
-This one is stopped at 10:00, too.
+Celle là aussi est arrêtée à 10h00.
 [en2]
 
-You can't see it from here.
+Impossible de le voir d'ici.
 [en2]
 
-Let's confirm our position.
+Allons vérifier notre position.
 [en2]
 
-Look, it's smoke!
+Regarde, ça fume !
 [en2]
 
-Let's look to the left.
+Allons voir à gauche.
 [en1]
 
-Let's look to the right.
+Allons voir à droite.
 [en1]
 
-Ah! The hand fell off...
+Ah ! L'aiguille est tombée...
 [en2]
 
-Nothing happened!
+Il ne se passe rien !
 [en2]
 
-This clock is broken.
+Cette horloge est cassée.
 [en2]
 
 Fugofugo.[np]
-[nl2]TL: Goodbye-!
+[nl2][Translate]Au revoir !
 [en1]
 
 Fugo, Fugogo.[np]
-[nl2]TL: Okay, you may pass.
+[nl2][Translate]Bon, vous pouvez passer.
 [en1]
 
 Fugo. Fugogo.[np]
-[nl2]TL: ...Take your time, whydon'cha.
+[nl2][Translate]... Prenez vot' temps.
 [en1]
 
 Fugofugo. Fugo.[np]
-[nl2]TL: Wait your turn!
+[nl2][Translate]Attends ton tour !
 [en2]
 
-There are [num][Three] soldiers in and
-[nl2]around the castle.[np]
-[nl3]They will tell you their numbers.
+Il y a[num][Three] soldats dans et
+[nl2]autour du château.
+[nl3]Ils te diront leur numéro.
 [en2]
 
-Whoaaaa~~~!!
+Woaaaah~~~ !!
 [en1]
 
-Water came out!!
+De l'eau jaillit !!
 [en1]
 
-Wh-wh-whoa~~~~~!!!
+W-w-woah~~~~~ !!!
 [en1]
 
-...Huh? You want to know my
-[nl2]number?[np]
-[nl3]Alright, my number rhymes with a
-[scl]word a you might use to describe
-[scl]having good time. Did you get it?
+Quoi ?
+[nl2]Tu veux savoir mon matricule ?[np]
+[nl3]Bon, on le dit souvent quand on n'a
+[scl]pas bien compris quelqu'un.
 [en2]
 
-[F2]The {R}{e}{d}[Space6]{K}{e}{y} is now {R}{e}{d}[Space6]{K}{e}{y}[X$6B]![np]
-[nl2]I wonder what it opens?
+[F2]Votre clé rouge s'est changée en
+[nl2]{c}{l}{é}{ }{r}{o}{u}{g}{e}[X$6B].[np]
+[nl3]Je me demande ce qu'elle ouvre.
 [en1]
 
-...Hmm? You want to know my
-[nl2]number?[np]
-[nl3]Alright, when you say my number,
-[scl]you might pucker your lips.
-[scl]I know I do...
+Tu veux savoir mon matricule ?[np]
+[nl2]Quand tu le dis ta bouche ressemble
+[nl3]à celle d'un canard et tu as l'air
+[scl]franchement ridicule.
 [en2]
 
-I'm not going to shout, so come
-[nl2]over here.
+J'ai pas envie de le crier,
+[nl2]donc approchez-vous un peu.
 [en2]
 
-That gorilla's voice is so scary,
-[nl2]any animal that hears it will be
-[nl3]terrified.[np]
-[scl]Speaking of being terrified...[np]
-[scl]It has that effect on me, too.[np]
-[scl]So, could you please take this for
-[scl]me?
+Cette voix de gorille fait tellement
+[nl2]peur, tous les animaux qui
+[nl3]l'entendent tremblent de peur.[np]
+[scl]À propos d'avoir peur...
+[scl]Moi aussi ça me glace le sang.
+[scl]Alors, pourriez-vous me garder ça ?
 [en1]
 
-You wanna know about the
-[nl2]villagers?[np]
-[nl3]I can't speak for anyone else but
-[scl]my wife and two children.[np]
-[scl][SImprtnt]John and Ken are my twin sons.
-[scl]And this is just me talking,[np]
-[scl]but they have a great sense of
-[scl]rhythm.[np]
-[scl]They'll bust out dancing if you
-[scl]play some rockin' beats!
+Vous voulez en savoir plus sur les
+[nl2]habitants du village ?[np]
+[nl3]Je ne peux vous parler que
+[scl]de ma femme et de mes
+[scl]deux enfants.[np]
+[scl][SImprtnt]Mes deux garçons s'appellent
+[scl]John et Ken.[np]
+[scl]C'est un père qui parle mais ils ont
+[scl]un très bon sens du rythme.[np]
+[scl]Ils ont une folle envie de danser
+[scl]dès qu'on leur joue de la musique.
 [en2]
 
-[X$6A][SMonkey2]Kukee! Kukee~! Kukeko![np]
-[nl2]TL: Instead of the egg, it's you
-[nl3]   I'll take~!
+[X$6A][SMonkey2]Kukii ! Kukii~ ! Kukeko ![np]
+[nl2][Translate]C'est pas l'œuf que je
+[nl3][ ][ ]vais prendre, c'est vous !
 [en2]
 
-[X$6A]Record sound?
-[nl2][ ][ ][ ][ ]Okay!
-[nl3][ ][ ][ ][ ]No way![X$68]
+[X$6A]Tu veux faire un enregistrement ?
+[nl2][ ][ ][ ][ ]Ouais !
+[nl3][ ][ ][ ][ ]Pas besoin.[X$68]
 [en1]
 
 [X$6A][SWrClck]
-[nl2]      Recording completed.[SMusic2]
+[nl2]      Enregistrement terminé.[SMusic2]
 [en2]
 
-If you can beat Bob, you might
-[nl2]get a prize. If you are feeling
-[nl3]tough, it only costs a single coin.[np]
-[scl]You can't dream big without money.
+Si tu peux battre Bob, tu gagneras
+[nl2]un prix. Si tu te sens d'attaque,
+[nl3]cela ne coute qu'une simple pièce.[np]
+[scl]Après tout, on ne peut pas rêver
+[scl]sans argent.
 [en2]
 
-[F2]The[Space8]{G}{r}{e}{e}{n}[Space6]{K}{e}{y}[Space8]is[Space8]now[Space8]{G}{r}{e}{e}{n}[Space6]{K}{e}{y}[X$6B]![np]
-[nl2]I wonder what it opens!
+[F2]Votre clé verte se change en
+[nl2]{c}{l}{é}{ }{v}{e}{r}{t}{e} [X$6B].[np]
+[nl3]Qu'est-ce qu'elle peut bien ouvrir ?
 [en1]
 
-Huh..? The {R}{e}{d} {K}{e}{y} should open a
-[nl2]red treasure chest...[np]
-[nl3]I wonder what's wrong.
+Hein... ? La {c}{l}{é}{ }{r}{o}{u}{g}{e} devrait ouvrir
+[nl2]un coffre rouge...
+[nl3]Qu'est-ce qui cloche ?
 [en1]
 
-...You want my digits?[np]
-[nl2]Okay, my number is shaped like an
-[nl3]ear.
+... Tu veux mon matricule ?[np]
+[nl2]Ok, mon numéro a une
+[nl3]forme d'oreille.
 [en2]
 
-This island has had various plant
-[nl2]life for many years.[np]
-[nl3]There's a giant tree in the middle
-[scl]of the island.[np]
-[scl]It produces a special oil that they
-[scl]sell in the town.
+Cette île possède une flore variée
+[nl2]depuis longtemps. Il y a un
+[nl3]arbre géant en son centre.[np]
+[scl]Il produit une huile spéciale
+[scl]en vente en ville.
 [en2]
 
-[nl2]        ...What a man!
+[nl2]          ... Quel homme !
 [en1]
 
-Oh yeah!
-[nl2]Hey, come here!
+Oh ouais !
+[nl2]Hé, viens ici !
 [en2]
 
-[F2]You got a {P}{i}{c}{t}{u}{r}{e} {o}{f} {t}{h}{e}
-[nl2]{M}{y}{s}{t}{e}{r}{i}{o}{u}{s} {P}{l}{a}{n}{t}![np]
-[nl3]She has quite a way with people~!
+[F2]Vous recevez {u}{n}{e}{ }{i}{m}{a}{g}{e}{ }{d}{e}
+[nl2]{l}{a}{ }{p}{l}{a}{n}{t}{e}{ }{m}{y}{s}{t}{é}{r}{i}{e}{u}{s}{e} ![np]
+[nl3]Elle a un drôle d'effet sur les gens.
 [en1]
 
-Oh, right, terribly sorry, but could
-[nl2]you take this picture to Professor
-[nl3]Marlowe?
+Oh, c'est vrai, navrée de vous
+[nl2]demander ça,[np]
+[nl3]mais pourriez-vous apporter cette
+[scl]image au professeur Marlowe ?
 [en1]
 
-Stop whining!
-[nl2]Girls hate crybabies, little boy.
-[nl3]Li-tull bay-bee boi.
+Arrête de chouiner !
+[nl2]Les filles n'aiment pas
+[nl3]les pleurnichards, mon garçon !
 [en2]
 
-It's too far to recognize the
-[nl2]picture!
+C'est trop loin pour identifier
+[nl2]l'image !
 [en2]
 
-[nl2]      Wow, what a picture!
+[nl2]         Woah, quelle image !
 [nl3][np]
-[scl]This must be a new species of
-[scl]plant! I've never seen anything like
-[scl]it~.[np]
-[scl]What fortune that I chose this
-[scl]island! Good work, kids. I'd like to
-[scl]give you something...[np]
-[scl]But all I have are scientific
-[scl]tools...[np]
-[scl]Of course! Take this.[np]
-[scl]I'd like to give it to someone who
-[scl]really likes building things.[np]
-[scl]Who wants it?
-[en1]
-
-There should be a guy named Allen
-[nl2]with the photographer, Jennifer.[np]
-[nl3]I think he's recording sound or
-[scl]something. If you meet them, say
-[scl]"hi" for me.
-[en2]
-
-So... That's all I have.[np]
-[nl2]If you want to know anything else
-[nl3]about plants, come ask me.[np]
-[scl]I'll check it out for you...
-[scl]All because...[np]
+[scl]Ça doit être une nouvelle espèce !
+[scl]Je n'ai jamais vu rien de tel.[np]
+[scl]Quelle chance pour moi d'avoir choisi
+[scl]cette île ! Bien joué les enfants.
+[scl]J'ai quelque chose pour vous...[np]
+[scl]Mais bon tout ce que j'ai, c'est du
+[scl]matériel scientifique...[np]
 [scl]
-[scl][ ][ ][ ][ ][ ][ ]I'm a nice guy!
+[scl]         Voila ! Prenez ça.
+[scl][np]
+[scl]J'aimerais le donner à quelqu'un qui
+[scl]aime bricoler des trucs.
+[scl]Qui le prend ?
+[en1]
+
+Il doit y avoir un type du nom
+[nl2]d'Allen qui enregistre des sons
+[nl3]avec la photographe, Jennifer.[np]
+[scl]Si vous les croisez,
+[scl]dites-leur bonjour de ma part !
+[en2]
+
+C'est tout ce que j'ai.
+[nl2]Si tu veux en savoir plus sur les
+[nl3]plantes, viens me demander.[np]
+[scl]Je te dirai ce qu'il faut savoir.
+[scl]Parce que après tout...[np]
+[scl]
+[scl][ ][ ] Je suis quelqu'un de gentil !
 [scl]
 [en1]
 
-Whoa, that's so many tomatoes! I
-[nl2]feel full just looking at them.
+Woah, il y a tellement de tomates !
+[nl2]Je suis repu rien qu'à les regarder.
 [en2]
 
-[nl2]  Dear stinky brats,[np]
-[nl3]You guys know what this is
-[scl]about, right?[np]
-[scl]You made a really huge mistake
-[scl]by taking my treasure![np]
-[scl]Until you bring it back, I'll be
-[scl]keeping an eye on your smokin' hot
-[scl]teacher.[np]
-[scl]If you ever want to see her
-[scl]again, come to the valley past the
-[scl]lake.[np]
-[scl]Don't forget my {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}.[np]
-[scl]Signed:
-[scl]The Greatest Pirate Under the Sky
-[scl]King Bull
+Bande de sales moufflets, vous ne
+[nl2]valez pas tripette.[np]
+[nl3]Ne vous imaginez même pas vous
+[scl]faire la malle avec mon trésor.[np]
+[scl]Je garde sous la main
+[scl]votre prof super canon.[np]
+[scl]Si vous voulez la revoir un jour,
+[scl]allez dans la vallée après le lac.
+[scl]N'oubliez pas ma {b}{o}{u}{l}{e}{ }{d}{e}{ }{c}{r}{i}{s}{t}{a}{l} ![np]
+[scl]Signé :
+[scl] Le plus grand des pirates du ciel,
+[scl][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]le Roi Azur.
 [en1]
 
-[X$6A]...There's nothing written here.
+[X$6A]...Il n'y a rien d'écrit.
 [en1]
 
-What?... This {B}{l}{u}{e} {K}{e}{y} won't open
-[nl2]the blue treasure chest...[np]
-[nl3]I wonder what's wrong.
+Diantre ! La {c}{l}{é}{ }{b}{l}{e}{u}{e} n'ouvre pas
+[nl3]le coffre bleu...[np]
+[nl3]C'est quand même bizarre.
 [en1]
 
-...Hm?
-[nl2]You want to know my number?[np]
-[nl3]Okay, my number is shaped like
-[scl]the sails on a yacht.[np]
-[scl]Can you guess it?
+... Hmm ? Tu veux savoir
+[nl2]mon matricule ?[np]
+[nl3]Eh bien, il a la forme d'un bateau.
+[scl]Alors, tu trouves ?
 [en2]
 
-...Hmmn? You want to know my
-[nl2]number?[np]
-[nl3]If you write my number as a
-[scl]roman numeral, it would be a "V".
+... Hmmn ? Tu veux connaître
+[nl2]mon matricule ?[np]
+[nl3]Mon numéro peut être vu comme un
+[scl]symbole de paix.
 [en2]
 
-...Oh?
-[nl2]You wanna know my number?[np]
-[nl3]It rhymes with the sounds made
-[scl]by a grandfather clock when the
-[scl]second hand moves. What's it do?
+... Oh ?
+[nl2]Tu veux deviner mon matricule ?[np]
+[nl3]On l'utilise pour couper du bois.
 [en2]
 
-Don't give up! Try again! We need
-[nl2]that penguin's help!
+N'abandonne pas ! Recommence ![np]
+[nl2]Il nous faut l'aide de ce pingouin !
 [en2]
 
-...Huh? You want to know my
-[nl2]number?[np]
-[nl3]My number sounds like "heaven."
+Hein ? Tu veux mon matricule ?[np]
+[nl2]On dit qu'il porte chance.
 [en2]
 
-Er, no, I mean, I, uh, not... is it
-[nl2]really that impressive?[np]
-[nl3]Well, golly.
+Euh, non, en fait, je, non...
+[nl2]C'est si impressionnant ?[np]
+[nl3]Nom de Zeus...
 [en2]
 
-...Huh?
-[nl2]You want to know my number, eh?[np]
-[nl3]My number is the same even if you
-[scl]flip it upside-down.
+Alors tu veux connaitre
+[nl2]mon matricule, n'est-ce pas ?[np]
+[nl3]Si tu lui mets la tête en bas,
+[scl]il reste le même.
 [en2]
 
-...Eh?
-[nl2]You wanna know my number?
-[nl3]Okay... Here's a clue.[np]
-[scl]If you flip my number upside-down
-[scl]it becomes a smaller number.
+...Eh ?
+[nl2]Tu veux connaître mon matricule ?[np]
+[nl3]Bon... Alors...[np]
+[scl]Il devient plus petit si tu lui
+[scl]mets la tête en bas.
 [en2]
 
-...Whassat?
-[nl2]You wanna know my number?[np]
-[nl3]I think of this number when I
-[scl]cook fried chicken for dinner.
-[scl]...Why?[np]
-[scl]The name for a female chicken
-[scl]rhymes with this number.[np]
-[scl]All this talk of food is making me
-[scl]hungry.
+... Hein ? Mon numéro ?[np]
+[nl2]Tu peux faire une croix dessus.
+[nl3]... Ça me donne faim tout ça.
 [en2]
 
-...What ho!
-[nl2]You want to know my number?[np]
-[nl3]It's the total players each soccer
-[scl]team can have out on the field.
-[scl]...Football, if you're not American.
+Tu veux deviner mon matricule ?[np]
+[nl2]C'est le nombre de joueurs
+[nl3]d'une équipe de football.
 [en2]
 
-...Hrrrrm?
-[nl2]You want to know my number?[np]
-[nl3]I'll give you a math problem.
-[scl]What's 36 divided by 3?
+Tu veux deviner mon matricule ?[np]
+[nl2]C'est ce que disent les soldats
+[nl3]quand ils marchent au pas...
+[scl]C'est un nombre à deux chiffres.
 [en2]
 
-...What is it?
-[nl2]You want to know my number?[np]
-[nl3]If it's on a Friday, it's really bad
-[scl]luck!
+... Qu'il y a-t-il ?
+[nl2]Tu veux savoir mon matricule ?[np]
+[nl3]Si ça tombe un vendredi,
+[scl]il porte malheur.
 [en2]
 
-...Oh, you want inside the archives
-[nl2]room?[np]
-[nl3]Sorry, I'm not in charge of that...
-[scl]You'll have to talk to soldier
-[scl]number[X$6B] about that.
+...Oh, tu veux aller dans
+[nl2]la salle des archives ?[np]
+[nl3]Navré, ce n'est pas à moi qu'il
+[scl]faut demander...[np]
+[scl]C'est probablement le soldat[X$6B]
+[scl]qui en est responsable.
 [en2]
 
-I am none other than soldier
-[nl2]number [Six]. Oh, you want in the
-[nl3]archives room?[np]
-[scl]You need to talk to soldier[One][Four]
-[scl]about that.[np]
-[scl]Hahaha! Just kidding.
-[scl]Oh, you want to turn off the
-[scl]electricity?[np]
-[scl]Well, alright, you can enter.
-[scl]Don't mess stuff up too badly,
-[scl]alright?
+Je suis le soldat [Six] en personne.
+[nl2]Oh, tu veux aller dans la salle
+[nl3]des archives ?[np]
+[scl]Faudra parler au soldat [One][Four]
+[scl]pour ça.[np]
+[scl]Hahaha ! Je blague.
+[scl]Oh, tu veux couper le courant ?[np]
+[scl]Hé bien, d'accord, tu peux entrer.
+[scl]Ne mets pas trop le foutoir, hein ?
 [en2]
 
-Hey, what gives?...[np]
-[nl2]A {G}{r}{e}{e}{n} {K}{e}{y} should open a Green
-[nl3]Treasure chest...[np]
-[scl]I wonder what's wrong.
+Par la barbe de ma grand-mère...[np]
+[nl2]Une {c}{l}{é}{ }{v}{e}{r}{t}{e} devrait ouvrir
+[nl3]un coffre vert...[np]
+[scl]C'est quoi le problème ?
 [en1]
 
-As I promised, you may enter.
+Comme promis, tu peux entrer.
 [en1]
 
-[F2]Shucks! I lost... Fine, take it!
+[F2]Bigre ! J'ai perdu...
+[nl2]Tiens, prends-le.
 [en1]
 
-[SChing]Uhohoo~![np]
-[nl2]TL: Thank you, come again~![np]
-[nl3]   I'll help myself to[num] of your
-[scl]   {L}{u}{c}{k} {R}{o}{c}{k}{s}~!
+[SChing]Uhohoo~ ![np]
+[nl2][Translate]Merci, reviens quand tu veux !!
+[nl3][ ][ ]Je te prends[num] gemme
+[scl][ ][ ]chanceuse !
 [en1]
 
-There are pots down there...[np]
-[nl2]From this hole, you can only see 3
-[nl3]pots.[np]
-[scl]1 is red, and 2 are blue.
+Il y a des pots en dessous...[np]
+[nl2]Dans le trou, on peut en voir 3.
+[nl3]1 est rouge et 2 sont bleus.
 [en2]
 
-There are pots down there...[np]
-[nl2]From this hole you can see 4 of
-[nl3]them.[np]
-[scl]2 are red, 2 are blue.
+Il y a des pots en dessous...[np]
+[nl2]Dans le trou, on peut en voir 4.
+[nl3]2 sont rouges et 2 sont bleus.
 [en2]
 
-This pot is directly under the hole.
+Ce pot est pile sous le trou.
 [en2]
 
-This is a red pot.
+C'est un pot rouge.
 [en2]
 
-This is a blue pot.
+C'est un pot bleu.
 [en2]
 
-Let's get close and take a better
-[nl2]look.
+Approchons-nous pour
+[nl2]mieux l'examiner.
 [en2]
 
 Pegi-pengi-pegu.[np]
-[nl2]TL: It's not so bad being a
-[nl3]   human's pet!
+[nl2][Translate]C'est pas si mal d'être
+[nl3][ ][ ]un animal de compagnie !
 [en2]
 
-There's something in the pot under
-[nl2]this hole!
+Il y a quelque chose dans le pot au
+[nl2]fond de ce trou !
 [en2]
 
-...! Just as I suspected!
-[nl2]A drop of honey fell into this pot!
+Comme je le pensais !
+[nl2]Une goutte de miel est tombée
+[nl3]dans ce pot !
 [en2]
 
-You want to know what I'm doing
-[nl2]here? That's a secret, obviously...[np]
-[nl3]But you seem like good kids, so I'll
-[scl]let you in on it. [np]
-[scl]You came through the forest,
-[scl]right? Did you see the giant bees
-[scl]out there?[np]
-[scl]I'm waiting for them to spill some
-[scl]honey. They don't usually spill very
-[scl]much, though...
+Vous voulez savoir ce que je fais
+[nl2]ici ? C'est un secret, bien sûr...[np]
+[nl3]Mais vous semblez être de braves
+[scl]gosses... allez vous savez quoi,
+[scl]je vous le dis.[np]
+[scl]Vous êtes arrivés par la forêt,
+[scl]n'est-ce pas ?
+[scl]Vous avez vu les abeilles géantes ?[np]
+[scl]Je les attends pour récupérer
+[scl]un peu de miel, mais elles n'en
+[scl]laissent jamais beaucoup...
 [en2]
 
-[F2]Jack got the {T}{a}{p}{e} {R}{e}{c}{o}{r}{d}{e}{r}![np]
-[nl2]It's an incredible device that can
-[nl3]record and play back sounds![np]
-[scl]Let's borrow it for a while.
+[F2]Jack obtient le {m}{a}{g}{n}{é}{t}{o}{p}{h}{o}{n}{e} ![np]
+[nl2]C'est un appareil formidable qui
+[nl3]enregistre et joue des sons !
+[scl]Empruntons-le un moment.
 [en1]
 
-Hey, don't go looking at other
-[nl2]people's hard-earned honey![np]
-[nl3]...Well, I guess you can just take a
-[scl]look.
+Arrête de regarder le miel
+[nl2]durement récolté des autres ![np]
+[nl3]...Bon, tu peux jeter un œil.
 [en2]
 
-You say you made them drop that
-[nl2]honey?... Really?...[np]
-[nl3]Why don't you come on over here,
-[scl]then?
+Vous dites que c'est vous qui
+[nl2]leur a fait lacher le miel ?
+[nl3]Vraiment ?[np]
+[scl]Hé bien, approchez donc.
 [en2]
 
-It looks like a monster cuckoo
-[nl2]clock!
+On dirait un monstre-coucou.
 [en2]
 
-[F2]You received a {M}{a}{g}{n}{e}{t} from
-[nl2]Professor Marlowe![np]
-[nl3]But what are you supposed to do
-[scl]with it?
+[F2]Le professeur Marlowe vous offre
+[nl2]un {a}{i}{m}{a}{n}{t} ![np]
+[nl3]...Mais qu'est-ce qu'on peut
+[scl]en faire ?
 [en1]
 
-Pegi, pegi, pengi.[np]
-[nl2]TL: It's dangerous to follow you
-[nl3]   guys, my intuition says.
+Pegi, pegi, pegi.[np]
+[nl2][Translate]Mon intuition me laisse penser
+[nl3][ ][ ]de ne plus vous suivre,
+[scl][ ][ ]ça a l'air dangereux.
 [en2]
 
-If that's true, you should know
-[nl2]which pot the honey fell into.[np]
-[nl3]Try to guess.
+Si c'est le cas, alors vous devriez
+[nl2]savoir dans quel pot est tombé
+[nl3]le miel. Je vous laisse deviner !
 [en1]
 
-I'm an adult, so I'll let you have 2
-[nl2]chances. Use [Search] on the side to
-[nl3]select a pot.
+Je suis un adulte alors je vous
+[nl2]laisse 2 essais. Utilisez [Search] sur le
+[nl3]coté pour choisir un pot.
 [en1]
 
-Yes, hello, this is the management
-[nl2]office.[np]
-[nl3]You want to go inside the gate?[np]
-[scl]I must ask you to come in person
-[scl]to the office.
+Oui, bonjour, c'est moi qui gère cet
+[nl2]endroit. Vous voulez franchir
+[nl3]le portail ?[np]
+[scl]Alors je vous donne rendez-vous
+[scl]au guichet.
 [en2]
 
-The number you dialed cannot be
-[nl2]reached.
+Le numéro que vous avez composé
+[nl2]est injoignable actuellement.
 [en2]
 
-Hello. Who is this?[np]
-[nl2][team] Team?[np]
-[nl3]Who is that? Is this a prank call?!
+Bonjour. Qui est-ce ?
+[nl2]L'équipe [team] ? Quoi ?
+[nl3]C'est un canular ?!
 [en2]
 
-You're too short to peep.
+Tu es trop petit pour y jeter
+[nl2]un œil.
 [en2]
 
-You're tall enough to peep inside.
+Tu es assez grand pour y jeter
+[nl2]un œil.
 [en1]
 
-[F2]Received {B}{l}{u}{e} {P}{a}{i}{n}{t} from the
-[nl2]spider![np]
-[nl3]It came with an easy-to-use paint
-[scl]brush.
+[F2]L'araignée vous donne de la
+[nl2]{p}{e}{i}{n}{t}{u}{r}{e}{ }{b}{l}{e}{u}{e} ![np]
+[nl3]Des pinceaux pour débutants sont
+[scl]fournis avec.
 [en1]
 
 Fugo. Fufofugo.[np]
-[nl2]TL: I'll give you all these yellow
-[nl3]   rocks, too.
+[nl2][Translate]Je te donne aussi toutes
+[nl3][ ][ ]ces pierres jaunes.
 [en1]
 
-It looks like a map of this island.[np]
-[nl2]At the bottom is the lake by our
-[nl3]camp. The island is bigger than I
-[scl]thought.
+On dirait une carte de l'île.
+[nl2]En bas, il y a le lac du camp.[np]
+[nl3]Cette île est bien plus grande que
+[scl]je ne l'imaginais.
 [en2]
 
-This is probably where we are.
-[nl2]The big cave at the top seems...[np]
-[nl3]Really far away.
+Nous devrions être par là.
+[nl2]La grande grotte tout en haut
+[nl3]à l'air tellement loin !
 [en2]
 
-Crikey, if I had been a little to
-[nl2]the right, it would have hit me![np]
-[nl3]That's crazy!
+Mince alors, si j'avais un peu dévié
+[nl2]à droite, je me le serais pris dans
+[nl3]la poire ! C'est dingue !
 [en2]
 
-[nl2]     Where does this lead?
+[nl2]   Où est-ce que ça peut mener ?
 [en2]
 
-[SChing]You received[Two][Zero][LuckRock].
-[nl2]It's a miracle!
+[SChing]Vous récupérez
+[nl2][Two][Zero] gemmes chanceuses !
+[nl3]C'est un miracle !
 [en1]
 
-It might go down if you smack it
-[nl2]from above.
+Il devrait tomber si on le tape par
+[nl2]dessus.
 [en2]
 
-...He looks sleepy.
+Il semble endormi.
 [en2]
 
-Why is a boat in a place like
-[nl2]this...?
+Que fait un bateau dans un tel
+[nl2]endroit ?
 [en2]
 
-Judging by it's looks, this ship
-[nl2]seems pretty old.[np]
-[nl3]Like a pirate ship from an old
-[scl]story. This is so cool!
+À en juger par son apparence, il ne
+[nl2]date pas d'hier.[np]
+[nl3]On dirait un bateau pirate sorti
+[scl]d'un conte pour enfants !
+[scl]Ça a trop la classe !
 [en2]
 
-It's a shame you can't see the
-[nl2]front from here!
+C'est dommage de pas voir
+[nl2]le devant d'ici.
 [en2]
 
-I wonder how it works...?
+Je me demande comment
+[nl2]on le met en route...
 [en2]
 
-Okay, it's been oiled.
+Bon, c'est bien graissé.
 [en2]
 
-That's pretty... huge!
+C'est plutôt... énorme !
 [en2]
 
-If ya' hand over our treasure,
-[nl2]the wench lives.[np]
-[nl3]What'll it be, bucko?[X$6A]
-[scl][ ][ ][ ][ ]Fine, take it.
-[scl][ ][ ][ ][ ]No way! Let her go![X$68]
+Si tu me donnes le butin, elle vivra.[np]
+[nl2]Quel est ton choix, gamin ?[X$6A]
+[nl3][ ][ ][ ][ ]Ok, tenez.
+[scl][ ][ ][ ][ ]Non ! Libérez-là ![X$68]
 [en1]
 
-I'll just take the payment in
-[nl2]advance.[np]
-[nl3]Choose {L}{u}{c}{k} {R}{o}{c}{k}{s} using [Item]
-[scl]and then press the [ABtn] button.
+Il faut payer d'avance.[np]
+[nl2]Sélectionne {G}{e}{m}{m}{e}{s}{ }{c}{h}{a}{n}{c}{e}{u}{s}{e}{s}
+[nl3]avec[Item] puis presse le bouton[ABtn].
 [en2]
 
-Okay, that'll be[Space1][num] {L}{u}{c}{k} {R}{o}{c}{k}!
-[nl2]Which box do you want to open?
-[nl3]Think carefully and make a choice.[X$6A]
+Ça fera[num] gemme chanceuse ![np]
+[nl2]Quelle boite veux-tu ouvrir ?
+[nl3]Réfléchis bien.[X$6A]
 [en1]
 
-[X$6A][ ][ ][ ][ ]1 Left Chest
-[nl2][ ][ ][ ][ ]2 Middle Chest
-[nl3][ ][ ][ ][ ]3 Right Chest[X$6E]
+[X$6A][ ][ ][ ][ ]1 Le coffre à gauche.
+[nl2][ ][ ][ ][ ]2 Le coffre du milieu.
+[nl3][ ][ ][ ][ ]3 Le coffre à droite.[X$6E]
 [en1]
 
-...Hehehe... You're sure?[X$6A]
-[nl2][ ][ ][ ][ ]Sure.
-[nl3][ ][ ][ ][ ]Hold on.[X$68]
+Héhé, tu es bien sur de toi ?[X$6A]
+[nl2][ ][ ][ ][ ]Ouais.
+[nl3][ ][ ][ ][ ]Deux minutes.[X$68]
 [en1]
 
-Dang boy, are you ever dense~.
-[nl2]You missed completely![np]
-[nl3]What's wrong? Give it another go?
+Ce que tu es tarte !
+[nl2]C'est complètement raté.[np]
+[nl3]Qu'est-ce qu'il y a ?
+[scl]Tu veux recommencer ?
 [en1]
 
-...Are you happy? Pathetic. Take
-[nl2]your[Space1][num] {L}{u}{c}{k} {R}{o}{c}{k}.
+Tu es content de toi ?
+[nl2]C'est pathétique.
+[nl3]Tiens, je te rends
+[scl][One] gemme chanceuse.
 [en1]
 
-[X$6A]Received[Space1][num] {L}{u}{c}{k} {R}{o}{c}{k}.
-[nl2]Since you just gave one away, you
-[nl3]don't feel too happy about it.
+[X$6A]Ça fait [One] gemme chanceuse.[np]
+[nl2]Mais bon, vous en avez déjà donné
+[nl3]une, donc ça ne change pas
+[scl]grand chose.
 [en1]
 
-Heh, lucky guess. A man doesn't go
-[nl2]back on his word.[np]
-[nl3]Here, take your [X$6B][LuckRock]. But don't
-[scl]just split after winning, give me a
-[scl]chance to win it back.
+Héhé, bien joué. Chose promise,
+[nl2]chose due.[np]
+[nl3]Prends tes[X$6B][LuckRock]. Mais reste
+[scl]un peu, laisse moi une chance d'en
+[scl]regagner.
 [en1]
 
-Bow wow woof![np]
-[nl2]TL: Give twice as much pain as
-[nl3]   you take![np]
-[scl]   That's the dog's creed...
-[scl]   So now I'm going to eat you!
+Ouaf ouaf ouaf ![np]
+[nl2][Translate]Je redonne deux fois plus de
+[nl3][ ][ ]douleur que j'en reçois ![np]
+[scl][ ][ ]C'est la loi des chiens.
+[scl][ ][ ]Alors je vais te dévorer !
 [en2]
 
-These logs are tied down with
-[nl2]rope...
-[nl3]I don't think they can be moved.
+Ces rondins sont bien attachés avec
+[nl2]une corde... Je ne pense pas qu'on
+[nl3]puisse les bouger.
 [en2]
 
-How dare you just barge in here
-[nl2]without an appointment![np]
-[nl3]I'm a very busy man, here.
-[scl]You should come back later...
+Comment osez-vous vous présenter
+[nl2]ici sans rendez-vous ?![np]
+[nl3]Je suis un homme très occupé !
+[scl]Au revoir !
 [en2]
 
-Oh, you want to go deeper into
-[nl2]the jungle?[np]
-[nl3]Well, I don't trust you! This town
-[scl]is full of delinquents...[np]
-[scl]Earlier, a brat named John stole
-[scl]the key![np]
-[scl]If you want to unlock the gate
-[scl]that badly, find John and get the
-[scl]key from him.
+Oh, vous voulez vous aventurer
+[nl2]au cœur de la jungle ?[np]
+[nl3]Eh bien ! Je ne vous fais pas
+[scl]confiance ! Ce village est rempli de
+[scl]délinquants...[np]
+[scl]Tout à l'heure, une racaille du nom
+[scl]de John m'a volé la clé ![np]
+[scl]Si vous tenez tant à ouvrir le
+[scl]portail, alors trouvez John
+[scl]et prenez lui la clé.
 [en2]
 
-Huh... What's this?
-[nl2]Oh... the board is broken so we
-[nl3]can't read the phone number.
+Hein... ? C'est pour quoi ?
+[nl2]Oh... le panneau est cassé,
+[nl3]on ne peut plus lire le numéro.
 [en2]
 
-Huh?... What's this?
-[nl2]"DO NOT ENTER! Direct inquiries
-[nl3]to the management office"?[np]
-[scl]So that's how it is!
+C'est pour quoi ?[np]
+[nl2]"ENTREE INTERDITE ! POUR TOUTE
+[nl3] DEMANDE, S'ADRESSER A LA
+[scl] DIRECTION."[np]
+[scl]C'est donc comme ça que ça
+[scl]se passe.
 [en2]
 
-[SMonkey1]Ooki! Ookii![np]
-[nl2]TL: Dang it! Did you think we'd run
-[nl3]   off after we lost?[np]
+[SMonkey1]Ooh ooh ![np]
+[nl2][Translate]Sapristi ! Vous croyez vraiment
+[scl][ ][ ]qu'on va fuire après avoir
+[scl][ ][ ]perdu ?[np]
 [scl]
-[scl]   Well, you're right!
+[scl][ ][ ]Hé bien en fait oui !
 [scl]
 [en1]
 
-...What on earth is in this?
-[nl2]It's awfully heavy...
+Mais qu'est-ce que c'est que
+[nl2]ce truc ? C'est méga lourd !
 [en2]
 
-If there's nothing behind it, the
-[nl2]machine won't work...?!
+Alors, s'il n'y a rien derrière, la
+[nl2]machine ne fonctionnera pas ?!
 [en2]
 
-Is Dion really a coward!?
-[nl2]Look at his heart beating!
+Dion est une vraie poule mouillée !
+[nl2]Regarde comme son cœur bat
+[nl3]la chamade !
 [en2]
 
-They even show up on an X-Ray...[np]
-[nl2]What are Jack's glasses made out
-[nl3]of...!?
+On les voit même aux rayons X...
+[nl2]En quoi sont faits les lunettes de
+[nl3]Jack ?
 [en2]
 
-It looks like Max is...
-[nl2]                 ...All stomach!?
+Max est...
+[nl2][ ][ ][ ][ ][ ]... un estomac !?
 [en2]
 
-[SQMrk]It looks human!!
-[nl2]Just who is in there...!?
+[SQMrk]Ça à l'air humain !!
+[nl2]Mais qui est là dedans ?
 [en2]
 
-I see, I see. You kids want me to
-[nl2]help you with some research.[np]
-[nl3]Alright, lead the way!
-[scl]...Aren't I a nice guy?
+Je vois. Donc, les enfants, vous
+[nl2]voulez que je vous vienne en aide
+[nl3]avec mes recherches.[np]
+[scl]Hé bien, allons-y, montrez-moi.
+[scl]Qu'est-ce que je suis gentil,
+[scl]n'est-il pas ?
 [en1]
 
-You're too fast!
-[nl2]Show... your elders... some respect!
+Vous allez trop vite !
+[nl2]Montrez plus de respect à
+[nl3]vos aînés !
 [en2]
 
-[X$6A]He seems like he's guarding this
-[nl2]place.
+[X$6A]On dirait que c'est lui qui garde cet
+[nl2]endroit.
 [en2]
 
-It looks like there used to be a
-[nl2]hole here...
+On dirait qu'il y avait un trou ici
+[nl2]avant.
 [en2]
 
-We sell the Baobab tree's oil in
-[nl2]this village. Mr. Smith was the one
-[nl3]who discovered it.[np]
-[scl]If you want to know more,[np]
-[scl]you should head East to his house
-[scl]and ask him personally.
+On vend l'huile du baobab ici
+[nl2]au village. C'est M. Smith qui en a
+[nl3]fait la découverte.[np]
+[scl]Si vous voulez en savoir plus,
+[scl]vous devriez aller voir chez lui,
+[scl]à l'Est du village.
 [en2]
 
-My child is sleeping in that bed,
-[nl2]don't you dare wake him up...!
+Mon bébé dort, gare à vous si vous
+[nl2]le réveillez...
 [en2]
 
-No? Oh, how rude of me![np]
-[nl2]Thanks to Mr. Smith, the villagers
-[nl3]can make a living selling tree oil.[np]
-[scl]But lately, thieves have been
-[scl]coming around to steal it.[np]
-[scl]I'm one of them, by the way.
+Non ? Oh, pardonnez-moi.[np]
+[nl2]Grâce à M. Smith, les villageois 
+[nl3]peuvent gagner leur vie en
+[scl]vendant de l'huile,[np]
+[scl]mais dernièrement, des voleurs sont
+[scl]venus piller les stocks.
+[scl]Enfin, je suis l'un d'entre eux.
 [en1]
 
-John's just inside, follow me!
+John est à l'intérieur ! Suivez-moi !
 [en2]
 
-Huh!? You can see through the
-[nl2]keyhole!
+Hein !? On peut regarder par le
+[nl2]trou de la serrure !
 [en2]
 
-Polly: Hey, small and tall![np]
-[nl2]     Just what are you trying to
-[nl3]     force a lil' lady to do!?[np]
-[scl]     Hey~ Darlin'~
+Polly: Hé, petits et grands ![np]
+[nl2][ ][ ][ ][Space8][Space4]Qu'est-ce que vous voulez
+[nl3][ ][ ][ ][Space8][Space4]m'obliger à faire ?[np]
+[nl3][ ][ ][ ][Space8][Space4]Hein, mes chéris~ ?
 [en2]
 
-Hehehe... Who is John?
-[nl2]Well, don't look at me.
-[nl3]John is over there!
+Héhéhé, qui est John ?
+[nl2]Inutile de me regarder.
+[nl3]John est par là !
 [en2]
 
-[SAwe]Wash off your shame and try
-[nl2]again!
+[SAwe]Retrouvez votre honneur et
+[nl2]réessayez !
 [en1]
 
-Just kidding~! I AM John!
-[nl2]Nuts, you found me.[np]
-[nl3]Fine, I'll give it back.
-[scl]Let's play again sometime!
+Je blague ! Je SUIS John !
+[nl2]Mince, vous m'avez trouvé ![np]
+[nl3]Je vais le rendre.
+[scl]Rejouons ensemble quand on
+[scl]se reverra !
 [en1]
 
-[F2]Received the {G}{a}{t}{e} {K}{e}{y} from John![np]
-[nl2]...But you get a lot of keys, so
-[nl3]it's not that special anymore.
+[F2]John vous remet
+[nl2]la {c}{l}{é}{ }{d}{e}{ }{l}{a}{ }{p}{o}{r}{t}{e} ![np]
+[nl3]Mais elle n'a rien de vraiment
+[scl]spécial, vous en avez beaucoup
+[scl]d'autres.
 [en1]
 
-But really... I just want to try a
-[nl2]grown-up game.
+Sincèrement, je veux juste m'amuser
+[nl2]comme les grands !
 [en2]
 
-There are various numbers.
-[nl2]What could they be?
+Il y a plusieurs nombres.
+[nl2]À quoi peuvent-ils servir ?
 [en2]
 
-...Should you try standing there?
+Devrais-tu essayer de rester là ?
 [en2]
 
-It looks like it might start
-[nl2]moving... gross!
+Ce truc pourrait se mettre à
+[nl2]bouger n'importe quand. Erk.
 [en2]
 
-Was this part of some
-[nl2]experiment...?
+Est-ce que c'est des restes
+[nl2]d'expériences... ?
 [en2]
 
-The ground is still wet here... [np]
-[nl2]It must have broken out recently.
+Le sol est encore mouillé ici...
+[nl2]Il a dû éclater il n'y a pas
+[nl3]longtemps.
 [en2]
 
-It's hard to see without getting
-[nl2]closer.
+C'est dur de voir sans
+[nl2]se rapprocher.
 [en2]
 
-What happened to your friends?[np]
-[nl2]Unless all 3 of you are here, the
-[nl3]ship can't depart.
+Qu'est-il arrivé à vos amis ?
+[nl2]Si vous n'êtes pas tous les 3 ici,
+[nl3]le navire ne pourra pas partir.
 [en1]
 
-[F2]We got the phone number for the
-[nl2]management office![np]
-[nl3]Just as I suspected!
+[F2]Voilà le numéro du bureau de
+[nl2]la direction !
+[nl3]J'en étais sur !
 [en1]
 
-The guy with the key is... John...!?
+Le type à la clé, c'est... John... !?
 [en1]
 
-Uhh... Which one is John!?
+Euh... lequel est John !?
 [en1]
 
-It says...
-[nl2] 1. Latin   3. Rock
-[nl3] 2. Jazz   4. Classic Japanese
+Au choix...
+[nl2][ ]1. Latino[ ][ ][Space8]3. Rock
+[nl3][ ]2. Jazz[ ][ ][ ][Space4]4. Japonais
 [en2]
 
-Hmm~! I'm feelin' that Latin flava'!
+Hmm~ !
+[nl2]La fièvre latino m'envahit !
 [en2]
 
-Hmm~! Feelin' Jazzy!
+Hmm~ !
+[nl2]J'ai envie de Jazz !
 [en2]
 
-Hmm~! I feel like rockin'!
+Hmm~ !
+[nl2]On se bouge sur du rock !
 [en2]
 
-Hmm~!... It's classic...
-[nl2]Ja... Japanese!?
+Hmm~ !...
+[nl2]Pourquoi pas du son japonais ?
 [en2]
 
-Okay, the engine stopped!
+Ok, le moteur s'est arrêté !
 [en1]
 
-The gate is locked and won't
-[nl2]open...
+La porte est fermée à clé et
+[nl2]ne s'ouvre pas.
 [en2]
 
 Uff. Uff.[np]
-[nl2]TL: I'm 28 this year. I wish I
-[nl3]   could tell her how I feel...
+[nl2][Translate]J'ai 28 ans cette année.
+[nl3][ ][ ]J'aimerais pouvoir lui avouer
+[scl][ ][ ]mes sentiments...
 [en2]
 
-Ooo Oooo~![np]
-[nl2]TL: I'll sing a love song for him~!
+Ooo Oooo~ ![np]
+[nl2][Translate]Je chanterai une chanson
+[nl3][ ][ ]d'amour pour lui !
 [en2]
 
-[SMonkey1]Ookee! Ooki-Ooki![np]
-[nl2]TL: Hehe, let's be mean to those
-[nl3]   kids! But if you hear the
-[scl]   boss's voice, scram![np]
-[scl]   We don't want him getting mad
-[scl]   at us!
+[SMonkey1]Ookii ! Ooki-Ooki ![np]
+[nl2][Translate]Allons embêter ces mioches !
+[nl3][ ][ ]Mais si vous entendez la voix
+[scl][ ][ ]du boss, mettez les voiles ![np]
+[scl][ ][ ]J'ai pas envie qu'on le mette
+[scl][ ][ ]en rogne.
 [en2]
 
-[SMonkey1]Ooo! Ooo![np]
-[nl2]TL: I could listen to Marie's love
-[nl3]   song all day long~!
+[SMonkey1]Ooh ! Ooh ![np]
+[nl2][Translate]Je pourrais écouter les chansons
+[nl3][ ][ ]d'amour de Marie toute la
+[scl][ ][ ]journée !
 [en2]
 
-Ooo! Ooo![np]
-[nl2]TL: Your miraculous voice has
-[nl3]   captured my heart, honey~![np]
-[scl]Ooo OoOoo~![np]
-[scl]TL: Darling, my heart was yours
-[scl]   as soon as I heard your
-[scl]   voice~!
+Ooh ! Ooh ![np]
+[nl2][Translate]Votre voix miraculeuse
+[nl3][ ][ ]a capturé mon cœur, ma douce ![np]
+[scl]Ooh ooooh~ ![np]
+[scl][Translate]Chéri, mon âme était vôtre à
+[scl][ ][ ]l'instant où je vous ai entendu.
 [en2]
 
-[F2]
-[nl2]Now we can go deeper into the
-[nl3]island!         ...It's so exciting!
+[F2]Nous allons pouvoir aller plus loin
+[nl2]dans l'île !
+[nl3]... C'est tellement excitant !
 [en1]
 
-I'm a thief who steals the hearts
-[nl2]of women, a heart thief!
+Je suis un brigand qui vole le cœur
+[nl2]des femmes !
 [en1]
 
-My heart is beating out of my
-[nl2]chest, I'm so excited!
+Je suis excité mais aussi nerveux...
+[nl2]Mon cœur brûle !
 [en2]
 
-[SMonkey2]Kweh! kweh!![np]
-[nl2]TL: Who stole my precious egg?![np]
-[nl3]   Give it back! Give it back!!
+[SMonkey2]Kwé ! Kwéé !![np]
+[nl2][Translate]Qui a volé mon précieux œuf ?!
+[nl3][ ][ ]Rendez-le moi ! Rendez-le moiii !!
 [en2]
 
-[X$6A]Those little people are in trouble![np]
-[nl2]...There's something familiar about
-[nl3]this situation.
+[X$6A]Ces petites personnes ont des
+[nl2]ennuis ! Mmm... J'ai comme une
+[nl3]impression de déjà vu.
 [en2]
 
-Yipe! What'd we do to upset him?!
-[nl2]Solomon, what are you doing?!
-[nl3]Hurry up and help!
+L'oiseau dans tous ses états !
+[nl2]Salomon, qu'est-ce que tu fais ?!
+[nl3]Dépêche-toi de venir m'aider !
 [en2]
 
-Heeee! Hee-hee-heeewwp me~!! One
-[nl2]doesn't know what to do, Hassan!
-[nl3]If only Princess {P}{o}{l}{l}{y} were here...
+Aide-moiiii !! Je ne sais pas quoi
+[nl2]faire, Hassan ! Si seulement
+[nl3]la princesse {P}{o}{l}{l}{y} était là...
 [en2]
 
-Hey Hassan! Hey Solomon!
-[nl2]Long time no see!
-[nl3]It's me, Polly![np]
-[scl]. . . . . . . . .[np]
-[scl]Step back, I'll handle this!
+Hé Hassan, Salomon.
+[nl2]Ça fait un bail ! C'est moi, Polly ![np]
+[nl3] . . . . . . . . .[np]
+[scl]Recule, je m'en occupe !
+
 [en1]
 
-...This is probably the switch for
-[nl2]the elevator.
+... C'est sûrement l'interrupteur pour
+[nl2]l'ascenseur.
 [en2]
 
-Ooooh! Princess!![np]
-[nl2]It's been 3 months since you left
-[nl3]on your journey.[np]
-[scl]I was... I was so worried...
+Ooooh ! Princesse !![np]
+[nl2]Ça fait trois mois que vous êtes
+[nl3]partie en quête des géants.[np]
+[scl]Je me faisais tellement de soucis !
 [en1]
 
-Princess! I'm so glad to see you
-[nl2]safe and sound.[np]
-[nl3]Hassan was just leaving on a
-[scl]journey to search for you!
+Princesse !
+[nl2]Ça me fait tellement plaisir de vous
+[nl3]voir saine et sauve ![np]
+[scl]Hassan était sur le point de partir
+[scl]à votre recherche !
 [en1]
 
-I'm sorry to make you all worry,
-[nl2]but I'm just fine! I've even brought
-[nl3]these 3 giants with me.[np]
-[scl][Event]I think they might be able to
-[scl]defeat the {B}{l}{u}{e} {T}{h}{i}{n}{g}{s}![np]
-[scl]Even though they are just kids.......[np]
-[scl]My kingdom is through that cave,
-[scl]so come with us, okay?
+Navrée de vous avoir inquiétés,
+[nl2]je vais bien. J'ai même ramené ces
+[nl3]trois géants.[np]
+[scl]Mais ce sont juste des enfants.........[np]
+[scl][Event]Je pense qu'ils devraient pouvoir
+[scl]venir à bout des {t}{r}{u}{c}{s}{ }{b}{l}{e}{u}{s} ![np]
+[scl]Mon royaume est de l'autre coté
+[scl]de cette grotte. Suivez-nous.[np]
 [en1]
 
-I won't be done in so easily!![Event][np]
-[nl2][Event2]You may have stepped on me,
-[nl3]but now it's my turn!!
+Je ne baisserai pas si facilement
+[nl2]les bras !![Event]
+[nl3][np]
+[scl][Event2]Vous avez marché sur moi,
+[scl]alors c'est à mon tour !
+[scl]
 [en1]
 
-[SMonkey2][X$6A]Caww! Kaaa! Kweh![np]
-[nl2]TL: You stole my egg, didn't you?
-[nl3]   Give it back!
+[SMonkey2][X$6A]Kaaa ! Kwéé ![np]
+[nl2][Translate]C'est vous qui avez volé
+[nl3][ ][ ]mon œuf, hein ? Rendez-le moi !
 [en1]
 
-Great![SReward] I'll take that coin.[np]
-[nl2]You can use these gloves during
-[nl3]the match.[np]
-[scl]Alright, good luck, chubby!
+Génial ![SReward] Je prends cette pièce.[np]
+[nl2]Vous pouvez mettre ces gants lors
+[nl3]du combat.
+[scl]Allez, bonne chance, grand gaillard.
 [en2]
 
-Hey, only the guy with the {G}{l}{o}{v}{e}{s}
-[nl2]is allowed in the ring!
-[nl3]The rest of you, stay back.
+Hé, seul le gars avec des {G}{a}{n}{t}{s}
+[nl2]peut monter sur le ring !
+[nl3]Les autres, vous restez là !
 [en2]
 
-[SStop]Alright, get over here!
-[nl2]I'll send you straight to heaven!
+[SStop]Viens par ici !
+[nl2]Je vais t'envoyer direct
+[nl3]au paradis !
 [en1]
 
-I'm so sorry!
-[nl2]I was just trying to make a
-[nl3]living...[np]
-[scl]From now on, we'll work hard to
-[scl]be better parents for our twins.
-[scl]Please forgive us.
+Toutes mes excuses !
+[nl2]Nous essayions juste de gagner
+[nl3]notre vie...[np]
+[scl]Mais maintenant, nous ferons de
+[scl]notre mieux pour élever nos
+[scl]deux jumeaux.[np]
+[scl]Pardonnez-nous.
 [en2]
 
-Our boys John and Ken love music,
-[nl2]so if they hear some sick beats
-[nl3]they'll start dancing!
+John et Ken sont des fous de
+[nl2]musique, dès qu'ils entendent
+[nl3]du bon son, ils se mettent à danser.
 [en2]
 
-[nl2]          You guys!!
+[nl2]          Vous !!
 [en2]
 
-Haha... You found me out![np]
-[nl2]I can't compare to the real thing,
-[nl3]I guess!
+Haha, vous m'avez trouvé.[np]
+[nl2]Je ne fais pas le poids face à des
+[nl3]vrais jumeaux, j'imagine !
 [en1]
 
-Haha... You figured out that I
-[nl2]wasn't sleeping![np]
-[nl3]Awe~. I want to be a grown-up so
-[scl]I can stay up late.
+Haha, tu as vu que je ne dormais
+[nl2]pas ! J'aimerais être un adulte pour
+[nl3]pouvoir me coucher tard !
 [en2]
 
-I don't play with dolls anymore!...
-[nl2]Cuz' I'm a boy!
+Je ne joue plus à la poupée !...
+[nl2]J'suis un garçon !
 [en2]
 
-Eh! What was that? I can't hear
-[nl2]you over the crying baby.
-[nl3]Come closer...!
+Quoi ? J'arrive pas à entendre à
+[nl2]cause du bébé qui pleure trop fort.
+[nl3]Approche-toi s'il te plait.
 [en2]
 
-[X$6A]
-[nl2]   Oh, the baby stopped crying!
+[X$6A]     Oh, le bébé s'est arrêté
+[nl2][ ][ ][ ][ ][ ][ ][ ]de pleurer !
 [nl3][np][Event]
-[scl][X$6A]Why~ thank you!
-[scl]She stopped crying when she saw
-[scl]her do~ll.[np]
-[scl]Now you've found all [Three] females
-[scl]in the village!
+[scl][X$6A]Merci beaucoup !
+[scl]Elle s'est arrêtée dès qu'elle a vu
+[scl]la poupée.[np]
+[scl]Maintenant vous avez vu
+[scl]les[Three] filles du village!
 [scl][np]
-[scl]You kids want to know more about
-[scl]the townspeople?[np]
-[scl]You should ask my husband!
-[scl]Oh, but you don't know who he is?[np]
-[scl]You can recognize him because he
-[scl]loves my cooking...[np]
-[scl]He loves my cooking more than
-[scl]anything else on Earth![np]
-[scl]Here, take this.
+[scl]Vous voulez en savoir plus sur les
+[scl]villageois ? Vous devriez aller
+[scl]parler avec mon mari ![np]
+[scl]Oh, mais vous ne savez pas qui
+[scl]c'est ?[np]
+[scl]Vous le reconnaitrez facilement,
+[scl]il est dingue de ma cuisine,
+[scl]plus que n'importe qui sur Terre ![np]
+[scl]Prenez donc ça.
 [en1]
 
-[F2]You got a spicy {B}{o}{x}{e}{d} {L}{u}{n}{c}{h}![np]
-[nl2]She drew a heart out of chilli
-[nl3]peppers on top of rice![np]
-[scl]Oh, my... It looks like it's spicy~!
+[F2]Vous recevez un {m}{e}{n}{u}{ }{é}{p}{i}{c}{é} ![np]
+[nl2]Elle a dessiné un cœur avec
+[nl3]du piment !
+[scl]...Tout ça m'a l'air très fort !
 [en1]
 
-This child won't stop crying and
-[nl2]it's driving me absolutely nuts![np]
-[nl3]Please do something~!
+Ce gosse n'arrête pas de pleurer et
+[nl2]j'en peux plus !
+[nl3]Faites quelque chose !
 [en2]
 
-My husband loves my cooking more
-[nl2]than anything on Earth.[np]
-[nl3]If you give him this lunch I made,
-[scl]you'll be able to identify him right
-[scl]away, I'm sure!
+Mon mari est dingue de ma cuisine.
+[nl2]Si vous lui remettez ce repas que
+[nl3]je lui ai préparé,[np]
+[scl]vous le trouverez immédiatement.
 [en2]
 
 I went to the basement under this
@@ -4157,21 +4175,18 @@ Jim is still missing...
 [scl]
 [en1]
 
-[nl2]  Dear stinky brats,[np]
-[nl3]You guys know what this is
-[scl]about, right?[np]
-[scl]You made a really huge mistake
-[scl]by taking my treasure![np]
-[scl]Until you bring it back, I'll be
-[scl]keeping an eye on your smokin' hot
-[scl]teacher.[np]
-[scl]If you ever want to see her
-[scl]again, come to the valley past the
-[scl]lake.[np]
-[scl]Don't forget my {C}{r}{y}{s}{t}{a}{l} {B}{a}{l}{l}.[np]
-[scl]Signed:
-[scl]The Greatest Pirate Under the Sky
-[scl]King Bull
+Bande de sales moufflets, vous ne
+[nl2]valez pas tripette.[np]
+[nl3]Ne vous imaginez même pas vous
+[scl]faire la malle avec mon trésor.[np]
+[scl]Je garde sous la main
+[scl]votre prof super canon.[np]
+[scl]Si vous voulez la revoir un jour,
+[scl]allez dans la vallée après le lac.
+[scl]N'oubliez pas ma {b}{o}{u}{l}{e}{ }{d}{e}{ }{c}{r}{i}{s}{t}{a}{l} ![np]
+[scl]Signé :
+[scl] Le plus grand des pirates du ciel,
+[scl][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]le Roi Azur.
 [en2]
 
 B-But... But, Princess! Please wait!
