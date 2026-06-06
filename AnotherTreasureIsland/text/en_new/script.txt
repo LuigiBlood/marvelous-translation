@@ -3369,7 +3369,7 @@ Even though all those soldiers
 [en2]
 
 You can't go to the {B}{l}{u}{e}{ }{O}{n}{e}{s}{ }{N}{e}{s}{t}
-[nl2]from here.
+[nl2]from here.[np]
 [nl3]The Ant Buster is slippery. If your
 [scl]grip slips, you'll plunge straight to
 [scl]the bottom.
@@ -9879,7 +9879,7 @@ It's a robot.
 Didn't you hear me?[np]
 [nl2]I said I wanted the F-A-T boy.
 [nl3]If you're not a chubby one, then I'm
-[scl]going with you.
+[scl]not going with you.
 [en1]
 
 Good eye there.
