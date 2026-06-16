@@ -905,13 +905,14 @@ Fufo- fugo.[np]
 
 Hey, I'd recognize that spicy lunch
 [nl2]anywhere![np]
-[nl3]My wife told you to bring it to
-[scl]me? Wow! Thanks a lot![np]
+[nl3]I see, my wife must've asked you
+[scl]to bring it to me! That's it, right?
+[scl]No, I'm sure that's gotta be it![np]
 [scl]
 [scl]       My darling...
 [scl][np]
 [scl]
-[scl] Well, he seems hungry.
+[scl] Well, let me dig in right away.
 [en1]
 
 Hyaaaah!! What are you doing with
@@ -1334,8 +1335,8 @@ Whoa, that's so many tomatoes! I
 [en2]
 
 [nl2]  Dear stinky brats,[np]
-[nl3]You guys know what this is
-[scl]about, right?[np]
+[nl3]You little brats had better knock
+[scl]it off![np]
 [scl]You made a really huge mistake
 [scl]by taking my treasure![np]
 [scl]Until you bring it back, I'll be
@@ -1514,8 +1515,8 @@ There's something in the pot under
 
 You want to know what I'm doing
 [nl2]here? That's a secret, obviously...[np]
-[nl3]But you seem like good kids, so I'll
-[scl]let you in on it. [np]
+[nl3]But you look like outsiders though...
+[scl]Eh, what's the harm.[np]
 [scl]You came through the forest,
 [scl]right? Did you see the giant bees
 [scl]out there?[np]
@@ -1685,8 +1686,8 @@ Okay, that'll be[Space1][num] {L}{u}{c}{k}{ }{R}{o}{c}{k}!
 [nl3][ ][ ][ ][ ]Hold on.[X$68]
 [en1]
 
-Dang boy, are you ever dense~.
-[nl2]You missed completely![np]
+Dang boy, are you ever dense~. You
+[nl2]fell for it, hook, line, and sinker!
 [nl3]What's wrong? Give it another go?
 [en1]
 
@@ -1798,9 +1799,10 @@ Looking closely, there are marks
 [nl3]I wonder if something's here?
 [en2]
 
-We sell the Baobab tree's oil in
-[nl2]this village. Mr. Smith was the one
-[nl3]who discovered it.[np]
+We make our living selling the oil
+[nl2]of the Baobab tree, which was
+[nl3]discovered by Mr. Smith.[np]
+[scl]It grows deep inside the island.[np]
 [scl]If you want to know more,[np]
 [scl]you should head East to his house
 [scl]and ask him personally.
@@ -1942,7 +1944,8 @@ Ooh~n! Ooh~n![np]
 
 [SMonkey1]Ooo! Ooo![np]
 [nl2][TL] I could listen to Marie's love
-[nl3][ ][ ][ ]song all day long~!
+[nl3][ ][ ][ ]song all day long~! It's so
+[scl][ ][ ][ ]mellow and never gets old!
 [en2]
 
 Ooo! Ooo![np]
@@ -2201,12 +2204,13 @@ It won't open. Do we need a {k}{e}{y}?
 [nl2]Now we can go into the cave!
 [en1]
 
-P-please forgive me!
-[nl2]I'm not really from this island.[np]
+P-please forgive me! I'm not really
+[nl2]a resident of this village![np]
 [nl3]I just heard there was some kinda'
-[scl]{m}{y}{s}{t}{e}{r}{i}{o}{u}{s}{ }{o}{r}{b} on this island
-[scl]so I came to steal it.[np]
-[scl]I stole a {k}{e}{y}, but in that room...
+[scl]{m}{y}{s}{t}{e}{r}{i}{o}{u}{s}{ }{o}{r}{b} on this island.[np]
+[scl]So I disguised myself as a villager
+[scl]and managed to steal a {k}{e}{y}, but in
+[scl]that room...[np]
 [scl]There was some kind of creepy
 [scl]plant, and when I came near...[np]
 [scl]It suddenly turned into me..!
@@ -2223,9 +2227,9 @@ Thank you! You saved me![np]
 [scl]likenessness and attacked me... I
 [scl]had no idea what was happening...[np]
 [scl]Oh! That's right![np]
-[scl]I have to destroy the rest of the
-[scl]parasite before it escapes and
-[scl]causes more trouble!!
+[scl]I  have to destroy the rest of
+[scl]the parasite before it turns into
+[scl]people, or it'll be a disaster!!
 [en1]
 
 No one from the village would
@@ -2403,8 +2407,8 @@ Did you already talk to {S}{o}{l}{o}{m}{o}{n}?[np]
 [scl]kingdom.
 [en2]
 
-There are all sorts of mysterious
-[nl2]animals deep under the ground.[np]
+A most terrifying creature is held
+[nl2]captive deep underground.[np]
 [nl3]Perhaps you criminals will become
 [scl]a snack for them... Such a pity.
 [en2]
@@ -2555,7 +2559,9 @@ I've heard rumors that on the
 [SCroak]Croaak? Ribbit, ribbit, rib~bit.[np]
 [nl2][TL] What? You want my {t}{a}{i}{l}? What
 [nl3][ ][ ][ ]on earth are you talking
-[scl][ ][ ][ ]about? That wasn't the deal![np]
+[scl][ ][ ][ ]about?[np]
+[scl][ ][ ][ ]A promise? I don't remember
+[scl][ ][ ][ ]anything like that, ribbit.[np]
 [scl][ ][ ][ ]Moreover, I don't even have a
 [scl][ ][ ][ ]tail, ribbit!
 [en2]
@@ -2730,9 +2736,9 @@ Hurry, bring me the {F}{i}{r}{e}{w}{o}{o}{d}!
 [nl2]You've got SOME nerve!
 [en2]
 
-You have quite an eye. The shogun
-[nl2]of Yapan hid that pot in his
-[nl3]secret treasure stash.[np]
+You have quite an eye. That pot is
+[nl2]the one the shogun of Yapan once
+[nl3]used to hide his buried gold.[np]
 [scl]Do you like it? If you want it,
 [scl]choose an item you'll trade for it
 [scl]from the [Item] panel.
@@ -3082,7 +3088,7 @@ Wait until the face comes out and
 It's so dangerous in the mountains.
 [nl2]I'd like to settle down and start a
 [nl3]restaurant with my wife![np]
-[scl]Her cooking is the cat's pajamas!
+[scl]She's real particular about flavor!
 [en2]
 
 How about you come marry my
@@ -3330,7 +3336,7 @@ I have something for you, so get
 [nl2]over here!
 [en2]
 
-Here's the reward I promised you.
+Sorry for being so harsh earlier!
 [nl2]It's just a leftover from lunch,
 [nl3]but take this {s}{n}{a}{c}{k}!
 [en1]
@@ -3416,8 +3422,8 @@ Those are the {p}{a}{i}{n}{t}{s} I lost in the
 [scl]them and use them to finish this
 [scl]painting.[np]
 [scl]To do so, you'll need to learn my
-[scl]special technique to mix two of
-[scl]three paints to create patterns.[np]
+[scl]special technique of layering all
+[scl]three paints over twice.[np]
 [scl]The problem lies in which order to
 [scl]use the paints.[np]
 [scl]This painting technique can be
@@ -3425,7 +3431,7 @@ Those are the {p}{a}{i}{n}{t}{s} I lost in the
 [scl]is currently in the {c}{a}{s}{t}{l}{e}{ }{a}{r}{c}{h}{i}{v}{e}{s}.[np]
 [scl]It should be trivial to duplicate
 [scl]the look of the king's gown if you
-[scl]use the patterns from the book......
+[scl]use the patterns from the book...
 [en2]
 
 You can't paint like that.[np]
@@ -4880,10 +4886,10 @@ Arrrr' ye' really sure about that?
 Yarr... The eldest brother is
 [nl2]standing to the left of the
 [nl3]youngest brother.[np]
-[scl]The youngest stands at the left
+[scl]The youngest stands to the right
 [scl]of the middle sibling.[np]
 [scl]The middle sibling stands to the
-[scl]right of the youngest brother.[np]
+[scl]left of the eldest brother.[np]
 [scl]If ye' figure it out, point at us in
 [scl]order from oldest to youngest!
 [en2]
@@ -4893,10 +4899,10 @@ Yarr... The eldest brother is
 [nl3]Yarr... The eldest brother is
 [scl]standing to the left of the
 [scl]youngest brother.[np]
-[scl]The youngest stands at the left
+[scl]The youngest stands at the right
 [scl]of the middle sibling.[np]
 [scl]The middle sibling stands to the
-[scl]right of the youngest brother.[np]
+[scl]left of the eldest brother.[np]
 [scl]If ye' figure it out, start from
 [scl]the oldest and point at us in
 [scl]order! Ye' savvy, lad?
@@ -13761,7 +13767,6 @@ Wow, look at that giant ship.
 [nl2]It has a pretty old feel to it...[np]
 [nl3]You can't just go parking it HERE,
 [scl]though...
-
 [en2]
 
 ...This SOS looks familiar.
@@ -14086,8 +14091,8 @@ I'm going to go find Mr. Arnold.
 [nl2]die, that orb needs to go on living...
 [en1]
 
-We can take nutrients and live on
-[nl2]indefinitely........
+If we don't parasitize things and
+[nl2]take their nutrients, we'll die...
 [en1]
 
 [SStop][ ][ ][ ][ ][ ]Because we're plants.
