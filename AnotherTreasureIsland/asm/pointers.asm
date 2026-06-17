@@ -11,9 +11,6 @@ ptr_replace(0x3B, gfx_intro3)
 ptr_replace(0x3C, map_intro)
 ptr_replace(0x3D, pal_intro)
 
-ptr_replace(0x3E, gfx_credits)
-ptr_replace(0x3F, map_credits)
-
 ptr_replace(0x48, map_ch1_gina_ransom)
 
 ptr_replace(0x4A, map_ch3_sign)

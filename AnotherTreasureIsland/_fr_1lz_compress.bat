@@ -7,8 +7,6 @@
 ".\tools\lc\recomp.exe" "./gfx/fr/tmp/3B.bin" "./gfx/fr/lz/3B.bin.lz" 0 1019 0
 ".\tools\lc\recomp.exe" "./gfx/fr/tmp/3C.bin" "./gfx/fr/lz/3C.bin.lz" 0 1019 0
 ".\tools\lc\recomp.exe" "./gfx/fr/tmp/3D.bin" "./gfx/fr/lz/3D.bin.lz" 0 1019 0
-".\tools\lc\recomp.exe" "./gfx/fr/tmp/3E.bin" "./gfx/fr/lz/3E.bin.lz" 0 1019 0
-".\tools\lc\recomp.exe" "./gfx/fr/tmp/3F.bin" "./gfx/fr/lz/3F.bin.lz" 0 1019 0
 ".\tools\lc\recomp.exe" "./gfx/fr/tmp/48.bin" "./gfx/fr/lz/48.bin.lz" 0 1019 0
 ".\tools\lc\recomp.exe" "./gfx/fr/tmp/4A.bin" "./gfx/fr/lz/4A.bin.lz" 0 1019 0
 ".\tools\lc\recomp.exe" "./gfx/fr/tmp/4B.bin" "./gfx/fr/lz/4B.bin.lz" 0 1019 0
