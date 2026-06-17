@@ -59,10 +59,6 @@ echo - intro.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\intro.png" -p ".\gfx\fr\tmp\intro.pal" -o ".\gfx\fr\tmp\intro_4bpp.png" -B 4 -W 16 -H 16
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\tmp\intro_4bpp.png" -p ".\gfx\fr\tmp\intro.pal" -d ".\gfx\fr\tmp\intro.gfx" -B 2 -D -W 16 -H 16
 ".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\intro.png" -p ".\gfx\fr\tmp\intro.pal" -t ".\gfx\fr\tmp\intro.gfx" -d ".\gfx\fr\tmp\intro.map" -B 2 -W 16 -H 16 --split-width 32 --split-height 64
-echo - credits.png
-".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\credits.png" -p ".\gfx\fr\img\credits.pal" -o ".\gfx\fr\tmp\credits_4bpp.png" -B 4 -T 128 -W 16 -H 16
-".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\tmp\credits_4bpp.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits.gfx" -B 2 -D -T 128 -W 16 -H 16
-".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\credits.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits.gfx" -d ".\gfx\fr\tmp\credits.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
 echo - copyright.png
 ".\tools\conv\superfamiconv.exe" -i ".\gfx\fr\img\copyright.png" -p ".\gfx\fr\tmp\copyright.pal" -t ".\gfx\fr\tmp\copyright.gfx" -S -T 6 -W 16 -H 16
 echo - subtitle.png
@@ -73,6 +69,42 @@ echo - large_cutitout.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\large_cutitout.png" -p ".\gfx\fr\img\large_font.pal" -d ".\gfx\fr\tmp\large_cutitout.gfx" -B 2 -D
 echo - title_search.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\title_search.png" -p ".\gfx\fr\img\title_search.pal" -d ".\gfx\fr\tmp\title_search.gfx" -B 2 -D -W 16 -H 16
+echo - credits_01.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_01.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_01.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_01.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_01.gfx" -d ".\gfx\fr\tmp\credits_01.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_02.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_02.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_02.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_02.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_02.gfx" -d ".\gfx\fr\tmp\credits_02.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_03.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_03.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_03.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_03.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_03.gfx" -d ".\gfx\fr\tmp\credits_03.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_04.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_04.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_04.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_04.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_04.gfx" -d ".\gfx\fr\tmp\credits_04.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_05.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_05.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_05.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_05.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_05.gfx" -d ".\gfx\fr\tmp\credits_05.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_06.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_06.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_06.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_06.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_06.gfx" -d ".\gfx\fr\tmp\credits_06.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_07.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_07.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_07.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_07.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_07.gfx" -d ".\gfx\fr\tmp\credits_07.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_08.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_08.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_08.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_08.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_08.gfx" -d ".\gfx\fr\tmp\credits_08.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_09.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_09.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_09.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_09.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_09.gfx" -d ".\gfx\fr\tmp\credits_09.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_10.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_10.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_10.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_10.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_10.gfx" -d ".\gfx\fr\tmp\credits_10.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_11.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_11.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_11.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_11.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_11.gfx" -d ".\gfx\fr\tmp\credits_11.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_12.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_12.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_12.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_12.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_12.gfx" -d ".\gfx\fr\tmp\credits_12.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
 echo Building French Graphics Files...
 ".\tools\bass\bass" ".\asm\graphics_fr.asm"
 echo Done.

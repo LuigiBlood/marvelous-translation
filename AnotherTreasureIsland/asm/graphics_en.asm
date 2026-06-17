@@ -134,19 +134,6 @@ origin 0x0120; insert "../gfx/en_new/tmp/subtitle.pal"
 origin 0x0140; fill 0x20,0xFF
 origin 0x0160; insert "../gfx/en_new/tmp/copyright.pal"
 
-//--Credits
-//3E - Graphics - Credits
-output "../gfx/en_new/tmp/3E.bin", create
-insert "../gfx/jp/3E.bin"
-origin 0x0000; insert "../gfx/en_new/tmp/credits.gfx"
-
-//3F - Tilemap - Credits
-output "../gfx/en_new/tmp/3F.bin", create
-insert "../gfx/jp/3F.bin"
-origin 0x0000; insert "../gfx/en_new/tmp/credits.map"
-origin 0x0C00; //Final Score Tilemap
-origin 0x0E80; //Final Screen, THE END Tilemap
-
 //--Search Mode - Tilemaps
 //48 - Tilemap - Gina Ransom Letter & Ant Buster
 output "../gfx/en_new/tmp/48.bin", create

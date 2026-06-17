@@ -624,3 +624,65 @@ asm_fix_display_introtext:
 +;	lda #$11
 +;	sta $003619
 	rtl
+
+//Hack: Change Staff Roll Display to allow more polish
+enqueue pc
+seekAddr($14CF70)
+	jsl asm_staffroll
+	fill 36,$ea		//Fill NOPs
+dequeue pc
+asm_staffroll:
+	//Upload Tilemap
+	lda tbl_map_staffroll_lo,x
+	sta $4302
+	lda tbl_map_staffroll_hi,x
+	sta $4304
+
+	lda.w #$1801
+	sta $4300
+	ldy.b #$80
+	sty $2115
+	lda.w #$7800	//At $7800 in VRAM
+	sta $2116
+	lda.w #$0100	//$100 bytes
+	sta $4305
+	ldy.b #$01
+	sty $420B
+
+	//Upload Tiles
+	lda tbl_gfx_staffroll_lo,x
+	sta $4302
+	lda tbl_gfx_staffroll_hi,x
+	sta $4304
+
+	lda.w #$1801
+	sta $4300
+	ldy.b #$80
+	sty $2115
+	lda.w #$4000	//At $4000 in VRAM
+	sta $2116
+	lda.w #$2000	//$2000 bytes
+	sta $4305
+	ldy.b #$01
+	sty $420B
+	rtl
+
+tbl_map_staffroll_lo:
+	dw map_staffroll_01, map_staffroll_02, map_staffroll_03, map_staffroll_04
+	dw map_staffroll_05, map_staffroll_06, map_staffroll_07, map_staffroll_08
+	dw map_staffroll_09, map_staffroll_10, map_staffroll_11, map_staffroll_12
+
+tbl_map_staffroll_hi:
+	dw (map_staffroll_01)>>16, (map_staffroll_02)>>16, (map_staffroll_03)>>16, (map_staffroll_04)>>16
+	dw (map_staffroll_05)>>16, (map_staffroll_06)>>16, (map_staffroll_07)>>16, (map_staffroll_08)>>16
+	dw (map_staffroll_09)>>16, (map_staffroll_10)>>16, (map_staffroll_11)>>16, (map_staffroll_12)>>16
+
+tbl_gfx_staffroll_lo:
+	dw gfx_staffroll_01, gfx_staffroll_02, gfx_staffroll_03, gfx_staffroll_04
+	dw gfx_staffroll_05, gfx_staffroll_06, gfx_staffroll_07, gfx_staffroll_08
+	dw gfx_staffroll_09, gfx_staffroll_10, gfx_staffroll_11, gfx_staffroll_12
+
+tbl_gfx_staffroll_hi:
+	dw (gfx_staffroll_01)>>16, (gfx_staffroll_02)>>16, (gfx_staffroll_03)>>16, (gfx_staffroll_04)>>16
+	dw (gfx_staffroll_05)>>16, (gfx_staffroll_06)>>16, (gfx_staffroll_07)>>16, (gfx_staffroll_08)>>16
+	dw (gfx_staffroll_09)>>16, (gfx_staffroll_10)>>16, (gfx_staffroll_11)>>16, (gfx_staffroll_12)>>16

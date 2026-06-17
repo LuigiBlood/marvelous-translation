@@ -237,10 +237,6 @@ map_intro:				//3C - $1257F6
 	insert "../gfx/fr/lz/3C.bin.lz"
 pal_intro:				//3D - $125ADD
 	insert "../gfx/fr/lz/3D.bin.lz"
-gfx_credits:			//3E - $125BB6
-	insert "../gfx/fr/lz/3E.bin.lz"
-map_credits:			//3F - $12735C
-	insert "../gfx/fr/lz/3F.bin.lz"
 
 //Search Mode - Tilemaps (48 to 50)
 map_ch1_gina_ransom:	//48 - $12A9D0
@@ -440,4 +436,31 @@ skipBank()
 skipBank()
 	//--List of Pixel Widths per Char - for VWF
 	insert vwf_width_table,"../text/fr/width.tbl"
+	//--Staff Roll - Tilemaps
+	insert map_staffroll_01,"../gfx/fr/tmp/credits_01.map"
+	insert map_staffroll_02,"../gfx/fr/tmp/credits_02.map"
+	insert map_staffroll_03,"../gfx/fr/tmp/credits_03.map"
+	insert map_staffroll_04,"../gfx/fr/tmp/credits_04.map"
+	insert map_staffroll_05,"../gfx/fr/tmp/credits_05.map"
+	insert map_staffroll_06,"../gfx/fr/tmp/credits_06.map"
+	insert map_staffroll_07,"../gfx/fr/tmp/credits_07.map"
+	insert map_staffroll_08,"../gfx/fr/tmp/credits_08.map"
+	insert map_staffroll_09,"../gfx/fr/tmp/credits_09.map"
+	insert map_staffroll_10,"../gfx/fr/tmp/credits_10.map"
+	insert map_staffroll_11,"../gfx/fr/tmp/credits_11.map"
+	insert map_staffroll_12,"../gfx/fr/tmp/credits_12.map"
+skipBank()
+	//--Staff Roll - Tiles
+	insert gfx_staffroll_01,"../gfx/fr/tmp/credits_01.gfx"
+	insert gfx_staffroll_02,"../gfx/fr/tmp/credits_02.gfx"
+	insert gfx_staffroll_03,"../gfx/fr/tmp/credits_03.gfx"
+	insert gfx_staffroll_04,"../gfx/fr/tmp/credits_04.gfx"
+	insert gfx_staffroll_05,"../gfx/fr/tmp/credits_05.gfx"
+	insert gfx_staffroll_06,"../gfx/fr/tmp/credits_06.gfx"
+	insert gfx_staffroll_07,"../gfx/fr/tmp/credits_07.gfx"
+	insert gfx_staffroll_08,"../gfx/fr/tmp/credits_08.gfx"
+	insert gfx_staffroll_09,"../gfx/fr/tmp/credits_09.gfx"
+	insert gfx_staffroll_10,"../gfx/fr/tmp/credits_10.gfx"
+	insert gfx_staffroll_11,"../gfx/fr/tmp/credits_11.gfx"
+	insert gfx_staffroll_12,"../gfx/fr/tmp/credits_12.gfx"
 insert_free_space:
