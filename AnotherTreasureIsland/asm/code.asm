@@ -632,7 +632,27 @@ seekAddr($14CF70)
 	fill 36,$ea		//Fill NOPs
 dequeue pc
 asm_staffroll:
-	//Upload Tilemap
+	cpx.b #$0E<<1
+	bne +
+	//Use Original Tilemap already preloaded for End Screen
+	lda.w #$3E80
+	sta $4302
+	ldy.b #$7F
+	sty $4304
+
+	lda.w #$1801
+	sta $4300
+	ldy.b #$80
+	sty $2115
+	lda.w #$7800	//At $7800 in VRAM
+	sta $2116
+	lda.w #$0100	//$100 bytes
+	sta $4305
+	ldy.b #$01
+	sty $420B
+	rtl
+
++;	//Upload Tilemap
 	lda tbl_map_staffroll_lo,x
 	sta $4302
 	lda tbl_map_staffroll_hi,x
@@ -671,18 +691,73 @@ tbl_map_staffroll_lo:
 	dw map_staffroll_01, map_staffroll_02, map_staffroll_03, map_staffroll_04
 	dw map_staffroll_05, map_staffroll_06, map_staffroll_07, map_staffroll_08
 	dw map_staffroll_09, map_staffroll_10, map_staffroll_11, map_staffroll_12
+	dw map_staffroll_13, map_staffroll_14
 
 tbl_map_staffroll_hi:
 	dw (map_staffroll_01)>>16, (map_staffroll_02)>>16, (map_staffroll_03)>>16, (map_staffroll_04)>>16
 	dw (map_staffroll_05)>>16, (map_staffroll_06)>>16, (map_staffroll_07)>>16, (map_staffroll_08)>>16
 	dw (map_staffroll_09)>>16, (map_staffroll_10)>>16, (map_staffroll_11)>>16, (map_staffroll_12)>>16
+	dw (map_staffroll_13)>>16, (map_staffroll_14)>>16
 
 tbl_gfx_staffroll_lo:
 	dw gfx_staffroll_01, gfx_staffroll_02, gfx_staffroll_03, gfx_staffroll_04
 	dw gfx_staffroll_05, gfx_staffroll_06, gfx_staffroll_07, gfx_staffroll_08
 	dw gfx_staffroll_09, gfx_staffroll_10, gfx_staffroll_11, gfx_staffroll_12
+	dw gfx_staffroll_13, gfx_staffroll_14
 
 tbl_gfx_staffroll_hi:
 	dw (gfx_staffroll_01)>>16, (gfx_staffroll_02)>>16, (gfx_staffroll_03)>>16, (gfx_staffroll_04)>>16
 	dw (gfx_staffroll_05)>>16, (gfx_staffroll_06)>>16, (gfx_staffroll_07)>>16, (gfx_staffroll_08)>>16
 	dw (gfx_staffroll_09)>>16, (gfx_staffroll_10)>>16, (gfx_staffroll_11)>>16, (gfx_staffroll_12)>>16
+	dw (gfx_staffroll_13)>>16, (gfx_staffroll_14)>>16
+
+//Hack: Add Staff Roll sections
+enqueue pc
+seekAddr($14D11A)
+	cmp.b #$0E
+seekAddr($14CF69)
+	lda tbl6_staffroll,x
+seekAddr($14CF9C)
+	lda tbl2_staffroll,x
+seekAddr($14CFA3)
+	lda tbl1_staffroll,x
+seekAddr($14CFD3)
+	lda tbl7_staffroll,x
+seekAddr($14CFF0)
+	lda tbl7_staffroll,x
+seekAddr($14D03D)
+	lda tbl3_staffroll,x
+seekAddr($14D044)
+	lda tbl5_staffroll,x
+seekAddr($14D04B)
+	lda tbl4_staffroll,x
+dequeue pc
+
+tbl1_staffroll:		//Game Section to show off
+	db $46,$48,$11,$23,$17,$3c,$5b,$29,$20,$34,$2a,$66
+	db $02,$02		//added
+	db $44
+tbl2_staffroll:		//Vertical Placement of Credits Text (80, 60) (if CC = nothing on screen)
+	db $80,$60,$80,$60,$80,$60,$80,$60,$80,$60,$80,$60
+	db $80,$60		//added
+	db $80
+tbl3_staffroll:		//Y Window Position (if 00 = nothing on screen)
+	dw $0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098
+	dw $00B8,$0018	//added
+	dw $0048
+tbl4_staffroll:		//X Position of Background
+	dw $00f0,$fff0,$ffe8,$fff0,$fff0,$00fc,$0000,$fff0,$00f0,$fff0,$0100,$fff0
+	dw $00f0,$00f0	//added
+	dw $ffec
+tbl5_staffroll:		//Y Position of Background
+	dw $0100,$0130,$00f0,$0024,$fffc,$0030,$0000,$ffa0,$00f8,$00a0,$0100,$0030
+	dw $0000,$0000	//added
+	dw $0000
+tbl6_staffroll:		//Sprite Base?
+	dw $0008,$0010,$0402,$0408,$0466,$0050,$0068,$04ae,$0092,$04ea,$00c4,$050a
+	dw $0008,$0008	//added
+	dw $0420
+tbl7_staffroll:		//???
+	dw $d900,$d880,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900
+	dw $d900,$d900	//added
+	dw $d900

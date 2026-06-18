@@ -449,6 +449,8 @@ skipBank()
 	insert map_staffroll_10,"../gfx/fr/tmp/credits_10.map"
 	insert map_staffroll_11,"../gfx/fr/tmp/credits_11.map"
 	insert map_staffroll_12,"../gfx/fr/tmp/credits_12.map"
+	insert map_staffroll_13,"../gfx/fr/tmp/credits_translation_01.map"
+	insert map_staffroll_14,"../gfx/fr/tmp/credits_translation_02.map"
 skipBank()
 	//--Staff Roll - Tiles
 	insert gfx_staffroll_01,"../gfx/fr/tmp/credits_01.gfx"
@@ -463,4 +465,6 @@ skipBank()
 	insert gfx_staffroll_10,"../gfx/fr/tmp/credits_10.gfx"
 	insert gfx_staffroll_11,"../gfx/fr/tmp/credits_11.gfx"
 	insert gfx_staffroll_12,"../gfx/fr/tmp/credits_12.gfx"
+	insert gfx_staffroll_13,"../gfx/fr/tmp/credits_translation_01.gfx"
+	insert gfx_staffroll_14,"../gfx/fr/tmp/credits_translation_02.gfx"
 insert_free_space:
