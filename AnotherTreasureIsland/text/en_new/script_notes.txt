@@ -6,7 +6,7 @@ slight edit, trying to convey surprise better...
 
 
 edited to up the excitement. "home sweet camp" was kind of a stretch, but not really bad, just different.
-removed random screaming as it's meant to be exhertion, not insanity, lol
+removed random screaming as it's meant to be exertion, not insanity, lol
 not sure if "that place" is correct TODO: Check
 just changed the flow a bit
 small tweaks to the floooow
@@ -14,7 +14,7 @@ small tweaks to the floooow
 simplified. also, from freak to fanatic-- freak is too negative a connotation
 
 more freaks are fanatics every day.
-
+was 2-line
 
 
 
@@ -41,11 +41,11 @@ Watering Robot Path Puzzle
 Rotating Cross Puzzle
 
 bullied becomes picked on because bullied seems to imply cruel intent, where this was not necessarily correct here TODO: check in game for context
-
+re-translated
 winky, tweaked the broken english
 the japanese says bokura no me -> our eyes, literally, but could be figurative-- how we look... I just tweaked "clothes" to "outfits" because I like it better
 
-the holes/spacing looks right
+re-translated. it doesnt say anything about tying together
 small change
 Let's get a running start and smash right through! (I believe you call this... spice)\dokan to ippatsu = explosive one-shot lit. one big bang, one big hit
 
@@ -53,15 +53,15 @@ Let's get a running start and smash right through! (I believe you call this... s
 
 
 
+this was a mistranslation before
 
-
-fixed it. made another change that doesnt imply it wouldnt move at all, just that we've got to hurry and wont move fast enough to escape
+fixed it. again. the hazard is the cart coming after them
 
 Take this!/Eat this! slight edit. doesnt really change the meaning.\this is when you send the frog through the window
 
-don't know what I was thinking with this one. brain is broken, I guess. It's fixed now.
+don't know what I was thinking with this one. brain is broken, I guess. It's fixed now. - another small fix
 
-This is miss Sisko speaking. Old translation:\I believe children are able to\[nl2]sense virtue in people.[np]\[nl3]So it was my dream to become a\[scl]teacher--[np]\[scl]In order to teach children to have\[scl]kind hearts.\Made more changes to fix the awkward split: OLD:\My true dream was to become a\[nl2]teacher who could guide children\[nl3]to nurture a gentle heart.[np]\[scl]And to understand the feelings\[scl]of others.
+This is miss Sisko speaking. Old translation:\I believe children are able to\[nl2]sense virtue in people.[np]\[nl3]So it was my dream to become a\[scl]teacher--[np]\[scl]In order to teach children to have\[scl]kind hearts.\Made more changes to fix the awkward split: OLD:\My true dream was to become a\[nl2]teacher who could guide children\[nl3]to nurture a gentle heart.[np]\[scl]And to understand the feelings\[scl]of others.\retranslated again. more literal this time with less embellishment
 Don't worry, I haven't changed at\[nl2]all... Look, aren't I pretty?
 
 
@@ -108,33 +108,33 @@ I have no regrets in my youth! (i changed this again a bit)
 
 
 
-
+small clarity fix
 slight change in phrasing to sound heroic
-
+retranslated ending
 
 slight idiomatic change
 
 slight change for brevity and clarity, accuracy, etc
+original text says nothing about a hole
+
+
+
+
+
+this is Polly speaking, so i've gotta tone down the big words
 
 
 
 
 
 
-this is Polly speaking, so i've gotta tone down the big words 
+
+trying to make it sound more natural. It pains me so.\re-evaluated 26/6/3
+
+TODO: NEED TO CHECK SPACING\Final Score\[Leader] is used for Luck Rock graphics\[One2] is an equivalent to [nl4]
 
 
-
-
-
-
-
-trying to make it sound more natural. It pains me so.
-
-TODO: NEED TO CHECK SPACING \Final Score\[Leader] is used for Luck Rock graphics\[One2] is an equivalent to [nl4]
-
-
-choices need exactly 4 FULL spaces, btw - expanded the last choice text cause it was lost to the void before.
+choices need exactly 4 FULL spaces, btw - expanded the last choice text cause it was lost to the void before.\restored the part where the speaker says the player will let themselves be hit
 changed from Very Marvelous
 
 
@@ -143,7 +143,7 @@ emphasis on still
 changed carefully to properly, still in the ballpark, but not quite
 small changes
 slight change
-marlowe I wasn't familiar with 肌ぬいでみる, but it seems to be a figurative way of representing a dramatic sacrifice. this is after line 2632
+marlowe I wasn't familiar with 肌ぬいでみる, but it seems to be a figurative way of representing a dramatic sacrifice. this is after line 2632\26/6/3 small change
 I guess this isn't the time for jokes- more than keys...
 winky - monkey-speak
 
@@ -153,7 +153,7 @@ winky - monkey-speak
 
 
 Damn! (I removed this because my sister wouldn't let her sons play the translation...)
-added slowpoke to really drive it home :p
+added slowpoke to really drive it home :p and another edit
 slight change, give it your best shot was not quite right, but was okay. run like you mean it is better... probably
 
 
@@ -197,7 +197,7 @@ H-hey... not bad
 
 robot at the entrance to maverick's lair
 robot message near red door on maverick's ship-lair
-heavy fix. 
+Another correction
 
 
 
@@ -224,14 +224,14 @@ used for all numbered blue keys
 
 
 
-Soldier ONE\Rhymes with "FUN"\original hint told you the number sounds like the noise a dog makes, but in english (WAN)
+Soldier ONE\Rhymes with "FUN"\fixed typo\original hint told you the number sounds like the noise a dog makes, but in english (WAN)
 Used for all numbered red keys
 Soldier TWO
 
+small change toward accuracy
 
 
-
-
+added back detail
 
 
 used for all numbered green keys
@@ -240,15 +240,15 @@ Soldier THREE\This translates!!!
 marlowe's assistant pt2
 
 
+removed the "has a way with people" (which i interpreted as sarcastic) line as it is meant to say she's a grueling taskmaster, and this is more clear now
 
 
 
 
+retranslated
 
 
-
-
-original script calls them cheeky, but it's not really a word most americans use or are familiar with. Could say impudent, but I like the thought of king bull calling them stinky.
+original script calls them cheeky, but it's not really a word most americans use or are familiar with. Could say impudent/insolent, but I like the thought of king bull calling them stinky.
 
 
 Soldier FOUR
@@ -280,6 +280,21 @@ Soldier THIRTEEN\Talking about friday the 13th.
 
 
 only jack can get this
+removed the hard-earned-honey line in favor of accuracy
+
+implying that it looks surprised
+
+
+
+
+
+
+
+
+
+
+
+not lake. shore
 
 
 
@@ -317,22 +332,7 @@ only jack can get this
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+retranslated
 
 
 
@@ -345,10 +345,10 @@ Wash your face and come back properly!
 
 
 Numbers on every one./They all have numbers attached.\What do they represent?/What are they about?/I wonder what they are for?
-TODO: THIS NEEDS CONTEXT :'(
+retranslated
 I believe this is referencing the plants that undulate
 
-
+retranslated
 last one tonight
 
 
@@ -362,8 +362,8 @@ The reader is reacting to the generic labeling of japanese as a single genre. Th
 
 
 
-This is my love song~\
-Sung for the man of my dreams, whom I’ve yet to meet~
+This is my love song~\Sung for the man of my dreams, whom I’ve yet to meet~
+
 major edit. I suspect a lot of these were edited to death to save space before
 
 
@@ -371,7 +371,7 @@ major edit. I suspect a lot of these were edited to death to save space before
 
 ワクワク(wakuwaku) is onomatopoeia excitement\ドキドキ(dokidoki) is onomatopoeia for a sound made by a beating heart
 
-
+re-translated
 if you pause or new page here, the animation will glitch
 no new page codes here please. the animation will glitch - solomon
 
@@ -390,7 +390,7 @@ the last sentence is a bonus.
 
 
 
-
+retranslated the line referencing the 3rd girl born to the village
 Event after Baby stopped crying!
 
 
@@ -408,16 +408,13 @@ Event for when he asks if you have the key (stops eating)
 
 
 
+P-Please forgive me! I'm not really a resident of this village!\I pretended to be one to steal the mysterious orb on the island,\and I managed to steal the key, but...\the plant in that room suddenly turned into me…\and, well... it-it was terrifying!
 
-P-Please forgive me! I'm not really a resident of this village!
 
-I pretended to be one to steal the mysterious orb on the island,
 
-and I managed to steal the key, but...
 
-the plant in that room suddenly turned into me…
 
-and, well... it-it was terrifying!
+眼 is "eyes" but i dont think this works well, so getup
 
 
 
@@ -425,6 +422,9 @@ and, well... it-it was terrifying!
 
 
 
+
+
+typo fixed
 
 
 spicy lunch guy at the entrance to the boabab cave
@@ -437,23 +437,23 @@ mr smith goes behind the tree and disappears (inside the boabab cave)
 TODO this needs context. Could be wrong.
 
 
-
+生きかえる come back to life/revived/thats a relief/i feed revived
 If you don't have anything to say,\[nl2]then get out of here!!
 i believe this is when benson disappears??
 
-
+sounds like solomon talking. self-reference
 
 
 
 this was really wrong lol still not clear on the context
+doesnt say anything about ants specifically attacking, just one of others.
 
 
 
 
 
 
-
-
+retranslated
 
 
 A potion so potent that ants can't\[nl2]even approach!\[nl3]I call it the {A}{n}{t}{ }{B}{u}{s}{t}{e}{r}![np]\[scl]Once this potion is complete, ants\[scl]will be nothing to fear.\[scl]If I can complete it's production,\[scl]the Ant Menace will be abated.[np]\[scl]And so, as your punishment... You\[scl]must search the dangerous forest\[scl]for all of the ingredients.[np]\[scl]The princess says that the three\[scl]of you are capable adventurers,[np]\[scl]able to handle any challenge.\[scl]So, I'll be hoping for your success.[np]\[scl]Not only is this your punishment, I\[scl]am asking you as a personal favor\[scl]for myself. I need your help.[np]\[scl]I'm begging you. If you can help\[scl]me make the {A}{n}{t}{ }{B}{u}{s}{t}{e}{r}, I'm sure\[scl]the king will forgive you.[np]\[scl]What do you say? Will you help?[X$6A]\[scl][ ][ ][ ][ ]Okay.\[scl][ ][ ][ ][ ]No way![X$68]
@@ -494,6 +494,18 @@ cactus. haiku... fixed
 
 
 
+Hurry up and bring him here, would you!
+
+
+
+
+
+
+
+
+
+
+retranslated
 
 
 
@@ -516,19 +528,7 @@ cactus. haiku... fixed
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+removed redundant "you have 3 seconds"
 
 
 
@@ -553,6 +553,7 @@ after the short dog battle in the boabab cave (or during, i suppose)
 
 
 
+the previous lines were overly-wordy
 
 
 
@@ -560,24 +561,23 @@ after the short dog battle in the boabab cave (or during, i suppose)
 
 
 
-
-
+retranslated
 technically, $6k in american dollars, 5500 Euros\this was a mistranslation before. supposed to be a joke that they are referring to that amount of money as measly, or literally "just 1000000 yen per month."
 So from now on, it's rap, brother!\This may be a bit much... but the original really loses any semblance of humor in english. I tried to make it resemble a lame, over-the-top Eminem, but I dunno.
 
+corrected the question
+
+
+
+
+reworked due to a misunderstanding of the original wording. He's bragging about himself, not evaluating the player.
 
 
 
 
 
 
-
-
-
-
-
-
-
+removed the accusation not present in the original lines
 
 
 
@@ -590,7 +590,7 @@ double-check this
 
 
 mr smith inside the boabab tree (#2)\added subtle change "all mine" > "ours"
-
+removed the round 1 goes to the plant
 
 
 
@@ -599,7 +599,7 @@ mr smith inside the boabab tree (#2)\added subtle change "all mine" > "ours"
 
 CACTUS IS MY FAVORITE - DackR\More literal version (not enough haiku): To our husbands, with heartfelt feelings: a verse...\After the rain,\my heart clears also-\a spring sky
 
-
+retranslated
 
 
 
@@ -630,13 +630,13 @@ CACTUS IS MY FAVORITE - DackR\More literal version (not enough haiku): To our hu
 
 Cézar
 solomon
-
+the original doesnt mention dropping out of school. thats something I added.\"But don't go getting carried away and trying to become a painter- it's for your own good. There's just no money in it, you know."
 
 samson
 
 
 
-
+"If you don't~, this heat's gonna do us all in..."\I added the ignominious end part so do as you wish with it.
 
 
 
@@ -649,6 +649,13 @@ Cesar
 
 
 
+added back in the quince wood
+
+
+he doesnt say to save the troops
+
+
+Sorry, but could you find my gramps and tell him? We're having a tomato dish for lunch.
 
 
 
@@ -678,14 +685,7 @@ Cesar
 
 
 
-
-
-
-
-
-
-
-
+He says fishing duty
 
 
 わたし を そうさ せよ - "Let me do that." "Use me to investigate." Robot at the invisible floor puzzle.
@@ -710,8 +710,8 @@ winky speak
 
 
 
-winky-speak
 
+retranslated
 
 
 winky-speak
@@ -728,8 +728,8 @@ No need to fear, for I am here.
 
 
 
-
-
+means stop it, give it up... not get out. Not sure where that came from
+DODGE WALLS WITH UP/DOWN ON [Cpad]
 
 when you come upon a fallen soldier
 
@@ -752,7 +752,7 @@ when you come upon a fallen soldier
 
 
 
-
+changed the line about who cares about jim to be more accurate
 Hassan
 Polly
 Hassan
@@ -762,12 +762,12 @@ Polly
 
 
 
+retranslated. held down vs yank fast
 
 
 
 
-
-
+retranslated
 Strange writing style is hard to translate.
 Hassan
 
@@ -791,7 +791,7 @@ Hassan
 
 
 
-
+More accurately: "Too bad! Keep searchin' as long as yer strength holds out! Suckers!"
 
 
 
@@ -801,6 +801,7 @@ Even though you're just a kid, you're taller than me and so cheeky!
 [nl2] That's why I won't let you go any further!!
 
 
+wording made less awkward
 
 
 
@@ -816,6 +817,7 @@ Even though you're just a kid, you're taller than me and so cheeky!
 
 
 
+retranslated. it calls him selfish because he's hoarding the dog bones, i guess\自分かってな = 自分勝手な
 
 
 
@@ -833,12 +835,14 @@ Even though you're just a kid, you're taller than me and so cheeky!
 
 
 
+retranslated うちの子 is "my child"
 
 
 
 
 
 
+reworded. made clear the bird says Indio isnt bad either
 
 
 
@@ -857,6 +861,7 @@ Even though you're just a kid, you're taller than me and so cheeky!
 
 
 
+added god of time back in
 
 
 
@@ -874,6 +879,7 @@ Even though you're just a kid, you're taller than me and so cheeky!
 
 
 
+original makes no reference to a time machine
 
 
 
@@ -906,33 +912,27 @@ Even though you're just a kid, you're taller than me and so cheeky!
 
 
 
+re-translated this tip and retained accuracy
 
 
 
+Man, you really are super dumb.
+did the notes lose sync?
+The eldest brother is to the left of the youngest, the youngest is to the right of the second brother,
+and the second brother is to the left of the eldest brother.
+Got it? Now point to them in order, starting with the eldest brother!
 
 
 
 
 
 
-Boo! Totally wrong!
- Man, you really are super dumb.
-Think harder, got it? 
-The eldest brother is to the left of the youngest, the youngest is to the right of the second brother, 
-and the second brother is to the left of the eldest brother. 
-Got it? Now point to them in order, starting with the eldest brother! 
 
 
 
 
-
-
-
-
-
-
-
-
+not don't worry
+not sure where husband came from
 
 Pirroc
 
@@ -966,7 +966,7 @@ really leaning into the old west terminology sheriff
 
 
 
-
+it's clear that this is a threat.
 
 
 
@@ -999,6 +999,30 @@ sheriff
 
 
 
+
+
+
+restored reference to the god of time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sheriff
 
 
@@ -1008,31 +1032,7 @@ sheriff
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-sheriff
-
-
-
-
-
-
-
-
-
+this was mistranslated
 
 
 
@@ -1040,6 +1040,9 @@ name change... i dont think mammoth was intentional
 
 
 
+Listen up! Pay attention to what\[nl3]those Manmato guys say when they\[nl3]attack!
+
+retranslated
 
 
 
@@ -1056,10 +1059,7 @@ name change... i dont think mammoth was intentional
 
 
 
-
-
-
-
+this was way wrong
 
 
 
@@ -1110,7 +1110,7 @@ the mark on the ground near the graves
 
 
 
-
+retranslated
 
 
 
@@ -1129,7 +1129,8 @@ sheriff
 
 
 
-2 line text
+2 line text\I always put stuff like this on display, but it just ends up cluttering the place later!
+2 line text, i think
 
 
 
@@ -1138,8 +1139,7 @@ sheriff
 
 
 
-
-
+nothing about hard work - たすかったわ
 took some liberties here. it's supposed to be funny... "darn" means to mend -- if you do needlepoint with yarn, you'd use a darning needle. its funny to me, okay?
 
 
@@ -1147,7 +1147,7 @@ took some liberties here. it's supposed to be funny... "darn" means to mend -- i
 
 
 
-
+retranslated
 
 
 
@@ -1169,6 +1169,7 @@ same as previous text.
 
 
 
+retranslated the ending
 
 
 
@@ -1230,8 +1231,7 @@ same as previous text.
 
 
 
-
-
+nothing about a game. Jim's up to no good, plotting something
 
 
 
@@ -1245,6 +1245,7 @@ same as previous text.
 
 polly... end of chapter 5
 
+I had the meaning inverted.
 
 
 
@@ -1254,8 +1255,7 @@ polly... end of chapter 5
 
 
 
-
-
+another meaning inversion fixed
 
 
 
@@ -1282,7 +1282,7 @@ Introduction: Text 2
 
 
 
-
+removed flipper, clarity fix
 
 
 
@@ -1319,7 +1319,7 @@ solved by using full space
 
 
 
-
+removed possesive "My"
 
 Suka?!
 
@@ -1333,6 +1333,7 @@ Suka?!
 
 
 
+retranslated
 
 
 
@@ -1348,8 +1349,7 @@ Suka?!
 
 
 
-
-
+retranslated
 
 
 
@@ -1368,9 +1368,9 @@ I think this is the 2 line text mode.
 
 
 
+was 2-line
 
-
-
+reworked the translation
 it actually calls it a "ball"
 
 
@@ -1392,6 +1392,7 @@ much happier with this
 
 
 
+re-worded (dropped man-beast)
 
 
 
@@ -1417,6 +1418,7 @@ much happier with this
 
 
 
+this was originally misread as something approaching
 
 
 
@@ -1447,6 +1449,7 @@ much happier with this
 
 
 
+Re-evaluated a tough spot
 
 
 
@@ -1459,10 +1462,7 @@ much happier with this
 
 
 
-
-
-
-
+retranslated
 
 
 
@@ -1481,7 +1481,7 @@ revised heavily. the rest:
 
 
 
-
+fixed mistranslation
 
 
 
@@ -1489,7 +1489,7 @@ revised heavily. the rest:
 
 
 Direction to move in! Stick together.
-
+re-translated
 
 
 
@@ -1553,13 +1553,13 @@ Getting old is the last thing I want...
 
 
 
+talking about luck rocks... I think
 
 
 
 
 
-
-
+was 2-line
 
 
 
@@ -1619,14 +1619,14 @@ solomon
 
 
 
-Introduction: Text 4
+retranslated\removed the jimmies
 
 
 
 
 
 
-
+the topic "あの玉" set in the first line is the unmarked subject of "なかったようだ"
 
 
 
@@ -1679,22 +1679,22 @@ solomon
 
 winky speak
 
-
+retranslated
 
 
 
 
 winky speak
 
+retranslated
 
 
 
 
+not a warning.
 
 
-
-
-
+retranslated
 
 
 
@@ -1753,10 +1753,10 @@ ch5 sailor near the ship
 
 
 
+retranslated
 
 
-
-
+retranslated
 
 
 
@@ -1765,7 +1765,7 @@ winky "Hurry and Save Miss Gina!"
 
 
 winky
-
+not sure if this is 2-line or not.
 
 Hey, Pluck's on this ship, isn't he? Tell him I'll visit him before long. ...Until then!
 
@@ -1784,7 +1784,7 @@ the nuance is that it's a casual tone where they dont seem entirely sure
 
 robot speaking as captain maverick
 
-robot?
+retranslated a problematic section
 
 
 
@@ -1801,7 +1801,7 @@ robot?
 
 
 
-
+retranslated
 
 
 
@@ -1829,6 +1829,9 @@ Don’t you dare wrap this up without me-!
 
 
 
+retranslated
+
+retranslated
 
 
 
@@ -1837,11 +1840,17 @@ Don’t you dare wrap this up without me-!
 
 
 
-
-
-
-
+This was way off
 mother/father patchie
+this hint was totally wrong
+retranslated
+
+
+
+
+
+
+it says Benson's marker, but I like smoke signal better
 
 
 
@@ -1854,16 +1863,7 @@ mother/father patchie
 
 
 
-
-
-
-
-
-
-
-
-
-
+removed noses, bird legs (was originally added before we had the graphics translated)
 
 
 
@@ -1904,6 +1904,7 @@ winky
 
 
 
+oof... this was wrong. another meaning reversal
 
 
 
@@ -1932,13 +1933,12 @@ winky
 
 
 
+was a little off. 小人の子 means "child of the little-people"
 
 
 
 
-
-
-
+I think sometimes we all want\[scl]something soft to hold onto.
 
 not sure where "brats" came from... changed to boys
 
@@ -1963,13 +1963,13 @@ part 1- part2 is 199
 
 
 
+ben the spider brother
 
 
 
 
 
-
-
+ack... this was wrong. オス is male. ばかり means nothing but/only
 
 
 
@@ -2068,16 +2068,16 @@ spicy lunch guy
 Old: A fresh and feisty couple!\Freshly made, hot off the press, but with hearts full of haze- a couple!
 
 What’s going on?! What’s the deal?!
-\
-You’ve gone and become the same size as us!\
+
+You’ve gone and become the same size as us!
 after you spray the plant with Marlowe's salt spray
 Unbelievable!
 
- Klutz! Idiot! Loser! Useless!\
+Klutz! Idiot! Loser! Useless!
 
 What was all my hard work for?!
-\
-Ugh, I’m done!
+the hint was added
+came after me -> threw me out
 the guy who gets the spicy lunch
 
 
@@ -2088,6 +2088,7 @@ discovering socks has passed next is 435
 
 
 Event used for Start and End of Laugh
+retranslated
 
 
 
@@ -2099,6 +2100,13 @@ Event used for Start and End of Laugh
 
 
 
+retranslated
+
+
+
+
+
+retranslated
 
 
 
@@ -2109,15 +2117,7 @@ Event used for Start and End of Laugh
 
 
 
-
-
-
-
-
-
-
-
-
+leaving at 2 lines just in case
 
 added don quixote reference because I felt like it.
 
@@ -2136,7 +2136,7 @@ added don quixote reference because I felt like it.
 
 
 
-
+Who listens to rock anymore?
 
 
 
@@ -2165,14 +2165,14 @@ Mr Smith inside the boabab cave "You shouldn't have come here...!
 
 
 
+retranslated
 
 
 
 
 
 
-
-
+parody of the famous ukiyo-e 見返り美人 "Beauty Looking Back"
 
 
 
@@ -2302,14 +2302,14 @@ Now, let’s have a little look, shall we?
 
 
 
-
+removed the added line about chris benson
 
 this is a bit embellished\Hmmph! Don't get cocky!\Truth is, a great guy like me doesn't even want to team up with losers like you!
 
 
 
 
-
+Guess I'll give it my all for her sake too!\(the crafty line was wrong)
 
 
 
@@ -2329,6 +2329,7 @@ the sheriff speaks like an old-timey cowpoke
 
 
 (Voila)
+retranslated
 
 
 
@@ -2373,14 +2374,13 @@ the sheriff speaks like an old-timey cowpoke
 
 
 
-
-
+retranslated
 
 added "to the brim" to fix palette :p
 
 
 
-
+retranslated
 
 
 
@@ -2402,6 +2402,7 @@ added "to the brim" to fix palette :p
 talks like an old west cowboy (sherrif)
 
 
+retranslated
 
 
 
@@ -2428,8 +2429,7 @@ talks like an old west cowboy (sherrif)
 
 
 
-
-
+retranslated
 
 
 
@@ -2452,7 +2452,7 @@ The Mammoth Brothers, Three
 
 
 
-doing rhymes is hard
+removed rhyme in favor of accuracy
 
 
 
@@ -2496,14 +2496,14 @@ doing rhymes is hard
 
 
 
+retranslated and restored first line
 
 
 
+gone IN
 
 
-
-
-
+gone OUT (was the same as 2502)
 
 
 
@@ -2539,6 +2539,7 @@ added a reference to polly's nickname.
 
 
 
+retranslated
 
 
 
@@ -2558,8 +2559,7 @@ added a reference to polly's nickname.
 
 
 
-
-
+retranslated
 
 
 
@@ -2622,7 +2622,7 @@ I'm purposefully making this a bit more intense than the original. Just a prefer
 
 
 
-improved... there's something special about looking at it through the viewfinder 
+improved... there's something special about looking at it through the viewfinder
 
 hint... improved
 
@@ -2631,7 +2631,26 @@ hint... improved
 
 
 
-Marlowe, after smith is released from the plant thing using the salt spray. \right before line 145
+Marlowe, after smith is released from the plant thing using the salt spray.\right before line 145
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+retranslated
 
 
 
@@ -2666,26 +2685,7 @@ Marlowe, after smith is released from the plant thing using the salt spray. \rig
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+retranslated
 
 
 
@@ -2706,7 +2706,7 @@ Ch1: Start Text 4 (Introducing Jack)
 
 
 
-
+MY egg
 
 
 
@@ -2793,54 +2793,19 @@ solomon
 
 winky speak
 
-
-
-winky speak
-
+retranslated
 
 winky speak
 
 
-
-
-
-
-
-
-
-
-
 winky speak
+retranslated
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-ch5 sailor (coast guard dude?)
-
-
-
-
-
-
-
-
-
-guarding maverick's lair
 
 
 
@@ -2848,7 +2813,6 @@ guarding maverick's lair
 winky speak
 
 
-Wow, I saw some ship blazing this way... \I'll be snookered if it isn't RED Team!\I've heard stories of your adventures.\They're really very impressive!
 
 
 
@@ -2857,31 +2821,67 @@ Wow, I saw some ship blazing this way... \I'll be snookered if it isn't RED Team
 
 
 
+was 2-line
+
+was 2-line, now 3
+was 2-line, now 3
+was 2-line
+was 2-line, now 3
+was 2-line, now 3
+
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+
+
+was 2-line, now 3
+
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+
+
+
+
+was 2-line, now 3
+Even if every other creature must die, we need that orb to go on living... because...
 
 
 
 
 
+was 2-line, now 3
+
+
+2 line text
+(spool) was 2-line, now 3
 
 
 
-
-
-
-2 line text encounter with dog in the boabab cavew
-
-re-worded to be more helpful and made it boots, not shoes
-
-
-2 lines only
-
-
-
-toning it down a bit
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+toning it down a bit -- was 2-line, now 3
 not 2 lines... Max gets this in the ship engine room
 
-
-
+was 2-line, now 3
+was 2-line, now 3
 
 
 
@@ -2889,26 +2889,26 @@ not 2 lines... Max gets this in the ship engine room
 
 
 2 lines text
-
-
-
-only 2 lines available for this
-
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
 only 2 lines. [np] is bugged so not used here.
-lets only apply special fonts if we know it's not 2-line text
+lets only apply special fonts if we know it's not 2-line text-- was 2-line, now 3
 
-
-only 2 lines
-
-
-
-
-
-
-plant confrontation
+was 2-line, now 3 (could have been mr mole, etc--cute)
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
 
 
 
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
+was 2-line, now 3
 
 
 
@@ -2917,57 +2917,56 @@ plant confrontation
 two line text
 only 2 lines!
 
-
+was 2-line, now 3
 
 Cant use the special font on 2-line text
-
+was 2-line, now 3
 
 only2 lines, so no highlights allowed
 definitely 2 lines
 
 
 when you spray the village manager with the salt spray (not the plant)
-is this the Patchies?... lets try something
-
+was 2-line, now 3
+was 2-line, now 3
 
 
 
 only 2 lines.
+was 2-line, now 3
+was 2-line, now 3
+toning it down a bit ;) was 2-line, now 3
+was 2-line, now 3
 
-
-toning it down a bit ;)
-
-
-We did it! The exit! Come get some!! (old translation)
-
+was 2-line, now 3
+retranslated - was 2-line, now 3
 Patchies... I think?
 
 
-Let's go dig where the penguin marked for us. Can't use special font on this 
+was 2-line, now 3
 verbal equivalent?
 
 
-Let's dry them out before we use them with the B button. Is this 2-lines?
-
-2 lines available
-Only two lines are available!
-only two lines are available
-Respect your elders! It's worth it, boys. (retranslation)
-2 lines text mode
-
-I got a key from the fish's mouth!
 
 
 
 
 
 
+
+
+
+
+
+
+was 2-line, now 3
+
+was 2-line, now 3
 
 
 
 
 2-line text
 2-line text
-
 
 

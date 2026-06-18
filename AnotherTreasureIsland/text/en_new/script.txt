@@ -310,8 +310,8 @@ If we pull it like this, we won't be
 
 What? The village manager was a
 [nl2]plant? That's weird...
-[nl2]I'm supposed to be the manager.[np]
-[nl3]I see... So that thing disguised
+[nl3]I'm supposed to be the manager.[np]
+[scl]I see... So that thing disguised
 [scl]itself as a villager and attacked
 [scl]you!?! Unbelievable!
 [en2]
@@ -394,7 +394,7 @@ Hey there, tubs. I like husky kids.[np]
 [en1]
 
 To the [team] team:
-[nl2]You keeping up with your studies?
+[nl2]You keeping up with your studies?[np]
 [nl3]It seems I misjudged our friend,
 [scl]Jim. His actions after our teacher
 [scl]was kidnapped were truly logical.[np]
@@ -925,7 +925,7 @@ Hyaaaah!! What are you doing with
 Huh? What's with that doll? No
 [nl2]way, are you saying it's for me?[np]
 [nl3]D-Do you think I'd want something
-[scl]like that?!
+[scl]like that?![np]
 [scl]W-why would you think I wanted
 [scl]this...[np]
 [scl][Event]
@@ -1344,7 +1344,7 @@ Whoa, that's so many tomatoes! I
 [scl]teacher for ya.[np]
 [scl]If you ever want to see her
 [scl]again, come to the valley past the
-[scl]lake.[np]
+[scl]pond.[np]
 [scl]Don't forget my {C}{r}{y}{s}{t}{a}{l}{ }{B}{a}{l}{l}.[np]
 [scl]Signed:
 [scl]The Greatest Pirate Under the Sky,
@@ -2086,7 +2086,7 @@ Eh! What was that? I can't hear
 [X$6A]
 [nl2][ ]  Oh, the baby stopped crying!
 [nl3][np][Event]
-[scl][X$6A]Why~ thank you!
+[scl][X$6A]Why~ thank you![np]
 [scl]I guess this little one really is a
 [scl]girl after all~. She stopped crying
 [scl]the moment she saw the doll.[np]
@@ -2733,7 +2733,7 @@ I see. Looks like you're pretty
 
 Hurry, bring me the {F}{i}{r}{e}{w}{o}{o}{d}!
 [nl2]What?........ I'm absolutely fine!
-[nl2]You've got SOME nerve!
+[nl3]You've got SOME nerve!
 [en2]
 
 You have quite an eye. That pot is
@@ -3003,7 +3003,7 @@ We are storing various documents
 
 What? There's a power line down
 [nl2]in the forest...? The power switch
-[nl3]is inside of this room...
+[nl3]is inside of this room...[np]
 [scl]But if you want in, you'll need to
 [scl]get the explicit permission of
 [scl]soldier #[Five].[np]
@@ -3215,7 +3215,7 @@ Please, I beg you, leave. A king's
 [nl3]a state like this...
 [en2]
 
-[F2]Bomm-bappa-buh-bum-bappa-bomm-baaa![np]
+[F2]Bomm-bappa-buh-bum-bappa-bomm-bah![np]
 [nl2]You acquired the King's {S}{t}{r}{i}{p}{e}{d}
 [nl3]{U}{n}{d}{e}{r]{p}{a}{n}{t}{s}...
 [en1]
@@ -3792,11 +3792,11 @@ I tried to get the {L}{a}{r}{g}{e}{ }{F}{i}{s}{h}{i}{n}{g}
 [nl2]{H}{o}{o}{k} back from Jim, but he
 [nl3]challenged me to a PK shootout.[np]
 [scl]When I lost, he threw my {S}{o}{c}{c}{e}{r}
-[scl]{S}{h}{o}{e}{s} into the lake!
+[scl]{S}{h}{o}{e}{s} into the pond!
 [en2]
 
 Miss Gina told us to get some {f}{i}{s}{h}
-[nl2]from the lake. . . . .
+[nl2]from the pond. . . . .
 [nl3]Leader! What do we do!?
 [en2]
 
@@ -4168,7 +4168,7 @@ Jim is still missing...
 [scl]teacher.[np]
 [scl]If you ever want to see her
 [scl]again, come to the valley past the
-[scl]lake.[np]
+[scl]big pond.[np]
 [scl]Don't forget my {C}{r}{y}{s}{t}{a}{l}{ }{B}{a}{l}{l}.[np]
 [scl]Signed:
 [scl]The Greatest Pirate Under the Sky
@@ -4219,7 +4219,7 @@ You found a {k}{e}{y}!!
 Squeak, squeak![np]
 [nl2][TL] That was a close one~![np]
 [nl3][ ][ ][ ]My nose ain't so flimsy it'll
-[nl3][ ][ ][ ]give out just 'cause ya held
+[scl][ ][ ][ ]give out just 'cause ya held
 [scl][ ][ ][ ]it down~!!
 [en2]
 
@@ -5415,7 +5415,7 @@ Rrriibit ribbit.[np]
 [nl3][ ][ ][ ]moves looks like food...
 [en2]
 
-[F2]You got a {F}{r}{o}{g}!
+[F2]You got a {F}{r}{o}{g}![np]
 [nl2]That was a lot of work~.
 [en2]
 
@@ -5598,7 +5598,7 @@ Never mind that- listen to what
 
 Hurry and hit the button! If you
 [nl2]don't push it quickly, those Manmato
-[nl2]guys will wake up.
+[nl3]guys will wake up.
 [en2]
 
 When you return to your own time,
@@ -5982,7 +5982,7 @@ You really saved me!
 [en2]
 
 There's lots of {F}{i}{r}{e}{w}{o}{o}{d} near the
-[nl2]lake.
+[nl2]pond.
 [en2]
 
 ......Got it. I'll go call for help.
@@ -6044,7 +6044,7 @@ Hurrah! The balloon is inflated!
 
 I'll let you have my "Soccer
 [nl2]Shoes." You'll find them at the
-[nl3]bottom of the lake!
+[nl3]bottom of the pond!
 [en2]
 
 [SDenied]Come on, you aren't even wearing
@@ -6147,7 +6147,7 @@ What's this? {C}{a}{m}{p}{ }{T}{i}{p}{s}...!?
 [nl2]Point [CrDn] at each to read them.
 [en2]
 
-When you think {H}{u}{h}{?}{!}{ press the
+When you think {H}{u}{h}{?}{!} press the
 [nl2][ABtn] button.[np]
 [nl3]When you think, {T}{h}{a}{t}{'}{s}{ }{f}{i}{s}{h}{y}{!}
 [scl]press the [ABtn] button![np]
@@ -6958,7 +6958,7 @@ She was a tomboy with a bad
 
 Blub, glub![np]
 [nl2][TL] Don't worry about me, I can
-[nl3][ ][ ][ ]flip and flop back to the lake
+[nl3][ ][ ][ ]flip and flop back to the pond
 [scl][ ][ ][ ]all by myself.
 [en2]
 
@@ -7489,7 +7489,7 @@ Shortly after arrival, I found a
 [scl]it, the tree sprang to life as if
 [scl]reborn![np]
 [scl]The ancient tree began yielding fine
-[scl]oil once again.
+[scl]oil once again.[np]
 [scl]I worry that if discovered, the
 [scl]Crystal Ball may be abused for
 [scl]nefarious purposes....[np]
@@ -8426,7 +8426,6 @@ Are you ready~?
 [SStop]Let's start~[~]. Remember to use
 [nl2]Cézar's {s}{p}{e}{c}{i}{a}{l}{ }{t}{e}{c}{h}{n}{i}{q}{u}{e}, okay~[~]?
 [nl3]Whose color will you paint first?[X$6A][np]
-[scl]
 [scl][ ][ ][ ][ ]Dion - Red
 [scl][ ][ ][ ][ ]Jack - Blue
 [scl][ ][ ][ ][ ]Max - Green[X$6E]
@@ -8984,8 +8983,8 @@ By the way...
 [scl]What? You want permission from
 [scl]the Colonel to enter the cave?[np]
 [scl]...What on earth?
-[scl]...What's in the cave?
-[scl]You can't tell me?
+[scl]...What's in the cave?[np]
+[scl]You can't tell me?[np]
 [scl]...Okay, just give me a minute.
 [en1]
 
@@ -9122,7 +9121,7 @@ Instead of eating the meal
 [scl]It seems spicy, so they'll probably
 [scl]need water afterward.[np]
 [scl]Wasn't there some water
-[scl]underground by the cacti?
+[scl]underground by the cacti?[np]
 [scl]It seemed like it was awfully salty
 [scl]though!
 [en1]
@@ -9526,7 +9525,7 @@ Find the man from the lake and
 
 Did you hear Indio out? He might be
 [nl2]surprised if you show him the thing
-[nl2]you got at the grave.
+[nl3]you got at the grave.
 [en1]
 
 Did you show Benson the picture?
@@ -11750,7 +11749,7 @@ Just take it.
 
 You guys are looking for {F}{i}{r}{e}{w}{o}{o}{d},
 [nl2]right? I saw some at the north end
-[nl3]of the lake. Go check it out.
+[nl3]of the pond. Go check it out.
 [en2]
 
 [X$6A]It's a soccer ball. Who would play
@@ -12410,7 +12409,7 @@ There are lots of rocks here.
 
 If you want some {S}{o}{c}{c}{e}{r} {S}{h}{o}{e}{s},
 [nl2]I'll give you mine!! Except Jim
-[nl3]threw them in the lake...
+[nl3]threw them in the pond...
 [en2]
 
 There are {s}{h}{o}{e}{s} under the water.
@@ -13014,8 +13013,8 @@ There's a small switch.
 
 Wow... What a rare plant!
 [nl2]I feel compelled to capture its
-[nl2]mysterious beauty![np]
-[nl3]This place is a plant paradise,
+[nl3]mysterious beauty![np]
+[scl]This place is a plant paradise,
 [scl]wouldn't you say?
 [en2]
 
@@ -13954,16 +13953,14 @@ There's no time!
 [nl3]of places!
 [en1]
 
-[SP$0229]Time for camp!
-[nl2]Let me know if you find anything!
+[SP$0229]Now then... Camp's about to begin!
+[nl2]If you discover anything new, come
+[nl3]and tell me, okay?
 [en2]
 
 [F2]You got a {M}{i}{t}{t}{ }{a}{n}{d}{ }{B}{a}{l}{l}![np]
 [nl2]Bop anything in your way with the
-[nl3][BBtn] button.[np]
-[scl]I have a feeling we can use this
-[scl]to defend ourselves if the need
-[scl]arises.
+[nl3][BBtn] button!
 [en1]
 
 [F2]Jack got a mysterious Old Rope![np]
@@ -13995,10 +13992,10 @@ There's no time!
 [nl2]Let's go and save Indio now.
 [en1]
 
-Phew~, we finished cleaning!
+[nl2]Phew~, we finished cleaning!
 [en2]
 
-Okay, now the hole is patched!
+[nl2]Okay, now the hole is patched!
 [en2]
 
 [SQMrk]What an ominous feeling!
@@ -14037,15 +14034,16 @@ The ship's rocking too much for us
 [en2]
 
 [SP$0204]Ook!! Ook~!![np]
-[TL]Oh, that lovely voice!
-[nl2][ ][ ][ ]Where are you, my beloved?
+[nl2][TL]Oh, that lovely voice!
+[nl3][ ][ ][ ]Where are you, my beloved?
 [en2]
 
 [SP$0204]Dear~! Are you okay~?!
 [en2]
 
-[F2]Got a {D}{o}{l}{l}! Pity, someone must have
-[nl2]dropped it. But who?
+[F2]Got a {D}{o}{l}{l}![np]
+[nl2]Pity, someone must have dropped
+[nl3]it. But who?
 [en2]
 
 [F2]We got a {C}{a}{v}{e}{ }{K}{e}{y}![np]
@@ -14107,7 +14105,7 @@ If we don't parasitize things and
 
 [en1]
 
-[SP$0204][ ][ ][ ][ ][ ][ ]W-waaaaaahh~!!
+[SP$0204][nl2][ ][ ][ ][ ][ ][ ]W-waaaaaahh~!!
 [en2]
 
 [F2]You got the third Crystal Ball!
@@ -14133,7 +14131,7 @@ If we don't parasitize things and
 
 [en1]
 
-[F2]Ah! The Honey fell in the hole!
+[F2][nl2]Ah! The Honey fell in the hole!
 [en2]
 
 [F2]Got the scaredy bee's {H}{o}{n}{e}{y}![np]
@@ -14147,8 +14145,9 @@ If we don't parasitize things and
 [nl2]Ant Buster Factory, on-line!!!
 [en2]
 
-[F2]Got the Soldier Blue! It only works on
-[nl2]soldiers. I wonder why?
+[F2]Got the Soldier Blue![np]
+[nl2]It only works on soldiers.
+[nl3]I wonder why?
 [en2]
 
 [SP$0204]Har-harr! We got the lil' swab!
@@ -14156,19 +14155,19 @@ If we don't parasitize things and
 [en2]
 
 [F2]Got a mysterious {C}{r}{y}{s}{t}{a}{l}{ }{B}{a}{l}{l}!![np]
-[nl3]It seems like a fancy treasure...
-[scl]Let's take it back to camp to
-[scl]show to Miss Gina.
+[nl3]It looks like a big jewel... Let's take it
+[scl]back to camp to show to Miss Gina.
 [en1]
 
 [SP$0201]Sweet skills! I'll take that.
 [en2]
 
-[SP$0204]Ahoy, Boss! We caught those bilge-
-[nl2]sucking little brats for ye'!
+[SP$0204]Ahoy, Boss!
+[nl2]We caught those bilge-sucking little
+[nl3]brats for ye'!
 [en2]
 
-[SImprtnt]Oh, Oh my!
+[SImprtnt]O-oh my!
 [nl2]I-I feel straaaange~~~!
 [nl3]C-caaan't moooove~~~~~~~~~~~!
 [en2]
@@ -14197,10 +14196,10 @@ If we don't parasitize things and
 [nl3][ ][ ][ ]Try again, why don't ya!
 [en2]
 
-[SP$0204]EN-ER-GY......    DE-...PLEAT-ED!!
+[SP$0204][nl2]EN-ER-GY......    DE-...PLEAT-ED!!
 [en2]
 
-[F2]I. RE-GRET. NO-THING...!
+[F2][nl2]I. RE-GRET. NO-THING...!
 [en2]
 
 [F2]Hooray! It's open! They'll be sorry!
@@ -14222,7 +14221,8 @@ Ack! The Patchies are too heavy!
 [nl2]Tap[ABtn] quickly for more thrust!
 [en2]
 
-[F2]Got the Digging Machine, Mr. Diggy.
+[F2]Got the Digging Machine![np]
+[nl2]I'm calling it Mr. Diggy!
 [nl2]Let's dig where the penguin marked.
 [en2]
 
@@ -14233,16 +14233,18 @@ Hey-a, we've got you now!
 [nl2]Let's collect more for Miss Gina~.
 [en2]
 
-This's the girl tent! One at a time!
-[nl2]Use [RBtn] to pick just [num] boy.
+No, no! This is the ladies' tent!
+[nl2]You boys gotta press the [RBtn] button
+[nl3]and come in [num] at a time.
 [en2]
 
 [F2]Got the {S}{o}{c}{c}{e}{r}{ }{S}{h}{o}{e}{s}!
-[nl2]Let's dry them out...
+[nl2]Let's dry them out and then press the
+[nl3][BBtn] button to use 'em.
 [en2]
 
-[X$6A][SChing]Another Luck Rock!
-[nl2]We've got[X$6B] of 'em!
+[X$6A][SChing]We got another Luck Rock!
+[nl2]That makes [X$6B] of 'em!
 [en2]
 
 No, no, no! This is the lady's tent!
@@ -14261,7 +14263,8 @@ You should respect your elders!
 [nl2]If you do, good things will happen.
 [en2]
 
-[SImprtnt] It's... A ship!! How'd it get here...?
+[SImprtnt]It's... A ship!!
+[nl2]How'd it get here...?
 [en2]
 
 What, what?
@@ -14272,8 +14275,8 @@ What, what?
 [nl2]It smells... a bit fishy.
 [en2]
 
-Sorry, [team] Team. I can't let
-[nl2]you in because we're full.
+Sorry, [team] Team.
+[nl2]I can't let you in because we're full.
 [en2]
 
 Now, now, we're changing in here.
@@ -14296,10 +14299,10 @@ Hoorah-! The ship will move now!
 
 [en2]
 
-Ah, that's [num] fish!
+[nl2]Ah, that's [num] fish!
 [en2]
 
-Yep, that's [Two] fish!
+[nl2]Yep, that's [Two] fish!
 [en2]
 
 [F2]     And~... That's [Three] fish!
@@ -14361,17 +14364,19 @@ Oof-!! Max swallowed something!!
 [nl2]teacher gets it!! Are ye saavy?!
 [en2]
 
-[SP$0229]Fishing team, head to the lake.
-[nl2]Be careful!
+[SP$0229]Fishing team, head down to the pond
+[nl2]and catch us some fish, please.
+[nl3]Be careful now, okay?!
 [en2]
 
-[SP$001E]Behold! Make way for Princess
-[nl2]Polly, as she sallies forth to
-[nl3]vanquish the hated Blue Ones!!
+[SP$001E]Behold! Make way for Princess Polly,
+[nl2]as she sallies forth to vanquish the
+[nl3]hated Blue Ones!!
 [en2]
 
-...Sshhhh!! It's a secret! I don't want
-[nl2]my father to hear. Now go, quickly!
+...Sshhhh!! It's a secret!
+[nl2]I don't want my father to hear.
+[nl3]Now go, quickly!
 [en2]
 
 [SP$0126]Your Majesty!! I-it's terrible!
@@ -14385,12 +14390,13 @@ In honor of [team] Team, they
 [nl2]that saved Princess Polly, salute!!
 [en2]
 
-[F2]We've got the 4th Crystal Ball!
+[F2]We've got the 4th Crystal Ball![np]
 [nl2]. . . . . Now we have all 4 of them!!
 [en1]
 
-[SImprtnt]Someone came out...
-[nl2]What is in that room?!
+[SImprtnt]Why did someone just come out...
+[nl2]Just what exactly is going on inside
+[nl3]that room?!
 [en2]
 
 Hey! Don't just barge into our

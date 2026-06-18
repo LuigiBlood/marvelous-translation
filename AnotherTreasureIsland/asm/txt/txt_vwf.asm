@@ -56,6 +56,7 @@ include "txt_vwf_small.asm"
 include "txt_vwf_pause.asm"
 //include "txt_vwf_wram.asm"	//DO NOT USE IT.
 include "txt_vwf_fix.asm"
+include "txt_3line_event.asm"	//3-line event text box (resize the box-tilemap upload)
 
 //Reset every time new text is loaded
 enqueue pc

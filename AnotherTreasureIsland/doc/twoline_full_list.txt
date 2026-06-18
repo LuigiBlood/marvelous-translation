@@ -1,0 +1,91 @@
+# 2-line(now 3-line) text-display (JSL $0A8052) message indexes: 88
+
+  idx 3rd?  np?  source       text
+   16            $8EFE        Hurry and grab it!!
+ 1001            $8EFE        [F2]You got a {F}{r}{o}{g}!
+ 1370            $8EFE        [nl2]Who could it be?!
+ 1561            imm          Be careful-! If you get hit, your
+ 2823            $8EFE        [SP$0204]Too bad. The chest was empty.
+ 2825 3RD   NP   $8EFE        [F2]You got the {D}{a}{s}{h}{ }{S}{h}{o}{e}{s}![np]
+ 2826 3RD   NP   $8EFE        [F2]Jack got the {J}{u}{m}{p}{i}{n}{g}{ }{B}{o}{o}{t}{s}![np
+ 2827            $8EFE        [SP$0229]Time for camp!
+ 2828 3RD   NP   $8EFE        [F2]You got a {M}{i}{t}{t}{ }{a}{n}{d}{ }{B}{a}{l}{l}![np]
+ 2829       NP   $8EFE        [F2]Jack got a mysterious Old Rope![np]
+ 2831 3RD   NP   $8EFE        [F2]Got a complicated {R}{e}{m}{o}{t}{e}{ }{C}{o}{n}{t}{r}{o
+ 2832       NP   $8EFE        [F2]You got the Hammer![np]
+ 2833            imm          [SP$0204]Pathetic! That weak shot wasn't
+ 2834 3RD   NP   $8EFE        [F2]Max got a {S}{m}{a}{l}{l}{ }{K}{e}{y}![np]
+ 2835       NP   $8EFE        [F2]You got the Jail Key![np]
+ 2836            $8EFE,imm    Phew~, we finished cleaning!
+ 2837            $8EFE,imm    Okay, now the hole is patched!
+ 2839            imm          .[Space4].[Space4].[Space4]![Space4].[Space4].[Space4]. [tea
+ 2840            imm          [SP$0131]SELF. DE-STRUCT. TI-MER. SET.
+ 2841            imm          The ship's rocking too much for us
+ 2845            $8EFE        [en1]
+ 2846            imm          [SImprtnt]The plant... It turned into you!!
+ 2847            imm          [SP$012A]O-VER-LOAD. O-VER-LOAD.
+ 2848       NP   imm          [SP$0204]Ook!! Ook~!![np]
+ 2849            imm          [SP$0204]Dear~! Are you okay~?!
+ 2850            $8EFE,imm    [F2]Got a {D}{o}{l}{l}! Pity, someone must have
+ 2851       NP   $8EFE        [F2]We got a {C}{a}{v}{e}{ }{K}{e}{y}![np]
+ 2852       NP   $8EFE        [F2]We got the {S}{a}{l}{t}{w}{a}{t}{e}{r}{ }{S}{p}{r}{a}{y}
+ 2853            imm          [SP$0204]Eeek-! A m-mouse! There's a mouse!
+ 2854            imm          [SP$001E]Highness, King Gingham III, the three
+ 2855            imm          [SP$0204]Very well! Follow me downstairs!
+ 2860            imm          [SP$000D]So YOU were the fake!!!
+ 2867            imm          [SP$0204][ ][ ][ ][ ][ ][ ]W-waaaaaahh~!!
+ 2870            imm          [F2]We made a Mouse Bridge!!
+ 2871            $8EFE,imm    [F2]Got the Spider's Silver Thread!
+ 2872            $8EFE        [en1]
+ 2873            $8EFE        [en1]
+ 2874            $8EFE        [en1]
+ 2875            imm          [F2]Ah! The Honey fell in the hole!
+ 2876 3RD   NP   $8EFE        [F2]Got the scaredy bee's {H}{o}{n}{e}{y}![np]
+ 2877            imm          [SP$0204]Gyaah! Wh-what are you doing!?!?
+ 2878            imm          [SP$0204]Power to max!
+ 2879            $8EFE,imm    [F2]Got the Soldier Blue! It only works on
+ 2880            imm          [SP$0204]Har-harr! We got the lil' swab!
+ 2881 3RD   NP   $8EFE        [F2]Got a mysterious {C}{r}{y}{s}{t}{a}{l}{ }{B}{a}{l}{l}!![
+ 2882            imm          [SP$0201]Sweet skills! I'll take that.
+ 2883            imm          [SP$0204]Ahoy, Boss! We caught those bilge-
+ 2891 3RD   NP   imm          [SP$0204]Fugofugo[np]
+ 2892            $998D        [SP$0204]EN-ER-GY......    DE-...PLEAT-ED!!
+ 2893            $998D        [F2]I. RE-GRET. NO-THING...!
+ 2894            imm          [F2]Hooray! It's open! They'll be sorry!
+ 2895            $8EFE        [X$6A][SP$0137]We found Firewood!
+ 2897            $3508        [SP$0204]Now~, now~...
+ 2899            imm          [F2]Got the Digging Machine, Mr. Diggy.
+ 2900            imm          Hey-a, we've got you now!
+ 2901            $8EFE        [SChing]Found [num] Luck Rock!
+ 2903            $8EFE        [F2]Got the {S}{o}{c}{c}{e}{r}{ }{S}{h}{o}{e}{s}!
+ 2904            $8EFE,imm    [X$6A][SChing]Another Luck Rock!
+ 2908            $3508        You should respect your elders!
+ 2909            imm          [SImprtnt] It's... A ship!! How'd it get here...?
+ 2910            imm          What, what?
+ 2911       NP   imm          [F2]I pulled the {K}{e}{y} out of his mouth![np]
+ 2916            imm          Hoorah-! The ship will move now!
+ 2919            $B1C9        Ah, that's [num] fish!
+ 2920            $B1C9        Yep, that's [Two] fish!
+ 2921            $B1C9        [F2]     And~... That's [Three] fish!
+ 2922            $A013        Stop it!
+ 2923            $A013        What do you think you're doing?!
+ 2924            $A013,imm    What are you punk kids doing?!
+ 2927            $A013        !!!!!!!
+ 2928            imm          I'm the real Mr. Smith!
+ 2929            $A013        Little twerps!
+ 2930            $A013        Agh~! It's salty!!
+ 2931            $A013        What was that for!?
+ 2933            imm          Serves-a you right! You shall not
+ 2934            imm          Oof-!! Max swallowed something!!
+ 2935            imm          [X$79][SDenied]I can't do it because my friends are
+ 2936            imm          [SP$011C]Sorry, she's with us until we get the
+ 2937            imm          [SP$011C]If the cops come after us, then your
+ 2938            imm          [SP$0229]Fishing team, head to the lake.
+ 2939 3RD        imm          [SP$001E]Behold! Make way for Princess
+ 2940            imm          ...Sshhhh!! It's a secret! I don't want
+ 2941            imm          [SP$0126]Your Majesty!! I-it's terrible!
+ 2942            imm          Stay back--!! It's a trap!!
+ 2943            imm          In honor of [team] Team, they 
+ 2945            imm          [SImprtnt]Someone came out...
+ 2961            $8EFE        An old telephone...
+ 2963            $8EFE        I wonder what's past here?
