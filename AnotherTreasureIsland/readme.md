@@ -9,18 +9,19 @@ Currently being translated in English & French.
 ## Staff
 - LuigiBlood - Project Leader, Code Hacking, Graphics, Text Editing (English & French)
 - /dev/urandom - Font Design
+- geometricentric - Logo Design
 
 English Version:
 - tashi - Original Japanese to English Text Translation
 - DackR - English Text Editing, Graphics
-- bluesun - English Retranslation, 
+- bluesun - English Retranslation
 
 French Version (based from the works of the English Version):
 - pinktagada - French Text Translation
 - Lestat - French Graphics, Translation
 
 Special Thanks:
-- FuSoYa - For dealing with the compression
+- FuSoYa - For helping with the compression
 - terminator2k2 - For giving us some save files
 - NukeOTron
 

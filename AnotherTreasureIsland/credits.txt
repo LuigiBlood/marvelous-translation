@@ -13,7 +13,7 @@ French Version (based from the works of the English Version):
 - Lestat - French Graphics, Translation
 
 Special Thanks:
-- FuSoYa - For dealing with the compression
+- FuSoYa - For helping with the compression
 - terminator2k2 - For giving us some save files
 - NukeOTron
 
