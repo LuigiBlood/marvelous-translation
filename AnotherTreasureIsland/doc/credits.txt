@@ -1,5 +1,6 @@
 $14CE43 - Start Credits?
 $14CF60 - Init Credits single section based on table
+$14D11A - Max Credits Sections
 
 0x7B 0xFFD8 - Chest
 0x68 Blue Door

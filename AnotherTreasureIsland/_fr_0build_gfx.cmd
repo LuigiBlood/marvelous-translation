@@ -105,6 +105,12 @@ echo - credits_11.png
 echo - credits_12.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_12.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_12.gfx" -B 2 -D -W 16 -H 16
 ".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_12.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_12.gfx" -d ".\gfx\fr\tmp\credits_12.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_translation_01.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_translation_01.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_translation_01.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_translation_01.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_translation_01.gfx" -d ".\gfx\fr\tmp\credits_translation_01.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_translation_02.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\fr\img\staff\credits_translation_02.png" -p ".\gfx\fr\img\credits.pal" -d ".\gfx\fr\tmp\credits_translation_02.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\fr\img\staff\credits_translation_02.png" -p ".\gfx\fr\img\credits.pal" -t ".\gfx\fr\tmp\credits_translation_02.gfx" -d ".\gfx\fr\tmp\credits_translation_02.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
 echo Building French Graphics Files...
 ".\tools\bass\bass" ".\asm\graphics_fr.asm"
 echo Done.

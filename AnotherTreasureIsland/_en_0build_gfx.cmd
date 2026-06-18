@@ -105,6 +105,12 @@ echo - credits_11.png
 echo - credits_12.png
 ".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\staff\credits_12.png" -p ".\gfx\en_new\img\credits.pal" -d ".\gfx\en_new\tmp\credits_12.gfx" -B 2 -D -W 16 -H 16
 ".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\staff\credits_12.png" -p ".\gfx\en_new\img\credits.pal" -t ".\gfx\en_new\tmp\credits_12.gfx" -d ".\gfx\en_new\tmp\credits_12.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_translation_01.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\staff\credits_translation_01.png" -p ".\gfx\en_new\img\credits.pal" -d ".\gfx\en_new\tmp\credits_translation_01.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\staff\credits_translation_01.png" -p ".\gfx\en_new\img\credits.pal" -t ".\gfx\en_new\tmp\credits_translation_01.gfx" -d ".\gfx\en_new\tmp\credits_translation_01.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
+echo - credits_translation_02.png
+".\tools\conv\superfamiconv.exe" tiles -i ".\gfx\en_new\img\staff\credits_translation_02.png" -p ".\gfx\en_new\img\credits.pal" -d ".\gfx\en_new\tmp\credits_translation_02.gfx" -B 2 -D -W 16 -H 16
+".\tools\conv\superfamiconv.exe" map -i ".\gfx\en_new\img\staff\credits_translation_02.png" -p ".\gfx\en_new\img\credits.pal" -t ".\gfx\en_new\tmp\credits_translation_02.gfx" -d ".\gfx\en_new\tmp\credits_translation_02.map" -B 2 -P 3 -W 16 -H 16 --split-width 32 --split-height 64
 echo Building English Graphics Files...
 ".\tools\bass\bass" ".\asm\graphics_en.asm"
 echo Done.
