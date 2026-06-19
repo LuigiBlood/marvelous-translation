@@ -1,16 +1,18 @@
 //==============================================================================================
 // 3-LINE NOTIFICATION EVENT BOX ---- yet another hack for "Marvelous: Another Treasure Island"
 //==============================================================================================
-// DackR was here. 2026/06/17
+// DackR was here. 2026/06/17-2026/06/19
 //
 // The game's message box for "notifications" normally shows 2 lines of text, and
 // discards the third . This hack makes it show an additional line-- and be happy about it.
-// In order to do this, three things have to change, and each one is its own
+// In order to do this, FIVE :') things have to change, and each one is its own
 // little section:
 //
 // First- Make the HDMA'd window taller (make way for a 3rd line).
 // Second- Draw the a 3rd row of text inside of the window.
 // Third- Restore the graphics tiles that the 3rd line overwrote.
+// Fourth - Check for an open hud, track if it's open/closed, close if open, reopen if we touch it
+// Fifth - Scanline value gate - gate on our 3-line box, use original for call menu
 
 //=============================================================================
 // Step 1: make the message box taller (room for the 3rd line)
@@ -77,19 +79,36 @@ seekAddr($9EF105)
 seekAddr($9EF113)
 	db $36			//was $54: closing top-edge scan-line (155, matches open)
 seekAddr($9EF11D)
-	db $3C			//bottom-half fill distance for closing (unchanged: 2 lines)
+	db $3C			//how far up the close anim wipes the window. Don't bump this to
+				//3 lines to match the open: cave_close's shrink only counts
+				//(counter-$14)x3, so a larger value makes the close glitch. The
+				//extra 3rd-line rows get cleared by cave_win_clear after the box
+				//closes instead.
 seekAddr($9EF125)
 	db $3C			//matching loop count for that fill
 
-//--- tell the mid-screen interrupt where the box's top is now ---------------
-// A separat e timer fires partway down the screen to switch graphics settings
-// right at the box's top egde. Since the box top moved up to line 155, point
-// that timer at line ~156.
-seekAddr($009CB8)
-	db $9C			//was $A1: the scan-line where the box top begins
+//--- tell the mid screen interrupt where the box's top -- is now scanline gated ---
+// A different timer (V-count IRQ, scanline in $4209) triggers midway down the screen
+// to switch graphics settings right at the box's top edge. The 3-line box moved
+// its top up to line ~156, so it wants that timer at $9C.
+seekAddr($009CB7)
+	jsl irq_scanline_gate	//now choosing by box type
+	nop			// pad the bytes we replaced
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
 dequeue pc
 
-//--- the two height-math code caves (in empty ROM at $F6:12xx) ---------------
+//--- the two height-math code caves -------
 // cave_open: works out the box height for the opening animation.
 // It is entered with 16-bit register math already on. "$33" here means the counter $3033,
 // "$00"/"$02" mean memory $3000/$3002, because of how memory is addressed at this
@@ -285,7 +304,15 @@ cave_vram:
 	phx
 	pld
 	sep #$20		//switch to 8-bit math for the simple checks below
-	lda.w $33BD		//where is the current copy aimed? (high byte)
+	//Step 4: while no dialog is active ($35AA = 0), force the HUD-reopen flag to 0
+	//-- clears power-on garbage and resets between conversations. (Mid-dialog $35AA
+	//is non-zero, so a flag set during a box survives.)
+	lda.l $0035AA
+	ora.l $0035AB
+	bne +
+	lda.b #$00
+	sta.l $40C601
++;	lda.w $33BD		//where is the current copy aimed? (high byte)
 	cmp.b #$6A		//$6A means the box is drawing rn
 	beq cave_vram_setflag	// ..... remember the gfx will need restoring
 	lda.w $3033		//otherwise, is the box still open/animating? (counter)
@@ -293,6 +320,7 @@ cave_vram:
 	lda.l $40C600		//box is fully closed. is the "restore" flag set?
 	beq cave_vram_done	//   no ->> nothing to do
 	jsr cave_vram_restore	//   yes -> copy the graphics back from ROM
+	jsr cave_win_clear	//   ...and fix up the window HDMA table the box dirtied
 	lda.b #$00
 	sta.l $40C600		//clear the flag so we don't restore again next frame
 	bra cave_vram_done
@@ -324,4 +352,218 @@ cave_vram_restore:
 	lda.b #$10
 	sta.w $420B		//Go, go, power rangers: run the copy on channel 4
 	rts			//done - back to cave_vram
+
+//cave_win_clear: after a box closes , looks like we need to rewrite the bottom-o-screen
+// window HDMA strip at $40:6136-$61C0 back to $0000. The box leaves window off ($FF00)
+// rows there that its close anim doesnt clean up. the HUD's per frame render/generator(waddaycallit)
+// seems to hide it, but with the HUD don, the stale rows give the call menu a stripe and a gap
+cave_win_clear:
+	php
+	rep #$30		//16-bit A and X
+	lda.w #$0000
+	ldx.w #$008A		//$8A bytes = 70 words, between $40:6136 to $40:61C0
+-;	sta.l $406136,x
+	dex
+	dex
+	bpl -
+	plp
+	rts			//done. return to cave_vram
+dequeue pc
+
+
+//=============================================================================
+// Step 4: close the HUD before a new box opens, reopen it after
+//=============================================================================
+// the HUD and 3rd line in our message box share VRAM ~$7000-$7300, so they can't be up
+// at the same time. The handler that animates the HUD is asleep during dialog displays
+// (seems like its driven by the main timer), so we hafta drive the HUD animation for close
+// from our 3-line box opener path ($9FDC26) and then hopefully reopen it on dialog exit...
+//
+// RE for HUD state in bwram:
+//   $364B   - hud size:  $06 = closed, $26 = open, steps by 4
+//   $364D   - hud dir:   0 = closing, 1 = opening
+//   $30E6   - hud mode:  3 = animating-- this normally triggers anim handler
+//   $40C601 - the new flag:  $01 = hud was closed, reopen after
+
+//   --- gate the box opener at $9FDC26 -----------
+// The original bytes here: A2 0E BD 99 (LDX #$0E ; LDA $D899,X ...). Let's replace the
+// first 4 with a long jump to our shiny new gate. the gate re-runs the init loop once it
+// is determined clear to open.
+enqueue pc
+seekAddr($9FDC26)
+	jml cave_box_gate	//was LDX #$0E etc ---> wait, and close the hud, or just open
+dequeue pc
+
+enqueue pc
+seekAddr($F61300)
+cave_box_gate:
+	//entered with K=$F6, DB=$9F, DP=$3500, 8-bit A/X (state at $9FDC26)
+	sep #$20
+	lda.l $40C601		//close in progress????
+	cmp.b #$01		//  flag is$01 when set.
+	             // (possible that this could be set before we get to it, but the probability is low... or should be)
+	beq +			//   yes --------> keep closing
+
+	//close hud if $26. if the hud hasnt opened, its something else, and we go hands-off
+	lda.l $00364B
+	cmp.b #$26		//is it open
+	bne cave_box_open_ok	// no flag, no re-open
+	lda.b #$01
+	sta.l $40C601		// it was open. time to close it, store the flag to reopen after
++;	lda.l $00364B		//loop until close
+	cmp.b #$06		//closed yet?
+	beq cave_box_open_ok	// if closed, open the box. the 3-line box. that big beautiful beast
+	jsl cave_hud_close_step	//   no? -------> then run the cloned close sequence
+	jml $9FDC54		//   hold: box isnt open, sub state stays 0, re-enter next frame
+cave_box_open_ok:
+	// hud is already closed, this is the box variable loop that we overwrote. run, then open
+	ldx.b #$0E
+-;	lda.w $D899,x		//DB=$9F -> $9F:D899,X  (copy-pasta)
+	sta.b $98,x		//DP=$3500 -> $3598,X
+	dex
+	bpl -
+	jml $9FDC30		//the game's box opene sequence is here
+dequeue pc
+
+//--- cave_hud_close_step: one run per frame - close anim ---
+// had to copy what the game does for this since we cant trigger it the same way (orig. $148D0E),
+// set closing direction, decs $364B by 4, set the window and brightness params
+// the tables [$40:6000, $40:6400], uses sa-1 via $008B0B. save and restore
+// DP/DB which it expects.
+enqueue pc
+seekAddr($F61340)
+cave_hud_close_step:
+	php
+	rep #$30
+	pha
+	phx
+	phy
+	phd
+	phb
+	pea $3000
+	pld			//DP = $3000 ($00/$02 is scratch)
+	sep #$30
+	lda.b #$00
+	pha
+	plb			//DB = $00
+	stz.w $364D		//this is how the direction is set to closing $00=close it
+	//--- stolen shamelessly from $148D0E ($148D0E to $148D6C) ---
+	lda.b #$FC		//-4 step, Y gets the $00 we just set
+	ldy.w $364D
+	beq +
+	lda.b #$04
++;	clc
+	adc.w $364B		//$364B += step, 8-bit
+	sta.w $364B
+	rep #$30  // 16 bit power! why am i commenting this
+	lda.w $364B
+	dec
+	cmp.w #$0005
+	beq +
+	inc
+	inc
++;	sta.b $02		//row count for $40:6400
+	asl
+	sta.b $00		//byte count for $40:6000
+	ldx.w #$0000
+	lda.w #$FF00
+-;	sta.l $406000,x		//window-off rows
+	inx
+	inx
+	cpx.b $00
+	bne -
+	lda.w #$0000
+-;	sta.l $406000,x		//remaining rows
+	inx
+	inx
+	cpx.w #$0050
+	bne -
+	sep #$20
+	ldx.w #$0000
+	lda.b #$73
+-;	sta.l $406400,x
+	inx
+	cpx.b $02
+	bne -
+	lda.b #$67
+-;	sta.l $406400,x
+	inx
+	cpx.w #$0028
+	bne -
+	sep #$10
+	jsl $008B0B		//apply the rebuilt tables via lovely, speedy sa-1
+	rep #$30
+	plb
+	pld
+	ply
+	plx
+	pla
+	plp
+	rtl
+dequeue pc
+
+//--- reopen the hud, dialog closed ------------------------
+// $9FDE2A -> dialog exit If we closed the HUD, ask it to reopen
+// did we close the hud? reopen (set direction, mode, and clear the flag)
+// the main anim handler is dethawed and handles it for us, thank god
+// original: C2 30 A9 02 00 (REP #$30 / LDA #$0002)
+// returns A=$0002
+enqueue pc
+seekAddr($9FDE2A)
+	jsl cave_box_reopen
+	nop			//pad em up: 4-byte jsl + nop is 5 btyes
+dequeue pc
+
+enqueue pc
+seekAddr($F613C0)
+cave_box_reopen:
+	sep #$20
+	lda.l $40C601		//$01 if we were the ones who touched it last
+	cmp.b #$01
+	bne +
+	lda.b #$01
+	sta.l $00364D		//set to open = $01
+	lda.b #$03
+	sta.l $0030E6		//mode = $03 animating
+	lda.b #$00
+	sta.l $40C601		//i always forget we can't STZ long - clear the flag
++;	rep #$30		//clean up our toys----- REP #$30 / LDA #$0002
+	lda.w #$0002
+	rtl			//A = $0002 put it back how we found it $9FDE2F = STA $35A4
+dequeue pc
+
+
+//=============================================================================
+// Step 5: cloud bug fixup - picks the IRQ scanline ($4209) wit our box gate!
+// =============================================================================
+// Replaces $009CB7: open window ($3033 == $14) -> the top-o-box scanline
+// else -> $D8. our S1 changed it from $AB (scanline 171) to $9C
+// (scanline 156) - problem is that this fires for other box openings... so...
+// I ran a trace between EN and the clean JP and $4209 was the change --
+// I thought it was hdma, but that was wrong. spent a couple hours on it... nbd :')
+//
+// the game doesnt know what is what, except our new var does from S3
+// $40C600 == $01 open tb -- only the box sets $33BD to $6A... brain broken
+// text box -> $9C, others, open -> $AB, otherwise -> $DB
+// DP=$3600, DB=$00, 8-bit A / 16-bit X. returns the scanline in A for the
+// original STA $4209
+enqueue pc
+seekAddr($F61400)
+irq_scanline_gate:
+	ldx.w $3033		// the shared open count
+	cpx.w #$0014
+	bne isg_notopen		// not open -> original line $D8
+	lda.l $40C600		// our draw flag for S3: $01 -only- while the 3-line text
+	cmp.b #$01		//   box is up. The call menu never fires $33BD==$6A-- so it's
+	beq isg_dialog		//   never $01 -> falls through to the original val
+	lda.b #$AB		//   call menu and anythin-but-our-text-box -> original top
+	rtl			//    scanline 171 = original
+isg_dialog:
+	lda.b #$9C		//3-line text box -> line ~156 - cause it's a baller AND taller
+	rtl
+isg_notopen:
+	ldx.w #$000A
+	stx.b $49		//$49 = #$0A non-open path
+	lda.b #$D8
+	rtl
 dequeue pc
