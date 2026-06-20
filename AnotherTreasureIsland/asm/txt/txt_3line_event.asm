@@ -4,7 +4,7 @@
 // DackR was here. 2026/06/17-2026/06/19
 //
 // The game's message box for "notifications" normally shows 2 lines of text, and
-// discards the third . This hack makes it show an additional line-- and be happy about it.
+// discards the third. This hack makes it show an additional line-- and be happy about it.
 // In order to do this, FIVE :') things have to change, and each one is its own
 // little section:
 //
@@ -41,7 +41,7 @@ enqueue pc
 //   0A      ASL         ; x2
 //   85 00   STA $00     ; store the height
 // We replace them with a jump to cave_open (which does x3 instead), padded with
-// one NOP so we overwrite only ythe 5 bytes and don't disturb what
+// one NOP so we overwrite only the 5 bytes and don't disturb what
 // follows. The game has already switched to 16-bit math just before this point,
 // which cave_open is mindful of (because it's sentient now, jk).
 seekAddr($9EF0AE)
@@ -114,8 +114,6 @@ dequeue pc
 // "$00"/"$02" mean memory $3000/$3002, because of how memory is addressed at this
 // moment. We write the bottom-half height to $3000 and a slightly taller top-half
 // height to $3002.
-enqueue pc
-seekAddr($F61200)
 cave_open:
 	lda.b $33		//load the animation counter
 	asl			//multiply it by 2...
@@ -129,7 +127,6 @@ cave_open:
 
 //cave_close: same idea for the vlose animation. As the box shuts, the counter
 //counts back down from $14, so we use (counter - $14) x 3 to shrink it smooth.
-seekAddr($F61210)
 cave_close:
 	lda.b $33		//load the animation counter
 	sec
@@ -140,7 +137,6 @@ cave_close:
 	adc.b $00		//...then add it once more = (counter - $14) x 3
 	sta.b $00		//store as the shrinking box height
 	rtl			//return to the game
-dequeue pc
 
 
 //=============================================================================
@@ -152,8 +148,8 @@ dequeue pc
 // We need a 5th row (gives space for text line 3) added in the middle.
 //
 // We can't make the existing layout bigger where it sits, because other SA-1
-// code sits right after it. We write a brand-new 5-row layout into empty ROM
-// space (from what I saw) at $F6:1000 and re-point the copy loop at it.
+// code sits right after it. We write a brand-new 5-row layout and re-point
+// the copy loop at it.
 //
 // The original instructions the loop uses:
 //   A9 9F 00   LDA #$009F    ; the layout lives in ROM "bank" $9F
@@ -162,11 +158,11 @@ dequeue pc
 // We change  three operand bytes below... the bank, the byte-count, and s the address.
 enqueue pc
 seekAddr($9FDC37)
-	db $F6			//was $9F- read the layout from ROM bank $F6 (our new copy)
+	db box_tilemap>>16	//was $9F: bank of our new tilemap (no longer hard-coded)
 seekAddr($9FDC3C)
 	db $44			//was $04- copy $0144 bytes now (5 rows instead of 4)
 seekAddr($9FDC3F)
-	db $00,$10		//was $DC5F- read it from address $1000 (-> $F6:1000)
+	dw box_tilemap&$FFFF	//was $DC5F: 16-bit address of our new tilemap
 dequeue pc
 // Voila! patched like a pair of old jeans
 
@@ -175,8 +171,7 @@ dequeue pc
 // numbers point at the text tiles the as-1 fills in with the .letters.
 // The two values at the very top are a little header the copy loop expects:
 // where in VRAM to put this data, and how many bytes it is.
-enqueue pc
-seekAddr($F61000)
+box_tilemap:
 	dw $7A80	//header- put this at VRAM address $7A80 (one row higher
 			//than before, because the box now expands up by a row)
 	dw $0140	//header- size = $140 bytes. MUST match the data length below,
@@ -193,7 +188,6 @@ seekAddr($F61000)
 	dw $2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260,$2260
 	// FFFF marker tells the copy loop it is finished
 	dw $FFFF
-dequeue pc
 
 
 //=============================================================================
@@ -253,8 +247,6 @@ dequeue pc
 // It writes the blank value $00FF across every tile of used for the text box
 // ($40:9000 to $40:A0FE) and then jumps back to where the original code
 // continues ($9FE5C3).
-enqueue pc
-seekAddr($F61230)
 cave_clear:
 	rep #$30		//switch to 16-bit math (so we can wipe 2 bytes at a time)
 	ldx.w #$11FE		//start at the far end of the temp space and count down
@@ -265,7 +257,6 @@ cave_clear:
 	bpl -			//...and keep going until we've wiped it all (the "-" is a lazy label we branch back to)
 	sep #$10		//put the index size back to 8-bit, as the game expects
 	jml $9FE5C3		//jump back into the game's normal flow
-dequeue pc
 
 
 //=============================================================================
@@ -297,8 +288,6 @@ seekAddr($00BDE1)
 dequeue pc
 
 //cave_vram: each frame, decide whether the menu graphics need restoring.
-enqueue pc
-seekAddr($F61250)
 cave_vram:
 	ldx.w #$4300		//redo the original hardware-address setup we replaced
 	phx
@@ -368,7 +357,6 @@ cave_win_clear:
 	bpl -
 	plp
 	rts			//done. return to cave_vram
-dequeue pc
 
 
 //=============================================================================
@@ -394,8 +382,6 @@ seekAddr($9FDC26)
 	jml cave_box_gate	//was LDX #$0E etc ---> wait, and close the hud, or just open
 dequeue pc
 
-enqueue pc
-seekAddr($F61300)
 cave_box_gate:
 	//entered with K=$F6, DB=$9F, DP=$3500, 8-bit A/X (state at $9FDC26)
 	sep #$20
@@ -423,15 +409,12 @@ cave_box_open_ok:
 	dex
 	bpl -
 	jml $9FDC30		//the game's box opene sequence is here
-dequeue pc
 
 //--- cave_hud_close_step: one run per frame - close anim ---
 // had to copy what the game does for this since we cant trigger it the same way (orig. $148D0E),
 // set closing direction, decs $364B by 4, set the window and brightness params
 // the tables [$40:6000, $40:6400], uses sa-1 via $008B0B. save and restore
 // DP/DB which it expects.
-enqueue pc
-seekAddr($F61340)
 cave_hud_close_step:
 	php
 	rep #$30
@@ -500,7 +483,6 @@ cave_hud_close_step:
 	pla
 	plp
 	rtl
-dequeue pc
 
 //--- reopen the hud, dialog closed ------------------------
 // $9FDE2A -> dialog exit If we closed the HUD, ask it to reopen
@@ -514,8 +496,6 @@ seekAddr($9FDE2A)
 	nop			//pad em up: 4-byte jsl + nop is 5 btyes
 dequeue pc
 
-enqueue pc
-seekAddr($F613C0)
 cave_box_reopen:
 	sep #$20
 	lda.l $40C601		//$01 if we were the ones who touched it last
@@ -530,7 +510,6 @@ cave_box_reopen:
 +;	rep #$30		//clean up our toys----- REP #$30 / LDA #$0002
 	lda.w #$0002
 	rtl			//A = $0002 put it back how we found it $9FDE2F = STA $35A4
-dequeue pc
 
 
 //=============================================================================
@@ -540,24 +519,23 @@ dequeue pc
 // else -> $D8. our S1 changed it from $AB (scanline 171) to $9C
 // (scanline 156) - problem is that this fires for other box openings... so...
 // I ran a trace between EN and the clean JP and $4209 was the change --
-// I thought it was hdma, but that was wrong. spent a couple hours on it... nbd :')
+// I thought it was hdma, but that was wrong (obvious now). spent a couple
+// hours on it... nbd :')
 //
 // the game doesnt know what is what, except our new var does from S3
 // $40C600 == $01 open tb -- only the box sets $33BD to $6A... brain broken
 // text box -> $9C, others, open -> $AB, otherwise -> $DB
 // DP=$3600, DB=$00, 8-bit A / 16-bit X. returns the scanline in A for the
 // original STA $4209
-enqueue pc
-seekAddr($F61400)
 irq_scanline_gate:
 	ldx.w $3033		// the shared open count
 	cpx.w #$0014
 	bne isg_notopen		// not open -> original line $D8
 	lda.l $40C600		// our draw flag for S3: $01 -only- while the 3-line text
-	cmp.b #$01		//   box is up. The call menu never fires $33BD==$6A-- so it's
-	beq isg_dialog		//   never $01 -> falls through to the original val
-	lda.b #$AB		//   call menu and anythin-but-our-text-box -> original top
-	rtl			//    scanline 171 = original
+	cmp.b #$01		    // box is up. The call menu never fires $33BD==$6A-- so it's
+	beq isg_dialog		// never $01 -> falls through to the original val...
+	lda.b #$AB		// if call menu or anythin-but-our-text-box -> original top
+	rtl			    // scanline 171 = original
 isg_dialog:
 	lda.b #$9C		//3-line text box -> line ~156 - cause it's a baller AND taller
 	rtl
@@ -566,4 +544,3 @@ isg_notopen:
 	stx.b $49		//$49 = #$0A non-open path
 	lda.b #$D8
 	rtl
-dequeue pc
