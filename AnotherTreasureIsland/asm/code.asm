@@ -625,7 +625,7 @@ asm_fix_display_introtext:
 +;	sta $003619
 	rtl
 
-//Hack: Change Staff Roll Display to allow more polish
+//Hack: Change Staff Roll Text Display to allow more polish
 enqueue pc
 seekAddr($14CF70)
 	jsl asm_staffroll
@@ -739,11 +739,11 @@ tbl1_staffroll:		//Game Section to show off
 	db $44
 tbl2_staffroll:		//Vertical Placement of Credits Text (80, 60) (if CC = nothing on screen)
 	db $80,$60,$80,$60,$80,$60,$80,$60,$80,$60,$80,$60
-	db $80,$60		//added
+	db $46,$46		//added
 	db $80
 tbl3_staffroll:		//Y Window Position (if 00 = nothing on screen)
 	dw $0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098,$0048,$0098
-	dw $00B8,$0018	//added
+	dw $00B8,$00B8	//added
 	dw $0048
 tbl4_staffroll:		//X Position of Background
 	dw $00f0,$fff0,$ffe8,$fff0,$fff0,$00fc,$0000,$fff0,$00f0,$fff0,$0100,$fff0
@@ -761,3 +761,48 @@ tbl7_staffroll:		//???
 	dw $d900,$d880,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900,$d900
 	dw $d900,$d900	//added
 	dw $d900
+
+//Hack: Add middle text placement in Staff Roll (for extra sections)
+enqueue pc
+seekAddr($00A538)
+	jml asm_staffroll_middle1
+seekAddr($00A5AB)
+	jml asm_staffroll_middle2
+dequeue pc
+asm_staffroll_middle1:
+	lda $4B
+	cmp.b #$46
+	beq +
+	cmp.b #$80
+	jml $00A53C		//to 0x80 branch compare
++;	jml $00A53E
+asm_staffroll_middle2:
+	lda $4B
+	cmp.b #$46
+	beq +
+	cmp.b #$80
+	jml $00A5AF		//to 0x80 branch compare
++;	lda.b #$02
+	sta $212C
+	sta $212D
+	lda.b #$B0
+	sta $2110
+	lda.b #$01
+	sta $2110
+	stz $210F
+	stz $210F
+	lda.b #$25
+	sta $2105
+	stz $2106
+	lda.b #$0F
+	sta $2123
+	lda.b #$D0
+	sta $4209
+	stz $420A
+	lda.b #$A1
+	sta $4200
+	lda $3600
+-;	bit $4212
+	bvc -
+	sta $2100
+	jml $00A5D5		//to RTS
