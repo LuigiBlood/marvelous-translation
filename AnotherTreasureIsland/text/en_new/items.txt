@@ -29,43 +29,43 @@ Green Crystal
 Acidic Key
 [en2]
 
-Gate Key
+A nice Key given from Jan
 [en2]
 
-Jump Boots
+B Button for Jump Boots
 [en2]
 
-Big Hammer
+B Button for Big Hammer
 [en2]
 
-Punch Gloves
+B Button for Punch Gloves
 [en2]
 
-Marlowe Magnet
+Professor Mallow's Magnet
 [en2]
 
-Walkie-Talkie
+B Button for Tranciever
 [en2]
 
-Recovered Broken Board
+Hidden Broken Plank
 [en2]
 
-Holey Aged Cheese
+Nostalgic Holey Cheese
 [en2]
 
-Salty Spray
+B Button for Salty Water Spray
 [en2]
 
-Long Old Rope
+Interesting Old Rope
 [en2]
 
-Complex Remote Control
+Seemingly difficult to use Controller
 [en2]
 
-A Real Eagle's Egg
+Genuine Eagle Egg
 [en2]
 
-Selfish Pocket Polly
+Small Selfish Polly
 [en2]
 
 A Large Fishing Hook
