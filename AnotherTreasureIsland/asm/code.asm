@@ -404,6 +404,7 @@ asm_gameover_screen_end:
 	dec $FE
 	bne +
 	inc $2F
+	stz $E6
 +;	clc; rtl
 
 constant gfx_swooned_ani_frames = gfx_swooned_ani.size / 0x600
