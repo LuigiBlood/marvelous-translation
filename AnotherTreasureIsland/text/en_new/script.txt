@@ -3818,7 +3818,7 @@ Okay, if we add the {L}{a}{r}{g}{e}{ }{F}{i}{s}{h}{i}{n}{g}
 
 [F2]Now it's a proper {F}{i}{s}{h}{i}{n}{g}{ }{R}{o}{d}![np]
 [nl2]Press the [BBtn] button to use it
-[nl3]after it's been equiped.[np]
+[nl3]after it's been equipped.[np]
 [scl]...So, I know you guys are on
 [scl]{F}{i}{s}{h}{i}{n}{g} duty, right? Heheh...[np]
 [scl]Well, we've never actually fished
@@ -3888,7 +3888,7 @@ Quick, which pot did it land in?
 [en1]
 
 Ooo~ki~ki~. Ooo~ki~ki~![np]
-[nl2][TL] Use[Item]. Pick key.
+[nl2][TL] Use [Item]. Pick key.
 [nl3][ ][ ][ ]Many on boat. Must match.
 [scl][ ][ ][ ]Me go. See you.
 [en1]
@@ -4159,19 +4159,19 @@ Jim is still missing...
 [en1]
 
 [nl2]  Dear stinky brats,[np]
-[nl3]You guys know what this is
-[scl]about, right?[np]
+[nl3]You little brats had better knock
+[scl]it off![np]
 [scl]You made a really huge mistake
 [scl]by taking my treasure![np]
 [scl]Until you bring it back, I'll be
 [scl]keeping an eye on your smokin' hot
-[scl]teacher.[np]
+[scl]teacher for ya.[np]
 [scl]If you ever want to see her
 [scl]again, come to the valley past the
-[scl]big pond.[np]
+[scl]pond.[np]
 [scl]Don't forget my {C}{r}{y}{s}{t}{a}{l}{ }{B}{a}{l}{l}.[np]
 [scl]Signed:
-[scl]The Greatest Pirate Under the Sky
+[scl]The Greatest Pirate Under the Sky,
 [scl]King Bull
 [en2]
 
@@ -8008,8 +8008,9 @@ Let's use that {b}{u}{s}{t}{e}{r}{ }{t}{h}{i}{n}{g} Hassan
 [nl2]gave us.
 [en2]
 
-Be careful-! If you get hit, your
-[nl2]controls will be reversed-!
+Be careful-! If you get hit by the
+[nl2]strange sound wave, your controls
+[nl3]will be reversed-!
 [en2]
 
 Use [CPad] to aim.[ ]Use[ABtn] to fire!
@@ -8574,8 +8575,8 @@ The door in the cave can't be
 [nl2]opened using only one Crystal Ball.
 [en1]
 
-In order to open the door, you
-[nl2]need[Space4][Three] more Crystal Balls.[np]
+In order to open the door,
+[nl2]you need[Space4][Three] more Crystal Balls.[np]
 [nl3]Don't blame me, it's the first
 [scl]puzzle left by Captain Maverick.[np]
 [scl]We can use this ship to track
@@ -11317,7 +11318,7 @@ Hey! The Patchies!!
 
 {T}{o}{m}{a}{t}{o}{e}{s}: great for nutrition AND
 [nl2]beating fatigue!
-[scl]Not Po-ta-toes~, To-ma-toes~!
+[nl3]Not Po-ta-toes~, To-ma-toes~!
 [en2]
 
 Phooey! Don't think we'll just let
@@ -13979,8 +13980,9 @@ There's no time!
 [nl2]Use it to mash in posts with [BBtn].
 [en1]
 
-[SP$0204]Pathetic! That weak shot wasn't
-[nl2]even close! Just give up!
+[SP$0204]Pathetic! Do you really think you
+[nl2]can pull it off with a weak shot
+[nl3]like that? Get better or get out!
 [en2]
 
 [F2]Max got a {S}{m}{a}{l}{l}{ }{K}{e}{y}![np]
@@ -14047,7 +14049,8 @@ The ship's rocking too much for us
 [en2]
 
 [F2]We got a {C}{a}{v}{e}{ }{K}{e}{y}![np]
-[nl2]Now we can go deeper into the cave!
+[nl2]Now we can go deeper into the
+[nl3]cave!
 [en1]
 
 [F2]We got the {S}{a}{l}{t}{w}{a}{t}{e}{r}{ }{S}{p}{r}{a}{y}![np]
@@ -14239,8 +14242,8 @@ No, no! This is the ladies' tent!
 [en2]
 
 [F2]Got the {S}{o}{c}{c}{e}{r}{ }{S}{h}{o}{e}{s}!
-[nl2]Let's dry them out and then press the
-[nl3][BBtn] button to use 'em.
+[nl2]Let's dry them out and then press
+[nl3]the [BBtn] button to use 'em.
 [en2]
 
 [X$6A][SChing]We got another Luck Rock!
@@ -14310,7 +14313,8 @@ Hoorah-! The ship will move now!
 [en2]
 
 Stop it!
-[nl2]You'll get my precious eyes all dirty!
+[nl2]You'll get my precious eyes all
+[nl3]dirty!
 [en2]
 
 What do you think you're doing?!
@@ -14352,26 +14356,28 @@ Serves-a you right! You shall not
 Oof-!! Max swallowed something!!
 [en2]
 
-[X$79][SDenied]I can't do it because my friends are
-[nl2]nearby. Whistle or press [RBtn].
+[X$79][SDenied]I can't do it because my friends
+[nl2]are nearby. Whistle or press [RBtn].
 [en2]
 
-[SP$011C]Sorry, she's with us until we get the
-[nl2]booty! Patchies, full speed ahead!!
+[SP$011C]Sorry, she's with us until we get
+[nl2]the booty! Patchies, full speed
+[nl3]ahead!!
 [en2]
 
-[SP$011C]If the cops come after us, then your
-[nl2]teacher gets it!! Are ye saavy?!
+[SP$011C]If the cops come after us, then
+[nl2]your teacher gets it!! Are ye
+[nl3]saavy?!
 [en2]
 
-[SP$0229]Fishing team, head down to the pond
-[nl2]and catch us some fish, please.
-[nl3]Be careful now, okay?!
+[SP$0229]Fishing team, head down to the
+[nl2]pond and catch us some fish,
+[nl3]please. Be careful now, okay?!
 [en2]
 
-[SP$001E]Behold! Make way for Princess Polly,
-[nl2]as she sallies forth to vanquish the
-[nl3]hated Blue Ones!!
+[SP$001E]Behold! Make way for Princess
+[nl2]Polly, as she sallies forth to
+[nl3]vanquish the hated Blue Ones!!
 [en2]
 
 ...Sshhhh!! It's a secret!
