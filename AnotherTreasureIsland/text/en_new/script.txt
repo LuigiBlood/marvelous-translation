@@ -855,7 +855,7 @@ Pengi-pegi![np]
 [nl3][ ][ ][ ]So unbearably clingy!!
 [scl][ ][ ][ ]I'm through with them![np]
 [scl]...Pengi-pegi~.[np]
-[scl][ ][ ][ ]...Actually, I'm heartbroken and
+[scl][TL] ...Actually, I'm heartbroken and
 [scl][ ][ ][ ]I can't bear it any longer.[np]
 [scl][ ][ ][ ]Please take me away from
 [scl][ ][ ][ ]this place.
@@ -3837,7 +3837,7 @@ To pull in a fish, you can't just
 [en2]
 
 When you cast the rod, you hafta'
-[nl2]hold [BBtn] or it won't stay
+[nl2]hold[BBtn] or it won't stay
 [nl3]cast. Careful now!
 [en2]
 
@@ -4712,7 +4712,7 @@ A long time ago, didn't this Indio
 
 This {B}{l}{u}{e}{ }{C}{r}{y}{s}{t}{a}{l} was the {t}{o}{w}{n}{'}{s}
 [nl2]{t}{r}{e}{a}{s}{u}{r}{e} to us, but to Indio it was
-[nl3]a possesion of the God of Time.
+[nl3]a possession of the God of Time.
 [en2]
 
 Wow, take a look at this picture!
@@ -6165,7 +6165,7 @@ If you see a [QBub] then it's time to
 Perform actions with the [BBtn]
 [nl2]button.[np]
 [nl3]Equip an item from the START
-[scl]menu and use it with [BBtn]...[np]
+[scl]menu and use it with[BBtn]...[np]
 [scl]Let's try it out.
 [en2]
 
@@ -7251,7 +7251,7 @@ You kids are tough customers, not
 [nl2]giving me any profit at all!
 [en1]
 
-I would have taken [X$6B][LuckRock] for that...
+I would've taken[X$6B][LuckRock] for that...
 [nl2]What a pretty profit!
 [en1]
 
@@ -7345,8 +7345,8 @@ It's missing balls!
 [nl3]can use...?
 [en2]
 
-These are hard enough that we
-[nl2]can use them. We only have [X$6B],
+These are hard enough to use.
+[nl2]We only have[X$6B],
 [nl3]so we have to be careful...
 [en1]
 
@@ -11595,7 +11595,7 @@ It's a dog food dish.
 [en2]
 
 [F2]Received {F}{l}{o}{w}{e}{r}{s} from Miss Sisko!![np]
-[nl3]Guess I'll give it my all for her!
+[nl3]Guess I'll give it my all for her![np]
 [en1]
 
 The {T}{i}{m}{e}{ }{R}{o}{o}{m} is in the locked
@@ -11899,8 +11899,8 @@ The petals were protecting this
 [nl3]attack it?
 [en2]
 
-Where did you kids come from? I
-[nl2]just sent a man through a time
+Where did you kids come from?
+[nl2]I just sent a man through a time
 [nl3]warp...[np]
 [scl]Did you travel from the future...?
 [scl]
@@ -14022,7 +14022,7 @@ The ship's rocking too much for us
 
 [en1]
 
-[F2]You got the second Crystal Ball!
+[F2][nl2]You got the second Crystal Ball!
 [en1]
 
 
@@ -14226,7 +14226,7 @@ Ack! The Patchies are too heavy!
 
 [F2]Got the Digging Machine![np]
 [nl2]I'm calling it Mr. Diggy!
-[nl2]Let's dig where the penguin marked.
+[nl3]Let's dig where the penguin marked.
 [en2]
 
 Hey-a, we've got you now!
