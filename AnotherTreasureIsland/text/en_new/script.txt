@@ -1956,9 +1956,9 @@ Ooo! Ooo![np]
 [scl][ ][ ][ ]as I heard your voice, Darling!
 [en2]
 
-[F2]
-[nl2]Now we can go deeper into the
-[nl3]island!         ...It's so exciting!
+[F2]Now we can go deeper into the
+[nl2]island!
+[nl3]                  ...It's so exciting!
 [en1]
 
 I'm a thief who steals the hearts
@@ -3150,7 +3150,7 @@ Thanks for all your help.
 [scl]You're nice guys!
 [en2]
 
-This {C}{r}{y}{s}{t}{a}{l}{ }{b}{a}{l}{l} belongs to you...
+This {C}{r}{y}{s}{t}{a}{l}{ }{B}{a}{l}{l} belongs to you...
 [nl2]So, please take it.[np]
 [nl3]Today I learned that there are
 [scl]yet a few mysteries in this world
@@ -7434,8 +7434,8 @@ It looks just right to hold in your
 [nl2]hand.
 [en2]
 
-Oh, ready for a challenge?! Choose
-[nl2]a direction with [CPad]. Mash the
+Oh, ready for a challenge? Choose
+[nl2]a direction with[CPad]. Mash the
 [nl3][ABtn] button to increase your power!
 [en1]
 
@@ -10342,7 +10342,7 @@ What is that?
 [en2]
 
 It's a juke box! Isn't it nice to
-[nl2]change the BGM on occasion?
+[nl2]change the music on occasion?
 [en2]
 
 I think the way deeper into the
@@ -13575,7 +13575,7 @@ Chirpy chirp![np]
 [nl3][ ][ ][ ]Good job.[np]
 [scl][ ][ ][ ]I wonder if this ball was to
 [scl][ ][ ][ ]blame for the plants taking on
-[scl][ ][ ][ ]human form and walking around.
+[scl][ ][ ][ ]human form.
 [en2]
 
 Chirpy chirp.[np]
@@ -14111,7 +14111,8 @@ If we don't parasitize things and
 [SP$0204][nl2][ ][ ][ ][ ][ ][ ]W-waaaaaahh~!!
 [en2]
 
-[F2]You got the third Crystal Ball!
+[F2]
+[nl2]You got the third Crystal Ball!
 [en1]
 
 [SStop][SP$011D]       Grrrrr bark! bark!
@@ -14293,7 +14294,7 @@ Yipe-!
 [nl2]The ship must have hit something!
 [en2]
 
-Hoorah-! The ship will move now!
+[nl2]Hoorah! The ship will move now!
 [en2]
 
 
@@ -14396,7 +14397,7 @@ In honor of [team] Team, they
 [nl2]that saved Princess Polly, salute!!
 [en2]
 
-[F2]We've got the 4th Crystal Ball![np]
+[F2]We've got the fourth Crystal Ball![np]
 [nl2]. . . . . Now we have all 4 of them!!
 [en1]
 
@@ -14490,7 +14491,7 @@ Well, that should do the trick!
 
 I wonder if this still works?[np]
 [nl2]Move [CrDn] to the number you want
-[nl3]to dial. Press [ABtn] and spin it
+[nl3]to dial, then press [ABtn] and spin it
 [scl]around with [CPad].
 [en2]
 
